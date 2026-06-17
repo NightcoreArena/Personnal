@@ -496,20 +496,39 @@ Mug Akaza : déjà appliqué (voir produit gid://shopify/Product/10146826289482)
 
 ## 13. Checklist avant de publier un cluster de descriptions
 
-- [ ] Chaque description a un angle d'ouverture unique (pas de copie entre produits)
-- [ ] "akaza demon slayer" (ou "[perso] [franchise]") apparaît en phrase exacte dans chaque intro
-- [ ] Aucun lore répété à l'identique entre les descriptions du cluster
-- [ ] Tous les CTAs utilisent des verbes différents
+### Unicité inter-produits (erreurs Goldorak)
+- [ ] Aucune intro ne commence par la même structure entre les produits "Vaisseau" du cluster
+- [ ] Aucune date (ex : "1978") ne revient plus d'une fois dans les P2 du cluster
+- [ ] Aucune P2 "Vaisseau" n'utilise le même angle d'information (design, reconnaissance, lore, popularité...)
+- [ ] Aucune P2 ne commence par la même construction de phrase entre produits
+
+### Orthographe et langue
+- [ ] Tous les verbes d'imperatif sont orthographiés correctement : "Savourez" (pas "Savorez"), "Offrez", "Portez"... — vérifier lettre à lettre chaque CTA
+- [ ] Aucune faute d'accord ou de conjugaison dans les CTAs
+
+### Structure HTML
 - [ ] Aucune balise H dans le descriptionHtml
 - [ ] Aucun tiret long (—) dans le texte narratif
-- [ ] Vouvoiement respecté
+- [ ] Format : `<p>intro</p><ul><li>...</li></ul><p>P2</p><p>CTA</p>` uniquement
+
+### Keywords
+- [ ] Méta titres : keyword le plus cherché en premier (vérifié sur Semrush — données produit, pas franchise)
 - [ ] Méta titres sans "| Les Bois d'Aurore"
-- [ ] Méta titres : keyword le plus cherché en premier (vérifié sur Semrush)
 - [ ] Méta descriptions < 155 caractères
 - [ ] Méta descriptions avec angles différents entre elles
-- [ ] Backup JSON créé et commité avant toute modification
+
+### Contenu
+- [ ] Chaque description a un angle d'ouverture unique (pas de copie entre produits)
+- [ ] "[perso] [franchise]" (ou keyword produit-niveau) apparaît dans chaque intro
+- [ ] Tous les CTAs utilisent des verbes différents
+- [ ] Vouvoiement respecté
 - [ ] Aucune description de l'illustration (risque d'hallucination)
 - [ ] "inspiré de" et non "tiré de" pour les oeuvres non officielles
+
+### Fichiers
+- [ ] Backup JSON (`[perso]_backup.json`) créé et commité AVANT toute modification
+- [ ] Fichier final (`[perso]_seo_new.json`) écrit avec toutes les descriptions AVANT présentation à l'utilisateur
+- [ ] Si corrections demandées : fichier final mis à jour AVANT d'appliquer sur Shopify
 
 ---
 
