@@ -5,6 +5,17 @@ Branche de travail : `claude/shopify-301-redirects-ruwtnr`
 
 ---
 
+## OBJECTIF n°1 du projet : l'indexation
+
+Le KPI n'est PAS le ranking, c'est **faire passer les fiches de "Explorée/Découverte, actuellement non indexée" → "Indexée"** dans la Search Console.
+
+- "Explorée, actuellement non indexée" = Google a crawlé mais juge le contenu trop pauvre ou trop dupliqué pour l'indexer.
+- La solution = descriptions UNIQUES et substantielles par fiche (intro unique + P2 lore distinct + specs). C'est exactement le travail des clusters.
+- Chaque cluster perso bien rédigé rend ses fiches index-worthy. C'est le ROI direct de ce projet.
+- Le ranking head-term vient APRÈS (collections + backlinks), mais sans indexation rien ne ranke de toute façon. L'indexation est le prérequis.
+
+---
+
 ## Identité du store
 
 **Les Bois d'Aurore** = une seule illustratrice artisanale (la propriétaire). Elle dessine tout à la main, seule, en Anjou.
