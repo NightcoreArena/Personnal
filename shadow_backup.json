@@ -1,6 +1,6 @@
 {
   "backup_date": "2026-06-17",
-  "note": "Backup AVANT réécriture SEO — cluster Shadow the Hedgehog (6 produits actifs + 1 DRAFT)",
+  "note": "Backup AVANT réécriture SEO — cluster Shadow the Hedgehog (7 produits actifs + 1 DRAFT)",
   "products": [
     {
       "id": "gid://shopify/Product/10150759203146",
@@ -50,6 +50,13 @@
       "status": "ACTIVE",
       "seo_title": "Magnet Shadow the Hedgehog 🎮 Cadeau Collector | Les Bois d'Aurore",
       "seo_description": "Magnet Shadow the Hedgehog. Coque métal rigide, dessiné à la main sans IA, fabriqué en Anjou. Badge 5cm pour fan et collectionneur. Idée cadeau parfaite !"
+    },
+    {
+      "id": "gid://shopify/Product/10294503342410",
+      "title": "T-Shirt Shadow",
+      "status": "ACTIVE",
+      "seo_title": "T-Shirt Shadow 🦔 Jeu Vidéo Artisanal | Les Bois d'Aurore",
+      "seo_description": "T-shirt Shadow dessiné à la main sans IA et fabriqué en Anjou. Disponible en tailles S à XXL et enfant. Une création artisanale unique. Commandez !"
     }
   ]
 }
