@@ -524,6 +524,7 @@ Mug Akaza : déjà appliqué (voir produit gid://shopify/Product/10146826289482)
 - [ ] Vouvoiement respecté
 - [ ] Aucune description de l'illustration (risque d'hallucination)
 - [ ] "inspiré de" et non "tiré de" pour les oeuvres non officielles
+- [ ] Identité : Les Bois d'Aurore = UNE SEULE illustratrice (la propriétaire). Ne jamais accoler "illustré à la main en Anjou" et "pour les fans" dans la même proposition — séparer les deux idées. Ex. INTERDIT : "illustré à la main en Anjou pour les vrais fans". Ex. OK : "illustré à la main en Anjou. Un accessoire fait pour les vrais fans."
 
 ### Fichiers
 - [ ] Backup JSON (`[perso]_backup.json`) créé et commité AVANT toute modification
