@@ -560,21 +560,42 @@ Pour chaque produit du cluster, écrire :
 
 Vérifier avec la checklist section 13 avant de présenter à l'utilisateur.
 
-### Étape 5 — Validation utilisateur
+### Étape 5 — Écrire les descriptions finales dans un fichier
 
-Présenter les N descriptions au format lisible.
+**AVANT de présenter à l'utilisateur**, écrire les descriptions dans `[personnage]_seo_new.json` :
+```json
+{
+  "cluster": "...",
+  "date": "YYYY-MM-DD",
+  "products": [
+    {
+      "id": "gid://shopify/Product/...",
+      "title": "...",
+      "seo_title": "...",
+      "seo_description": "...",
+      "descriptionHtml": "..."
+    }
+  ]
+}
+```
+Ce fichier est la source de vérité si le contexte se compresse. **Ne jamais appliquer sans ce fichier existant.**
+
+### Étape 6 — Validation utilisateur
+
+Présenter les N descriptions au format lisible (depuis le fichier écrit).
 Attendre validation **avant** d'appliquer.
+Si des corrections sont demandées → mettre à jour le fichier PUIS appliquer.
 
-### Étape 6 — Appliquer en batch GraphQL
+### Étape 7 — Appliquer en batch GraphQL
 
-Mutation `productUpdate` par lots de 3 maximum (alias GraphQL).
+Mutation `productUpdate` par lots de 4 maximum (alias GraphQL).
 Champs à modifier : `descriptionHtml` + `seo { title description }`.
 
-### Étape 7 — Commit
+### Étape 8 — Commit
 
 ```bash
-git add [personnage]_backup.json
-git commit -m "SEO rewrite: cluster [Personnage] — 7 produits"
+git add [personnage]_backup.json [personnage]_seo_new.json
+git commit -m "SEO rewrite: cluster [Personnage] — N produits"
 git push -u origin [branch]
 ```
 
@@ -606,3 +627,8 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 - [x] Cluster complet — 8 produits traités (2026-06-17) : Mug, Tableau (renommé Arise), Tapis de Souris, Chiffonnette, Tote Bag, Magnet, Porte Clé, T-Shirt Sung Jinwoo
 - Note : "Tableau Solo Leveling" → renommé "Tableau Solo Leveling Arise" (Option A, cohérence cluster)
 - Note : T-Shirt Sung Jinwoo corrigé (bug "Mao Mao" dans méta description)
+
+**Goldorak** :
+- [x] Cluster complet — 13 produits traités (2026-06-17) : Mug, Mug Vaisseau, Tableau, Tableau Vaisseau, T-Shirt, Porte Clé, Porte Clé Vaisseau, Chiffonnette, Chiffonnette Vaisseau, Tapis de Souris, Tapis de Souris Vaisseau, Magnet, Magnet Vaisseau
+- Note : Goldorak = franchise solo → keywords "[produit] goldorak" appartiennent aux pages produit (pas aux collections)
+- Note : Backup → goldorak_backup.json (originaux avant réécriture)
