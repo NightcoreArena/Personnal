@@ -1,55 +1,224 @@
-# Règles projet — Les Bois d'Aurore
+# CLAUDE.md — Les Bois d'Aurore (SEO Shopify)
 
-## Identité de la boutique
+Référence rapide chargée automatiquement. Pour la version complète : `/home/user/Personnal/seo_methodology.md`.
+Branche de travail : `claude/shopify-301-redirects-ruwtnr`
 
-**Les Bois d'Aurore = une seule illustratrice artisanale (la propriétaire).** Elle dessine tout à la main, seule, en Anjou.
+---
 
-- Ne jamais écrire "illustré à la main en Anjou pour les fans" dans la même proposition — séparer obligatoirement les deux idées (ex. "illustré à la main en Anjou. Un accessoire fait pour les fans.")
-- Ne jamais laisser entendre que les fans créent, illustrent ou fabriquent quoi que ce soit.
-- Ne jamais inventer de collaborateurs, partenaires ou équipe.
+## Identité du store
 
-## Règles descriptions produit (descriptionHtml)
+**Les Bois d'Aurore** = une seule illustratrice artisanale (la propriétaire). Elle dessine tout à la main, seule, en Anjou.
 
-- **Aucune balise H** (`<h1>`, `<h2>`, etc.) — uniquement `<p>` et `<ul><li>`
-- **Aucun tiret long (—)** dans le texte narratif — utiliser une virgule ou un point
-- **Aucune donnée Semrush** (volumes de recherche, rankings, "X 000 recherches/mois") dans les descriptions — les descriptions sont pour les clients, pas du reporting SEO
-- **Vouvoiement** obligatoire
-- **Format obligatoire** : `<p>intro</p><ul><li>specs</li></ul><p>P2 lore</p><p>CTA</p>`
-- P2 = fait sur le personnage/franchise (lore, histoire, culture) — jamais de données analytiques
+- Ce n'est PAS du merchandising officiel → toujours "inspiré de" ou "dans l'univers de", JAMAIS "officiel" ou "tiré de"
+- DA ~8/100 → leviers : qualité contenu + intention de recherche précise
+- Produits : Mug, Tableau/Affiche/Cadre, Tapis de Souris, Chiffonnette, Tote Bag, Magnet, Porte Clé, T-Shirt
 
-## Règles méta titres
+---
 
-- **Sans "| Les Bois d'Aurore"** en suffixe
-- Keyword avec le plus grand volume Semrush en premier (vérifier au niveau produit, pas franchise)
+## Règles de rédaction — INVIOLABLES
+
+### Identité illustratrice
+- Ne JAMAIS accoler "illustré à la main en Anjou" et "pour les fans" dans la même proposition
+  - INTERDIT : "illustré à la main en Anjou pour les vrais fans"
+  - OK : "illustré à la main en Anjou. Un accessoire fait pour les vrais fans."
+
+### HTML
+- Uniquement `<p>` et `<ul><li>` — JAMAIS de `<h1>`, `<h2>`, etc.
+- JAMAIS de tiret long (—) → remplacer par virgule ou deux-points
+- JAMAIS de gras/italique dans les paragraphes narratifs
+- Format obligatoire : `<p>intro</p><ul><li>specs</li></ul><p>P2 lore</p><p>CTA</p>`
+
+### Contenu
+- JAMAIS de données Semrush dans les descriptions (volumes, rankings, "X 000 recherches/mois") → les descriptions sont pour les clients
+- JAMAIS de description de l'illustration (risque d'hallucination — on ne voit pas le dessin)
+- JAMAIS d'invention de lore incertain → si un personnage est inconnu, chercher en ligne ou demander
+- JAMAIS de clichés IA : "emmenez-vous dans un voyage", "vibrez au rythme de", "affirmez votre puissance"
+- Vouvoiement obligatoire ("votre", "vous")
+- Phrases courtes — une idée par phrase
+
+### CTAs
+- Verbe d'impératif différent par produit dans le cluster
+- Vérifier l'orthographe lettre à lettre : "Savourez" (pas "Savorez"), "Offrez", "Équipez"...
+
+### Méta titres
 - Format : `[Keyword principal] [emoji] [Qualifiant] | [Keyword secondaire]`
+- JAMAIS "| Les Bois d'Aurore" en suffixe
+- Keyword avec le plus grand volume Semrush en premier (niveau produit, pas franchise)
+- Max 60 caractères
 
-## Règles méta descriptions
-
-- **Maximum 155 caractères** — compter avant de valider
+### Méta descriptions
+- Max 155 caractères — COMPTER avant de valider
 - Angle différent pour chaque produit du cluster
 
-## Règles CTAs
+---
 
-- Verbes d'impératif : vérifier l'orthographe lettre à lettre avant de valider
-  - "Savourez" (pas "Savorez"), "Offrez", "Choisissez", "Équipez"...
-- Un verbe CTA différent par produit dans le cluster
+## Blocs de specs standardisés (copier-coller)
 
-## Workflow obligatoire avant présentation
+### Mug
+```html
+<ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul>
+```
 
-1. **Lister TOUS les produits** du cluster (ne pas oublier T-Shirt, Tote Bag même DRAFT)
-2. **Créer le backup JSON** (`[perso]_backup.json`) et commiter AVANT toute modification
-3. **Écrire le fichier final** (`[perso]_seo_new.json`) avec les 8 descriptions complètes
-4. **Passer la checklist** (section 13 de seo_methodology.md) item par item avant de présenter
-5. **Corriger le fichier final** si problèmes trouvés — puis présenter
+### Tableau / Affiche / Cadre
+```html
+<ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul>
+```
 
-## Contraintes connues (ne jamais toucher)
+### Tapis de Souris
+```html
+<ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul>
+```
 
-- Les redirections bijoux vers "/" sont intentionnelles (bijoux supprimés définitivement)
-- Les collections vides en DRAFT sont normales — ne pas y toucher
-- Les faux avis en JSON-LD : ne pas corriger
+### Chiffonnette
+```html
+<ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul>
+```
+
+### Tote Bag
+```html
+<ul><li>Surface : Tissu satiné épais (280g)</li><li>Dimensions : 36x33cm</li><li>Impression : Sublimation brillante inaltérable</li><li>Entretien : Lavage à 30° max</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul>
+```
+
+### Magnet
+```html
+<ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul>
+```
+
+### Porte Clé
+```html
+<ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul>
+```
+
+### T-Shirt
+```html
+<ul><li>Taille Adulte : S à XXL</li><li>Taille Enfant : 2 à 12 ans</li><li>Matière : Polyester doux toucher coton</li><li>Impression : Sublimation thermique haute définition</li><li>Entretien : Lavable en machine 30°</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul>
+```
+
+---
+
+## Angles d'ouverture par type de produit (anti-duplicate)
+
+| Produit | Angle | Mots-clés contextuels |
+|---|---|---|
+| Mug | Rituel du matin, énergie | "dès le matin", "chaque journée" |
+| Tableau | Décoration murale | "votre mur", "votre chambre/bureau" |
+| Tapis de souris | Setup bureau/gaming | "votre bureau", "à chaque session" |
+| Chiffonnette | Utilité pratique, cadeau | "vos lunettes", "votre écran" |
+| Tote Bag | Style quotidien | "partout où vous allez" |
+| Magnet | Collectionner, personnaliser | "votre frigo", "votre collection" |
+| Porte Clé | Everyday carry | "partout avec vous", "dans votre poche" |
+| T-Shirt | Porter son univers | "au quotidien", "votre style" |
+
+---
+
+## Workflow complet — nouveau cluster
+
+### Étape 1 — Lister TOUS les produits
+```graphql
+{ products(first: 20, query: "title:[Personnage]") { edges { node { id title status } } } }
+```
+Tester aussi les variantes de titre (ex : "T-Shirt Shadow" vs "T-Shirt Shadow the Hedgehog").
+**Inclure les DRAFT** (Tote Bag, T-Shirt si présent) — les traiter comme les ACTIVE.
+
+### Étape 2 — Créer le backup AVANT TOUT
+Fichier : `[perso]_backup.json` dans `/home/user/Personnal/`
+Champs : id, title, status, seo_title, seo_description, descriptionHtml
+```bash
+git add [perso]_backup.json && git commit -m "Backup SEO cluster [Perso]" && git push -u origin claude/shopify-301-redirects-ruwtnr
+```
+**Ne jamais passer à l'étape 3 sans ce commit.**
+
+### Étape 3 — Recherche Semrush (tool : phrase_these ou phrase_fullsearch, database: fr)
+
+**Requête 1 — keyword franchise/personnage :**
+```
+phrase_these → "[perso] [franchise];[franchise] [perso]"
+```
+→ Identifier le keyword principal et son volume. C'est la phrase exacte à mettre dans chaque intro.
+
+**Requête 2 — variantes Tableau :**
+```
+phrase_these → "poster [perso];tableau [perso];affiche [perso]"
+```
+→ Choisir la variante avec le plus grand volume pour le méta titre du Tableau.
+
+**Requête 3 — product-level keywords :**
+```
+phrase_these → "mug [perso];t shirt [perso];tapis de souris [perso];porte clé [perso];magnet [perso];chiffonnette [perso];tote bag [perso]"
+```
+→ Si tout à 0 : stratégie cluster topique (les pages produit renforcent l'autorité sur le keyword franchise).
+→ Si volume > 0 sur un produit : ce keyword appartient à ce produit, le mettre en premier dans le méta titre.
+
+**Règle importante :** Les keywords "[produit] [franchise]" (ex : "mug demon slayer") appartiennent aux COLLECTIONS, pas aux pages produit. Exception : franchises solo comme Goldorak où personnage = franchise.
+
+### Étape 4 — Écrire les descriptions dans le fichier final
+Fichier : `[perso]_seo_new.json` dans `/home/user/Personnal/`
+**Écrire le fichier AVANT de présenter à l'utilisateur.**
+
+Pour chaque produit :
+1. **Intro (1-2 phrases)** : angle unique au type de produit (tableau ci-dessus) + phrase exacte "[perso] [franchise]" dedans
+2. **Specs** : bloc standardisé copié depuis ce fichier (section blocs specs)
+3. **P2 (1 phrase)** : fait lore/culturel sur le personnage — JAMAIS de données Semrush
+4. **CTA (1 phrase)** : verbe unique par produit
+
+### Étape 5 — Checklist avant présentation (toutes cases à cocher mentalement)
+
+**Unicité inter-produits :**
+- Aucune intro ne commence par la même structure entre produits du cluster
+- Aucun fait P2 répété entre produits (dates, événements, angles)
+- Tous les CTAs ont des verbes différents
+
+**Langue :**
+- Vouvoiement partout
+- Aucun tiret long (—)
+- CTAs : orthographe vérifiée lettre à lettre
+- Aucune donnée Semrush dans le texte
+
+**Structure :**
+- Aucune balise H
+- Format `<p>intro</p><ul>specs</ul><p>P2</p><p>CTA</p>` respecté
+- "illustré à la main en Anjou" et "pour les fans" dans des propositions séparées
+
+**Keywords :**
+- Méta titres sans "| Les Bois d'Aurore"
+- Méta titres ≤ 60 caractères
+- Méta descriptions ≤ 155 caractères (compter)
+- Angles méta descriptions différents entre produits
+
+### Étape 6 — Présenter et attendre validation
+Présenter les descriptions depuis le fichier écrit.
+Si corrections → mettre à jour le fichier PUIS appliquer.
+
+### Étape 7 — Appliquer en batch GraphQL
+Mutations `productUpdate` par lots de 2-4 (alias GraphQL).
+Champs : `descriptionHtml` + `seo { title description }`.
+
+### Étape 8 — Marquer comme terminé + commit
+```bash
+git add [perso]_backup.json [perso]_seo_new.json seo_methodology.md
+git commit -m "SEO rewrite: cluster [Perso] — N produits"
+git push -u origin claude/shopify-301-redirects-ruwtnr
+```
+Mettre à jour la section 15 de seo_methodology.md (ordre de priorité).
+
+---
+
+## Contraintes permanentes (ne jamais toucher)
+
+- Redirections bijoux vers "/" : intentionnelles (bijoux supprimés définitivement)
+- Collections vides en DRAFT : normales, ne pas y toucher
+- Faux avis en JSON-LD : ne pas corriger
 - Tote Bags DRAFT : inclure dans le cluster comme les autres produits
 
-## Fichiers de référence
+---
 
-- Méthodologie complète : `/home/user/Personnal/seo_methodology.md`
-- Branche de travail : `claude/shopify-301-redirects-ruwtnr`
+## Clusters terminés
+
+| Cluster | Produits | Date |
+|---|---|---|
+| Akaza (Demon Slayer) | 7 | 2026-06-17 |
+| Kpop Demon Hunter | 8 | 2026-06-17 |
+| Solo Leveling Arise | 8 | 2026-06-17 |
+| Goldorak | 13 | 2026-06-17 |
+| T-Shirt Dessin (collection) | 39 | 2026-06-17 |
+| Shadow the Hedgehog | 8 | 2026-06-17 |

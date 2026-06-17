@@ -652,3 +652,9 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 - [x] Cluster complet — 13 produits traités (2026-06-17) : Mug, Mug Vaisseau, Tableau, Tableau Vaisseau, T-Shirt, Porte Clé, Porte Clé Vaisseau, Chiffonnette, Chiffonnette Vaisseau, Tapis de Souris, Tapis de Souris Vaisseau, Magnet, Magnet Vaisseau
 - Note : Goldorak = franchise solo → keywords "[produit] goldorak" appartiennent aux pages produit (pas aux collections)
 - Note : Backup → goldorak_backup.json (originaux avant réécriture)
+
+**Shadow the Hedgehog** :
+- [x] Cluster complet — 8 produits traités (2026-06-17) : Mug, Tableau, T-Shirt, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT)
+- Note : "shadow sonic" (9 900/mois) > "shadow the hedgehog" (4 400/mois) → keyword secondaire dans méta titres
+- Note : Volumes product-level quasi nuls → stratégie cluster topique uniquement
+- Note : Backup → shadow_backup.json, fichier final → shadow_seo_new.json
