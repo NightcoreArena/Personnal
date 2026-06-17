@@ -1,0 +1,55 @@
+{
+  "backup_date": "2026-06-17",
+  "note": "Backup AVANT réécriture SEO — cluster Shadow the Hedgehog (6 produits actifs + 1 DRAFT)",
+  "products": [
+    {
+      "id": "gid://shopify/Product/10150759203146",
+      "title": "Mug Shadow the Hedgehog",
+      "status": "ACTIVE",
+      "seo_title": "Mug Shadow the Hedgehog 🎮 Tasse Manga Originale | Les Bois d'Aurore",
+      "seo_description": "Mug Shadow the Hedgehog en céramique 340ml. Illustration sans IA, fabriqué en Anjou. Une pièce unique pour les fans de l'univers Sonic. Commandez vite !"
+    },
+    {
+      "id": "gid://shopify/Product/10181116232010",
+      "title": "Porte Clé Shadow the Hedgehog",
+      "status": "ACTIVE",
+      "seo_title": "Porte Clé Shadow the Hedgehog 🦔 Cadeau Manga | Les Bois d'Aurore",
+      "seo_description": "Porte Clé Shadow the Hedgehog. En métal robuste, cet accessoire est dessiné à la main sans IA et fabriqué en Anjou. Une qualité artisanale. Idée cadeau parfaite !"
+    },
+    {
+      "id": "gid://shopify/Product/10183471989066",
+      "title": "Tableau Shadow the Hedgehog",
+      "status": "ACTIVE",
+      "seo_title": "Tableau Shadow the Hedgehog 🦔 Déco Murale Cadeau | Les Bois d'Aurore",
+      "seo_description": "Tableau Shadow the Hedgehog : Affiche ou Toile. Dessiné à la main sans IA. Fabriqué en Anjou. Décorez votre espace de vie. Idée déco parfaite !"
+    },
+    {
+      "id": "gid://shopify/Product/15361800274250",
+      "title": "Chiffonnette Shadow the Hedgehog",
+      "status": "ACTIVE",
+      "seo_title": "Chiffonnette Shadow the Hedgehog 🦔 Jeu Vidéo | Les Bois d'Aurore",
+      "seo_description": "Chiffonnette Shadow the Hedgehog en Microfibre 18x15cm. Cet accessoire est dessiné à la main sans IA et fabriqué en Anjou. Idée cadeau utile et original !"
+    },
+    {
+      "id": "gid://shopify/Product/15372523241802",
+      "title": "Tapis de Souris Shadow the Hedgehog",
+      "status": "ACTIVE",
+      "seo_title": "Tapis de Souris Shadow the Hedgehog | Les Bois d'Aurore",
+      "seo_description": "Tapis de Souris Shadow the Hedgehog : Invoquez le contrôle du chaos pour effacer vos concurrents. Misez sur l'anti-héros ultime pour un setup d'une ergonomie artisanale."
+    },
+    {
+      "id": "gid://shopify/Product/15380216316234",
+      "title": "Tote Bag Shadow the Hedgehog",
+      "status": "DRAFT",
+      "seo_title": "Tote Bag Shadow ⚡ Sonic | Les Bois d'Aurore",
+      "seo_description": "Tote Bag Shadow Sonic satin brillant. Fan art Forme Ultime Anjou. Solide. Idéal gamers. Je suis la forme de vie ultime ⚡"
+    },
+    {
+      "id": "gid://shopify/Product/15380979482954",
+      "title": "Magnet Shadow the Hedgehog",
+      "status": "ACTIVE",
+      "seo_title": "Magnet Shadow the Hedgehog 🎮 Cadeau Collector | Les Bois d'Aurore",
+      "seo_description": "Magnet Shadow the Hedgehog. Coque métal rigide, dessiné à la main sans IA, fabriqué en Anjou. Badge 5cm pour fan et collectionneur. Idée cadeau parfaite !"
+    }
+  ]
+}
