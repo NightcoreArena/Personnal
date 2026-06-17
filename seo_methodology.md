@@ -585,7 +585,7 @@ git push -u origin [branch]
 Traiter par franchise, pas par type de produit (pour garder la cohérence topique) :
 
 **Demon Slayer** (cluster par cluster) :
-- [x] Akaza — 7 produits traités
+- [x] Akaza — 7 produits traités (2026-06-17)
 - [ ] Zenitsu
 - [ ] Inosuke
 - [ ] Tanjiro
@@ -599,8 +599,10 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 - [ ] (autres personnages Pokémon)
 
 **Kpop Demon Hunter** :
-- [ ] Rumi
-- [ ] Mira
-- [ ] Zoey
-- [ ] Huntrix
-- ⚠️ Se renseigner sur le lore avant d'écrire quoi que ce soit (franchise peu connue, risque d'hallucination)
+- [x] Cluster complet — 8 produits traités (2026-06-17) : Mug, Tableau, Tapis de Souris, Chiffonnette, Tote Bag, Magnet, Porte Clé, T-Shirt
+- ⚠️ Personnages individuels (Rumi, Mira, Zoey, Huntrix) : se renseigner sur le lore avant d'écrire quoi que ce soit
+
+**Solo Leveling Arise** :
+- [x] Cluster complet — 8 produits traités (2026-06-17) : Mug, Tableau (renommé Arise), Tapis de Souris, Chiffonnette, Tote Bag, Magnet, Porte Clé, T-Shirt Sung Jinwoo
+- Note : "Tableau Solo Leveling" → renommé "Tableau Solo Leveling Arise" (Option A, cohérence cluster)
+- Note : T-Shirt Sung Jinwoo corrigé (bug "Mao Mao" dans méta description)
