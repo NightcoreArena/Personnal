@@ -128,28 +128,47 @@ git add [perso]_backup.json && git commit -m "Backup SEO cluster [Perso]" && git
 ```
 **Ne jamais passer à l'étape 3 sans ce commit.**
 
-### Étape 3 — Recherche Semrush (tool : phrase_these ou phrase_fullsearch, database: fr)
+### Étape 3 — Recherche Semrush (tool : execute_report, database: fr)
 
-**Requête 1 — keyword franchise/personnage :**
+Une recherche bâclée = méta titres sur les mauvais keywords. Ne JAMAIS résumer à 3 requêtes.
+
+**3.1 — Découverte large (OBLIGATOIRE en premier) :**
+```
+phrase_fullsearch → "[perso]"          (toutes les variantes contenant le perso + volumes)
+phrase_related    → "[perso]"          (variantes sémantiques, synonymes, termes adjacents)
+```
+→ Donne la cartographie complète. Repère les combos "[produit] [perso]" qui ont du volume sans qu'on y pense.
+
+**3.2 — Une requête par type de produit + variantes sémantiques (8 requêtes) :**
+Chaque produit a des SYNONYMES qu'il faut tester. Un produit = une ligne phrase_these avec toutes ses variantes + le perso ET ses alias :
+
+| Produit | Keywords à tester (avec [perso] ET alias perso) |
+|---|---|
+| Mug | `mug [perso];tasse [perso]` |
+| Tableau | `tableau [perso];poster [perso];affiche [perso];toile [perso];cadre [perso]` |
+| Tapis de Souris | `tapis de souris [perso];tapis souris [perso];mousepad [perso]` |
+| Chiffonnette | `chiffonnette [perso];chiffon lunettes [perso];microfibre [perso]` |
+| Tote Bag | `tote bag [perso];sac [perso];sac toile [perso];cabas [perso]` |
+| Magnet | `magnet [perso];aimant [perso];magnet frigo [perso]` |
+| Porte Clé | `porte clé [perso];porte-clé [perso];porte clef [perso];keychain [perso]` |
+| T-Shirt | `t shirt [perso];tee shirt [perso];t-shirt [perso]` |
+
+→ Pour CHAQUE produit, relancer la même ligne en remplaçant [perso] par chaque alias trouvé en 3.1 (ex : Shadow → "shadow the hedgehog", "shadow sonic", "shadow hedgehog").
+→ Le keyword gagnant (plus gros volume) de chaque produit va EN PREMIER dans son méta titre.
+→ Si tout à 0 : stratégie cluster topique (les fiches renforcent l'autorité sur le keyword franchise, longue traîne uniquement).
+
+**3.3 — Variante perso/franchise pour les intros :**
 ```
 phrase_these → "[perso] [franchise];[franchise] [perso]"
 ```
-→ Identifier le keyword principal et son volume. C'est la phrase exacte à mettre dans chaque intro.
+→ La variante gagnante est la phrase exacte à mettre dans chaque intro.
 
-**Requête 2 — variantes Tableau :**
-```
-phrase_these → "poster [perso];tableau [perso];affiche [perso]"
-```
-→ Choisir la variante avec le plus grand volume pour le méta titre du Tableau.
+**Règle de propriété des keywords :**
+- "[produit] [franchise]" (ex : "mug demon slayer") → appartient aux COLLECTIONS, pas aux fiches produit
+- "[produit] [perso]" → appartient à la fiche produit (mais souvent volume ~0 en FR)
+- Exception franchises solo (Goldorak) : perso = franchise, le keyword va sur la fiche produit
 
-**Requête 3 — product-level keywords :**
-```
-phrase_these → "mug [perso];t shirt [perso];tapis de souris [perso];porte clé [perso];magnet [perso];chiffonnette [perso];tote bag [perso]"
-```
-→ Si tout à 0 : stratégie cluster topique (les pages produit renforcent l'autorité sur le keyword franchise).
-→ Si volume > 0 sur un produit : ce keyword appartient à ce produit, le mettre en premier dans le méta titre.
-
-**Règle importante :** Les keywords "[produit] [franchise]" (ex : "mug demon slayer") appartiennent aux COLLECTIONS, pas aux pages produit. Exception : franchises solo comme Goldorak où personnage = franchise.
+**Rappel ranking (DA ~8) :** la description fait la conversion + la longue traîne, PAS le ranking sur les head terms. Les vrais leviers de ranking sont les collections, les backlinks et le feed Shopping. Ne jamais promettre un ranking head-term via une description de fiche produit.
 
 ### Étape 4 — Écrire les descriptions dans le fichier final
 Fichier : `[perso]_seo_new.json` dans `/home/user/Personnal/`
