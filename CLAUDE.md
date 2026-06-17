@@ -61,6 +61,17 @@ Le KPI n'est PAS le ranking, c'est **faire passer les fiches de "Explorée/Déco
 - Max 155 caractères — COMPTER avant de valider
 - Angle différent pour chaque produit du cluster
 
+### Placement du keyword dans l'intro — RÈGLE ANTI-FORMULAIQUE
+Le keyword "[perso] [franchise]" DOIT apparaître dans le premier paragraphe de chaque fiche — mais PAS toujours en première position.
+- INTERDIT : 7 intros qui commencent toutes par `[verbe] Zenitsu Demon Slayer [contexte]` → structure identique = duplicate pattern
+- OK : le keyword peut être en début, milieu ou fin de l'intro selon le produit
+- La STRUCTURE de la phrase doit changer entre chaque produit, même si le keyword est le même
+
+Exemples variés sur le même keyword "Zenitsu Demon Slayer" :
+- Mug : "Chaque matin commence mieux avec ce mug illustré à la main en Anjou. Un must pour les fans de Zenitsu Demon Slayer."
+- Tapis : "Sur votre bureau, place au Souffle de la Foudre : ce tapis de souris Zenitsu Demon Slayer est illustré à la main en Anjou."
+- Magnet : "Ce magnet collector en métal rigide rend hommage à Zenitsu Demon Slayer. Illustré à la main en Anjou, compact et solide."
+
 ---
 
 ## Blocs de specs standardisés (copier-coller)
