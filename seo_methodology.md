@@ -510,3 +510,97 @@ Mug Akaza : déjà appliqué (voir produit gid://shopify/Product/10146826289482)
 - [ ] Backup JSON créé et commité avant toute modification
 - [ ] Aucune description de l'illustration (risque d'hallucination)
 - [ ] "inspiré de" et non "tiré de" pour les oeuvres non officielles
+
+---
+
+## 14. Workflow de réplication : passer au personnage suivant
+
+Ce workflow s'applique à chaque nouveau cluster de personnage (ex : Zenitsu, Inosuke, Tanjiro, Nezuko, Rengoku, etc.).
+
+### Étape 1 — Lister les produits du personnage
+
+Via GraphQL Shopify :
+```graphql
+{ products(first: 10, query: "title:[Personnage]") { edges { node { id title } } } }
+```
+Lister tous les types de produits existants pour ce personnage (Mug, Tableau, Tapis, etc.).
+
+### Étape 2 — Sauvegarder avant de toucher
+
+Créer `[personnage]_backup.json` dans `/home/user/Personnal/` avec : id, title, seo_title, seo_description, descriptionHtml.
+Commit + push **avant** toute modification.
+
+### Étape 3 — Recherche Semrush (10 min max)
+
+Lancer dans cet ordre :
+
+```
+phrase_fullsearch → "[personnage] demon slayer"   (ou "[personnage] [franchise]")
+```
+→ Identifier le keyword principal et son volume. C'est la phrase exacte à placer dans chaque intro.
+
+```
+phrase_fullsearch → "poster [personnage]" / "tableau [personnage]" / "affiche [personnage]"
+```
+→ Choisir la variante avec le plus de volume pour le méta titre du Tableau.
+
+```
+phrase_fullsearch → "[produit] demon slayer"  (pour chaque type de produit)
+```
+→ Vérifier que ces keywords sont bien à 0 ou faible volume sur les fiches produit (ils appartiennent aux collections).
+
+Si tout est à 0 : confirme que la stratégie est le cluster topique, pas le ranking produit individuel.
+
+### Étape 4 — Rédiger les descriptions
+
+Pour chaque produit du cluster, écrire :
+1. **Intro (1-2 phrases)** : angle unique au type de produit (voir tableau section 4), phrase exacte "[personnage] [franchise]" dedans
+2. **Specs** : bloc standardisé du type de produit (section 10), copier-coller direct
+3. **CTA (1 phrase)** : verbe spécifique au produit (section 11, erreur 2)
+
+Vérifier avec la checklist section 13 avant de présenter à l'utilisateur.
+
+### Étape 5 — Validation utilisateur
+
+Présenter les N descriptions au format lisible.
+Attendre validation **avant** d'appliquer.
+
+### Étape 6 — Appliquer en batch GraphQL
+
+Mutation `productUpdate` par lots de 3 maximum (alias GraphQL).
+Champs à modifier : `descriptionHtml` + `seo { title description }`.
+
+### Étape 7 — Commit
+
+```bash
+git add [personnage]_backup.json
+git commit -m "SEO rewrite: cluster [Personnage] — 7 produits"
+git push -u origin [branch]
+```
+
+---
+
+## 15. Ordre de priorité pour les clusters suivants
+
+Traiter par franchise, pas par type de produit (pour garder la cohérence topique) :
+
+**Demon Slayer** (cluster par cluster) :
+- [x] Akaza — 7 produits traités
+- [ ] Zenitsu
+- [ ] Inosuke
+- [ ] Tanjiro
+- [ ] Nezuko
+- [ ] Rengoku
+- [ ] Doma
+- [ ] (autres personnages DS)
+
+**Pokémon** :
+- [x] Pikachu (mug existant, à vérifier)
+- [ ] (autres personnages Pokémon)
+
+**Kpop Demon Hunter** :
+- [ ] Rumi
+- [ ] Mira
+- [ ] Zoey
+- [ ] Huntrix
+- ⚠️ Se renseigner sur le lore avant d'écrire quoi que ce soit (franchise peu connue, risque d'hallucination)
