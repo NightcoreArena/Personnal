@@ -67,7 +67,41 @@ Broad-intent franchise, identiques pour Ulquiorra, Ichigo, Grimmjow, Aizen, Ruki
 
 ---
 
+### Demon Slayer / Kimetsu no Yaiba (mesuré 2026-06-18, fr)
+Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, Doma...
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine demon slayer | 4400 | hors produit, signale intention d'achat DS |
+| poster demon slayer | 720 | Tableau : texte |
+| t shirt demon slayer | 720 | T-Shirt : texte |
+| affiche demon slayer | 390 | Tableau : texte |
+| cadeau demon slayer | 210 | angle cadeau, tous produits |
+| mug demon slayer | 110 | Mug : texte |
+| goodies demon slayer | 110 | angle collection |
+| tableau demon slayer | 110 | Tableau : texte |
+| tapis demon slayer | 70 | Tapis : texte |
+
+---
+
 ## 3. Par perso — trace auditable (combos "[produit] [perso]" mesurés frais)
+
+### Shinobu Kocho (Demon Slayer) — mesuré 2026-06-18
+- Perso : **shinobu 14800** > shinobu kocho 4400 > shinobu demon slayer 1600 ; demon slayer shinobu 1000
+- Combos produit (balayage synonymes complet via phrase_fullsearch + phrase_these x2) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug 0 / tasse 0 / gobelet 0 / mug shinobu kocho 0 | mug shinobu kocho (topique) |
+  | Tableau | tableau 0 / **poster 20** / affiche 0 / toile 0 / cadre 0 / poster shinobu kocho 20 | **poster shinobu kocho** (20) |
+  | Porte Clé | porte clé 0 / keychain 0 / porte clé shinobu kocho 0 | topique |
+  | Chiffonnette | chiffonnette 0 / microfibre 0 | topique |
+  | Tapis | tapis de souris 0 / mousepad 0 / tapis gaming 0 | topique |
+  | Tote Bag DRAFT | tote bag 0 / sac 0 / cabas 0 | topique |
+  | Magnet | magnet 0 / aimant 0 / aimant frigo 0 | topique |
+- Handles renommés : suppression -pilier-insecte sur 7 produits + 7×301 créés.
+- Cluster topique pur sur "shinobu". H1 = "Mug Shinobu Kocho" etc. (kocho conservé pour lever ambiguïté avec Kuki Shinobu Genshin 390/mois).
+
+---
 
 ### Gaara (Naruto) — mesuré 2026-06-18
 - Perso : **gaara 9900** > gaara naruto 1600, gaara tatouage 1600 > gaara kazekage 110

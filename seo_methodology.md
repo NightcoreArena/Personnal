@@ -684,5 +684,8 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 - [x] Ulquiorra Schiffer — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Keyword principal : ulquiorra (3600/mois) > ulquiorra schiffer (2900/mois). Cluster topique pur. H1 courts uniformisés sur "ulquiorra" (sans "Schiffer"). Handle porte-cle-ulquiorra-schiffer → porte-cle-ulquiorra + 1×301. 11 alt texts mis à jour. Fichier final → ulquiorra_seo_new.json.
 - [ ] (autres personnages Bleach)
 
+**Demon Slayer** :
+- [x] Shinobu Kocho — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : shinobu (14800/mois), shinobu kocho (4400/mois). Cluster topique pur. Poster shinobu kocho (20/mois) → méta titre Tableau = "Poster Shinobu Kocho". Handles renommés : suppression -pilier-insecte sur 7 produits + 7×301. 10 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → shinobu_seo_new.json.
+
 **T-Shirt Dessin (collection)** :
 - [x] Cluster complet — 39 produits traités (2026-06-17)
