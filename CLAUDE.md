@@ -309,6 +309,29 @@ phrase_these → "cadeau [franchise];goodies [franchise];goodies manga;mug manga
 → Objectif : capter un trafic plus large que le seul "[produit] [perso]" quasi nul.
 → Ne PAS forcer — si ça ne rentre pas naturellement, ne pas l'inclure.
 
+**3.5 — Questions / longue traîne (nourrit le P2 lore ET la longue traîne) :**
+```
+phrase_questions → "[perso]"      (qui est, mort, vs, âge, citation, signification du nom...)
+```
+→ Facile à ranker en DA ~8. Les questions à volume orientent le CHOIX du fait lore en P2 : si "ulquiorra mort" a du volume, le magnet (angle mort/cendres) capte cette intention. On aligne l'angle lore de chaque produit sur une question recherchée quand c'est possible.
+→ Ne JAMAIS mettre la question telle quelle en stuffing : on choisit le SUJET du P2 en fonction d'elle, on rédige en prose naturelle.
+
+**3.6 — Gap concurrentiel (trouver les combos qui convertissent vraiment) :**
+```
+organic_research → domaine d'une boutique de goodies manga concurrente (ex : un gros e-commerce FR du secteur)
+```
+→ Repère les combos "[produit] [perso/franchise]" sur lesquels les concurrents rankent et qu'on n'avait pas testés. C'est la source des keywords "qu'on n'imagine pas". À lancer 1 fois par grande franchise (pas par perso) pour cartographier le marché.
+→ Filtrer sur les requêtes transactionnelles (mug, poster, figurine, tote...) et noter celles à volume dans le registre (3.8).
+
+**3.7 — Priorisation par tendance (quel cluster faire en premier) :**
+→ La colonne **Trends** de `phrase_these`/`phrase_fullsearch` (12 valeurs mensuelles) révèle les persos en hausse : nouvelle saison anime, film, arc animé en cours. Un perso dont la courbe monte mérite d'être traité AVANT que le pic passe (l'indexation prend des semaines).
+→ Quand on choisit le prochain cluster : à volume égal, prendre celui dont la tendance monte. Le noter dans le registre.
+
+**3.8 — Registre inter-clusters `keywords_ledger.md` (mémoire qui apprend) :**
+→ Après CHAQUE cluster, reporter dans `/home/user/Personnal/keywords_ledger.md` : le perso, ses volumes, et surtout le **synonyme gagnant par type de produit** (poster vs tableau, tasse vs mug, aimant vs magnet...).
+→ Au fil des clusters, le registre révèle les gagnants statistiques : on démarre la recherche en testant d'ABORD le synonyme historiquement gagnant, puis on confirme (la règle "preuve fraîche" reste obligatoire, le registre ne fait qu'orienter l'ordre des tests).
+→ Y consigner aussi les combos trouvés en gap concurrentiel (3.6) et les persos en tendance à traiter (3.7).
+
 **Règle de propriété des keywords :**
 - "[produit] [franchise]" (ex : "mug demon slayer") → appartient aux COLLECTIONS pour le méta titre, MAIS peut apparaître naturellement dans le texte des fiches produit
 - "[produit] [perso]" → keyword du méta titre de la fiche produit (même à volume faible)
