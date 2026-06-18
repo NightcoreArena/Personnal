@@ -106,7 +106,7 @@ La description seule ne suffit pas à faire indexer. Causes réelles de "Explor�
 - Vouvoiement obligatoire ("votre", "vous")
 - Phrases courtes — une idée par phrase
 - **Power words pour l'audience otaku/collectionneur** (à doser, pas à empiler) : collector, exclusif, édition, fait main, rare, introuvable ailleurs, pièce unique. Surtout sur Magnet, Porte-clé, Pin's (instinct de collection).
-- **Synonymes pour ratisser large** : alterner Mug/Tasse, Poster/Affiche/Tableau/Toile/Cadre, Tapis de souris/Mousepad, Tote Bag/Sac/Cabas, Magnet/Aimant. Ne jamais répéter 4× le même mot produit.
+- **Synonymes pour ratisser large** : alterner Mug/Tasse, Poster/Affiche/Tableau/Toile/Cadre, Tapis de souris/Tapis Gaming, Tote Bag/Sac/Cabas, Magnet/Aimant. Ne jamais répéter 4× le même mot produit. JAMAIS d'anglicismes dans les méta titres ni les descriptions ("mousepad", "tee" seul, etc.).
 
 ### CTAs
 - Verbe d'impératif différent par produit dans le cluster
@@ -118,7 +118,7 @@ La description seule ne suffit pas à faire indexer. Causes réelles de "Explor�
 - JAMAIS "| Les Bois d'Aurore" en suffixe
 - JAMAIS "| Kimetsu no Yaiba" ou autre keyword secondaire franchise — remplacer par le suffixe pour éviter la cannibalisation entre fiches
 - **Le suffixe après le pipe doit travailler en double** : caser un SYNONYME du produit (capte une 2e requête) ET/OU l'attribut technique majeur. Ne pas gâcher ce slot en spec pure quand un synonyme à volume existe.
-  - Exemples : "| Tasse Céramique" (capte tasse), "| Affiche & Toile", "| Mousepad" (capte mousepad), "| Sac Satiné" (capte sac), "| Aimant Métal" (capte aimant), "| Tee S à XXL"
+  - Exemples : "| Tasse Céramique" (capte tasse), "| Affiche & Toile", "| Tapis Gaming" (capte tapis gaming), "| Sac Satiné" (capte sac), "| Aimant Métal" (capte aimant), "| Du S au XXL" (capte la recherche par taille)
 - **Emoji VARIÉ par type de produit** (scan visuel + CTR en SERP) : ☕ Mug, 🖼️ Poster/Tableau, 🔑 Porte-clé, 👕 T-Shirt, 🧼 Chiffonnette, 🖱️ Tapis de souris, 👜 Tote Bag, 🧲 Magnet. Ne PAS mettre le même emoji sur les 8 fiches d'un cluster.
 - Keyword avec le plus grand volume Semrush en premier (niveau produit, pas franchise)
 - Max 60 caractères
