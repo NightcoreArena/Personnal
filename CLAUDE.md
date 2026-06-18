@@ -21,18 +21,22 @@ Le KPI n'est PAS le ranking, c'est **faire passer les fiches de "Explorée/Déco
 La description seule ne suffit pas à faire indexer. Causes réelles de "Explorée/Découverte, non indexée" et leviers :
 
 ### 1. Maillage interne (levier n°1 — une page orpheline ne s'indexe pas)
-- Chaque fiche produit DOIT être liée depuis et vers d'autres pages du site.
-- Dans le descriptionHtml, ajouter un `<p>` final avec 1-2 liens contextuels :
-  - vers la COLLECTION du produit (ex : `<a href="/collections/mug-demon-slayer">tous nos mugs Demon Slayer</a>`)
-  - vers 1 produit FRÈRE du même cluster (ex : depuis Mug Zenitsu → Tableau Zenitsu)
-- Ancre variée : mix semantique + partial-match, PAS toujours l'exact keyword.
-- Objectif : chaque fiche à ≤ 3 clics de l'accueil, 5-10 liens internes entrants idéalement.
-- Vérifier que le thème affiche bien une section "produits similaires" / "related products".
+**Le maillage EXISTE déjà** dans le thème (template product.*.json, bloc `custom_liquid_CA68qx`) :
+- Il est **server-rendered en Liquid** (donc crawlable, contrairement aux reco JS de Shopify).
+- Il génère en HTML : "Collections associées" (liens vers les collections du produit) + 6 produits liés (rec-cards avec alt text).
+- Match par métachamp thème (`custom.manga_anime`, `kawaii_mignonneries`, `nature_paysages`, `vehicules`, `fantaisie_magie`, `animaux`) et type DIFFÉRENT du produit courant.
 
-### 2. Schema Product (à valider une fois pour le thème)
-- Vérifier via GraphQL/inspection que les fiches sortent un `Product` JSON-LD avec : name, image, description, brand, offers (price, priceCurrency, availability).
-- Variantes (Tableau : affiche/toile/cadre ; T-Shirt : tailles) → idéalement `hasVariant` / offres multiples.
-- Le schema ne sauve pas un contenu pauvre, mais aide à l'indexation + rich results.
+→ **Ne PAS ajouter de liens manuels dans le descriptionHtml** (redondant avec le thème).
+
+**Le vrai levier = vérifier les dépendances de données du maillage (sinon il rend du vide = page orpheline) :**
+- [ ] Le métachamp thème (`custom.manga_anime` etc.) est rempli sur CHAQUE produit du cluster. Si vide → 0 produit lié → orphelin. 🔴 priorité
+- [ ] Le produit est bien assigné à ses collections (type + franchise). Sinon pas de "Collections associées".
+- [ ] Produit en stock (`available`) : un produit à 0 stock est exclu du module et perd ses liens entrants.
+
+**Finition optionnelle (autorité topique, pas bloquant) :** le module lie même-thème/type-différent, pas le cluster même-personnage. Mug Zenitsu ne pointe pas forcément vers Tableau Zenitsu.
+
+### 2. Schema Product — OK (confirmé par la propriétaire)
+- Le thème sort déjà un `Product` JSON-LD correct. Ne pas y retoucher sauf demande explicite.
 
 ### 3. Alt text des images
 - Chaque image produit doit avoir un alt descriptif contenant le keyword (ex : "Mug Zenitsu Demon Slayer illustré à la main").
@@ -173,10 +177,19 @@ Exemples variés sur le même keyword "Zenitsu Demon Slayer" :
 
 ### Étape 1 — Lister TOUS les produits
 ```graphql
-{ products(first: 20, query: "title:[Personnage]") { edges { node { id title status } } } }
+{ products(first: 30, query: "[Personnage]") { edges { node { id title status } } } }
 ```
+Note : utiliser `query: "[Personnage]"` (recherche full-text), PAS `title:[Personnage]` qui rate des produits.
 Tester aussi les variantes de titre (ex : "T-Shirt Shadow" vs "T-Shirt Shadow the Hedgehog").
 **Inclure les DRAFT** (Tote Bag, T-Shirt si présent) — les traiter comme les ACTIVE.
+
+### Étape 1.5 — Vérifier les métachamps (DÉPENDANCE DU MAILLAGE)
+Le maillage interne du thème dépend du métachamp thème rempli. Vérifier sur chaque produit :
+```graphql
+{ product(id: "...") { metafields(first: 20, namespace: "custom") { nodes { key value } } } }
+```
+- [ ] Un des métachamps thème est rempli (`manga_anime`, `kawaii_mignonneries`, `nature_paysages`, `vehicules`, `fantaisie_magie`, `animaux`)
+- Si vide → le produit n'a AUCUN produit lié affiché = page orpheline = candidate non-indexation. Le remplir.
 
 ### Étape 2 — Créer le backup AVANT TOUT
 Fichier : `[perso]_backup.json` dans `/home/user/Personnal/`
