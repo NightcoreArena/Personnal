@@ -676,6 +676,7 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 
 **Boruto / Naruto** :
 - [x] Boruto Uzumaki — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : boruto (22200/mois). Cluster topique pur. Poster boruto (20/mois) > tableau/affiche (20, tied) → méta titre Tableau = "Poster Boruto". 11 alt texts mis à jour. Fichier final → boruto_seo_new.json.
+- [x] Gaara — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : gaara (9900/mois), gaara naruto (1600/mois). Cluster topique pur. Poster gaara (20/mois, tied avec tableau) → méta titre Tableau = "Poster Gaara". Sac gaara (20/mois) → suffixe Tote Bag. Balayage synonymes exhaustif (table 3.2 complète + fullsearch). 10 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → gaara_seo_new.json.
 - [ ] Sarada Uchiha
 - [ ] Hinata
 
