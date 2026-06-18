@@ -331,6 +331,7 @@ Si corrections → mettre à jour le fichier PUIS appliquer.
 ### Étape 7 — Appliquer en batch GraphQL
 Mutations `productUpdate` par lots de 2-4 (alias GraphQL).
 Champs : `descriptionHtml` + `seo { title description }`.
+**CRITIQUE : toujours passer `title` ET `description` ensemble dans l'objet `seo {}`. Passer seulement `title` efface la `description` existante (Shopify écrase le champ entier).**
 
 ### Étape 7.5 — Mettre à jour les alt texts des images
 Pour chaque produit, récupérer les IDs d'images via :
