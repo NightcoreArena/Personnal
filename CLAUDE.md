@@ -299,6 +299,17 @@ Si corrections → mettre à jour le fichier PUIS appliquer.
 Mutations `productUpdate` par lots de 2-4 (alias GraphQL).
 Champs : `descriptionHtml` + `seo { title description }`.
 
+### Étape 7.5 — Mettre à jour les alt texts des images
+Pour chaque produit, récupérer les IDs d'images via :
+```graphql
+{ product(id: "...") { media(first: 10) { nodes { ... on MediaImage { id image { altText } } } } } }
+```
+Puis mutation `productUpdateMedia` par lot :
+- Format alt : `[Produit] [Perso] [Franchise] illustré à la main en Anjou`
+- Pour le Tableau : conserver le type dans l'alt (ex : "Cadre Noir Nezuko...", "Poster Nezuko...", "Affiche Nezuko...")
+- JAMAIS de description de l'illustration (couleurs, pose, détails visuels) → risque d'hallucination
+- Si pas d'image (ex : Tote Bag DRAFT) : passer.
+
 ### Étape 8 — Marquer comme terminé + commit
 ```bash
 git add [perso]_backup.json [perso]_seo_new.json seo_methodology.md
