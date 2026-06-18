@@ -37,6 +37,14 @@
       "tableau demon slayer": 110,
       "tapis demon slayer": 70
     },
+    "nom_alternatif_3.1bis_mesure_2026-06-18": {
+      "pilier de l'insecte": 210,
+      "pilier insecte": 70,
+      "mug pilier insecte": 0,
+      "poster pilier insecte": 0,
+      "tableau pilier insecte": 0,
+      "verdict": "Epithete INFORMATIONNEL seulement (combos produit = NOTHING FOUND). -> tissee dans le TEXTE de chaque fiche, JAMAIS dans le meta titre."
+    },
     "note": "Cluster topique pur sur shinobu. Seul combo produit a volume : poster shinobu = poster shinobu kocho = 20/mois -> meta titre Tableau commence par Poster. Handles renommes : suppression -pilier-insecte sur les 7 produits + 7 redirects 301 crees."
   },
   "handles_301": [

@@ -100,6 +100,7 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
   | Magnet | magnet 0 / aimant 0 / aimant frigo 0 | topique |
 - Handles renommés : suppression -pilier-insecte sur 7 produits + 7×301 créés.
 - Cluster topique pur sur "shinobu". H1 = "Mug Shinobu Kocho" etc. (kocho conservé pour lever ambiguïté avec Kuki Shinobu Genshin 390/mois).
+- **Nom alternatif (3.1bis) testé** : "pilier de l'insecte" 210, "pilier insecte" 70 = INFORMATIONNEL seulement. "mug/poster/tableau pilier insecte" = 0 (NOTHING FOUND). → épithète tissée dans le TEXTE de chaque fiche, méta titres inchangés.
 
 ---
 

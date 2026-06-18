@@ -275,6 +275,16 @@ phrase_related    → "[perso]"          (variantes sémantiques, synonymes, ter
 → C'est LE filet principal : `phrase_fullsearch` remonte d'un coup les combos "[produit] [perso]" à volume qu'on n'aurait pas devinés (ex : "poster ulquiorra" 20/mois ne sort qu'ici ou en testant le synonyme exact). Ne PAS sauter cette étape, ne PAS la survoler : lire chaque ligne, surligner les combos produit qui ont du volume.
 → Si `phrase_fullsearch` ramène peu, c'est un signal pour tester manuellement TOUS les synonymes en 3.2 (un produit à 0 sur son mot canonique peut avoir du volume sur un synonyme : tableau=0 mais poster=20).
 
+**3.1bis — NOMS ALTERNATIFS du perso (OBLIGATOIRE — angle mort fréquent) :**
+Un perso est souvent cherché sous un AUTRE nom que son nom principal. Lister TOUS ses alias AVANT de figer les métas, puis lancer `phrase_fullsearch` + le balayage produit 3.2 sur chacun qui a du volume :
+- **Épithète / titre** : Pilier Insecte (Shinobu), Kazekage (Gaara), Cuarta Espada (Ulquiorra), Hokage, Lune Supérieure...
+- **Romanisations** : Kocho / Kochou / Kochō, Cifer / Schiffer
+- **Nom EN vs FR**, surnom, alias héroïque, **nom de forme/transformation** (Two Blue Vortex pour Boruto)
+→ **DEUX issues, à trancher pour chaque alias (c'est l'adaptation clé) :**
+  1. **Si "[produit] [alias]" a du volume** (ex : un "mug [épithète]" cherché) → l'alias peut OUVRIR ou enrichir le méta titre / le suffixe. Le consigner dans `semrush_data`.
+  2. **Si seul l'alias NU a du volume, en informationnel/lore** (ex : "pilier insecte" 70, "pilier de l'insecte" 210, mais "mug/poster pilier insecte" = 0) → l'alias va dans le **TEXTE** (P1 hook ou P2 lore), JAMAIS dans le méta titre. C'est de la longue traîne lore, pas une requête d'achat.
+→ Cas Shinobu (vérifié 2026-06-18) : épithète informationnel seulement → "Pilier Insecte" tissé dans chaque description, méta titres inchangés. Toujours TESTER avant de conclure (preuve fraîche).
+
 **3.2 — Une requête par type de produit + variantes sémantiques (8 requêtes) :**
 Chaque produit a des SYNONYMES qu'il faut tester. Un produit = une ligne phrase_these avec toutes ses variantes + le perso ET ses alias.
 **Tester TOUS les synonymes ci-dessous, même ceux qu'on croit nuls : un appel `phrase_these` couvre toute une ligne, donc le coût est nul et les surprises sont réelles (ex : Gaara → tout produit à 0 sauf "poster" 20 et "sac" 20 ; "t shirt gaara" 20 alors que pas de produit). Ne JAMAIS raccourcir la liste.**
@@ -398,6 +408,7 @@ Pour chaque produit (130-160 mots de prose unique au total) :
 **Keywords / métas :**
 - **GATE PREUVE** : chaque mot d'ouverture de méta titre correspond au `gagnant` du bloc `semrush_data`, lui-même issu d'une requête de CETTE session. Si une case n'a pas de chiffre prouvé → relancer Semrush avant de valider. Aucun "0" supposé.
 - **GATE SYNONYME** : le balayage COMPLET de la table 3.2 a été lancé pour chaque produit (TOUS les synonymes, pas juste le mot canonique) + `phrase_fullsearch "[perso]"` lu ligne par ligne. Couverture minimale : Mug→tasse/gobelet/chope, Tableau→poster/affiche/toile/peinture/déco, Tapis→mousepad/tapis gaming, Magnet→aimant/magnet frigo, Tote→sac/cabas/sac toile, Porte-clé→keychain/porte clef/breloque, Chiffonnette→chiffon/microfibre, T-Shirt→tee shirt/tshirt. Le méta titre suit le volume, pas le nom du H1. Tout synonyme à volume mais SANS produit correspondant est consigné au registre (opportunité produit future).
+- **GATE NOM ALTERNATIF** (3.1bis) : tous les alias du perso (épithète/titre, romanisations, nom EN/FR, forme/transformation) ont été listés ET testés à Semrush cette session. Pour chaque alias à volume : si "[produit] [alias]" convertit → méta titre/suffixe ; si l'alias nu n'a de volume qu'en informationnel/lore → placé dans le TEXTE (P1/P2), pas le méta. Consigné dans `semrush_data`.
 - Méta titres sans "| Les Bois d'Aurore" ni "| [franchise secondaire]"
 - Méta titres ≤ 60 caractères, emoji VARIÉ par type, synonyme dans le suffixe
 - Méta descriptions ≤ 155 caractères (compter), keyword dans les 10 premiers mots
