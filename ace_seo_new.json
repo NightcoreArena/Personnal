@@ -2,7 +2,7 @@
   "cluster": "Ace",
   "franchise": "One Piece",
   "date": "2026-06-18",
-  "version": "v2 — titles + handles mis à jour (One Piece ajouté), 4x301 créés, liens maillage corrigés",
+  "version": "v3 — titles revenus en format court ([Type] [Perso]), handles gardés en *-one-piece, métas avec keyword complet",
   "keyword_principal": "ace one piece (6600/mois)",
   "intentions_larges": {
     "portgas d ace / portgas d. ace": "1900/mois",
@@ -15,7 +15,7 @@
   "products": [
     {
       "id": "gid://shopify/Product/10161429676362",
-      "title": "Mug Ace One Piece",
+      "title": "Mug Ace",
       "handle": "mug-ace-one-piece",
       "seo_title": "Mug Ace One Piece ☕ | Tasse Poing Ardent",
       "seo_description": "Mug Ace One Piece pour savourer chaque café avec le Poing Ardent. La tasse manga idéale, un cadeau One Piece parfait.",
@@ -23,7 +23,7 @@
     },
     {
       "id": "gid://shopify/Product/10183455473994",
-      "title": "Tableau Ace One Piece",
+      "title": "Tableau Ace",
       "handle": "tableau-ace-one-piece",
       "seo_title": "Tableau Ace One Piece 🖼️ | Poster & Affiche",
       "seo_description": "Tableau Ace One Piece : affichez le Poing Ardent sur votre mur. En poster anime, affiche ou toile, fait main.",
@@ -31,7 +31,7 @@
     },
     {
       "id": "gid://shopify/Product/10181095620938",
-      "title": "Porte Clé Ace One Piece",
+      "title": "Porte Clé Ace",
       "handle": "porte-cle-ace-one-piece",
       "seo_title": "Porte Clé Ace One Piece 🔑 | Métal Collector",
       "seo_description": "Porte-clé Ace One Piece en métal collector. Le goodie Portgas D. Ace à garder sur soi, cadeau One Piece parfait.",
@@ -39,7 +39,7 @@
     },
     {
       "id": "gid://shopify/Product/15361799160138",
-      "title": "Chiffonnette Ace One Piece",
+      "title": "Chiffonnette Ace",
       "handle": "chiffonnette-ace-one-piece",
       "seo_title": "Chiffonnette Ace One Piece 🧼 | Microfibre",
       "seo_description": "Chiffonnette Ace One Piece en microfibre : nettoie écrans sans rayer, avec le Poing Ardent dans la poche.",
@@ -47,7 +47,7 @@
     },
     {
       "id": "gid://shopify/Product/15314600984906",
-      "title": "Tapis de Souris Ace One Piece",
+      "title": "Tapis de Souris Ace",
       "handle": "tapis-de-souris-ace-one-piece",
       "seo_title": "Tapis de Souris Ace One Piece 🖱️ | Gaming",
       "seo_description": "Tapis de souris Ace One Piece pour votre setup : glisse nette et les flammes du Poing Ardent sous la main.",
@@ -55,7 +55,7 @@
     },
     {
       "id": "gid://shopify/Product/15380205207882",
-      "title": "Tote Bag Ace One Piece",
+      "title": "Tote Bag Ace",
       "handle": "tote-bag-ace-one-piece",
       "status": "DRAFT",
       "seo_title": "Tote Bag Ace One Piece 👜 | Sac Satiné",
@@ -64,7 +64,7 @@
     },
     {
       "id": "gid://shopify/Product/15380962771274",
-      "title": "Magnet Ace One Piece",
+      "title": "Magnet Ace",
       "handle": "magnet-ace-one-piece",
       "seo_title": "Magnet Ace One Piece 🧲 | Aimant Collector",
       "seo_description": "Magnet Ace One Piece en métal à coller partout. La pièce collector pour les fans du Poing Ardent, faite main.",

@@ -233,25 +233,23 @@ L'historique git + l'historique Shopify suffisent. Ne plus créer de fichier `_b
 
 ### Étape 2.5 — Title (H1) + Handle : quand et comment modifier
 
-**Le title Shopify EST le H1 de la page.** Il doit correspondre exactement au keyword principal de la fiche.
+**Rôle de chaque champ — NE PAS confondre :**
+- **Title (H1)** = ce que le CLIENT voit sur la fiche produit. Format court : `[Type produit] [Personnage]`. Exemple : "Mug Ace", "Mug Rumi". La franchise n'est PAS nécessaire dans le title — elle pollue l'UX pour le client.
+- **Meta title** = ce que GOOGLE affiche dans les SERPs. C'est ICI que va le keyword complet : "Mug Ace One Piece ☕ | Tasse Poing Ardent". C'est le levier SERP, pas le title.
+- **Handle (URL)** = levier SEO URL. Doit contenir la franchise si le perso est ambigu (ex : "mug-ace-one-piece", pas "mug-ace" qui peut être confondu avec autre chose).
 
-**Format standard du title :** `[Type produit] [Personnage] [Franchise]`
+**Format standard du title :** `[Type produit] [Personnage]` (jamais la franchise sauf si le perso seul est incompréhensible sans elle — rare)
 
-**Quand inclure la franchise dans le title (et le handle) :**
-- Le nom du perso est **ambigu sans franchise** → OBLIGATOIRE (ex : "Ace" → "Ace One Piece", "Shadow" → "Shadow the Hedgehog")
-- Le keyword Semrush dominant **inclut la franchise** → OBLIGATOIRE (ex : "ace one piece" 6600/mois → le title doit contenir "One Piece")
-- Incohérence intra-cluster (certains produits ont la franchise dans le handle, d'autres non) → **uniformiser**
+**Quand modifier le handle (et créer sa 301) :**
+- Handle actuel ≠ slugification du keyword dominant → renommer
+- Perso ambigu sans franchise dans l'URL (ex : "mug-ace" → "mug-ace-one-piece")
+- Incohérence intra-cluster (certains produits ont la franchise dans le handle, d'autres non) → uniformiser
 
-**Quand la franchise est optionnelle dans le title :**
-- Le nom du perso est déjà non-ambigu ET le keyword dominant ne contient pas la franchise (ex : "Trafalgar Law", "Zenitsu")
-
-**Quand modifier title + handle :**
-1. Title actuel ≠ keyword dominant → renommer le title
-2. Handle actuel ≠ slugification du keyword dominant → renommer le handle
-3. Ces deux opérations vont toujours ensemble (title et handle doivent se correspondre)
+**Quand modifier le title :**
+- Uniquement si le title actuel est vraiment erroné (mauvais perso, faute) ou si la franchise est tellement longue qu'elle est absente même du handle ET de la meta — cas rare
 
 **Procédure :**
-1. Mettre à jour `title` ET `handle` via `productUpdate` dans la même mutation
+1. Mettre à jour `handle` (et `title` si nécessaire) via `productUpdate`
 2. Créer les redirections 301 via `urlRedirectCreate` pour chaque handle modifié
    Format : `{ path: "/products/[ancien-handle]", target: "/products/[nouveau-handle]" }`
 3. Mettre à jour les liens du maillage dans le fichier JSON (les `<a href>` pointent vers les nouveaux handles)
