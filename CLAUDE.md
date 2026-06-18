@@ -261,12 +261,19 @@ L'historique git + l'historique Shopify suffisent. Ne plus créer de fichier `_b
 
 Une recherche bâclée = méta titres sur les mauvais keywords. Ne JAMAIS résumer à 3 requêtes.
 
-**3.1 — Découverte large (OBLIGATOIRE en premier) :**
+**RÈGLE D'OR — preuve fraîche obligatoire (anti-erreur Ulquiorra "poster 20/mois oublié") :**
+- AUCUN chiffre de volume (y compris "= 0") ne peut être affirmé sans un résultat Semrush lancé DANS LA SESSION COURANTE. Interdit de recopier une note d'un fichier précédent, de la mémoire, ou de supposer "ça doit être 0".
+- Le keyword qui ouvre CHAQUE méta titre doit être le gagnant prouvé par une requête de cette session. Si je n'ai pas le chiffre sous les yeux, je relance la requête AVANT d'écrire le méta titre.
+- Les volumes trouvés sont consignés dans le JSON du cluster (bloc `semrush_data`, voir Étape 4) : un méta titre sans preuve dans `semrush_data` = non valide.
+- Rappel paramètre : `phrase_these` / `phrase_fullsearch` utilisent le champ **`phrase`** (pas `keyword`). Caractères accentués OK dans `phrase`, jamais dans un alias GraphQL.
+
+**3.1 — Découverte large (OBLIGATOIRE en premier, et à LIRE vraiment) :**
 ```
-phrase_fullsearch → "[perso]"          (toutes les variantes contenant le perso + volumes)
+phrase_fullsearch → "[perso]"          (TOUTES les phrases contenant le perso + volumes, en 1 appel)
 phrase_related    → "[perso]"          (variantes sémantiques, synonymes, termes adjacents)
 ```
-→ Donne la cartographie complète. Repère les combos "[produit] [perso]" qui ont du volume sans qu'on y pense.
+→ C'est LE filet principal : `phrase_fullsearch` remonte d'un coup les combos "[produit] [perso]" à volume qu'on n'aurait pas devinés (ex : "poster ulquiorra" 20/mois ne sort qu'ici ou en testant le synonyme exact). Ne PAS sauter cette étape, ne PAS la survoler : lire chaque ligne, surligner les combos produit qui ont du volume.
+→ Si `phrase_fullsearch` ramène peu, c'est un signal pour tester manuellement TOUS les synonymes en 3.2 (un produit à 0 sur son mot canonique peut avoir du volume sur un synonyme : tableau=0 mais poster=20).
 
 **3.2 — Une requête par type de produit + variantes sémantiques (8 requêtes) :**
 Chaque produit a des SYNONYMES qu'il faut tester. Un produit = une ligne phrase_these avec toutes ses variantes + le perso ET ses alias :
@@ -283,8 +290,9 @@ Chaque produit a des SYNONYMES qu'il faut tester. Un produit = une ligne phrase_
 | T-Shirt | `t shirt [perso];tee shirt [perso];t-shirt [perso]` |
 
 → Pour CHAQUE produit, relancer la même ligne en remplaçant [perso] par chaque alias trouvé en 3.1 (ex : Shadow → "shadow the hedgehog", "shadow sonic", "shadow hedgehog").
-→ Le keyword gagnant (plus gros volume) de chaque produit va EN PREMIER dans son méta titre.
-→ Si tout à 0 : stratégie cluster topique (les fiches renforcent l'autorité sur le keyword franchise, longue traîne uniquement).
+→ Le keyword gagnant (plus gros volume PROUVÉ cette session) de chaque produit va EN PREMIER dans son méta titre. Ex Ulquiorra : "poster ulquiorra" (20) > "tableau ulquiorra" (0) → méta titre Tableau commence par "Poster", le H1 reste "Tableau Ulquiorra".
+→ Le mot produit du méta titre peut donc DIFFÉRER du H1 : on suit le volume, pas le nom du produit. Toujours vérifier l'ordre Mug/Tasse, Tableau/Poster/Affiche, Tapis/Mousepad, Magnet/Aimant, Tote/Sac, Porte-clé/Keychain.
+→ Si tout à 0 (vérifié, pas supposé) : stratégie cluster topique (les fiches renforcent l'autorité sur le keyword franchise, longue traîne uniquement). Même à 0, consigner "0 (vérifié [date])" dans `semrush_data`.
 
 **3.3 — Variante perso/franchise pour les intros :**
 ```
@@ -311,6 +319,19 @@ phrase_these → "cadeau [franchise];goodies [franchise];goodies manga;mug manga
 ### Étape 4 — Écrire les descriptions dans le fichier final
 Fichier : `[perso]_seo_new.json` dans `/home/user/Personnal/`
 **Écrire le fichier AVANT de présenter à l'utilisateur.**
+
+**Bloc `semrush_data` OBLIGATOIRE en tête du JSON (traçabilité keywords) :**
+Consigner les volumes réellement retournés cette session, produit par produit, avec le gagnant retenu. Sert de preuve auditable : on ne réécrit jamais un méta titre sans regarder ce bloc.
+```json
+"semrush_data": {
+  "date_recherche": "AAAA-MM-JJ",
+  "perso": { "ulquiorra": 3600, "ulquiorra schiffer": 2900 },
+  "par_produit": {
+    "Mug":      { "mug ulquiorra": 0, "tasse ulquiorra": 0, "gagnant": "mug ulquiorra (topique, 0)" },
+    "Tableau":  { "tableau ulquiorra": 0, "poster ulquiorra": 20, "affiche ulquiorra": 0, "gagnant": "poster ulquiorra (20)" }
+  }
+}
+```
 
 Pour chaque produit (130-160 mots de prose unique au total) :
 1. **P1 (2-3 phrases) — l'INTENTION** : pourquoi on achète CE produit (persona dominant : décorateur, collectionneur, cadeau, usage quotidien). Keyword "[perso]" placé tôt mais structure de phrase VARIÉE entre produits. Intégrer un keyword d'intention large si naturel (cadeau franchise, goodies manga, poster franchise).
@@ -346,6 +367,8 @@ Pour chaque produit (130-160 mots de prose unique au total) :
 - P3 artisan : 4 notions (numérique + à la main + sans IA + Anjou/France), formulation unique intra-cluster ET variée vs autres clusters
 
 **Keywords / métas :**
+- **GATE PREUVE** : chaque mot d'ouverture de méta titre correspond au `gagnant` du bloc `semrush_data`, lui-même issu d'une requête de CETTE session. Si une case n'a pas de chiffre prouvé → relancer Semrush avant de valider. Aucun "0" supposé.
+- **GATE SYNONYME** : pour chaque produit, le synonyme à plus gros volume a bien été testé (Tableau→poster/affiche/toile, Mug→tasse, Tapis→mousepad, Magnet→aimant, Tote→sac, Porte-clé→keychain). Le méta titre suit le volume, pas le nom du H1.
 - Méta titres sans "| Les Bois d'Aurore" ni "| [franchise secondaire]"
 - Méta titres ≤ 60 caractères, emoji VARIÉ par type, synonyme dans le suffixe
 - Méta descriptions ≤ 155 caractères (compter), keyword dans les 10 premiers mots

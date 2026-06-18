@@ -9,6 +9,20 @@
     "ulquiorra cifer": "1000/mois",
     "bleach anime ulquiorra": "1600/mois"
   },
+  "semrush_data": {
+    "date_recherche": "2026-06-18",
+    "perso": { "ulquiorra": 3600, "ulquiorra schiffer": 2900 },
+    "par_produit": {
+      "Mug": { "mug ulquiorra": 0, "tasse ulquiorra": 0, "gagnant": "mug ulquiorra (topique, 0)" },
+      "Tableau": { "tableau ulquiorra": 0, "poster ulquiorra": 20, "affiche ulquiorra": 0, "toile ulquiorra": 0, "cadre ulquiorra": 0, "gagnant": "poster ulquiorra (20)" },
+      "Porte Cle": { "porte cle ulquiorra": 0, "porte-cle ulquiorra": 0, "gagnant": "porte cle ulquiorra (topique, 0)" },
+      "Chiffonnette": { "chiffonnette ulquiorra": 0, "gagnant": "chiffonnette ulquiorra (topique, 0)" },
+      "Tapis de Souris": { "tapis de souris ulquiorra": 0, "tapis ulquiorra": 0, "gagnant": "tapis de souris ulquiorra (topique, 0)" },
+      "Tote Bag": { "tote bag ulquiorra": 0, "sac ulquiorra": 0, "gagnant": "tote bag ulquiorra (topique, 0)" },
+      "Magnet": { "magnet ulquiorra": 0, "aimant ulquiorra": 0, "gagnant": "magnet ulquiorra (topique, 0)" }
+    },
+    "hors_scope": { "figurine ulquiorra": 70 }
+  },
   "note_semrush": "Volumes [produit] ulquiorra = 0. Cluster topique pur. Keyword principal : ulquiorra seul (3600/mois) > ulquiorra schiffer (2900/mois). Uniformisation sur 'ulquiorra' : handles tous sans 'schiffer', H1 courts 'Mug Ulquiorra' etc., méta titres gardent 'Ulquiorra Schiffer' pour couvrir les deux keywords en SERP. 301 créé : porte-cle-ulquiorra-schiffer → porte-cle-ulquiorra. LSI riche : Arrancar, Espada, Cuarta, Hueco Mundo, Murciélago, Resurrecciòn, Segunda Etapa, Cero Oscuras.",
   "maillage_anneau": "Mug → Tableau → Porte Clé → Chiffonnette → Tapis → Magnet → Mug ; Tote Bag (DRAFT) → Mug",
   "products": [
