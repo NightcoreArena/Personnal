@@ -2,19 +2,19 @@
   "cluster": "Ulquiorra Schiffer",
   "franchise": "Bleach",
   "date": "2026-06-18",
-  "version": "v1 — cluster topique pur, liens maillage intégrés naturellement en P1",
-  "keyword_principal": "ulquiorra schiffer (2900/mois) / ulquiorra (3600/mois)",
+  "version": "v2 — uniformisation sur 'ulquiorra' (3600/mois > 2900/mois), H1 courts, handle porte-cle renommé + 301, métas gardent 'Ulquiorra Schiffer' pour couvrir les deux keywords en SERP",
+  "keyword_principal": "ulquiorra (3600/mois) / ulquiorra schiffer (2900/mois)",
   "intentions_larges": {
     "ulquiorra arrancar": "1900/mois",
     "ulquiorra cifer": "1000/mois",
     "bleach anime ulquiorra": "1600/mois"
   },
-  "note_semrush": "Volumes [produit] ulquiorra = 0. Cluster topique pur. Keyword principal : ulquiorra seul (3600/mois) ou ulquiorra schiffer (2900/mois). Intentions larges bleach quasi nulles. LSI riche : Arrancar, Espada, Cuarta, Hueco Mundo, Murciélago, Resurrecciòn, Segunda Etapa, Cero Oscuras. Note handle : porte-cle-ulquiorra-schiffer a 'schiffer' contrairement aux autres — incohérence conservée (handles déjà indexés).",
+  "note_semrush": "Volumes [produit] ulquiorra = 0. Cluster topique pur. Keyword principal : ulquiorra seul (3600/mois) > ulquiorra schiffer (2900/mois). Uniformisation sur 'ulquiorra' : handles tous sans 'schiffer', H1 courts 'Mug Ulquiorra' etc., méta titres gardent 'Ulquiorra Schiffer' pour couvrir les deux keywords en SERP. 301 créé : porte-cle-ulquiorra-schiffer → porte-cle-ulquiorra. LSI riche : Arrancar, Espada, Cuarta, Hueco Mundo, Murciélago, Resurrecciòn, Segunda Etapa, Cero Oscuras.",
   "maillage_anneau": "Mug → Tableau → Porte Clé → Chiffonnette → Tapis → Magnet → Mug ; Tote Bag (DRAFT) → Mug",
   "products": [
     {
       "id": "gid://shopify/Product/10150759399754",
-      "title": "Mug Ulquiorra Schiffer",
+      "title": "Mug Ulquiorra",
       "handle": "mug-ulquiorra",
       "seo_title": "Mug Ulquiorra Schiffer ☕ | Tasse Bleach Arrancar",
       "seo_description": "Mug Ulquiorra Schiffer pour savourer chaque café avec la Cuarta Espada. La tasse Bleach idéale, un cadeau fan parfait.",
@@ -26,19 +26,20 @@
       "handle": "tableau-ulquiorra",
       "seo_title": "Tableau Ulquiorra Schiffer 🖼️ | Poster Bleach",
       "seo_description": "Tableau Ulquiorra Schiffer : affichez la Cuarta Espada sur votre mur. En poster Bleach ou toile, fait main.",
-      "descriptionHtml": "<p>Un poster Bleach qui impose sa présence sur n'importe quel mur. Ce tableau Ulquiorra Schiffer, en impression HD ou en toile tendue, capture la puissance froide de la Cuarta Espada. À associer avec le <a href=\"/products/porte-cle-ulquiorra-schiffer\">porte-clé Ulquiorra Schiffer</a> pour un ensemble collector parfait.</p><p>La Segunda Etapa d'Ulquiorra est la seule deuxième résurrection connue parmi les Espada. Ses ailes noires déployées au sommet de Las Noches et son torse traversé d'un trou sont devenus l'une des images les plus marquantes de Bleach, une métaphore visuelle de son rapport à l'existence.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Accrochez-le, ses ailes noires domineront vos murs.</p>"
+      "descriptionHtml": "<p>Un poster Bleach qui impose sa présence sur n'importe quel mur. Ce tableau Ulquiorra Schiffer, en impression HD ou en toile tendue, capture la puissance froide de la Cuarta Espada. À associer avec le <a href=\"/products/porte-cle-ulquiorra\">porte-clé Ulquiorra Schiffer</a> pour un ensemble collector parfait.</p><p>La Segunda Etapa d'Ulquiorra est la seule deuxième résurrection connue parmi les Espada. Ses ailes noires déployées au sommet de Las Noches et son torse traversé d'un trou sont devenus l'une des images les plus marquantes de Bleach, une métaphore visuelle de son rapport à l'existence.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Accrochez-le, ses ailes noires domineront vos murs.</p>"
     },
     {
       "id": "gid://shopify/Product/10181118329162",
-      "title": "Porte Clé Ulquiorra Schiffer",
-      "handle": "porte-cle-ulquiorra-schiffer",
+      "title": "Porte Clé Ulquiorra",
+      "handle": "porte-cle-ulquiorra",
+      "handle_ancien": "porte-cle-ulquiorra-schiffer",
       "seo_title": "Porte Clé Ulquiorra Schiffer 🔑 | Métal Collector",
       "seo_description": "Porte-clé Ulquiorra Schiffer en métal collector. Le goodie Bleach à garder sur soi, pour les fans de la Cuarta Espada.",
       "descriptionHtml": "<p>Ce porte-clé Ulquiorra Schiffer en métal suit vos clés du matin au soir, pièce collector pour les fans de la Cuarta Espada. Compact et solide, à glisser dans un cadeau avec la <a href=\"/products/chiffonnette-ulquiorra\">chiffonnette Ulquiorra Schiffer</a> pour un duo pratique.</p><p>Ulquiorra peut stocker une scène dans son œil et la reproduire ailleurs comme une vidéo : c'est ainsi qu'il révèle à Ichigo l'état réel d'Orihime dans Bleach. Cette capacité de reconnaissance froide, sans émotion, symbolise son rapport au monde : tout voir, ne rien ressentir.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Pensé trait après trait à la main sur tablette, ce motif numérique ne doit rien à l'IA : artisanat 100% angevin.</strong></p><p>Adoptez-le, il ne quittera plus vos clés.</p>"
     },
     {
       "id": "gid://shopify/Product/15361800077642",
-      "title": "Chiffonnette Ulquiorra Schiffer",
+      "title": "Chiffonnette Ulquiorra",
       "handle": "chiffonnette-ulquiorra",
       "seo_title": "Chiffonnette Ulquiorra Schiffer 🧼 | Microfibre",
       "seo_description": "Chiffonnette Ulquiorra Schiffer en microfibre : nettoie écrans sans rayer, avec l'Espada de Hueco Mundo dans la poche.",
@@ -46,7 +47,7 @@
     },
     {
       "id": "gid://shopify/Product/15372524454218",
-      "title": "Tapis de Souris Ulquiorra Schiffer",
+      "title": "Tapis de Souris Ulquiorra",
       "handle": "tapis-de-souris-ulquiorra",
       "seo_title": "Tapis de Souris Ulquiorra Schiffer 🖱️ | Gaming",
       "seo_description": "Tapis de souris Ulquiorra Schiffer pour votre setup : glisse nette et les ailes de la Cuarta Espada sous la main.",
@@ -54,7 +55,7 @@
     },
     {
       "id": "gid://shopify/Product/15380217954634",
-      "title": "Tote Bag Ulquiorra Schiffer",
+      "title": "Tote Bag Ulquiorra",
       "handle": "tote-bag-ulquiorra",
       "status": "DRAFT",
       "seo_title": "Tote Bag Ulquiorra Schiffer 👜 | Sac Satiné",
@@ -63,7 +64,7 @@
     },
     {
       "id": "gid://shopify/Product/15380981875018",
-      "title": "Magnet Ulquiorra Schiffer",
+      "title": "Magnet Ulquiorra",
       "handle": "magnet-ulquiorra",
       "seo_title": "Magnet Ulquiorra Schiffer 🧲 | Aimant Collector",
       "seo_description": "Magnet Ulquiorra Schiffer en métal à coller partout. La pièce collector pour les fans de Bleach, faite main.",

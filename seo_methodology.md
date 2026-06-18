@@ -674,5 +674,9 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 **Les Carnets de l'Apothicaire** :
 - [x] Cluster complet — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Keyword principal : les carnets de l'apothicaire (60 500/mois). Volumes [produit] = 0 → cluster topique pur. Handles renommés de carnet → les-carnets + 7×301 redirects. 11 alt texts mis à jour. Fichier final → carnets_seo_new.json.
 
+**Bleach** :
+- [x] Ulquiorra Schiffer — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Keyword principal : ulquiorra (3600/mois) > ulquiorra schiffer (2900/mois). Cluster topique pur. H1 courts uniformisés sur "ulquiorra" (sans "Schiffer"). Handle porte-cle-ulquiorra-schiffer → porte-cle-ulquiorra + 1×301. 11 alt texts mis à jour. Fichier final → ulquiorra_seo_new.json.
+- [ ] (autres personnages Bleach)
+
 **T-Shirt Dessin (collection)** :
 - [x] Cluster complet — 39 produits traités (2026-06-17)
