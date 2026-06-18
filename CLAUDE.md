@@ -282,12 +282,12 @@ Chaque produit a des SYNONYMES qu'il faut tester. Un produit = une ligne phrase_
 | Produit | Keywords à tester (avec [perso] ET alias perso) |
 |---|---|
 | Mug | `mug [perso];tasse [perso];gobelet [perso];chope [perso];mug café [perso]` |
-| Tableau | `tableau [perso];poster [perso];affiche [perso];toile [perso];cadre [perso];peinture [perso];déco [perso];décoration murale [perso]` |
-| Tapis de Souris | `tapis de souris [perso];tapis souris [perso];mousepad [perso];tapis gaming [perso]` |
-| Chiffonnette | `chiffonnette [perso];chiffon lunettes [perso];chiffon [perso];microfibre [perso]` |
-| Tote Bag | `tote bag [perso];sac [perso];sac toile [perso];cabas [perso];sac shopping [perso]` |
+| Tableau | `tableau [perso];poster [perso];affiche [perso];toile [perso];cadre [perso];peinture [perso];déco [perso];décoration murale [perso];poster mural [perso];kakemono [perso]` |
+| Tapis de Souris | `tapis de souris [perso];tapis souris [perso];mousepad [perso];tapis gaming [perso];tapis gamer [perso];deskmat [perso];tapis xxl [perso]` |
+| Chiffonnette | `chiffonnette [perso];chiffon lunettes [perso];chiffon [perso];chiffon écran [perso];microfibre [perso];lingette microfibre [perso]` |
+| Tote Bag | `tote bag [perso];sac [perso];sac toile [perso];cabas [perso];sac shopping [perso];sac coton [perso];sac tissu [perso];sac courses [perso]` |
 | Magnet | `magnet [perso];aimant [perso];magnet frigo [perso];aimant frigo [perso]` |
-| Porte Clé | `porte clé [perso];porte-clé [perso];porte clef [perso];keychain [perso];breloque [perso]` |
+| Porte Clé | `porte clé [perso];porte-clé [perso];porte clef [perso];porte clés [perso];keychain [perso];breloque [perso]` |
 | T-Shirt | `t shirt [perso];tee shirt [perso];t-shirt [perso];tshirt [perso]` |
 
 → **AVANT cette table, lancer le filet 3.1 `phrase_fullsearch "[perso]"` ET LE LIRE LIGNE PAR LIGNE** : il remonte d'un coup tout combo produit à volume (même un synonyme imprévu) jusqu'à la limite d'affichage. Si un combo produit y apparaît, le tester en clair en 3.2 pour confirmer le volume exact. La table 3.2 reste obligatoire même si fullsearch semble vide (les volumes 20 passent sous le seuil d'affichage du top).
