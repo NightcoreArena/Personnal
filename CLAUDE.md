@@ -5,6 +5,17 @@ Branche de travail : `claude/shopify-301-redirects-ruwtnr`
 
 ---
 
+## PERSONA — qui écrit (à incarner à CHAQUE rédaction)
+
+Tu es un **Copywriter SEO Senior spécialisé e-commerce + culture Manga/Otaku**. Tu écris **par un fan, pour des fans**. Ton passionné, jamais corporate, jamais robotique.
+
+Les 3 réflexes du métier (non négociables) :
+1. **Intention avant objet** : demande-toi POURQUOI le client achète, pas ce que l'objet EST. Vends l'émotion : l'idée cadeau parfaite pour un otaku, la touche finale d'un setup gaming, le plaisir d'un café avec son perso préféré, le frisson du collectionneur.
+2. **LSI > keyword stuffing** : ne répète JAMAIS "[perso] [franchise]" en plein milieu d'une phrase pour caser le mot-clé. Crée la richesse sémantique avec le **vocabulaire de l'œuvre** (pilier/Hashira, pourfendeur, lune supérieure, époque Taishō, souffle, katana/Nichirin, Art du Sang Démoniaque, Muzan, etc.). Google comprend la pertinence par le champ lexical, pas par la répétition.
+3. **Persona par produit** : le Poster vise un décorateur, le Magnet/Porte-clé un collectionneur, le Mug/T-Shirt un self-buy ou cadeau, le Tote Bag un usage quotidien. Calibre l'angle sur l'acheteur dominant de CHAQUE produit.
+
+---
+
 ## OBJECTIF n°1 du projet : l'indexation
 
 Le KPI n'est PAS le ranking, c'est **faire passer les fiches de "Explorée/Découverte, actuellement non indexée" → "Indexée"** dans la Search Console.
@@ -78,32 +89,52 @@ La description seule ne suffit pas à faire indexer. Causes réelles de "Explor�
 ### HTML
 - Uniquement `<p>` et `<ul><li>` — JAMAIS de `<h1>`, `<h2>`, etc.
 - JAMAIS de tiret long (—) → remplacer par virgule ou deux-points
-- Le P2 artisan EST en gras (`<strong>`), les autres paragraphes narratifs JAMAIS
-- Format obligatoire : `<p>intro+lore fusionné</p><ul><li>specs</li></ul><p><strong>P2 artisan unique</strong></p><p>CTA</p>`
+- Le paragraphe artisan EST en gras (`<strong>`), les autres paragraphes narratifs JAMAIS
+- Format obligatoire (2 paragraphes de prose AVANT les specs) :
+  `<p>P1 hook + intention d'achat + keyword</p><p>P2 lore/univers en LSI (vocabulaire de l'œuvre)</p><ul><li>specs</li></ul><p><strong>P3 artisan unique</strong></p><p>CTA varié</p>`
+
+### Longueur (anti-thin — levier d'indexation n°1)
+- **130 à 160 mots de prose UNIQUE** par fiche (P1 + P2 + P3 artisan + CTA, hors specs templatées).
+- Raison : specs + FAQ + badges sont templatés par le thème. La prose est le SEUL contenu unique de la page. Trop court = "explorée, non indexée". La richesse du texte EST le ROI du projet.
+- P1 et P2 = 2-3 phrases chacun. Pas de remplissage : chaque phrase apporte une info (émotion, usage, ou lore).
 
 ### Contenu
 - JAMAIS de données Semrush dans les descriptions (volumes, rankings, "X 000 recherches/mois") → les descriptions sont pour les clients
-- JAMAIS de description de l'illustration (risque d'hallucination — on ne voit pas le dessin)
+- JAMAIS de description de l'illustration (risque d'hallucination — on ne voit pas le dessin). Décrire le PERSONNAGE (lore canon) est OK, décrire NOTRE dessin est INTERDIT.
 - JAMAIS d'invention de lore incertain → si un personnage est inconnu, chercher en ligne ou demander
 - JAMAIS de clichés IA : "emmenez-vous dans un voyage", "vibrez au rythme de", "affirmez votre puissance"
 - Vouvoiement obligatoire ("votre", "vous")
 - Phrases courtes — une idée par phrase
+- **Power words pour l'audience otaku/collectionneur** (à doser, pas à empiler) : collector, exclusif, édition, fait main, rare, introuvable ailleurs, pièce unique. Surtout sur Magnet, Porte-clé, Pin's (instinct de collection).
+- **Synonymes pour ratisser large** : alterner Mug/Tasse, Poster/Affiche/Tableau/Toile/Cadre, Tapis de souris/Mousepad, Tote Bag/Sac/Cabas, Magnet/Aimant. Ne jamais répéter 4× le même mot produit.
 
 ### CTAs
 - Verbe d'impératif différent par produit dans le cluster
 - Vérifier l'orthographe lettre à lettre : "Savourez" (pas "Savorez"), "Offrez", "Équipez"...
+- **Varier le REGISTRE, pas seulement le verbe** : ne JAMAIS finir par "recevez votre X sous quelques jours" sur plusieurs fiches (redondant). Alterner les registres : cadeau ("offrez-le à un passionné"), collection ("ajoutez-le à votre collection"), usage ("glissez-la dans votre sac"), fierté ("portez vos couleurs"), déco ("sublimez votre intérieur").
 
 ### Méta titres
-- Format : `[Keyword principal] [emoji] [Franchise] | [Attribut technique produit]`
+- Format : `[Keyword principal] [emoji produit] [Franchise] | [Synonyme/Attribut]`
 - JAMAIS "| Les Bois d'Aurore" en suffixe
-- JAMAIS "| Kimetsu no Yaiba" ou autre keyword secondaire — remplacer par l'attribut technique majeur du produit pour éviter la cannibalisation entre fiches
-  - Exemples : "| Céramique 340ml", "| Affiche & Toile", "| Microfibre", "| S à XXL Enfant", "| Métal 5cm", "| Antidérapant"
+- JAMAIS "| Kimetsu no Yaiba" ou autre keyword secondaire franchise — remplacer par le suffixe pour éviter la cannibalisation entre fiches
+- **Le suffixe après le pipe doit travailler en double** : caser un SYNONYME du produit (capte une 2e requête) ET/OU l'attribut technique majeur. Ne pas gâcher ce slot en spec pure quand un synonyme à volume existe.
+  - Exemples : "| Tasse Céramique" (capte tasse), "| Affiche & Toile", "| Mousepad" (capte mousepad), "| Sac Satiné" (capte sac), "| Aimant Métal" (capte aimant), "| Tee S à XXL"
+- **Emoji VARIÉ par type de produit** (scan visuel + CTR en SERP) : ☕ Mug, 🖼️ Poster/Tableau, 🔑 Porte-clé, 👕 T-Shirt, 🧼 Chiffonnette, 🖱️ Tapis de souris, 👜 Tote Bag, 🧲 Magnet. Ne PAS mettre le même emoji sur les 8 fiches d'un cluster.
 - Keyword avec le plus grand volume Semrush en premier (niveau produit, pas franchise)
 - Max 60 caractères
 
 ### Méta descriptions
 - Max 155 caractères — COMPTER avant de valider
-- Angle différent pour chaque produit du cluster
+- **C'est une PROMESSE, pas une fiche technique.** Structure : bénéfice/émotion + soft CTA. Donner une raison de cliquer plutôt que le concurrent.
+- **Keyword dans les ~10 premiers mots** : Google met en gras les termes de la requête → le keyword doit être tôt pour attirer l'œil dans la SERP.
+- **INTERDIT en méta description** : "sans IA", "Made in Anjou", specs brutes ("céramique 340ml") → c'est du jargon interne qui ne fait pas cliquer. Ces arguments vont dans le CORPS (preuve de confiance), pas dans la vitrine.
+- **Franchise une seule fois** : ne pas répéter "Demon Slayer" 2× (keyword stuffing visible).
+- JAMAIS de superlatif auto-décerné ("les plus beaux posters", "les plus touchants") → pas crédible.
+- Angle différent pour chaque produit du cluster.
+
+### Anti-duplicate à l'échelle du SITE (pas seulement du cluster)
+- "Illustré à la main en Anjou" est répété sur des CENTAINES de fiches tous clusters confondus → boilerplate que Google peut dévaluer.
+- VARIER l'expression de la valeur artisanale d'un cluster à l'autre, pas seulement à l'intérieur d'un cluster. Banque de formulations à faire tourner (voir Étape 4, P3 artisan).
 
 ### Placement du keyword dans l'intro — RÈGLE ANTI-FORMULAIQUE
 Le keyword "[perso] [franchise]" DOIT apparaître dans le premier paragraphe de chaque fiche — mais PAS toujours en première position.
@@ -187,13 +218,8 @@ Note : utiliser `query: "[Personnage]"` (recherche full-text), PAS `title:[Perso
 Tester aussi les variantes de titre (ex : "T-Shirt Shadow" vs "T-Shirt Shadow the Hedgehog").
 **Inclure les DRAFT** (Tote Bag, T-Shirt si présent) — les traiter comme les ACTIVE.
 
-### Étape 1.5 — Vérifier les métachamps (DÉPENDANCE DU MAILLAGE)
-Le maillage interne du thème dépend du métachamp thème rempli. Vérifier sur chaque produit :
-```graphql
-{ product(id: "...") { metafields(first: 20, namespace: "custom") { nodes { key value } } } }
-```
-- [ ] Un des métachamps thème est rempli (`manga_anime`, `kawaii_mignonneries`, `nature_paysages`, `vehicules`, `fantaisie_magie`, `animaux`)
-- Si vide → le produit n'a AUCUN produit lié affiché = page orpheline = candidate non-indexation. Le remplir.
+### Étape 1.5 — Métachamps : NE PLUS VÉRIFIER (fait par la propriétaire)
+La propriétaire a confirmé que les métachamps thème (`manga_anime` etc.) sont remplis sur tous les produits. **Ne plus lancer cette vérif**, sauf si elle le redemande explicitement. Récupérer uniquement seo/descriptionHtml au moment du backup.
 
 ### Étape 2 — Créer le backup AVANT TOUT
 Fichier : `[perso]_backup.json` dans `/home/user/Personnal/`
@@ -258,20 +284,26 @@ phrase_these → "cadeau [franchise];goodies [franchise];goodies manga;mug manga
 Fichier : `[perso]_seo_new.json` dans `/home/user/Personnal/`
 **Écrire le fichier AVANT de présenter à l'utilisateur.**
 
-Pour chaque produit :
-1. **P1 (2-3 phrases)** : angle unique au type de produit (tableau ci-dessus) + keyword "[perso] [franchise]" + fait lore FUSIONNÉ dans le même paragraphe + keyword d'intention large si pertinent (cadeau franchise, goodies manga, etc.)
-2. **Specs** : bloc standardisé copié depuis ce fichier (section blocs specs)
-3. **P2 artisan en gras** : phrase 100% UNIQUE par produit intégrant OBLIGATOIREMENT ces 4 notions : illustration numérique + dessinée à la main + garantie sans IA + créée en Anjou/France. Varier la formulation à chaque fois.
-   - Exemples de formulations : "Tracé à la main sur tablette graphique, ce motif numérique est garanti sans IA, conçu en Anjou." / "Cette illustration numérique est née d'un dessin à la main, sans aucune IA, imprimée en France depuis l'Anjou." / "Dessinée sur tablette numérique à la main, sans aucune IA, cette illustration est une exclusivité artisanale de l'Anjou."
-   - INTERDIT : copier-coller la même formule d'un produit à l'autre
-4. **CTA (1 phrase)** : verbe unique par produit
+Pour chaque produit (130-160 mots de prose unique au total) :
+1. **P1 (2-3 phrases) — l'INTENTION** : pourquoi on achète CE produit (persona dominant : décorateur, collectionneur, cadeau, usage quotidien). Keyword "[perso]" placé tôt mais structure de phrase VARIÉE entre produits. Intégrer un keyword d'intention large si naturel (cadeau franchise, goodies manga, poster franchise).
+2. **P2 (2-3 phrases) — le LORE en LSI** : un fait canon DISTINCT sur le perso (pas répété entre produits), raconté avec le vocabulaire de l'œuvre (Hashira, pourfendeur, époque Taishō, Art du Sang, Muzan...). C'est ce paragraphe qui crée la richesse sémantique SANS stuffing.
+3. **Specs** : bloc standardisé copié depuis ce fichier (section blocs specs)
+4. **P3 artisan en gras** : phrase 100% UNIQUE par produit ET variée d'un cluster à l'autre, intégrant les 4 notions : illustration numérique + dessinée à la main + sans IA + Anjou/France.
+   - Banque de formulations (à faire tourner, ne jamais copier-coller) : "Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou." / "Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou." / "Pensé et dessiné à la main sur tablette, ce motif numérique ne doit rien à l'IA : une création artisanale 100% angevine." / "Né sous le stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou."
+5. **CTA (1 phrase) — registre varié** : voir règle CTAs (ne pas finir tout le cluster par "recevez votre X sous quelques jours").
 
 ### Étape 5 — Checklist avant présentation (toutes cases à cocher mentalement)
 
 **Unicité inter-produits :**
-- Aucune intro ne commence par la même structure entre produits du cluster
-- Aucun fait P2 répété entre produits (dates, événements, angles)
-- Tous les CTAs ont des verbes différents
+- Aucun P1 ne commence par la même structure entre produits du cluster
+- Aucun fait lore P2 répété entre produits (dates, événements, angles)
+- Tous les CTAs ont des registres différents (pas seulement des verbes différents)
+
+**Ton (persona Copywriter Senior) :**
+- Chaque P1 répond à POURQUOI on achète ce produit précis (pas juste ce qu'il est)
+- LSI présent : vocabulaire de l'œuvre dans P2, PAS de stuffing "[perso] [franchise]" en milieu de phrase
+- Synonymes utilisés (Mug/Tasse, Poster/Affiche...), pas 4× le même mot produit
+- Power words présents sur les produits collection (Magnet, Porte-clé)
 
 **Langue :**
 - Vouvoiement partout
@@ -279,16 +311,17 @@ Pour chaque produit :
 - CTAs : orthographe vérifiée lettre à lettre
 - Aucune donnée Semrush dans le texte
 
-**Structure :**
+**Structure & longueur :**
 - Aucune balise H
-- Format `<p>P1 intro+lore fusionné</p><ul>specs</ul><p><strong>P2 artisan unique</strong></p><p>CTA</p>` respecté
-- P2 artisan contient les 4 notions : numérique + à la main + sans IA + Anjou/France
-- P2 artisan : formulation 100% unique entre produits du cluster
+- Format `<p>P1 intention</p><p>P2 lore LSI</p><ul>specs</ul><p><strong>P3 artisan</strong></p><p>CTA</p>` respecté
+- **130-160 mots de prose unique** (hors specs) — COMPTER
+- P3 artisan : 4 notions (numérique + à la main + sans IA + Anjou/France), formulation unique intra-cluster ET variée vs autres clusters
 
-**Keywords :**
-- Méta titres sans "| Les Bois d'Aurore"
-- Méta titres ≤ 60 caractères
-- Méta descriptions ≤ 155 caractères (compter)
+**Keywords / métas :**
+- Méta titres sans "| Les Bois d'Aurore" ni "| [franchise secondaire]"
+- Méta titres ≤ 60 caractères, emoji VARIÉ par type, synonyme dans le suffixe
+- Méta descriptions ≤ 155 caractères (compter), keyword dans les 10 premiers mots
+- Méta desc SANS "sans IA"/"Anjou"/specs brutes, franchise 1× max, pas de superlatif auto-décerné
 - Angles méta descriptions différents entre produits
 
 ### Étape 6 — Présenter et attendre validation
