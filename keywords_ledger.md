@@ -153,6 +153,22 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 - Hors scope : figurine ulquiorra 70
 - Décision : cluster topique pur sur "ulquiorra". H1 courts sans "Schiffer". Métas gardent "Ulquiorra Schiffer".
 
+### Muzan Kibutsuji (Demon Slayer) — mesuré 2026-06-18
+- Perso : **muzan 8100** > muzan kibutsuji 2400 > muzan demon slayer 1900 > kibutsuji muzan 1300
+- Combos produit (tous NOTHING FOUND = 0) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug 0 / tasse 0 / gobelet 0 | mug muzan (topique) |
+  | Tableau | tableau 0 / poster 0 / affiche 0 / toile 0 / cadre 0 | poster muzan (topique, poster choisi cohérence cluster) |
+  | Porte Clé | porte clé 0 / keychain 0 | topique |
+  | Chiffonnette | chiffonnette 0 / microfibre 0 / chiffon 0 | topique |
+  | Tapis | tapis de souris 0 / mousepad 0 / tapis gaming 0 | topique |
+  | Tote Bag DRAFT | tote bag 0 / sac 0 | topique |
+  | Magnet | magnet 0 / aimant 0 / magnet frigo 0 | topique |
+- Handles renommés : suppression -kibutsuji sur 7 produits + 7×301 créés.
+- Cluster 100% topique pur sur "muzan". H1 = "Mug Muzan" etc.
+- **Nom alternatif (3.1bis) testé** : "muzan jackson" 480, "muzan michael jackson" 260 = INFORMATIONNEL (ressemblance physique). Combos produit = NOTHING FOUND. → allusion discrète dans Tableau P2 ("homme en blanc"), méta titres inchangés.
+
 ---
 
 ## 4. Gap concurrentiel (combos transactionnels via organic_research)
