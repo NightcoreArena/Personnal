@@ -16,6 +16,42 @@ Le KPI n'est PAS le ranking, c'est **faire passer les fiches de "Explorée/Déco
 
 ---
 
+## Leviers d'indexation AU-DELÀ de la description (critiques)
+
+La description seule ne suffit pas à faire indexer. Causes réelles de "Explorée/Découverte, non indexée" et leviers :
+
+### 1. Maillage interne (levier n°1 — une page orpheline ne s'indexe pas)
+- Chaque fiche produit DOIT être liée depuis et vers d'autres pages du site.
+- Dans le descriptionHtml, ajouter un `<p>` final avec 1-2 liens contextuels :
+  - vers la COLLECTION du produit (ex : `<a href="/collections/mug-demon-slayer">tous nos mugs Demon Slayer</a>`)
+  - vers 1 produit FRÈRE du même cluster (ex : depuis Mug Zenitsu → Tableau Zenitsu)
+- Ancre variée : mix semantique + partial-match, PAS toujours l'exact keyword.
+- Objectif : chaque fiche à ≤ 3 clics de l'accueil, 5-10 liens internes entrants idéalement.
+- Vérifier que le thème affiche bien une section "produits similaires" / "related products".
+
+### 2. Schema Product (à valider une fois pour le thème)
+- Vérifier via GraphQL/inspection que les fiches sortent un `Product` JSON-LD avec : name, image, description, brand, offers (price, priceCurrency, availability).
+- Variantes (Tableau : affiche/toile/cadre ; T-Shirt : tailles) → idéalement `hasVariant` / offres multiples.
+- Le schema ne sauve pas un contenu pauvre, mais aide à l'indexation + rich results.
+
+### 3. Alt text des images
+- Chaque image produit doit avoir un alt descriptif contenant le keyword (ex : "Mug Zenitsu Demon Slayer illustré à la main").
+- À vérifier/corriger dans le workflow (champ `media` / `image.altText` via GraphQL).
+
+### 4. Handle / URL
+- Le handle doit contenir le keyword propre, sans faute (ex : `mug-zenitsu`, pas `mug-dragon-de-le-foret`).
+- Ne PAS changer un handle déjà indexé sans redirection 301 (sinon 404).
+
+### 5. Disponibilité produit
+- Une fiche en rupture longue ou à stock 0 est souvent désindexée (Google évite les produits indisponibles).
+- DRAFT = jamais indexé. Écrire la description est utile seulement si le produit sera publié.
+
+### 6. Profondeur de contenu (anti-thin)
+- Le P2 lore d'une seule phrase est léger. Viser un contenu qui AIDE à choisir (voir section profondeur ci-dessous selon le standard validé).
+- Risque à l'échelle du catalogue : même squelette pour tous les "Mug X". Le contenu unique (lore + usage + maillage) est ce qui distingue chaque page.
+
+---
+
 ## Identité du store
 
 **Les Bois d'Aurore** = une seule illustratrice artisanale (la propriétaire). Elle dessine tout à la main, seule, en Anjou.
