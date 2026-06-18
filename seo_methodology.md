@@ -630,7 +630,7 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 - [x] Zenitsu — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Maillage vérifié (métachamps OK). Tableau méta titre = "Poster Zenitsu" (à confirmer Semrush).
 - [ ] Inosuke
 - [ ] Tanjiro
-- [ ] Nezuko
+- [x] Nezuko — 8 produits traités (2026-06-18) : Mug, Poster, Porte Clé, T-Shirt, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Maillage vérifié (métachamps OK). Intentions larges intégrées (cadeau DS 210/mois, poster DS 720/mois, t-shirt manga 720/mois, goodies manga 210/mois).
 - [ ] Rengoku
 - [ ] Doma
 - [ ] (autres personnages DS)
