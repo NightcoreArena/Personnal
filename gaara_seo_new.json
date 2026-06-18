@@ -23,7 +23,13 @@
       "Chiffonnette": {"chiffonnette gaara": 0, "gagnant": "chiffonnette gaara (topique, 0)"},
       "Tapis de Souris": {"tapis de souris gaara": 0, "tapis gaara": 0, "gagnant": "tapis de souris gaara (topique, 0)"},
       "Tote Bag": {"tote bag gaara": 0, "sac gaara": 20, "gagnant": "sac gaara (20) — DRAFT, sac en suffixe du meta titre"},
-      "Magnet": {"magnet gaara": 0, "aimant gaara": 0, "gagnant": "magnet gaara (topique, 0)"}
+      "Magnet": {"magnet gaara": 0, "aimant gaara": 0, "magnet frigo gaara": 0, "aimant frigo gaara": 0, "gagnant": "magnet gaara (topique, 0)"}
+    },
+    "balayage_synonymes_2026-06-18": {
+      "fullsearch_gaara_top100": "Aucun combo produit (mug/tasse/poster/tableau/affiche/magnet/aimant/porte-cle/tote/sac/chiffonnette/tapis) au-dessus de vol 90. Tous nos combos < 90, coherent avec 0 et 20 mesures.",
+      "synonymes_zero": {"gobelet gaara": 0, "chope gaara": 0, "mug cafe gaara": 0, "porte clef gaara": 0, "keychain gaara": 0, "cabas gaara": 0, "sac toile gaara": 0, "mousepad gaara": 0, "tapis gaming gaara": 0, "peinture gaara": 0, "deco gaara": 0, "chiffon gaara": 0, "chiffon lunettes gaara": 0},
+      "hors_cluster": {"t shirt gaara": 20, "tee shirt gaara": 20, "figurine gaara": 590, "pop gaara": 140, "collier gaara": 90},
+      "note": "t shirt gaara 20/mois mais PAS de produit T-Shirt Gaara dans le cluster (7 produits). figurine/pop/collier = produits non vendus (bijoux supprimes)."
     },
     "note": "Franchise Naruto (poster naruto 590, cadeau naruto 320, etc.) deja dans keywords_ledger.md — non re-mesuree."
   },

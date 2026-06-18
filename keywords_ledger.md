@@ -69,6 +69,24 @@ Broad-intent franchise, identiques pour Ulquiorra, Ichigo, Grimmjow, Aizen, Ruki
 
 ## 3. Par perso — trace auditable (combos "[produit] [perso]" mesurés frais)
 
+### Gaara (Naruto) — mesuré 2026-06-18
+- Perso : **gaara 9900** > gaara naruto 1600, gaara tatouage 1600 > gaara kazekage 110
+- Combos produit (balayage synonymes complet via phrase_fullsearch + phrase_these) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug 0 / tasse 0 / gobelet 0 / chope 0 / mug café 0 | mug gaara (topique) |
+  | Tableau | tableau 20 / **poster 20** / affiche 0 / toile 0 / cadre 0 / peinture 0 / deco 0 | **poster gaara** (20, égalité — poster choisi, cohérence cluster) |
+  | Porte Clé | porte clé 0 / porte-clé 0 / porte clef 0 / keychain 0 | topique |
+  | Chiffonnette | chiffonnette 0 / chiffon 0 / chiffon lunettes 0 | topique |
+  | Tapis | tapis de souris 0 / tapis 0 / mousepad 0 / tapis gaming 0 | topique |
+  | Tote Bag DRAFT | tote bag 0 / **sac 20** / cabas 0 / sac toile 0 | "sac" en suffixe du méta titre |
+  | Magnet | magnet 0 / aimant 0 / magnet frigo 0 / aimant frigo 0 | topique |
+- Hors cluster (pas de produit correspondant) : **t shirt gaara 20 / tee shirt gaara 20** (si un T-Shirt Gaara est créé un jour, méta titre OK sur "T-Shirt"). Hors produit : figurine gaara 590, pop gaara 140, collier gaara 90 (bijoux supprimés).
+- Angles lore alignés sur les questions à volume : tatouage/kanji 愛/amour (1600/140/480) → Mug ; rock lee vs gaara 260 → Tapis ; gaara mort 110 → Magnet ; pere de gaara 170 → Chiffonnette ; demon gaara 210 → Porte Clé (Shukaku).
+- Cluster topique pur sur "gaara". Handles OK sans suffixe franchise. H1 courts déjà en place.
+
+---
+
 ### Boruto Uzumaki (Boruto/Naruto) — mesuré 2026-06-18
 - Perso : **boruto 22200** > boruto two blue vortex 12100 > boruto uzumaki 1000 ; jogan boruto 210, boruto naruto 210
 - Combos produit :
