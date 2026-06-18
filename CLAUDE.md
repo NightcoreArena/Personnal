@@ -276,19 +276,21 @@ phrase_related    → "[perso]"          (variantes sémantiques, synonymes, ter
 → Si `phrase_fullsearch` ramène peu, c'est un signal pour tester manuellement TOUS les synonymes en 3.2 (un produit à 0 sur son mot canonique peut avoir du volume sur un synonyme : tableau=0 mais poster=20).
 
 **3.2 — Une requête par type de produit + variantes sémantiques (8 requêtes) :**
-Chaque produit a des SYNONYMES qu'il faut tester. Un produit = une ligne phrase_these avec toutes ses variantes + le perso ET ses alias :
+Chaque produit a des SYNONYMES qu'il faut tester. Un produit = une ligne phrase_these avec toutes ses variantes + le perso ET ses alias.
+**Tester TOUS les synonymes ci-dessous, même ceux qu'on croit nuls : un appel `phrase_these` couvre toute une ligne, donc le coût est nul et les surprises sont réelles (ex : Gaara → tout produit à 0 sauf "poster" 20 et "sac" 20 ; "t shirt gaara" 20 alors que pas de produit). Ne JAMAIS raccourcir la liste.**
 
 | Produit | Keywords à tester (avec [perso] ET alias perso) |
 |---|---|
-| Mug | `mug [perso];tasse [perso]` |
-| Tableau | `tableau [perso];poster [perso];affiche [perso];toile [perso];cadre [perso]` |
-| Tapis de Souris | `tapis de souris [perso];tapis souris [perso];mousepad [perso]` |
-| Chiffonnette | `chiffonnette [perso];chiffon lunettes [perso];microfibre [perso]` |
-| Tote Bag | `tote bag [perso];sac [perso];sac toile [perso];cabas [perso]` |
-| Magnet | `magnet [perso];aimant [perso];magnet frigo [perso]` |
-| Porte Clé | `porte clé [perso];porte-clé [perso];porte clef [perso];keychain [perso]` |
-| T-Shirt | `t shirt [perso];tee shirt [perso];t-shirt [perso]` |
+| Mug | `mug [perso];tasse [perso];gobelet [perso];chope [perso];mug café [perso]` |
+| Tableau | `tableau [perso];poster [perso];affiche [perso];toile [perso];cadre [perso];peinture [perso];déco [perso];décoration murale [perso]` |
+| Tapis de Souris | `tapis de souris [perso];tapis souris [perso];mousepad [perso];tapis gaming [perso]` |
+| Chiffonnette | `chiffonnette [perso];chiffon lunettes [perso];chiffon [perso];microfibre [perso]` |
+| Tote Bag | `tote bag [perso];sac [perso];sac toile [perso];cabas [perso];sac shopping [perso]` |
+| Magnet | `magnet [perso];aimant [perso];magnet frigo [perso];aimant frigo [perso]` |
+| Porte Clé | `porte clé [perso];porte-clé [perso];porte clef [perso];keychain [perso];breloque [perso]` |
+| T-Shirt | `t shirt [perso];tee shirt [perso];t-shirt [perso];tshirt [perso]` |
 
+→ **AVANT cette table, lancer le filet 3.1 `phrase_fullsearch "[perso]"` ET LE LIRE LIGNE PAR LIGNE** : il remonte d'un coup tout combo produit à volume (même un synonyme imprévu) jusqu'à la limite d'affichage. Si un combo produit y apparaît, le tester en clair en 3.2 pour confirmer le volume exact. La table 3.2 reste obligatoire même si fullsearch semble vide (les volumes 20 passent sous le seuil d'affichage du top).
 → Pour CHAQUE produit, relancer la même ligne en remplaçant [perso] par chaque alias trouvé en 3.1 (ex : Shadow → "shadow the hedgehog", "shadow sonic", "shadow hedgehog").
 → Le keyword gagnant (plus gros volume PROUVÉ cette session) de chaque produit va EN PREMIER dans son méta titre. Ex Ulquiorra : "poster ulquiorra" (20) > "tableau ulquiorra" (0) → méta titre Tableau commence par "Poster", le H1 reste "Tableau Ulquiorra".
 → Le mot produit du méta titre peut donc DIFFÉRER du H1 : on suit le volume, pas le nom du produit. Toujours vérifier l'ordre Mug/Tasse, Tableau/Poster/Affiche, Tapis/Mousepad, Magnet/Aimant, Tote/Sac, Porte-clé/Keychain.
@@ -395,7 +397,7 @@ Pour chaque produit (130-160 mots de prose unique au total) :
 
 **Keywords / métas :**
 - **GATE PREUVE** : chaque mot d'ouverture de méta titre correspond au `gagnant` du bloc `semrush_data`, lui-même issu d'une requête de CETTE session. Si une case n'a pas de chiffre prouvé → relancer Semrush avant de valider. Aucun "0" supposé.
-- **GATE SYNONYME** : pour chaque produit, le synonyme à plus gros volume a bien été testé (Tableau→poster/affiche/toile, Mug→tasse, Tapis→mousepad, Magnet→aimant, Tote→sac, Porte-clé→keychain). Le méta titre suit le volume, pas le nom du H1.
+- **GATE SYNONYME** : le balayage COMPLET de la table 3.2 a été lancé pour chaque produit (TOUS les synonymes, pas juste le mot canonique) + `phrase_fullsearch "[perso]"` lu ligne par ligne. Couverture minimale : Mug→tasse/gobelet/chope, Tableau→poster/affiche/toile/peinture/déco, Tapis→mousepad/tapis gaming, Magnet→aimant/magnet frigo, Tote→sac/cabas/sac toile, Porte-clé→keychain/porte clef/breloque, Chiffonnette→chiffon/microfibre, T-Shirt→tee shirt/tshirt. Le méta titre suit le volume, pas le nom du H1. Tout synonyme à volume mais SANS produit correspondant est consigné au registre (opportunité produit future).
 - Méta titres sans "| Les Bois d'Aurore" ni "| [franchise secondaire]"
 - Méta titres ≤ 60 caractères, emoji VARIÉ par type, synonyme dans le suffixe
 - Méta descriptions ≤ 155 caractères (compter), keyword dans les 10 premiers mots
