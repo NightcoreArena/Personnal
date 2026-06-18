@@ -231,12 +231,33 @@ La propriétaire a confirmé que les métachamps thème (`manga_anime` etc.) son
 ### Étape 2 — Backup : SUPPRIMÉ (redondant)
 L'historique git + l'historique Shopify suffisent. Ne plus créer de fichier `_backup.json`.
 
-### Étape 2.5 — Renommage handle + 301 (si keyword impose un changement de handle)
-Si le keyword Semrush dominant ne correspond pas au handle actuel (ex : "les carnets" vs "carnet") :
-1. Mettre à jour le `title` ET le `handle` via `productUpdate` (passer les deux dans la même mutation)
-2. Créer les redirections 301 via `urlRedirectCreate` (path = ancien handle, target = nouveau handle)
+### Étape 2.5 — Title (H1) + Handle : quand et comment modifier
+
+**Le title Shopify EST le H1 de la page.** Il doit correspondre exactement au keyword principal de la fiche.
+
+**Format standard du title :** `[Type produit] [Personnage] [Franchise]`
+
+**Quand inclure la franchise dans le title (et le handle) :**
+- Le nom du perso est **ambigu sans franchise** → OBLIGATOIRE (ex : "Ace" → "Ace One Piece", "Shadow" → "Shadow the Hedgehog")
+- Le keyword Semrush dominant **inclut la franchise** → OBLIGATOIRE (ex : "ace one piece" 6600/mois → le title doit contenir "One Piece")
+- Incohérence intra-cluster (certains produits ont la franchise dans le handle, d'autres non) → **uniformiser**
+
+**Quand la franchise est optionnelle dans le title :**
+- Le nom du perso est déjà non-ambigu ET le keyword dominant ne contient pas la franchise (ex : "Trafalgar Law", "Zenitsu")
+
+**Quand modifier title + handle :**
+1. Title actuel ≠ keyword dominant → renommer le title
+2. Handle actuel ≠ slugification du keyword dominant → renommer le handle
+3. Ces deux opérations vont toujours ensemble (title et handle doivent se correspondre)
+
+**Procédure :**
+1. Mettre à jour `title` ET `handle` via `productUpdate` dans la même mutation
+2. Créer les redirections 301 via `urlRedirectCreate` pour chaque handle modifié
    Format : `{ path: "/products/[ancien-handle]", target: "/products/[nouveau-handle]" }`
-3. Faire les deux en batch (aliases GraphQL) pour tous les produits du cluster en une seule passe
+3. Mettre à jour les liens du maillage dans le fichier JSON (les `<a href>` pointent vers les nouveaux handles)
+4. Faire tout en batch (aliases GraphQL) pour tous les produits du cluster en une seule passe
+
+**JAMAIS changer un handle sans créer sa 301 — sinon 404.**
 
 ### Étape 3 — Recherche Semrush (tool : execute_report, database: fr)
 
