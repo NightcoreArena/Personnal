@@ -3,64 +3,73 @@
   "franchise": "Demon Slayer / Kimetsu no Yaiba",
   "date": "2026-06-18",
   "keyword_principal": "demon slayer nezuko (1900/mois) / nezuko kamado (5400/mois)",
-  "keyword_produit_notable": "t shirt nezuko (110/mois)",
+  "intentions_larges": {
+    "poster demon slayer": "720/mois",
+    "t shirt manga": "720/mois",
+    "affiche demon slayer": "390/mois",
+    "t shirt anime": "590/mois",
+    "mug manga": "260/mois",
+    "cadeau demon slayer": "210/mois",
+    "goodies manga": "210/mois",
+    "goodies demon slayer": "110/mois"
+  },
   "products": [
     {
       "id": "gid://shopify/Product/10146828616010",
       "title": "Mug Nezuko",
-      "seo_title": "Mug Nezuko 🌸 Demon Slayer | Kimetsu no Yaiba",
-      "seo_description": "Mug Nezuko Demon Slayer en céramique 340ml, illustration artisanale sans IA fabriquée en Anjou. Pour les fans de la démone aux bambous.",
-      "descriptionHtml": "<p>Chaque matin, un peu de douceur : ce mug est illustré à la main en Anjou. Un accessoire fait pour les fans de Nezuko Demon Slayer.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p>Transformée en démon par Muzan Kibutsuji, Nezuko Kamado a conservé ses souvenirs et ses émotions humaines, ce qui en fait un cas unique parmi tous les démons de la série.</p><p>Savourez chaque café aux côtés de Nezuko avec ce mug artisanal collector.</p>"
+      "seo_title": "Mug Nezuko 🌸 Demon Slayer | Céramique 340ml",
+      "seo_description": "Mug Nezuko Demon Slayer en céramique 340ml, illustration sans IA. L'un des mugs manga les plus touchants pour cadeau Demon Slayer ou collection.",
+      "descriptionHtml": "<p>Nezuko Demon Slayer sur votre tasse du matin : transformée en démon par Muzan Kibutsuji, elle a conservé toute son humanité. L'un des mugs manga les plus touchants pour offrir en cadeau Demon Slayer ou compléter votre collection Kimetsu no Yaiba.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique, ce motif numérique est garanti sans IA, conçu et imprimé artisanalement en Anjou.</strong></p><p>Savourez chaque café aux côtés de Nezuko avec ce mug artisanal collector.</p>"
     },
     {
       "id": "gid://shopify/Product/10183468187978",
       "title": "Tableau Nezuko",
-      "seo_title": "Poster Nezuko 🌸 Demon Slayer | Kimetsu no Yaiba",
-      "seo_description": "Poster Nezuko Demon Slayer en affiche, toile ou cadre. Illustration artisanale sans IA, encres anti-UV, Anjou. La démone sur votre mur.",
-      "descriptionHtml": "<p>Poster Nezuko Demon Slayer en affiche, toile ou cadre : illustré à la main en Anjou, il s'adapte à tous vos espaces.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p>Son bâillon en bambou, porté pour l'empêcher d'attaquer les humains, est devenu l'un des symboles les plus reconnaissables de toute la franchise Demon Slayer.</p><p>Choisissez votre format et recevez votre poster Nezuko sous quelques jours.</p>"
+      "seo_title": "Poster Nezuko 🌸 Demon Slayer | Affiche & Toile",
+      "seo_description": "Poster Nezuko Demon Slayer en affiche, toile ou cadre. Parmi les plus beaux posters Demon Slayer, encres anti-UV, artisanaux, Anjou.",
+      "descriptionHtml": "<p>De tous les posters Demon Slayer disponibles, ce format en affiche, toile ou cadre met en scène Nezuko Demon Slayer et son bâillon en bambou, l'un des symboles les plus reconnaissables de toute la franchise Kimetsu no Yaiba.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique est née d'un dessin à la main, sans aucune assistance IA, imprimée en France depuis l'Anjou.</strong></p><p>Choisissez votre format et recevez votre poster Nezuko sous quelques jours.</p>"
     },
     {
       "id": "gid://shopify/Product/10181110726986",
       "title": "Porte Clé Nezuko",
-      "seo_title": "Porte Clé Nezuko 🌸 Demon Slayer | Kimetsu no Yaiba",
-      "seo_description": "Porte-clé Nezuko Demon Slayer en métal robuste, médaillon 3x4cm. Illustration artisanale sans IA, Anjou. La démone toujours avec vous.",
-      "descriptionHtml": "<p>Un porte-clé en métal robuste illustré à la main en Anjou : la silhouette de Nezuko Demon Slayer vous accompagne au quotidien.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p>Sa capacité à réduire son corps lui permet de voyager cachée dans une petite boîte en bois portée par Tanjiro, une façon unique de traverser le monde ensemble.</p><p>Emportez Nezuko partout avec vous grâce à ce porte-clé artisanal collector.</p>"
+      "seo_title": "Porte Clé Nezuko 🌸 Demon Slayer | Métal 3x4cm",
+      "seo_description": "Porte-clé Nezuko Demon Slayer en métal 3x4cm. Cadeau Demon Slayer collector, illustration artisanale sans IA fabriquée en Anjou.",
+      "descriptionHtml": "<p>Un accessoire métal pour toujours garder avec vous la démone la plus attachante de Kimetsu no Yaiba : Nezuko Demon Slayer, celle qui voyage cachée dans une boîte en bois sur le dos de Tanjiro. Un cadeau Demon Slayer discret et collector.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Un dessin entièrement réalisé à la main sur tablette numérique, garanti sans IA, par une illustratrice basée en Anjou.</strong></p><p>Emportez Nezuko partout avec vous grâce à ce porte-clé artisanal collector.</p>"
     },
     {
       "id": "gid://shopify/Product/10283659460938",
       "title": "T-Shirt Nezuko",
-      "seo_title": "T-Shirt Nezuko 🌸 Demon Slayer | Kimetsu no Yaiba",
-      "seo_description": "T-shirt Nezuko Demon Slayer, tailles S à XXL et enfant. Illustration artisanale sans IA, Anjou. Portez la démone au bambou avec vous.",
-      "descriptionHtml": "<p>Ce t-shirt rend hommage à Nezuko Demon Slayer. Illustré à la main en Anjou, disponible du S au XXL et en tailles enfant.</p><ul><li>Taille Adulte : S à XXL</li><li>Taille Enfant : 2 à 12 ans</li><li>Matière : Polyester doux toucher coton</li><li>Impression : Sublimation thermique haute définition</li><li>Entretien : Lavable en machine 30°</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p>Son Art du Sang, la Combustion Démonique, lui permet de créer des flammes qui ne brûlent que les démons et épargnent les humains.</p><p>Portez votre passion pour Nezuko avec ce t-shirt artisanal disponible en toutes tailles.</p>"
+      "seo_title": "T-Shirt Nezuko 🌸 Demon Slayer | S à XXL Enfant",
+      "seo_description": "T-shirt manga Nezuko Demon Slayer, tailles S à XXL et enfant. Goodies Demon Slayer illustration artisanale sans IA, fabriqué en Anjou.",
+      "descriptionHtml": "<p>Ce t-shirt manga rend hommage à Nezuko Demon Slayer, la démone à la Combustion Démonique, dont les flammes protègent les humains sans jamais les blesser. Le t-shirt anime Kimetsu no Yaiba qu'il vous faut pour afficher votre camp.</p><ul><li>Taille Adulte : S à XXL</li><li>Taille Enfant : 2 à 12 ans</li><li>Matière : Polyester doux toucher coton</li><li>Impression : Sublimation thermique haute définition</li><li>Entretien : Lavable en machine 30°</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>L'illustration numérique est dessinée à la main, sans IA, par une artiste de l'Anjou. 100% Made in France.</strong></p><p>Portez votre passion pour Nezuko avec ce t-shirt artisanal disponible en toutes tailles.</p>"
     },
     {
       "id": "gid://shopify/Product/15361801421130",
       "title": "Chiffonnette Nezuko",
-      "seo_title": "Chiffonnette Nezuko 🌸 Demon Slayer | Cadeau",
-      "seo_description": "Chiffonnette Nezuko Demon Slayer microfibre 18x15cm. Nettoie lunettes et écrans sans rayer, lavable en machine. Artisanale sans IA, Anjou.",
-      "descriptionHtml": "<p>Cette chiffonnette microfibre illustrée à la main en Anjou nettoie vos écrans sans rayer. Pour les fans de Nezuko Demon Slayer, elle est aussi pratique qu'unique.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p>Le motif asanoha de son kimono rose, symbole de croissance et de protection, est l'un des éléments visuels les plus emblématiques de Demon Slayer.</p><p>Glissez cette chiffonnette Nezuko dans votre trousse et nettoyez vos écrans avec style.</p>"
+      "seo_title": "Chiffonnette Nezuko 🌸 Demon Slayer | Microfibre",
+      "seo_description": "Chiffonnette Nezuko Demon Slayer microfibre 18x15cm. Nettoie lunettes et écrans, lavable. Goodies manga sans IA, Anjou. Idée cadeau Demon Slayer.",
+      "descriptionHtml": "<p>La chiffonnette idéale pour les fans de Kimetsu no Yaiba : le motif emblématique de Nezuko Demon Slayer nettoie vos écrans sans rayer tout en affichant votre passion. Un goodies manga pratique à offrir en cadeau Demon Slayer.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Chaque trait de cette illustration numérique a été dessiné à la main, sans aucune IA, dans un atelier en Anjou.</strong></p><p>Glissez cette chiffonnette Nezuko dans votre trousse et nettoyez vos écrans avec style.</p>"
     },
     {
       "id": "gid://shopify/Product/15372520948042",
       "title": "Tapis de Souris Nezuko",
-      "seo_title": "Tapis de Souris Nezuko 🌸 Demon Slayer | Gaming",
-      "seo_description": "Tapis de souris Nezuko Demon Slayer 22x18cm, base antidérapante. Illustration artisanale sans IA, Anjou. La démone sur votre setup.",
-      "descriptionHtml": "<p>Nezuko Demon Slayer s'invite sur votre bureau avec ce tapis de souris illustré à la main en Anjou. Surface polyester optimale, base antidérapante.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p>Contrairement à la grande majorité des démons, Nezuko choisit de protéger les humains plutôt que de les dévorer, guidée par les liens familiaux qui ont résisté à sa transformation.</p><p>Équipez votre setup avec ce tapis Nezuko et démarrez chaque session sous la protection de la démone.</p>"
+      "seo_title": "Tapis de Souris Nezuko 🌸 Demon Slayer | Antidérapant",
+      "seo_description": "Tapis de souris Nezuko Demon Slayer 22x18cm, base antidérapante. Goodies Demon Slayer pour votre setup, illustration sans IA, Anjou.",
+      "descriptionHtml": "<p>Sur votre bureau de jeu, place à Nezuko Demon Slayer : contrairement à tous les démons de Kimetsu no Yaiba, elle protège les humains plutôt que de les dévorer. Un goodies Demon Slayer unique pour un setup qui a du sens.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Né d'un geste à la main sur tablette graphique, ce motif numérique est produit sans IA en Anjou, France.</strong></p><p>Équipez votre setup avec ce tapis Nezuko et démarrez chaque session sous la protection de la démone.</p>"
     },
     {
       "id": "gid://shopify/Product/15380213825866",
       "title": "Tote Bag Nezuko",
       "status": "DRAFT",
-      "seo_title": "Tote Bag Nezuko 🌸 Demon Slayer | Kimetsu no Yaiba",
-      "seo_description": "Tote bag Nezuko Demon Slayer satiné brillant 36x33cm. Illustration artisanale sans IA, fabriqué en Anjou. La démone au quotidien.",
-      "descriptionHtml": "<p>Un tote bag en satiné brillant illustré à la main en Anjou : emmenez Nezuko Demon Slayer partout où vous allez.</p><ul><li>Surface : Tissu satiné épais (280g)</li><li>Dimensions : 36x33cm</li><li>Impression : Sublimation brillante inaltérable</li><li>Entretien : Lavage à 30° max</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p>Au terme de l'histoire de Demon Slayer, Nezuko retrouve sa forme humaine, accomplissant la promesse faite par Tanjiro dès les premières pages de la série.</p><p>Emmenez Nezuko avec vous chaque jour avec ce tote bag artisanal unique.</p>"
+      "seo_title": "Tote Bag Nezuko 🌸 Demon Slayer | Satiné 36x33cm",
+      "seo_description": "Tote bag Nezuko Demon Slayer satiné 36x33cm. Cadeau Demon Slayer original, illustration artisanale sans IA, fabriquée en Anjou.",
+      "descriptionHtml": "<p>Ce tote bag satiné est dédié à Nezuko Demon Slayer, l'héroïne dont le retour à l'humanité représente l'un des moments les plus poignants de tout Kimetsu no Yaiba. Un cadeau Demon Slayer à emporter partout avec style.</p><ul><li>Surface : Tissu satiné épais (280g)</li><li>Dimensions : 36x33cm</li><li>Impression : Sublimation brillante inaltérable</li><li>Entretien : Lavage à 30° max</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Illustration numérique dessinée à la main en Anjou, sans intelligence artificielle : une création française 100% artisanale.</strong></p><p>Emmenez Nezuko avec vous chaque jour avec ce tote bag artisanal unique.</p>"
     },
     {
       "id": "gid://shopify/Product/15380975485258",
       "title": "Magnet Nezuko",
-      "seo_title": "Magnet Nezuko 🌸 Demon Slayer | Kimetsu no Yaiba",
-      "seo_description": "Magnet Nezuko Demon Slayer coque métal 5cm, finition Mylar glossy. Illustration artisanale sans IA, Anjou. Pour les fans de Demon Slayer.",
-      "descriptionHtml": "<p>Pour votre frigo ou votre collection : ce magnet Nezuko Demon Slayer est illustré à la main en Anjou. Compact, solide, collector.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p>Créée par Koyoharu Gotouge, Nezuko Kamado est devenue l'un des personnages féminins les plus populaires de toute la culture manga, reconnue bien au-delà des seuls fans de Demon Slayer.</p><p>Accrochez ce magnet Nezuko sur votre frigo et affichez votre passion pour Demon Slayer.</p>"
+      "seo_title": "Magnet Nezuko 🌸 Demon Slayer | Métal 5cm",
+      "seo_description": "Magnet Nezuko Demon Slayer coque métal 5cm, Mylar glossy. Goodies manga collector, illustration artisanale sans IA, Anjou.",
+      "descriptionHtml": "<p>Pour votre frigo ou votre collection de goodies manga : Nezuko Demon Slayer en magnet métal, compact et collector. Créée par Koyoharu Gotouge, Nezuko Kamado est l'un des personnages féminins les plus populaires de tout l'univers Kimetsu no Yaiba.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Dessinée sur tablette numérique à la main, sans aucune IA, cette illustration est une exclusivité artisanale de l'Anjou.</strong></p><p>Accrochez ce magnet Nezuko sur votre frigo et affichez votre passion pour Demon Slayer.</p>"
     }
   ]
 }

@@ -78,8 +78,8 @@ La description seule ne suffit pas à faire indexer. Causes réelles de "Explor�
 ### HTML
 - Uniquement `<p>` et `<ul><li>` — JAMAIS de `<h1>`, `<h2>`, etc.
 - JAMAIS de tiret long (—) → remplacer par virgule ou deux-points
-- JAMAIS de gras/italique dans les paragraphes narratifs
-- Format obligatoire : `<p>intro</p><ul><li>specs</li></ul><p>P2 lore</p><p>CTA</p>`
+- Le P2 artisan EST en gras (`<strong>`), les autres paragraphes narratifs JAMAIS
+- Format obligatoire : `<p>intro+lore fusionné</p><ul><li>specs</li></ul><p><strong>P2 artisan unique</strong></p><p>CTA</p>`
 
 ### Contenu
 - JAMAIS de données Semrush dans les descriptions (volumes, rankings, "X 000 recherches/mois") → les descriptions sont pour les clients
@@ -94,8 +94,10 @@ La description seule ne suffit pas à faire indexer. Causes réelles de "Explor�
 - Vérifier l'orthographe lettre à lettre : "Savourez" (pas "Savorez"), "Offrez", "Équipez"...
 
 ### Méta titres
-- Format : `[Keyword principal] [emoji] [Qualifiant] | [Keyword secondaire]`
+- Format : `[Keyword principal] [emoji] [Franchise] | [Attribut technique produit]`
 - JAMAIS "| Les Bois d'Aurore" en suffixe
+- JAMAIS "| Kimetsu no Yaiba" ou autre keyword secondaire — remplacer par l'attribut technique majeur du produit pour éviter la cannibalisation entre fiches
+  - Exemples : "| Céramique 340ml", "| Affiche & Toile", "| Microfibre", "| S à XXL Enfant", "| Métal 5cm", "| Antidérapant"
 - Keyword avec le plus grand volume Semrush en premier (niveau produit, pas franchise)
 - Max 60 caractères
 
@@ -236,9 +238,18 @@ phrase_these → "[perso] [franchise];[franchise] [perso]"
 ```
 → La variante gagnante est la phrase exacte à mettre dans chaque intro.
 
+**3.4 — Intentions larges (OBLIGATOIRE si keyword exact < 50/mois) :**
+Si "[produit] [perso]" a moins de 50 recherches/mois, lancer une recherche sur les intentions plus larges à intégrer dans les textes :
+```
+phrase_these → "cadeau [franchise];goodies [franchise];goodies manga;mug manga;t shirt manga;affiche [franchise];poster [franchise];décoration [franchise]"
+```
+→ Les keywords à volume (ex : "cadeau demon slayer" 210/mois, "poster demon slayer" 720/mois) sont à intégrer NATURELLEMENT dans le P1 et/ou la méta description.
+→ Objectif : capter un trafic plus large que le seul "[produit] [perso]" quasi nul.
+→ Ne PAS forcer — si ça ne rentre pas naturellement, ne pas l'inclure.
+
 **Règle de propriété des keywords :**
-- "[produit] [franchise]" (ex : "mug demon slayer") → appartient aux COLLECTIONS, pas aux fiches produit
-- "[produit] [perso]" → appartient à la fiche produit (mais souvent volume ~0 en FR)
+- "[produit] [franchise]" (ex : "mug demon slayer") → appartient aux COLLECTIONS pour le méta titre, MAIS peut apparaître naturellement dans le texte des fiches produit
+- "[produit] [perso]" → keyword du méta titre de la fiche produit (même à volume faible)
 - Exception franchises solo (Goldorak) : perso = franchise, le keyword va sur la fiche produit
 
 **Rappel ranking (DA ~8) :** la description fait la conversion + la longue traîne, PAS le ranking sur les head terms. Les vrais leviers de ranking sont les collections, les backlinks et le feed Shopping. Ne jamais promettre un ranking head-term via une description de fiche produit.
@@ -248,9 +259,11 @@ Fichier : `[perso]_seo_new.json` dans `/home/user/Personnal/`
 **Écrire le fichier AVANT de présenter à l'utilisateur.**
 
 Pour chaque produit :
-1. **Intro (1-2 phrases)** : angle unique au type de produit (tableau ci-dessus) + phrase exacte "[perso] [franchise]" dedans
+1. **P1 (2-3 phrases)** : angle unique au type de produit (tableau ci-dessus) + keyword "[perso] [franchise]" + fait lore FUSIONNÉ dans le même paragraphe + keyword d'intention large si pertinent (cadeau franchise, goodies manga, etc.)
 2. **Specs** : bloc standardisé copié depuis ce fichier (section blocs specs)
-3. **P2 (1 phrase)** : fait lore/culturel sur le personnage — JAMAIS de données Semrush
+3. **P2 artisan en gras** : phrase 100% UNIQUE par produit intégrant OBLIGATOIREMENT ces 4 notions : illustration numérique + dessinée à la main + garantie sans IA + créée en Anjou/France. Varier la formulation à chaque fois.
+   - Exemples de formulations : "Tracé à la main sur tablette graphique, ce motif numérique est garanti sans IA, conçu en Anjou." / "Cette illustration numérique est née d'un dessin à la main, sans aucune IA, imprimée en France depuis l'Anjou." / "Dessinée sur tablette numérique à la main, sans aucune IA, cette illustration est une exclusivité artisanale de l'Anjou."
+   - INTERDIT : copier-coller la même formule d'un produit à l'autre
 4. **CTA (1 phrase)** : verbe unique par produit
 
 ### Étape 5 — Checklist avant présentation (toutes cases à cocher mentalement)
@@ -268,8 +281,9 @@ Pour chaque produit :
 
 **Structure :**
 - Aucune balise H
-- Format `<p>intro</p><ul>specs</ul><p>P2</p><p>CTA</p>` respecté
-- "illustré à la main en Anjou" et "pour les fans" dans des propositions séparées
+- Format `<p>P1 intro+lore fusionné</p><ul>specs</ul><p><strong>P2 artisan unique</strong></p><p>CTA</p>` respecté
+- P2 artisan contient les 4 notions : numérique + à la main + sans IA + Anjou/France
+- P2 artisan : formulation 100% unique entre produits du cluster
 
 **Keywords :**
 - Méta titres sans "| Les Bois d'Aurore"
