@@ -686,7 +686,10 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 
 **Demon Slayer** :
 - [x] Shinobu Kocho — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : shinobu (14800/mois), shinobu kocho (4400/mois). Cluster topique pur. Poster shinobu kocho (20/mois) → méta titre Tableau = "Poster Shinobu Kocho". Handles renommés : suppression -pilier-insecte sur 7 produits + 7×301. 10 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → shinobu_seo_new.json.
-- [x] Muzan Kibutsuji — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : muzan (8100/mois), muzan kibutsuji (2400/mois). Cluster 100% topique pur (tous combos produit = NOTHING FOUND). Handles renommés : suppression -kibutsuji sur 7 produits + 7×301. 11 alt texts mis à jour (Tote Bag DRAFT sans image). Alias 3.1bis : muzan jackson (480) et muzan michael jackson (260) = informationnel seulement. Fichier final → muzan_seo_new.json.
+- [x] Muzan Kibutsuji — 7 produits traités (2026-06-18)
+
+**Dragon Ball** (cluster par cluster) :
+- [x] Goku Nuage Magique — 5 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris. Keyword : goku nuage magique (170/mois). Cluster topique pur (kintoun = 0, tous combos = NOTHING FOUND). Handles OK (pas de renommage). 10 alt texts mis à jour. Franchise : Dragon Ball > DBZ pour les méta. Fichier final → goku_nuage_magique_seo_new.json. : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : muzan (8100/mois), muzan kibutsuji (2400/mois). Cluster 100% topique pur (tous combos produit = NOTHING FOUND). Handles renommés : suppression -kibutsuji sur 7 produits + 7×301. 11 alt texts mis à jour (Tote Bag DRAFT sans image). Alias 3.1bis : muzan jackson (480) et muzan michael jackson (260) = informationnel seulement. Fichier final → muzan_seo_new.json.
 
 **T-Shirt Dessin (collection)** :
 - [x] Cluster complet — 39 produits traités (2026-06-17)

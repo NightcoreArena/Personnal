@@ -31,6 +31,30 @@ Voir CLAUDE.md Étape 3.7. Ce fichier n'est PAS un devin. On ne déduit jamais "
 
 ## 2. Par franchise — réutilisable pour TOUS les persos de l'œuvre
 
+### Dragon Ball / Dragon Ball Z / Dragon Ball Super (mesuré 2026-06-18, fr)
+Réutilisable pour tous les persos : Goku (toutes variantes), Vegeta, Gohan, Piccolo, Freezer, Cell...
+"Dragon Ball" > "DBZ" pour tous les produits sauf figurine (figurine dbz 1600 > figurine dragon ball 600).
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine dragon ball | 3600 | hors produit, signale intention d'achat DB |
+| figurine dbz | 1600 | hors produit (DBZ > DB pour figurines) |
+| poster dragon ball | 720 | Tableau : texte |
+| t shirt dragon ball | 720 | T-Shirt : texte |
+| poster dbz | 260 | Tableau : texte (complémentaire) |
+| mug dragon ball | 210 | Mug : texte |
+| mug dbz | 140 | Mug : texte (complémentaire) |
+| tapis dragon ball | 140 | Tapis : texte |
+| affiche dragon ball | 110 | Tableau : texte |
+| cadeau dragon ball | 90 | angle cadeau, tous produits |
+| goodies dragon ball | 90 | angle collection |
+| tableau dragon ball | 90 | Tableau : texte |
+| cadeau dbz | 50 | angle cadeau |
+
+→ Franchise principale dans méta titre = "Dragon Ball" (pas "DBZ" ni "Kimetsu no Yaiba"). Exception : figurines hors produit.
+
+---
+
 ### Naruto / Boruto (mesuré 2026-06-18, fr)
 Réutilisable pour tous les persos de l'univers : Boruto, Sarada, Hinata, Naruto, Sasuke, Kawaki...
 
@@ -152,6 +176,23 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
   | Magnet | magnet 0 / aimant 0 | topique |
 - Hors scope : figurine ulquiorra 70
 - Décision : cluster topique pur sur "ulquiorra". H1 courts sans "Schiffer". Métas gardent "Ulquiorra Schiffer".
+
+### Goku Nuage Magique (Dragon Ball) — mesuré 2026-06-18
+- Perso spécifique : **goku nuage magique 170** > nuage magique goku 140 > son goku nuage magique 110 > goku nuage 40
+- Perso large : goku 27100 / son goku 12100 / dragon ball goku 720 / goku enfant 480
+- Kinto'un / kintoun / kinto goku = **0** → les fans FR utilisent "nuage magique", pas le terme japonais
+- Combos produit (NOTHING FOUND = 0 sur tous) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug 0 / tasse 0 | mug goku nuage magique (topique) |
+  | Tableau | tableau 0 / poster 0 / affiche 0 | poster goku nuage magique (topique, poster choisi cohérence cluster) |
+  | Porte Clé | porte clé 0 | topique |
+  | Chiffonnette | chiffonnette 0 | topique |
+  | Tapis | tapis de souris 0 / tapis gaming 0 | topique |
+- Cluster topique pur sur "goku nuage magique". 5 produits, handles OK. Pas de Magnet/Tote Bag propres à ce sous-cluster.
+- **Nom alternatif (3.1bis)** : "son goku nuage magique" 110/mois → tissé dans les descriptions (ex : "chiffonnette Son Goku Nuage Magique"). Pas de volume sur les combos produit → pas dans les méta titres.
+
+---
 
 ### Muzan Kibutsuji (Demon Slayer) — mesuré 2026-06-18
 - Perso : **muzan 8100** > muzan kibutsuji 2400 > muzan demon slayer 1900 > kibutsuji muzan 1300
