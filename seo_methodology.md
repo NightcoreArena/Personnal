@@ -641,7 +641,10 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 
 **Kpop Demon Hunter** :
 - [x] Cluster complet — 8 produits traités (2026-06-17) : Mug, Tableau, Tapis de Souris, Chiffonnette, Tote Bag, Magnet, Porte Clé, T-Shirt
-- ⚠️ Personnages individuels (Rumi, Mira, Zoey, Huntrix) : se renseigner sur le lore avant d'écrire quoi que ce soit
+- [x] Rumi — 6 produits traités (2026-06-18) : Mug, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Pas de Tableau. Keyword principal : rumi kpop demon hunters (14800/mois). Erreurs factuelles corrigées (Tapis + Magnet décrivaient Mirko/MHA). Backup → rumi_backup.json, fichier final → rumi_seo_new.json.
+- [ ] Mira
+- [ ] Zoey
+- [ ] Huntrix (personnage individuel)
 
 **Solo Leveling Arise** :
 - [x] Cluster complet — 8 produits traités (2026-06-17) : Mug, Tableau (renommé Arise), Tapis de Souris, Chiffonnette, Tote Bag, Magnet, Porte Clé, T-Shirt Sung Jinwoo
