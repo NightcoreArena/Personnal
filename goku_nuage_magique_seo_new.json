@@ -1,0 +1,107 @@
+{
+  "cluster": "Goku Nuage Magique",
+  "franchise": "Dragon Ball",
+  "date": "2026-06-18",
+  "version": "v1 — cluster topique pur, 5 produits, handles OK (pas de renommage), semrush_data inclus",
+  "keyword_principal": "goku nuage magique (170/mois)",
+  "alias_perso": {
+    "nuage magique goku": "140/mois",
+    "son goku nuage magique": "110/mois",
+    "goku nuage": "40/mois"
+  },
+  "semrush_data": {
+    "date_recherche": "2026-06-18",
+    "perso_large": {
+      "goku": 27100,
+      "son goku": 12100,
+      "goku dragon ball": 590,
+      "dragon ball goku": 720,
+      "goku enfant": 480,
+      "goku kid": 720,
+      "goku dbz": 260
+    },
+    "perso_nuage_magique": {
+      "goku nuage magique": 170,
+      "nuage magique goku": 140,
+      "son goku nuage magique": 110,
+      "goku nuage": 40,
+      "kinto goku": 0,
+      "kinto'un goku": 0,
+      "goku kintoun": 0
+    },
+    "par_produit": {
+      "Mug":             { "mug goku nuage magique": 0, "tasse goku nuage magique": 0, "gagnant": "mug goku nuage magique (topique, 0)" },
+      "Tableau":         { "tableau goku nuage magique": 0, "poster goku nuage magique": 0, "affiche goku nuage magique": 0, "gagnant": "poster goku nuage magique (topique, 0) — poster choisi coherence cluster" },
+      "Porte Cle":       { "porte cle goku nuage magique": 0, "gagnant": "porte cle goku nuage magique (topique, 0)" },
+      "Chiffonnette":    { "chiffonnette goku nuage magique": 0, "gagnant": "chiffonnette goku nuage magique (topique, 0)" },
+      "Tapis de Souris": { "tapis de souris goku nuage magique": 0, "tapis goku nuage magique": 0, "gagnant": "tapis de souris goku nuage magique (topique, 0)" }
+    },
+    "balayage_synonymes_2026-06-18": {
+      "note": "phrase_these sur tous les combos produit -> ERROR 50 NOTHING FOUND. Confirme 0 pour TOUS les combos. Cluster 100% topique pur.",
+      "kintoun_verdict": "kinto goku / kinto'un goku / goku kintoun = 0. Les fans FR utilisent 'nuage magique', pas le nom japonais. Nom actuel confirme."
+    },
+    "franchise_dragon_ball_reutilisable": {
+      "note": "Dragon Ball > DBZ pour les produits (poster dragon ball 720 > poster dbz 260). A ajouter dans keywords_ledger.md.",
+      "figurine dragon ball": 3600,
+      "poster dragon ball": 720,
+      "t shirt dragon ball": 720,
+      "figurine dbz": 1600,
+      "mug dragon ball": 210,
+      "poster dbz": 260,
+      "tapis dragon ball": 140,
+      "mug dbz": 140,
+      "affiche dragon ball": 110,
+      "cadeau dragon ball": 90,
+      "goodies dragon ball": 90,
+      "tableau dragon ball": 90
+    },
+    "nom_alternatif_3.1bis_2026-06-18": {
+      "son goku nuage magique": 110,
+      "verdict": "'Son Goku' a du volume comme variante (110/mois). Tisse naturellement dans les descriptions. Le H1 reste 'Goku' (sans 'Son') car 'goku nuage magique' (170) > 'son goku nuage magique' (110)."
+    }
+  },
+  "handles_renommes": "AUCUN — handles actuels deja corrects (goku-nuage-magique dans toutes les URLs)",
+  "maillage_anneau": "Mug → Tableau → Porte Clé → Chiffonnette → Tapis → Mug",
+  "products": [
+    {
+      "id": "gid://shopify/Product/10146825109834",
+      "title": "Mug Goku Nuage Magique",
+      "handle": "mug-goku-nuage-magique",
+      "seo_title": "Mug Goku Nuage Magique ☕ | Tasse Dragon Ball",
+      "seo_description": "Mug Goku Nuage Magique pour démarrer sous l'œil du Saiyan au cœur pur. La tasse Dragon Ball à s'offrir ou à collectionner.",
+      "descriptionHtml": "<p>Ce mug Goku Nuage Magique est fait pour les fans de Dragon Ball qui commencent leur journée avec le Saiyan au cœur le plus pur de l'univers. La tasse Dragon Ball à s'offrir ou à s'accorder entre deux sessions, à compléter avec notre <a href=\"/products/tableau-goku-nuage-magique\">tableau Goku Nuage Magique</a> pour un bureau digne de la première grande aventure.</p><p>Le Nuage Magique (Kinto'un) est offert à Goku dès les premières pages de Dragon Ball par le Maître Tortue, qui le tenait de Karin. La condition pour le monter est immuable : avoir un cœur absolument pur. Goku n'a jamais eu à se poser la question. Des années plus tard, son fils Gohan héritera de ce don rare, preuve que la pureté se transmet aussi de père en fils dans la saga.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Savourez votre café sous les nuages de Dragon Ball.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10183463371082",
+      "title": "Tableau Goku Nuage Magique",
+      "handle": "tableau-goku-nuage-magique",
+      "seo_title": "Poster Goku Nuage Magique 🖼️ | Affiche Dragon Ball",
+      "seo_description": "Poster Goku Nuage Magique en HD ou toile tendue. L'affiche Dragon Ball iconique du Saiyan au-dessus des nuages pour vos murs.",
+      "descriptionHtml": "<p>Un poster Goku Nuage Magique qui ramène les murs à l'origine de tout. Cette affiche Dragon Ball en impression HD ou toile tendue célèbre la silhouette la plus iconique de la saga, à associer avec le <a href=\"/products/porte-cle-goku-nuage-magique\">porte-clé Goku Nuage Magique</a> pour un ensemble collector digne des premières aventures.</p><p>C'est à bord du Nuage Magique que Goku et Bulma sillonnent le monde pour la première fois à la recherche des sept Dragon Balls dans Dragon Ball. Cette image du jeune Son Goku filant dans le ciel à bord du nuage jaune est devenue l'une des plus reconnaissables de l'histoire du manga. Elle incarne la promesse de la saga entière : l'aventure, l'amitié, et un Saiyan que rien ne peut arrêter.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Pensé et dessiné à la main sur tablette graphique, ce motif numérique est garanti sans IA et façonné dans notre atelier de l'Anjou.</strong></p><p>Accrochez-le, l'aventure Dragon Ball s'installera sur vos murs.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10181106205002",
+      "title": "Porte Clé Goku Nuage Magique",
+      "handle": "porte-cle-goku-nuage-magique",
+      "seo_title": "Porte Clé Goku Nuage Magique 🔑 | Métal Dragon Ball",
+      "seo_description": "Porte-clé Goku Nuage Magique en métal collector. Le goodie Dragon Ball rare pour les fans du jeune Saiyan au cœur pur.",
+      "descriptionHtml": "<p>Compact, solide, collector : ce porte-clé Goku Nuage Magique en métal accompagne vos clés du matin au soir, rappel discret de la première grande aventure Dragon Ball. À glisser dans un cadeau avec la <a href=\"/products/chiffonnette-goku-nuage-magique\">chiffonnette Goku Nuage Magique</a> pour un duo goodie parfait.</p><p>Kakarott, le bébé Saiyan envoyé sur Terre depuis la planète Végéta, est recueilli par Papy Gohan dans Dragon Ball. C'est lui qui lui enseigne les arts martiaux et lui donne le nom de Son Goku. Cette enfance terrienne, loin de ses origines guerrières, forge en lui ce mélange unique de puissance brute et de cœur absolument pur qui lui permettra, des années plus tard, de chevaucher le Nuage Magique sans la moindre difficulté.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique en Anjou, ce dessin numérique ne doit pas une seule ligne à l'IA.</strong></p><p>Gardez-le sur vous, la pièce rare qui complète toute collection Dragon Ball.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15361801814346",
+      "title": "Chiffonnette Goku Nuage Magique",
+      "handle": "chiffonnette-goku-nuage-magique",
+      "seo_title": "Chiffonnette Goku Nuage Magique 🧼 | Microfibre Dragon Ball",
+      "seo_description": "Chiffonnette Goku Nuage Magique en microfibre : nettoie lunettes et écrans. Cadeau Dragon Ball inattendu pour les collectionneurs.",
+      "descriptionHtml": "<p>Le cadeau Dragon Ball que personne n'attend mais que les fans de Goku gardent précieusement. Cette chiffonnette Son Goku Nuage Magique en microfibre nettoie lunettes, écrans et smartphones sans rayer, à doubler avec le <a href=\"/products/tapis-de-souris-goku-nuage-magique\">tapis de souris Goku Nuage Magique</a> pour un cadeau bureau complet.</p><p>La quête des sept Dragon Balls commence à bord du Nuage Magique dans Dragon Ball : Goku et Bulma traversent forêts, montagnes et océans pour les rassembler. Cette première aventure, mélange de gags, d'action et d'émerveillement, pose les fondations de toute la saga. Sans elle, il n'y aurait ni Tenkaichi Budokai, ni Super Saiyans, ni Dragon Ball Z. Juste Goku, un nuage jaune, et la route ouverte devant lui.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Née sous le stylet, à la main, cette illustration numérique est garantie sans IA et façonnée en Anjou.</strong></p><p>Offrez-la, c'est le cadeau Dragon Ball qu'on ne s'attend pas à recevoir.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15372518162762",
+      "title": "Tapis de Souris Goku Nuage Magique",
+      "handle": "tapis-de-souris-goku-nuage-magique",
+      "seo_title": "Tapis de Souris Goku Nuage Magique 🖱️ | Tapis Gaming",
+      "seo_description": "Tapis de souris Goku Nuage Magique pour votre setup Dragon Ball : glisse nette et le Saiyan au-dessus des nuages sous la main.",
+      "descriptionHtml": "<p>Votre setup mérite le premier héros de Dragon Ball. Ce tapis de souris Goku Nuage Magique assure une glisse nette et précise, base antidérapante incluse, pour des sessions sous l'œil du jeune Saiyan. À compléter avec le <a href=\"/products/mug-goku-nuage-magique\">mug Goku Nuage Magique</a> pour un bureau aux couleurs des premières aventures Dragon Ball.</p><p>Au premier Tenkaichi Budokai de Dragon Ball, Goku arrive sur le Nuage Magique et stupéfie l'assistance entière. Ni Krilin, ni Yamcha, ni aucun combattant présent ne s'attendait à affronter un enfant capable de rivaliser avec les meilleurs combattants du monde. Ce tournoi marque le début de l'ère des grandes rivalités et des défis qui définiront la saga pour les décennies suivantes.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Dessiné ligne à ligne à la main sur tablette, ce visuel numérique sort de l'atelier angevin de l'illustratrice, sans une touche d'IA.</strong></p><p>Déroulez-le, Dragon Ball prend possession de votre bureau.</p>"
+    }
+  ]
+}
