@@ -31,6 +31,24 @@ Voir CLAUDE.md Étape 3.7. Ce fichier n'est PAS un devin. On ne déduit jamais "
 
 ## 2. Par franchise — réutilisable pour TOUS les persos de l'œuvre
 
+### Naruto / Boruto (mesuré 2026-06-18, fr)
+Réutilisable pour tous les persos de l'univers : Boruto, Sarada, Hinata, Naruto, Sasuke, Kawaki...
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine naruto | 5400 | hors produit, signale intention d'achat Naruto |
+| figurine boruto | 480 | hors produit, signale intention d'achat Boruto |
+| poster naruto | 590 | Tableau : texte |
+| t shirt naruto | 590 | T-Shirt : texte |
+| cadeau naruto | 320 | angle cadeau, tous produits |
+| affiche naruto | 210 | Tableau : texte |
+| mug naruto | 210 | Mug : texte |
+| goodies naruto | 140 | angle collection |
+| cadeau boruto | 0 | — |
+| goodies boruto | 0 | — |
+
+---
+
 ### Bleach (mesuré 2026-06-18, fr)
 Broad-intent franchise, identiques pour Ulquiorra, Ichigo, Grimmjow, Aizen, Rukia... → ne PAS re-mesurer par perso, réutiliser tels quels.
 
@@ -50,6 +68,22 @@ Broad-intent franchise, identiques pour Ulquiorra, Ichigo, Grimmjow, Aizen, Ruki
 ---
 
 ## 3. Par perso — trace auditable (combos "[produit] [perso]" mesurés frais)
+
+### Boruto Uzumaki (Boruto/Naruto) — mesuré 2026-06-18
+- Perso : **boruto 22200** > boruto two blue vortex 12100 > boruto uzumaki 1000 ; jogan boruto 210, boruto naruto 210
+- Combos produit :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug 0 / tasse 0 | mug boruto (topique) |
+  | Tableau | tableau 20 / **poster 20** / affiche 20 / toile 0 / cadre 0 | **poster boruto** (20, égalité — poster choisi, cohérence Ulquiorra) |
+  | Porte Clé | porte clé 0 / porte-clé 0 | topique |
+  | Chiffonnette | chiffonnette 0 | topique |
+  | Tapis | tapis de souris 0 / tapis 0 | topique |
+  | Tote Bag DRAFT | tote bag 0 / **sac 20** | "sac" en suffixe du méta titre |
+  | Magnet | magnet 0 / aimant 0 | topique |
+- Cluster topique pur sur "boruto". Handles OK sans suffixe franchise. H1 courts déjà en place.
+
+---
 
 ### Ulquiorra Schiffer (Bleach) — mesuré 2026-06-18
 - Perso : **ulquiorra 3600** > ulquiorra schiffer 2900 ; ulquiorra arrancar 1900, ulquiorra cifer 1000, bleach anime ulquiorra 1600

@@ -674,6 +674,11 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 **Les Carnets de l'Apothicaire** :
 - [x] Cluster complet — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Keyword principal : les carnets de l'apothicaire (60 500/mois). Volumes [produit] = 0 → cluster topique pur. Handles renommés de carnet → les-carnets + 7×301 redirects. 11 alt texts mis à jour. Fichier final → carnets_seo_new.json.
 
+**Boruto / Naruto** :
+- [x] Boruto Uzumaki — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : boruto (22200/mois). Cluster topique pur. Poster boruto (20/mois) > tableau/affiche (20, tied) → méta titre Tableau = "Poster Boruto". 11 alt texts mis à jour. Fichier final → boruto_seo_new.json.
+- [ ] Sarada Uchiha
+- [ ] Hinata
+
 **Bleach** :
 - [x] Ulquiorra Schiffer — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Keyword principal : ulquiorra (3600/mois) > ulquiorra schiffer (2900/mois). Cluster topique pur. H1 courts uniformisés sur "ulquiorra" (sans "Schiffer"). Handle porte-cle-ulquiorra-schiffer → porte-cle-ulquiorra + 1×301. 11 alt texts mis à jour. Fichier final → ulquiorra_seo_new.json.
 - [ ] (autres personnages Bleach)
