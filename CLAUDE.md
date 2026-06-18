@@ -47,7 +47,7 @@ La description seule ne suffit pas à faire indexer. Causes réelles de "Explor�
 **Maillage intra-cluster (lien sémantique même personnage) — complémentaire, non redondant :**
 Ajouter **1 lien `<a>` par fiche**, tissé naturellement dans la prose (jamais un bloc "Voir aussi" fixe).
 - **Cible** : un autre produit ACTIF du même cluster (type différent), en **chaîne circulaire** (chaque page reçoit 1 lien entrant ET donne 1 lien sortant)
-- **Placement varié** : P1, CTA ou phrase de transition — changer entre produits pour éviter un pattern répétitif. **INTERDIT : mettre TOUS les liens en dernière phrase du CTA** (pattern le plus fréquent à éviter). Cible : au moins 2 liens tissés dans le corps du texte (P1 ou transition) sur un cluster de 6+ produits.
+- **Placement varié** : P1, CTA ou phrase de transition — chaque lien doit s'intégrer naturellement dans la logique de SON produit. **INTERDIT : pattern formulaïque répété sur tous les produits** (ex : "Savourez X, et prolongez avec le Y" sur 6/6 fiches). Idéal : chaque lien a une raison narrative d'être là (cadeau double en P1, setup gaming en P1, collection en P1, etc.) — le placement découle du contenu, pas d'une formule.
 - **Ancre descriptive** : "notre poster Nezuko", "le porte-clé Nezuko", etc. — jamais "cliquez ici" ni URL nue
 - **JAMAIS pointer vers un DRAFT** (pas d'URL publique — lien mort)
 - **Format** : `<a href="/products/[handle]">[ancre]</a>` (URL relative)
