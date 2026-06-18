@@ -212,6 +212,25 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 
 ---
 
+### Goku Enfant / Sangoku (Dragon Ball) — mesuré 2026-06-18
+- Perso : **sangoku 14800** > goku enfant 480 > sangoku petit 590 (informationnel) > son goku enfant 10 / sangoku enfant 10
+- Alias clé : **"sangoku"** = nom FR de Son Goku, 14800/mois → utilisé dans les méta titres Mug et T-Shirt où les combos sangoku l'emportent.
+- Combos produit (balayage synonymes complet via phrase_fullsearch + phrase_these) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | **mug sangoku 20** = mug goku 20 / tasse sangoku 20 = tasse goku 20 / mug goku enfant 0 | **Mug Sangoku** (20, alias sangoku retenu > goku enfant 0) |
+  | Tableau | **poster goku 70** / poster sangoku 20 / affiche sangoku 20 / tableau goku 20 / poster goku enfant 0 | **Poster Goku Enfant** (ouvre sur "poster goku" 70, "enfant" différencie) |
+  | Porte Clé | porte clé goku 0 / keychain goku 10 (anglicisme) | topique |
+  | Chiffonnette | chiffonnette goku 0 / microfibre goku 0 | topique |
+  | Tapis | tapis de souris goku 0 (NOTHING FOUND tous combos) | topique |
+  | T-Shirt | **t shirt sangoku 110** / t shirt goku 70 / tshirt sangoku 30 / tee shirt goku 20 / t shirt goku enfant 0 | **T-Shirt Sangoku** (110) |
+  | Magnet | magnet goku 0 / aimant goku 0 / magnet sangoku 0 | topique |
+- Handles renommés : magnet-goku → magnet-goku-enfant + t-shirt-goku → t-shirt-goku-enfant + 2×301.
+- Cluster topique pur sur "goku enfant"/"sangoku". H1 = "Mug Goku Enfant", "T-Shirt Goku Enfant" etc. Méta Mug/T-Shirt utilisent "Sangoku" (plus gros volume produit).
+- **Nom alternatif (3.1bis) testé** : "sangoku petit" 590 = informationnel (lore). "goku kid" 720 = anglicisme interdit. → ni l'un ni l'autre dans les métas.
+
+---
+
 ## 4. Gap concurrentiel (combos transactionnels via organic_research)
 
 À remplir : combos "[produit] [perso/franchise]" sur lesquels des concurrents rankent et qu'on n'avait pas testés.
