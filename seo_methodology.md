@@ -658,3 +658,14 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 - Note : "shadow sonic" (9 900/mois) > "shadow the hedgehog" (4 400/mois) → keyword secondaire dans méta titres
 - Note : Volumes product-level quasi nuls → stratégie cluster topique uniquement
 - Note : Backup → shadow_backup.json, fichier final → shadow_seo_new.json
+
+**One Piece** :
+- [x] Trafalgar Law — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Intentions larges intégrées (cadeau one piece 1300/mois, poster one piece 1900/mois, mug one piece 880/mois). Backup → law_backup.json, fichier final → law_seo_new.json.
+- [ ] (autres personnages One Piece)
+
+**Sword Art Online** :
+- [x] Asuna (solo + duo Asuna & Kirito) — 14 produits traités (2026-06-18) : 7 solo (Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Magnet, Tote Bag DRAFT) + 7 duo. Volumes [produit] asuna quasi nuls — stratégie cluster topique pur. 22 alt texts mis à jour. Backup → asuna_backup.json, fichier final → asuna_seo_new.json.
+- [ ] (autres personnages SAO)
+
+**T-Shirt Dessin (collection)** :
+- [x] Cluster complet — 39 produits traités (2026-06-17)
