@@ -228,13 +228,15 @@ Tester aussi les variantes de titre (ex : "T-Shirt Shadow" vs "T-Shirt Shadow th
 ### Étape 1.5 — Métachamps : NE PLUS VÉRIFIER (fait par la propriétaire)
 La propriétaire a confirmé que les métachamps thème (`manga_anime` etc.) sont remplis sur tous les produits. **Ne plus lancer cette vérif**, sauf si elle le redemande explicitement. Récupérer uniquement seo/descriptionHtml au moment du backup.
 
-### Étape 2 — Créer le backup AVANT TOUT
-Fichier : `[perso]_backup.json` dans `/home/user/Personnal/`
-Champs : id, title, status, seo_title, seo_description, descriptionHtml
-```bash
-git add [perso]_backup.json && git commit -m "Backup SEO cluster [Perso]" && git push -u origin claude/shopify-301-redirects-ruwtnr
-```
-**Ne jamais passer à l'étape 3 sans ce commit.**
+### Étape 2 — Backup : SUPPRIMÉ (redondant)
+L'historique git + l'historique Shopify suffisent. Ne plus créer de fichier `_backup.json`.
+
+### Étape 2.5 — Renommage handle + 301 (si keyword impose un changement de handle)
+Si le keyword Semrush dominant ne correspond pas au handle actuel (ex : "les carnets" vs "carnet") :
+1. Mettre à jour le `title` ET le `handle` via `productUpdate` (passer les deux dans la même mutation)
+2. Créer les redirections 301 via `urlRedirectCreate` (path = ancien handle, target = nouveau handle)
+   Format : `{ path: "/products/[ancien-handle]", target: "/products/[nouveau-handle]" }`
+3. Faire les deux en batch (aliases GraphQL) pour tous les produits du cluster en une seule passe
 
 ### Étape 3 — Recherche Semrush (tool : execute_report, database: fr)
 
