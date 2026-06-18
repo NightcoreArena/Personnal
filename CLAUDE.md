@@ -37,14 +37,21 @@ La description seule ne suffit pas à faire indexer. Causes réelles de "Explor�
 - Il génère en HTML : "Collections associées" (liens vers les collections du produit) + 6 produits liés (rec-cards avec alt text).
 - Match par métachamp thème (`custom.manga_anime`, `kawaii_mignonneries`, `nature_paysages`, `vehicules`, `fantaisie_magie`, `animaux`) et type DIFFÉRENT du produit courant.
 
-→ **Ne PAS ajouter de liens manuels dans le descriptionHtml** (redondant avec le thème).
+→ **Ne PAS doubler ce maillage** (collections associées + 6 produits liés sont déjà crawlables). En revanche ce module a un angle borgne : il lie **même franchise / type différent**, jamais **même personnage**. Mug Nezuko peut pointer vers Tableau Tanjiro, jamais vers Tableau Nezuko.
 
 **Le vrai levier = vérifier les dépendances de données du maillage (sinon il rend du vide = page orpheline) :**
 - [ ] Le métachamp thème (`custom.manga_anime` etc.) est rempli sur CHAQUE produit du cluster. Si vide → 0 produit lié → orphelin. 🔴 priorité
 - [ ] Le produit est bien assigné à ses collections (type + franchise). Sinon pas de "Collections associées".
 - [ ] Produit en stock (`available`) : un produit à 0 stock est exclu du module et perd ses liens entrants.
 
-**Finition optionnelle (autorité topique, pas bloquant) :** le module lie même-thème/type-différent, pas le cluster même-personnage. Mug Zenitsu ne pointe pas forcément vers Tableau Zenitsu.
+**Maillage intra-cluster (lien sémantique même personnage) — complémentaire, non redondant :**
+Ajouter **1 lien `<a>` par fiche**, tissé naturellement dans la prose (jamais un bloc "Voir aussi" fixe).
+- **Cible** : un autre produit ACTIF du même cluster (type différent), en **chaîne circulaire** (chaque page reçoit 1 lien entrant ET donne 1 lien sortant)
+- **Placement varié** : P1, CTA ou phrase de transition — changer entre produits pour éviter un pattern répétitif
+- **Ancre descriptive** : "notre poster Nezuko", "le porte-clé Nezuko", etc. — jamais "cliquez ici" ni URL nue
+- **JAMAIS pointer vers un DRAFT** (pas d'URL publique — lien mort)
+- **Format** : `<a href="/products/[handle]">[ancre]</a>` (URL relative)
+- Construire la chaîne au début du cluster (ex : Mug → Tableau → Porte Clé → T-Shirt → Chiffonnette → Tapis → Magnet → Mug), noter les handles réels (vérifier via GraphQL)
 
 ### 2. Schema Product — OK (confirmé par la propriétaire)
 - Le thème sort déjà un `Product` JSON-LD correct. Ne pas y retoucher sauf demande explicite.
