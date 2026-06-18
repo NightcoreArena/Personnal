@@ -1,0 +1,140 @@
+{
+  "cluster": "Muzan Kibutsuji",
+  "franchise": "Demon Slayer",
+  "date": "2026-06-18",
+  "version": "v1 — cluster topique pur, handles simplifiés (kibutsuji supprimé), 7x301 créés, semrush_data inclus",
+  "keyword_principal": "muzan (8100/mois)",
+  "alias_perso": {
+    "muzan kibutsuji": "2400/mois",
+    "muzan demon slayer": "1900/mois",
+    "kibutsuji muzan": "1300/mois"
+  },
+  "semrush_data": {
+    "date_recherche": "2026-06-18",
+    "perso": {
+      "muzan": 8100,
+      "muzan kibutsuji": 2400,
+      "muzan demon slayer": 1900,
+      "kibutsuji muzan": 1300,
+      "muzan jackson": 480,
+      "muzan michael jackson": 260
+    },
+    "par_produit": {
+      "Mug":             { "mug muzan": 0, "tasse muzan": 0, "gobelet muzan": 0, "gagnant": "mug muzan (topique, 0)" },
+      "Tableau":         { "tableau muzan": 0, "poster muzan": 0, "affiche muzan": 0, "toile muzan": 0, "cadre muzan": 0, "gagnant": "poster muzan (topique, 0) — poster choisi coherence cluster" },
+      "Porte Cle":       { "porte cle muzan": 0, "porte-cle muzan": 0, "keychain muzan": 0, "gagnant": "porte cle muzan (topique, 0)" },
+      "Chiffonnette":    { "chiffonnette muzan": 0, "microfibre muzan": 0, "chiffon muzan": 0, "gagnant": "chiffonnette muzan (topique, 0)" },
+      "Tapis de Souris": { "tapis de souris muzan": 0, "tapis muzan": 0, "mousepad muzan": 0, "tapis gaming muzan": 0, "gagnant": "tapis de souris muzan (topique, 0)" },
+      "Tote Bag":        { "tote bag muzan": 0, "sac muzan": 0, "gagnant": "tote bag muzan (topique, 0)" },
+      "Magnet":          { "magnet muzan": 0, "aimant muzan": 0, "magnet frigo muzan": 0, "gagnant": "magnet muzan (topique, 0)" }
+    },
+    "balayage_synonymes_2026-06-18": {
+      "note": "Toutes les requetes produit retournent NOTHING FOUND (ERROR 50). Confirme volume = 0 pour TOUS les combos produit+perso. Cluster 100% topique pur.",
+      "synonymes_zero_confirmes": ["mug muzan", "tasse muzan", "gobelet muzan", "poster muzan", "tableau muzan", "affiche muzan", "toile muzan", "cadre muzan", "porte cle muzan", "keychain muzan", "chiffonnette muzan", "microfibre muzan", "tapis de souris muzan", "mousepad muzan", "tapis gaming muzan", "tote bag muzan", "sac muzan", "magnet muzan", "aimant muzan", "magnet frigo muzan"]
+    },
+    "nom_alternatif_3.1bis_mesure_2026-06-18": {
+      "muzan jackson": 480,
+      "muzan michael jackson": 260,
+      "mug muzan jackson": 0,
+      "poster muzan jackson": 0,
+      "verdict": "Alias 'muzan jackson' et 'muzan michael jackson' = INFORMATIONNEL (ressemblance physique, zero combo transactionnel produit). -> Allude naturellement dans P2 Tableau ('homme en blanc'), JAMAIS dans le meta titre."
+    },
+    "franchise_demon_slayer_reutilisable": {
+      "source": "keywords_ledger.md, mesure 2026-06-18",
+      "figurine demon slayer": 4400,
+      "poster demon slayer": 720,
+      "t shirt demon slayer": 720,
+      "affiche demon slayer": 390,
+      "cadeau demon slayer": 210,
+      "mug demon slayer": 110,
+      "goodies demon slayer": 110,
+      "tableau demon slayer": 110,
+      "tapis demon slayer": 70
+    }
+  },
+  "handles_renommes": {
+    "mug-muzan-kibutsuji": "mug-muzan",
+    "tableau-muzan-kibutsuji": "tableau-muzan",
+    "porte-cle-muzan-kibutsuji": "porte-cle-muzan",
+    "chiffonnette-muzan-kibutsuji": "chiffonnette-muzan",
+    "tapis-de-souris-muzan-kibutsuji": "tapis-de-souris-muzan",
+    "tote-bag-muzan-kibutsuji": "tote-bag-muzan",
+    "magnet-muzan-kibutsuji": "magnet-muzan"
+  },
+  "redirections_301": [
+    { "path": "/products/mug-muzan-kibutsuji", "target": "/products/mug-muzan" },
+    { "path": "/products/tableau-muzan-kibutsuji", "target": "/products/tableau-muzan" },
+    { "path": "/products/porte-cle-muzan-kibutsuji", "target": "/products/porte-cle-muzan" },
+    { "path": "/products/chiffonnette-muzan-kibutsuji", "target": "/products/chiffonnette-muzan" },
+    { "path": "/products/tapis-de-souris-muzan-kibutsuji", "target": "/products/tapis-de-souris-muzan" },
+    { "path": "/products/tote-bag-muzan-kibutsuji", "target": "/products/tote-bag-muzan" },
+    { "path": "/products/magnet-muzan-kibutsuji", "target": "/products/magnet-muzan" }
+  ],
+  "maillage_anneau": "Mug → Tableau → Porte Clé → Chiffonnette → Tapis → Magnet → Mug ; Tote Bag (DRAFT) → Mug",
+  "products": [
+    {
+      "id": "gid://shopify/Product/10146825863498",
+      "title": "Mug Muzan",
+      "handle": "mug-muzan",
+      "ancien_handle": "mug-muzan-kibutsuji",
+      "seo_title": "Mug Muzan ☕ | Tasse Demon Slayer",
+      "seo_description": "Mug Muzan Kibutsuji pour démarrer chaque matin sous l'œil du Roi des Démons. La tasse Demon Slayer à s'offrir ou à collectionner.",
+      "descriptionHtml": "<p>Ce mug Muzan Kibutsuji est fait pour commencer la journée sous le regard du Roi des Démons. La tasse Demon Slayer à s'offrir ou à s'accorder entre deux sessions, à compléter avec notre <a href=\"/products/tableau-muzan\">tableau Muzan</a> pour un bureau digne du seigneur de la nuit.</p><p>Né sous l'ère Heian avec une maladie incurable, Muzan Kibutsuji reçoit un remède expérimental à base de la Fleur d'Araignée Bleue qui stoppe sa mort, le transformant en démon à la place. Il consacre dès lors plus de mille ans à chercher ce qu'il n'a jamais pu achever : braver la lumière du soleil et compléter sa propre guérison.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Dessiné trait par trait à la main sur tablette graphique, ce motif numérique ne doit rien à l'IA et sort tout entier de l'atelier angevin de l'illustratrice.</strong></p><p>Savourez chaque matin sous le regard de Muzan Kibutsuji.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10183467630922",
+      "title": "Tableau Muzan",
+      "handle": "tableau-muzan",
+      "ancien_handle": "tableau-muzan-kibutsuji",
+      "seo_title": "Poster Muzan 🖼️ | Affiche Demon Slayer",
+      "seo_description": "Poster Muzan Kibutsuji en HD ou toile tendue. Affichez le Seigneur des Démons sur vos murs, illustration Demon Slayer artisanale.",
+      "descriptionHtml": "<p>Un poster Muzan Kibutsuji qui installe un silence froid sur vos murs. Ce tableau Demon Slayer en impression HD ou toile tendue rend hommage au Seigneur suprême des démons, à associer avec le <a href=\"/products/porte-cle-muzan\">porte-clé Muzan</a> pour une collection digne des Douze Kizuki.</p><p>Muzan Kibutsuji passe plus de mille ans à se fondre parmi les humains en changeant d'identité : homme élégant en blanc, femme prénommée Rei, enfant anonyme glissé dans une famille qu'il a recréée de toutes pièces. Cette capacité à disparaître dans la foule tout en commandant un empire démoniaque depuis l'ombre fait de lui le villain le plus insaisissable de toute la série Demon Slayer.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Née sous un stylet manié à la main, sans recours à l'IA, cette illustration numérique prend vie dans notre atelier de l'Anjou.</strong></p><p>Accrochez-le, sa présence s'imposera sans dire un mot.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10181110235466",
+      "title": "Porte Clé Muzan",
+      "handle": "porte-cle-muzan",
+      "ancien_handle": "porte-cle-muzan-kibutsuji",
+      "seo_title": "Porte Clé Muzan 🔑 | Métal Demon Slayer",
+      "seo_description": "Porte-clé Muzan Kibutsuji en métal collector. Le goodie Demon Slayer rare pour les fans du Seigneur des Démons.",
+      "descriptionHtml": "<p>Compact, solide, collector : ce porte-clé Muzan Kibutsuji en métal accompagne vos clés du matin au soir, rappel discret du Seigneur suprême de Demon Slayer. À glisser dans un cadeau avec la <a href=\"/products/chiffonnette-muzan\">chiffonnette Muzan</a> pour un duo goodie parfait.</p><p>Les Douze Kizuki, l'armée d'élite de Muzan Kibutsuji dans Demon Slayer, sont liés à lui par le sang qu'il leur a lui-même infusé. Ce lien lui permet de les éliminer à distance d'une simple pensée, tout comme de leur transmettre sa puissance. Cet empire démoniaque qu'il contrôle dans l'ombre depuis l'ère Heian est l'ossature de toute la série.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Ce motif numérique est dessiné à la main sur tablette, sans la moindre IA, et façonné en France dans notre atelier de l'Anjou.</strong></p><p>Gardez-le sur vous, la pièce rare qui complète toute collection Demon Slayer.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15361801748810",
+      "title": "Chiffonnette Muzan",
+      "handle": "chiffonnette-muzan",
+      "ancien_handle": "chiffonnette-muzan-kibutsuji",
+      "seo_title": "Chiffonnette Muzan 🧼 | Microfibre Manga",
+      "seo_description": "Chiffonnette Muzan en microfibre : nettoie lunettes et écrans sans rayer. Cadeau Demon Slayer inattendu pour les collectionneurs.",
+      "descriptionHtml": "<p>Le cadeau Demon Slayer que personne n'attend mais que les fans de Muzan adorent garder. Cette chiffonnette Muzan Kibutsuji en microfibre nettoie lunettes, écrans et smartphones sans rayer, à doubler avec le <a href=\"/products/tapis-de-souris-muzan\">tapis de souris Muzan</a> pour un cadeau bureau complet.</p><p>La nuit où Muzan Kibutsuji massacre la famille Kamado dans Demon Slayer, ce ne sont pas les humains qui déclenchent sa peur : ce sont les boucles d'oreilles Hanafuda de Tanjiro. Ce motif lui rappelle Yoriichi Tsugikuni, le seul utilisateur du Souffle Solaire à l'avoir jamais mis en fuite, quatre siècles plus tôt. Une panique gravée dans son sang depuis des générations.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracée sur tablette ligne à ligne, sans recours à l'IA, cette illustration numérique est entièrement artisanale et conçue en Anjou.</strong></p><p>Offrez-la, c'est le cadeau manga qu'on ne s'attend pas à recevoir.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15372520718666",
+      "title": "Tapis de Souris Muzan",
+      "handle": "tapis-de-souris-muzan",
+      "ancien_handle": "tapis-de-souris-muzan-kibutsuji",
+      "seo_title": "Tapis de Souris Muzan 🖱️ | Tapis Gaming",
+      "seo_description": "Tapis de souris Muzan Kibutsuji pour votre setup Demon Slayer : glisse nette et le Seigneur des Démons sous la main.",
+      "descriptionHtml": "<p>Votre setup mérite l'ombre de Muzan Kibutsuji. Ce tapis de souris Muzan assure une glisse nette et précise, base antidérapante incluse, pour des sessions sous l'œil du Seigneur des Démons. À compléter avec le <a href=\"/products/magnet-muzan\">magnet Muzan</a> pour finaliser votre bureau Demon Slayer.</p><p>La régénération de Muzan Kibutsuji dans Demon Slayer dépasse tout ce qu'un Pourfendeur ordinaire peut affronter : brûlures, tranches, blessures qui auraient tué dix hommes, son corps les efface en quelques secondes. C'est cette indestructibilité apparente qui pousse le Corps de Pourfendeurs de Démons à chercher pendant des générations une méthode capable de l'arrêter enfin.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Pensé et tracé à la main sur tablette en Anjou, ce visuel numérique est garanti sans IA, de la première à la dernière ligne.</strong></p><p>Déroulez-le et laissez votre setup changer d'univers.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380213596490",
+      "title": "Tote Bag Muzan",
+      "handle": "tote-bag-muzan",
+      "ancien_handle": "tote-bag-muzan-kibutsuji",
+      "status": "DRAFT",
+      "seo_title": "Tote Bag Muzan 👜 | Sac Demon Slayer",
+      "seo_description": "Tote bag Muzan Kibutsuji en tissu satiné pour vos sorties. Emportez le Roi des Démons Demon Slayer partout avec vous.",
+      "descriptionHtml": "<p>Le compagnon des journées bien remplies pour les fans de Demon Slayer qui portent leur univers manga au quotidien. Ce tote bag Muzan Kibutsuji en tissu satiné avale livres, carnets et affaires pour vous suivre en cours ou en convention. À compléter avec le <a href=\"/products/mug-muzan\">mug Muzan</a> pour un cadeau fan complet.</p><p>Dans l'arc final de Demon Slayer, vaincu et acculé au soleil levant, Muzan Kibutsuji transfère l'intégralité de son sang dans le corps de Tanjiro dans un ultime acte désespéré. Tanjiro devient momentanément un démon, le plus puissant que le Roi des Démons ait jamais créé. Cet ultime retournement reste l'un des moments les plus marquants de la saga.</p><ul><li>Surface : Tissu satiné épais (280g)</li><li>Dimensions : 36x33cm</li><li>Impression : Sublimation brillante inaltérable</li><li>Entretien : Lavage à 30° max</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Ce motif numérique sort entièrement du crayon virtuel de l'illustratrice, dessiné à la main sans IA, depuis l'Anjou.</strong></p><p>Emportez-le partout, le Roi des Démons vous accompagne.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380974960970",
+      "title": "Magnet Muzan",
+      "handle": "magnet-muzan",
+      "ancien_handle": "magnet-muzan-kibutsuji",
+      "seo_title": "Magnet Muzan 🧲 | Aimant Demon Slayer",
+      "seo_description": "Magnet Muzan Kibutsuji en métal à coller partout. La pièce collector Demon Slayer incontournable pour les fans.",
+      "descriptionHtml": "<p>Les collectionneurs posent leurs pièces rares là où elles s'imposent. Ce magnet Muzan Kibutsuji en coque métal rigide trouve sa place sur un frigo, un casier ou un tableau, à associer au <a href=\"/products/mug-muzan\">mug Muzan</a> pour commencer chaque journée avec le Seigneur de Demon Slayer.</p><p>Yoriichi Tsugikuni, maître du Souffle Solaire dans Demon Slayer, est le seul être à avoir jamais mis Muzan Kibutsuji en fuite en plus de mille ans d'existence. Cette terreur, gravée dans le sang qu'il transfère à ses démons, rend instinctivement chaque Lune Supérieure apeurée face à l'héritier du Souffle du Soleil. Ce trauma millénaire explique pourquoi les boucles d'oreilles de Tanjiro déclenchent une panique en lui.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Illustré à la main sur tablette graphique en Anjou, ce dessin numérique est créé sans la moindre ligne d'IA par notre artisane.</strong></p><p>Collez-le là où il peut s'imposer, c'est le goodie collector qu'on n'oublie pas.</p>"
+    }
+  ]
+}
