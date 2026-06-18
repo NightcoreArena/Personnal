@@ -1,0 +1,73 @@
+{
+  "cluster": "Trafalgar Law",
+  "franchise": "One Piece",
+  "date": "2026-06-18",
+  "version": "v1 — Copywriter SEO Senior (LSI, 130-160 mots, emoji variés, maillage intra-cluster, intentions larges One Piece)",
+  "keyword_principal": "trafalgar law (6600/mois)",
+  "intentions_larges": {
+    "poster one piece": "1900/mois",
+    "cadeau one piece": "1300/mois",
+    "affiche one piece": "1000/mois",
+    "mug one piece": "880/mois",
+    "tableau one piece": "480/mois",
+    "tapis de souris one piece": "390/mois",
+    "mug manga": "260/mois",
+    "decoration one piece": "260/mois",
+    "goodies one piece": "210/mois",
+    "goodies manga": "210/mois",
+    "porte cle one piece": "210/mois"
+  },
+  "maillage_anneau": "Mug → Tableau → Porte Clé → Chiffonnette → Tapis → Magnet → Mug ; Tote Bag (DRAFT) → Mug",
+  "products": [
+    {
+      "id": "gid://shopify/Product/10146816065866",
+      "title": "Mug Trafalgar Law",
+      "seo_title": "Mug Trafalgar Law ☕ One Piece | Tasse Céramique",
+      "seo_description": "Mug Trafalgar Law pour savourer chaque café aux côtés du Chirurgien de la Mort. Une tasse fait main, l'idée cadeau One Piece qui touchera tout fan.",
+      "descriptionHtml": "<p>Commencer la journée autour d'un bon café prend une autre saveur quand le Chirurgien de la Mort veille sur votre tasse. Ce mug Trafalgar Law accompagne vos pauses thé et café d'une présence à la hauteur des plus grands capitaines de One Piece. Une idée cadeau toute trouvée pour le fan qui collectionne les goodies de sa série favorite.</p><p>Détenteur de l'Ope Ope no Mi, Law déploie sa fameuse Room, une sphère dans laquelle il réarrange l'espace à sa guise, déplace les corps et tranche sans jamais tuer. Ce fruit du Paramecia, réputé le plus convoité de tous, lui vaut une place parmi les pirates les plus redoutés du Nouveau Monde.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration est tracée main au stylet numérique, sans aucune IA, avant d'être imprimée dans notre atelier de l'Anjou.</strong></p><p>Savourez vos prochaines pauses en sa compagnie, ou prolongez l'ambiance avec notre <a href=\"/products/tableau-trafalgar-law\">tableau Trafalgar Law</a>.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10183473332554",
+      "title": "Tableau Trafalgar Law",
+      "seo_title": "Poster Trafalgar Law 🖼️ One Piece | Affiche & Toile",
+      "seo_description": "Poster Trafalgar Law pour habiller un mur à l'effigie du Chirurgien de la Mort. Affiche, toile ou cadre : la déco One Piece qui en impose.",
+      "descriptionHtml": "<p>Un mur nu attend son capitaine. Ce poster Trafalgar Law transforme une chambre, un salon ou un coin bureau en repaire de pirate, façon affiche de collection One Piece. Disponible en tirage photo, en toile tendue ou en cadre, il trouve sa place aussi bien dans un intérieur sobre qu'au milieu d'un setup gaming.</p><p>On surnomme Law le Chirurgien de la Mort, un titre gagné dans les salles d'opération comme sur les champs de bataille. Son nodachi Kikoku, lame maudite presque aussi grande que lui, et son bonnet tacheté composent une silhouette que reconnaissent tous les lecteurs de l'œuvre d'Eiichirō Oda.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Né d'un trait fait main sur tablette graphique, ce dessin numérique est garanti sans IA et imprimé en France, au cœur de l'Anjou.</strong></p><p>Choisissez le format qui sublimera vos murs, puis emportez Law partout avec le <a href=\"/products/porte-cle-trafalgar-law\">porte-clé Trafalgar Law</a>.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10181118034250",
+      "title": "Porte Clé Trafalgar Law",
+      "seo_title": "Porte Clé Trafalgar Law 🔑 One Piece | Métal Collector",
+      "seo_description": "Porte-clé Trafalgar Law en métal à garder toujours sur soi. Le collector One Piece qui suit les fans du Chirurgien de la Mort partout.",
+      "descriptionHtml": "<p>Il y a des compagnons de route qu'on ne lâche plus. Ce porte-clé Trafalgar Law en métal rejoint vos clés, votre sac ou votre trousse pour vous suivre du matin au soir. Petit, solide et collector, c'est aussi le genre de goodie One Piece qui fait toujours plaisir à offrir.</p><p>Law est le capitaine des Pirates du Cœur, l'équipage au sous-marin jaune qui arbore un Jolly Roger souriant. Compté parmi les onze Supernovas de la pire génération, il s'est forgé une réputation qui dépasse largement les frontières de son île natale.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Conçu trait après trait à la main sur tablette, ce dessin numérique n'utilise aucune IA : un travail d'artisan signé en Anjou.</strong></p><p>Adoptez-le, et gardez l'univers de Law jusque sur vos écrans avec la <a href=\"/products/chiffonnette-trafalgar-law\">chiffonnette Trafalgar Law</a>.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15361802830154",
+      "title": "Chiffonnette Trafalgar Law",
+      "seo_title": "Chiffonnette Trafalgar Law 🧼 One Piece | Microfibre",
+      "seo_description": "Chiffonnette Trafalgar Law en microfibre : nettoie écrans et lunettes sans rayer, avec un brin de One Piece dans la poche. Le cadeau utile et original.",
+      "descriptionHtml": "<p>Le cadeau auquel personne ne pense, et que tout le monde finit par adorer. Cette chiffonnette Trafalgar Law en microfibre nettoie lunettes, écrans et smartphones sans la moindre rayure. Elle se glisse dans une poche ou une trousse et rend service tous les jours, tout en affichant discrètement votre série favorite.</p><p>Derrière son calme se cache une histoire marquée par la tragédie de Flevance, sa ville natale, et par Corazon, l'homme qui s'est sacrifié pour le sauver. C'est de lui que Law tient ce mystérieux « D. » qui relie les figures les plus importantes de One Piece.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Le dessin est posé à la main sur tablette, sans la moindre IA, dans un atelier de l'Anjou.</strong></p><p>Glissez-la dans votre sac, et prolongez l'ambiance sur votre bureau avec le <a href=\"/products/tapis-de-souris-trafalgar-law\">tapis de souris Trafalgar Law</a>.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15372524323146",
+      "title": "Tapis de Souris Trafalgar Law",
+      "seo_title": "Tapis de Souris Trafalgar Law 🖱️ One Piece | Tapis Gaming",
+      "seo_description": "Tapis de souris Trafalgar Law pour styliser votre setup : glisse nette, base antidérapante et le Chirurgien de la Mort de One Piece sous la main.",
+      "descriptionHtml": "<p>Un bon setup se peaufine dans les détails. Ce tapis de souris Trafalgar Law donne du caractère à votre bureau gaming tout en garantissant une glisse fluide et précise. Sa base antidérapante ne bouge pas d'un pouce, partie après partie, pour les fans de One Piece comme pour les joueurs exigeants.</p><p>Stratège redoutable, Law a scellé une alliance avec Luffy pour renverser le tyran Doflamingo, puis l'empereur Kaido sur l'île de Wano. C'est là qu'il terrasse l'impératrice Big Mom, gravant un peu plus son nom dans la légende du Nouveau Monde.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracé au stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou, en France.</strong></p><p>Déroulez-le et donnez le ton de vos sessions, puis ajoutez le <a href=\"/products/magnet-trafalgar-law\">magnet Trafalgar Law</a> à votre collection.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380217725258",
+      "title": "Tote Bag Trafalgar Law",
+      "status": "DRAFT",
+      "seo_title": "Tote Bag Trafalgar Law 👜 One Piece | Sac Satiné",
+      "seo_description": "Tote bag Trafalgar Law en tissu satiné pour vos courses, cours ou conventions. Emportez un bout de One Piece partout, dans un sac fait main.",
+      "descriptionHtml": "<p>Le compagnon des journées bien remplies. Ce tote bag Trafalgar Law en tissu satiné vous suit pour les courses, les cours ou une convention, et engloutit mangas, carnets et petites affaires sans broncher. Léger et lumineux, il se porte à l'épaule du matin au soir, et fait un cadeau One Piece toujours apprécié.</p><p>Un temps Grand Corsaire au service du Gouvernement Mondial, Law a fini par tourner le dos à ce statut pour suivre sa propre route. Sa prime, qui grimpe jusqu'à trois milliards de Berrys après Wano, dit assez la menace qu'il représente aux yeux de la Marine.</p><ul><li>Surface : Tissu satiné épais (280g)</li><li>Dimensions : 36x33cm</li><li>Impression : Sublimation brillante inaltérable</li><li>Entretien : Lavage à 30° max</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Visuel numérique entièrement crayonné à la main, sans intelligence artificielle, et imprimé avec soin en Anjou, en France.</strong></p><p>Emportez-le partout, et commencez chaque matinée avec le <a href=\"/products/mug-trafalgar-law\">mug Trafalgar Law</a>.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380981481802",
+      "title": "Magnet Trafalgar Law",
+      "seo_title": "Magnet Trafalgar Law 🧲 One Piece | Aimant Métal",
+      "seo_description": "Magnet Trafalgar Law à coller sur le frigo ou à collectionner. Le petit aimant métal qui ravira les fans de One Piece. Parfait en cadeau ou en déco.",
+      "descriptionHtml": "<p>Les collectionneurs le savent : ce sont les petites pièces qui bâtissent les grandes collections. Ce magnet Trafalgar Law, aimant à coque métal, trouve sa place sur un frigo, une porte ou un tableau magnétique. Compact et collector, il fait aussi un cadeau parfait pour un amateur de goodies One Piece.</p><p>Figure incontournable de la pire génération, Law fait partie de ces personnages dont la cote n'a cessé de grimper auprès des lecteurs. Son charisme glacial et son sens du sacrifice en ont fait l'un des pirates les plus aimés de toute la saga d'Eiichirō Oda.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Ce motif est dessiné à la main en numérique, loin de toute IA, puis façonné dans notre atelier angevin.</strong></p><p>Ajoutez-le à votre collection, ou accompagnez-le du <a href=\"/products/mug-trafalgar-law\">mug Trafalgar Law</a> pour démarrer la journée en sa compagnie.</p>"
+    }
+  ]
+}
