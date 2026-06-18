@@ -1,0 +1,70 @@
+{
+  "backup_date": "2026-06-18",
+  "note": "Backup AVANT réécriture SEO — cluster Nezuko (7 produits actifs + 1 DRAFT). Franchise Demon Slayer.",
+  "products": [
+    {
+      "id": "gid://shopify/Product/10146828616010",
+      "title": "Mug Nezuko",
+      "status": "ACTIVE",
+      "seo_title": "Mug Nezuko 🎋 Tasse Manga Artisanale | Les Bois d'Aurore",
+      "seo_description": "Mug Nezuko en céramique 340ml avec illustration sans IA. Un produit de qualité fabriqué en Anjou, idéal pour vos pauses café. Idée cadeau parfaite !",
+      "descriptionHtml": "<p>Plongez dans l'univers de Demon Slayer dès le réveil avec ce mug Nezuko exclusif, un incontournable pour sublimer vos moments de détente.</p>\r\n<ul>\r\n<li>Format : 340ml (idéal thé/café)</li>\r\n<li>Matière : Céramique blanche premium</li>\r\n<li>Entretien : Compatible micro-ondes et lave-vaisselle</li>\r\n<li>Impression : Sublimation inaltérable</li>\r\n<li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li>\r\n</ul>\r\n<p>Commandez dès maintenant votre mug collector pour ajouter une touche de douceur à vos pauses café et afficher votre passion.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10183468187978",
+      "title": "Tableau Nezuko",
+      "status": "ACTIVE",
+      "seo_title": "Tableau Nezuko 🌸 Déco Murale Manga | Les Bois d'Aurore",
+      "seo_description": "Tableau Nezuko : Affiche ou Toile. Dessiné à la main sans IA. Fabriqué en Anjou. Sublimez votre espace avec cette œuvre. Idée déco parfaite !",
+      "descriptionHtml": "<p>Apportez une touche de douceur et de puissance à votre décoration avec ce tableau Nezuko, une pièce maîtresse pour tous les admirateurs de l'univers de Demon Slayer.</p><ul>\n<li>Affiche : Impression HD sur papier photo premium 200g (10x15 au 50x70cm)</li>\n<li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li>\n<li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li>\n<li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li>\n</ul><p>Commandez dès maintenant votre tableau Nezuko et laissez le charme de l'héroïne emblématique transformer votre intérieur.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10181110726986",
+      "title": "Porte Clé Nezuko",
+      "status": "ACTIVE",
+      "seo_title": "Porte Clé Nezuko 🎋 Cadeau Manga | Les Bois d'Aurore",
+      "seo_description": "Porte Clé Nezuko. En métal robuste, cet accessoire est dessiné à la main sans IA et fabriqué en Anjou. Une qualité artisanale. Idée cadeau parfaite !",
+      "descriptionHtml": "<p>Affichez votre passion pour l'univers de Demon Slayer avec ce porte-clé exclusif de Nezuko, l'accessoire indispensable pour sublimer votre trousseau.</p>\n<ul>\n<li>Dimensions : Médaillon 3x4 cm</li>\n<li>Matière : Métal robuste, anneau solide de 3cm</li>\n<li>Impression : Sublimation haute définition</li>\n<li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li>\n</ul>\n<p>Ne manquez pas l'occasion d'ajouter cette création artisanale unique à votre collection et emportez la douceur de Nezuko partout avec vous.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10283659460938",
+      "title": "T-Shirt Nezuko",
+      "status": "ACTIVE",
+      "seo_title": "T-Shirt Nezuko 🎋 Manga Artisanal | Les Bois d'Aurore",
+      "seo_description": "Découvrez ce t-shirt Nezuko dessiné à la main sans IA. Fabriqué en Anjou, tailles S à XXL et enfant disponibles. Commandez votre exemplaire unique !",
+      "descriptionHtml": "<p>Célébrez l'icône de Demon Slayer avec ce t-shirt Nezuko, une pièce incontournable alliant confort exceptionnel et style unique pour tous les passionnés de l'univers de Tanjiro.</p><ul>\n<li>Taille Adulte : S à XXL</li>\n<li>Taille Enfant : 2 à 12 ans</li>\n<li>Matière : Polyester doux toucher coton</li>\n<li>Impression : Sublimation thermique haute définition</li>\n<li>Entretien : Lavable en machine 30°</li>\n<li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li>\n</ul><p>Commandez dès maintenant votre t-shirt Nezuko et affichez fièrement votre passion avec cette exclusivité artisanale.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15361801421130",
+      "title": "Chiffonnette Nezuko",
+      "status": "ACTIVE",
+      "seo_title": "Chiffonnette Nezuko 🎍 Manga Artisanal | Les Bois d'Aurore",
+      "seo_description": "Chiffonnette Nezuko. Microfibre 18x15cm, Dessiné à la main sans IA, Fabriqué en Anjou. Optez pour cet accessoire de qualité. Idée cadeau utile et original !",
+      "descriptionHtml": "<p>Sublimez l'entretien de vos objets précieux avec la chiffonnette Nezuko, l'accessoire de nettoyage parfait pour tous les passionnés d'animation.</p><ul>\n<li>Dimensions : 18x15 cm</li>\n<li>Matière : Microfibre ultra-douce</li>\n<li>Usage : Nettoie lunettes et écrans sans rayer</li>\n<li>Entretien : Lavable en machine</li>\n<li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li>\n</ul><p>Offrez à vos écrans une clarté impeccable tout en célébrant votre univers favori avec ce produit artisanal et durable.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15372520948042",
+      "title": "Tapis de Souris Nezuko",
+      "status": "ACTIVE",
+      "seo_title": "Tapis de Souris Nezuko 🖱️ Bureau | Les Bois d'Aurore",
+      "seo_description": "Tapis de Souris Nezuko : Réveillez la fureur démoniaque endormie dans sa petite boîte en bois. Combinez puissance et esthétique avec cette magnifique pièce sans IA.",
+      "descriptionHtml": "<p>Réveillez la force protectrice qui sommeille en vous en déroulant ce magnifique Tapis de Souris Nezuko. La résilience de la célèbre démone accompagne vos nuits blanches de gaming effréné.</p><ul>\n<li>Dimensions : 22x18 cm (épaisseur 2mm)</li>\n<li>Matière : Surface polyester pour glisse optimale</li>\n<li>Maintien : Base en caoutchouc antidérapant</li>\n<li>Impression : Sublimation inaltérable</li>\n<li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li>\n</ul><p>Protégez votre zone de jeu en adoptant cette alliée démoniaque.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380213825866",
+      "title": "Tote Bag Nezuko",
+      "status": "DRAFT",
+      "seo_title": "Tote Bag Nezuko 🎋 Demon Slayer | Les Bois d'Aurore",
+      "seo_description": "Tote Bag Nezuko Kamado satin premium. Fan art Démon Anjou. Finition brillante. Pour fans DS. Protégez votre frère 🎋",
+      "descriptionHtml": "[DRAFT — contient des balises H1/H2, à réécrire au format standard. Backup conservé dans l'historique git pour l'original complet.]"
+    },
+    {
+      "id": "gid://shopify/Product/15380975485258",
+      "title": "Magnet Nezuko",
+      "status": "ACTIVE",
+      "seo_title": "Magnet Nezuko ⚔️ Cadeau Manga | Les Bois d'Aurore",
+      "seo_description": "Magnet Nezuko. Coque métal rigide, dessiné à la main sans IA, fabriqué en Anjou. Badge 5cm pour fan et collectionneur. Idée cadeau parfaite !",
+      "descriptionHtml": " <p>La petite démone aux bambous s'invite dans votre collection avec ce magnet Nezuko, tout en douceur et en force.</p> <ul> <li>Dimensions : Diamètre 5 cm</li> <li>Matière : Coque métal rigide</li> <li>Finition : Mylar glossy ultra-brillant et protecteur</li> <li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li> </ul> <p>Offrez ce magnet Nezuko - la pièce Demon Slayer la plus attachante qui soit !</p>"
+    }
+  ]
+}
