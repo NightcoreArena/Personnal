@@ -50,9 +50,11 @@ La description seule ne suffit pas à faire indexer. Causes réelles de "Explor�
 - Une fiche en rupture longue ou à stock 0 est souvent désindexée (Google évite les produits indisponibles).
 - DRAFT = jamais indexé. Écrire la description est utile seulement si le produit sera publié.
 
-### 6. Profondeur de contenu (anti-thin)
-- Le P2 lore d'une seule phrase est léger. Viser un contenu qui AIDE à choisir (voir section profondeur ci-dessous selon le standard validé).
-- Risque à l'échelle du catalogue : même squelette pour tous les "Mug X". Le contenu unique (lore + usage + maillage) est ce qui distingue chaque page.
+### 6. Profondeur de contenu (anti-thin) — RÉGLÉ
+- Une section FAQ (`collapsible-content`) existe déjà sur chaque page produit, MAIS elle est générique par type de produit (mêmes 5 questions sur tous les mugs). Elle ajoute de la profondeur, pas de l'unicité.
+- Ne PAS ajouter de FAQ dans le descriptionHtml (redondant).
+- Conséquence : sur chaque page, le SEUL contenu vraiment unique = titre + NOTRE description (intro/lore/CTA) + le maillage qui en découle. FAQ, specs, badges, bp1-bp5 sont templatés.
+- DONC : la qualité et l'unicité de la description sont LE levier anti-thin. C'est la raison d'être du travail cluster. Chaque intro/lore/CTA doit être unique entre produits ET refléter le perso (pas un texte générique réutilisable).
 
 ---
 

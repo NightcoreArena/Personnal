@@ -627,7 +627,7 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 
 **Demon Slayer** (cluster par cluster) :
 - [x] Akaza — 7 produits traités (2026-06-17)
-- [ ] Zenitsu
+- [x] Zenitsu — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Maillage vérifié (métachamps OK). Tableau méta titre = "Poster Zenitsu" (à confirmer Semrush).
 - [ ] Inosuke
 - [ ] Tanjiro
 - [ ] Nezuko
