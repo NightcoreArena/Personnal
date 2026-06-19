@@ -41,14 +41,35 @@
       "goodies chainsaw man": 30,
       "mug chainsaw man": 20
     },
+    "phrase_related_top": {
+      "makima chainsaw man": 1300,
+      "makima is listening": 880,
+      "chainsaw man makima": 720,
+      "makima figure": 140,
+      "makima figurine": 140,
+      "makima demon": 170,
+      "makima manga": 170,
+      "makima bang": 70,
+      "note_figurine": "makima figurine/figure 140 = transactionnel mais on ne vend pas de figurines. À consigner au ledger comme opportunité produit future.",
+      "note_listening": "'makima is listening' 880 — moment culte omniscience. Capté par Tapis P2 ('elle semble toujours tout voir, tout entendre') + CTA ('surveille chacun de vos clics')."
+    },
+    "organic_research_3_6": {
+      "note": "Lancé 2026-06-19 sur manga-shop.fr (base fr, filtre chainsaw/makima). Aucun combo Makima transactionnel découvert chez les concurrents. Confirms que le volume CSM/Makima FR est trop faible pour générer du gap concurrentiel. Tous les keywords utiles déjà couverts en 3.1/3.2/3.4."
+    },
     "questions_lore": {
-      "note": "phrase_questions FR. 'est ce que makima aime denji' 20 confirmé par capture utilisateur (2026-06-19). Le reste vu en fullsearch.",
+      "note": "phrase_questions FR complet lancé 2026-06-19.",
+      "why did makima kill power": 40,
+      "quel est le pouvoir de makima": 30,
       "est ce que makima aime denji": 20,
+      "est ce que makima est morte": 20,
+      "did makima love denji": 20,
+      "is makima evil": 20,
+      "is makima a devil": 20,
       "makima creepy": 390,
       "makima death": 320,
       "makima demon": 170,
       "makima age": 140,
-      "alignement_lore": "La question 'makima aime denji' (relation Makima/Denji) est captée par le P2 du Porte Clé (dynamique maître/chien, manipulation). 'makima death'/'demon' captés par le P2 du Magnet (Démon du Contrôle, fin tragique)."
+      "alignement_lore": "TOP question 'why did makima kill power' (40) → P2 Chiffonnette mis à jour pour inclure Power (sacrifice de l'alliée pour briser Denji). 'makima aime denji' (20) → P2 PK (maître/chien). 'makima is listening' (880) → P2 + CTA Tapis. 'makima death'/'demon' → P2 Magnet (Démon du Contrôle, fin tragique). 'makima pouvoir' → P2 Tableau (contrôle de quiconque elle juge inférieur)."
     }
   },
   "handles_renommes": [],
@@ -94,7 +115,7 @@
       "handle": "chiffonnette-makima",
       "seo_title": "Chiffonnette Makima Chainsaw Man 🧼 | Microfibre Douce",
       "seo_description": "Chiffonnette Makima Chainsaw Man en microfibre douce. Nettoie lunettes et écrans. Le cadeau discret des vrais fans du manga.",
-      "descriptionHtml": "<p>Offrir un accessoire Chainsaw Man utile au quotidien, c'est l'idée maligne derrière cette chiffonnette Makima. En microfibre ultra-douce, elle nettoie lunettes et écrans sans rayer et se range dans une poche, à compléter avec le <a href=\"/products/tapis-de-souris-makima\">tapis de souris Makima</a> pour habiller votre bureau.</p><p>Makima voue une fascination obsessionnelle à Chainsaw Man, qu'elle considère comme l'être le plus important au monde. Tout son plan, mené dans l'ombre de la Sécurité Publique, vise à s'emparer de sa puissance pour réécrire le monde selon sa propre volonté.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin.</strong></p><p>Nettoyez vos écrans, Makima veille au grain.</p>"
+      "descriptionHtml": "<p>Offrir un accessoire Chainsaw Man utile au quotidien, c'est l'idée maligne derrière cette chiffonnette Makima. En microfibre ultra-douce, elle nettoie lunettes et écrans sans rayer et se range dans une poche, à compléter avec le <a href=\"/products/tapis-de-souris-makima\">tapis de souris Makima</a> pour habiller votre bureau.</p><p>Makima voue une fascination obsessionnelle à Chainsaw Man, qu'elle juge plus puissant que tout autre démon. Son plan, tenu secret au cœur du Bureau de la Sécurité Publique, lui a même fait sacrifier Power pour briser Denji et s'emparer du démon tronçonneuse.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin.</strong></p><p>Nettoyez vos écrans, Makima veille au grain.</p>"
     },
     {
       "id": "gid://shopify/Product/15642100072778",
