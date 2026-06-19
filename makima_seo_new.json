@@ -1,0 +1,107 @@
+{
+  "cluster": "Makima (Chainsaw Man)",
+  "franchise": "Chainsaw Man",
+  "date": "2026-06-19",
+  "version": "v1 — 6 produits ACTIVE (pas de Tote Bag ni T-Shirt). 0 handle/title renommé. PREMIÈRE franchise Chainsaw Man du projet.",
+  "keyword_principal": "makima chainsaw man (1300/mois) — 'makima' seul 8100 mais volume majoritairement NSFW",
+  "alias_perso": {
+    "makima": "8100/mois — volume gonflé par le NSFW (hentai/r34/nude). NON retenu seul en méta titre.",
+    "makima chainsaw man": "1300/mois — combo fan/produit le plus fort, retenu en méta titre.",
+    "chainsaw man makima": "720/mois — ordre inversé, LSI texte.",
+    "makima chainsawman": "320/mois — graphie collée, LSI texte.",
+    "makima csm": "70/mois — alias court.",
+    "demon du controle": "épithète canon (Control Devil) — tissé dans les textes en LSI, jamais en méta titre (volume nul en FR)."
+  },
+  "semrush_data": {
+    "date_recherche": "2026-06-19",
+    "perso": {
+      "makima": 8100,
+      "makima chainsaw man": 1300,
+      "chainsaw man makima": 720,
+      "makima chainsawman": 320,
+      "makima death": 320,
+      "makima creepy": 390,
+      "makima csm": 70,
+      "figurine makima": 140
+    },
+    "par_produit_2_ordres": {
+      "Tableau": { "poster makima": 20, "makima poster": 0, "affiche/tableau/cadre/toile/deco makima (2 ordres)": 0, "gagnant": "Poster (poster makima 20)" },
+      "Tapis": { "makima mousepad": 20, "tapis de souris/tapis/mousepad makima autres ordres": 0, "gagnant": "topique — 'makima mousepad' 20 NON captable (anglicisme interdit en méta). Méta = Tapis de Souris" },
+      "Mug": { "mug/tasse makima (2 ordres)": 0, "gagnant": "topique" },
+      "Porte Cle": { "porte cle/keychain makima (2 ordres)": 0, "gagnant": "topique" },
+      "Chiffonnette": { "chiffon/chiffonnette/microfibre makima (2 ordres)": 0, "gagnant": "topique" },
+      "Magnet": { "magnet/aimant makima (2 ordres)": 0, "gagnant": "topique" }
+    },
+    "intentions_larges_chainsaw_man": {
+      "note": "PREMIÈRE franchise CSM — à consigner au ledger.",
+      "figurine chainsaw man": 720,
+      "poster chainsaw man": 50,
+      "t shirt chainsaw man": 50,
+      "affiche chainsaw man": 50,
+      "goodies chainsaw man": 30,
+      "mug chainsaw man": 20
+    }
+  },
+  "handles_renommes": [],
+  "titles_renommes": [],
+  "maillage_anneau": "Mug → Tableau → PK → Chiff → Tapis → Magnet → Mug",
+  "suffixes_meta": {
+    "Mug": "Tasse Céramique",
+    "Tableau": "Affiche & Toile",
+    "PK": "Médaillon Métal",
+    "Chiff": "Microfibre Douce",
+    "Tapis": "Tapis Gamer",
+    "Magnet": "Aimant Collector"
+  },
+  "footprint_p3": { "Mug": 2, "Tableau": 1, "PK": 3, "Chiff": 7, "Tapis": 9, "Magnet": 6 },
+  "products": [
+    {
+      "id": "gid://shopify/Product/15642099974474",
+      "title": "Mug Makima",
+      "handle": "mug-makima",
+      "seo_title": "Mug Makima Chainsaw Man ☕ | Tasse Céramique",
+      "seo_description": "Mug Makima Chainsaw Man illustré à la main en Anjou. L'idée cadeau pour les fans du Démon du Contrôle qui démarrent la journée.",
+      "descriptionHtml": "<p>Commencer la journée sous le regard de Makima Chainsaw Man, c'est le rituel des vrais fans du manga de Tatsuki Fujimoto. Ce mug illustré à la main en Anjou est l'idée cadeau Chainsaw Man pour les amateurs de dark fantasy moderne, à compléter avec notre <a href=\"/products/tableau-makima\">poster Makima</a> pour un duo collector.</p><p>Makima est le Démon du Contrôle, l'un des antagonistes les plus glaçants de Chainsaw Man. Sous ses airs calmes de haute gradée du Bureau de la Sécurité Publique, elle manipule démons et humains avec la même froideur, convaincue de pouvoir façonner à sa main un monde meilleur.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Dégustez votre café, Makima garde le contrôle.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15642100236618",
+      "title": "Tableau Makima",
+      "handle": "tableau-makima",
+      "seo_title": "Poster Makima Chainsaw Man 🖼️ | Affiche & Toile",
+      "seo_description": "Poster Makima Chainsaw Man en affiche, toile ou cadre. Pour les fans qui veulent afficher le Démon du Contrôle dans leur déco manga.",
+      "descriptionHtml": "<p>Afficher Makima chez soi, c'est assumer l'un des personnages les plus magnétiques du manga moderne. Ce poster Makima Chainsaw Man illustré à la main en Anjou se décline en affiche HD, toile ou cadre, idéal pour une déco Chainsaw Man qui a du caractère, à associer avec notre <a href=\"/products/porte-cle-makima\">porte-clé Makima</a>.</p><p>Dans Chainsaw Man, Makima dirige la Division Spéciale 4 du Bureau de la Sécurité Publique. Sa puissance ne tient pas qu'à la force brute : elle peut contrôler quiconque elle juge inférieur à elle, un pouvoir qui en fait l'une des figures les plus redoutées de tout le récit.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou.</strong></p><p>Affichez Makima, votre mur prend le contrôle.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15642099941706",
+      "title": "Porte Clé Makima",
+      "handle": "porte-cle-makima",
+      "seo_title": "Porte Clé Makima Chainsaw Man 🔑 | Médaillon Métal",
+      "seo_description": "Porte-clé Makima Chainsaw Man en métal collector. Le goodie pour les fans du Démon du Contrôle, compact et à emporter partout.",
+      "descriptionHtml": "<p>Les fans de Chainsaw Man reconnaîtront Makima au premier regard sur ce porte-clé en métal collector. Compact et solide, il transforme un trousseau ordinaire en goodie Chainsaw Man assumé, à compléter avec la <a href=\"/products/chiffonnette-makima\">chiffonnette Makima</a> pour un duo de poche.</p><p>Avec Denji, Makima entretient une relation trouble, mi-protectrice mi-manipulatrice, qu'elle compare elle-même à celle d'un maître et de son chien. Cette emprise psychologique, plus que n'importe quel combat, est au cœur de ce qui rend le personnage si fascinant dans Chainsaw Man.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Pensé et dessiné à la main sur tablette, ce motif numérique ne doit rien à l'IA : une création artisanale 100% angevine.</strong></p><p>Suspendez-le à votre sac, Makima ne vous lâche plus.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15642100171082",
+      "title": "Chiffonnette Makima",
+      "handle": "chiffonnette-makima",
+      "seo_title": "Chiffonnette Makima Chainsaw Man 🧼 | Microfibre Douce",
+      "seo_description": "Chiffonnette Makima Chainsaw Man en microfibre douce. Nettoie lunettes et écrans. Le cadeau discret des vrais fans du manga.",
+      "descriptionHtml": "<p>Offrir un accessoire Chainsaw Man utile au quotidien, c'est l'idée maligne derrière cette chiffonnette Makima. En microfibre ultra-douce, elle nettoie lunettes et écrans sans rayer et se range dans une poche, à compléter avec le <a href=\"/products/tapis-de-souris-makima\">tapis de souris Makima</a> pour habiller votre bureau.</p><p>Makima voue une fascination obsessionnelle à Chainsaw Man, qu'elle considère comme l'être le plus important au monde. Tout son plan, mené dans l'ombre de la Sécurité Publique, vise à s'emparer de sa puissance pour réécrire le monde selon sa propre volonté.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin.</strong></p><p>Nettoyez vos écrans, Makima veille au grain.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15642100072778",
+      "title": "Tapis de Souris Makima",
+      "handle": "tapis-de-souris-makima",
+      "seo_title": "Tapis de Souris Makima Chainsaw Man 🖱️ | Tapis Gamer",
+      "seo_description": "Tapis de souris Makima Chainsaw Man pour votre setup gaming. Le Démon du Contrôle veille sur votre bureau à chaque session.",
+      "descriptionHtml": "<p>Sous l'emprise de Makima, votre setup gaming change d'atmosphère. Ce tapis de souris Makima Chainsaw Man offre une glisse précise et une base antidérapante, parfait pour les sessions tendues et indispensable à tout bureau aux couleurs de Chainsaw Man, à compléter avec le <a href=\"/products/magnet-makima\">magnet Makima</a>.</p><p>Rien n'échappe à Makima : dans Chainsaw Man, elle semble toujours tout voir, tout entendre et tout anticiper. Cette omniscience glaçante, devenue culte chez les fans, fait d'elle une présence qui domine chaque scène où elle apparaît.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Façonné à la main au stylet dans l'atelier angevin, ce motif numérique est garanti 100% sans IA.</strong></p><p>Installez-le, Makima surveille chacun de vos clics.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15642100040010",
+      "title": "Magnet Makima",
+      "handle": "magnet-makima",
+      "seo_title": "Magnet Makima Chainsaw Man 🧲 | Aimant Collector",
+      "seo_description": "Magnet Makima Chainsaw Man en métal rigide. La pièce collector pour les fans du Démon du Contrôle.",
+      "descriptionHtml": "<p>Petit format, grande présence : ce magnet Makima Chainsaw Man trouve sa place sur un frigo, une porte ou un meuble en métal. Immédiatement reconnaissable, c'est le goodie Chainsaw Man qui complète une vraie collection de fan, à associer avec le <a href=\"/products/mug-makima\">mug Makima</a>.</p><p>Révélée comme le Démon du Contrôle, Makima incarne l'un des antagonistes les plus marquants du manga des années 2020. Sa quête d'un monde sans peur ni mort, débarrassé de tout ce qu'elle juge mauvais, en fait une figure aussi terrifiante que tragique.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Conçu au stylet et dessiné à la main, ce visuel numérique ne doit rien à l'IA, façonné dans l'Anjou.</strong></p><p>Aimantez-le et complétez votre panthéon Chainsaw Man.</p>"
+    }
+  ]
+}
