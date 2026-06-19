@@ -145,12 +145,22 @@ Ajouter **1 lien `<a>` par fiche**, tissé naturellement dans la prose (jamais u
 - VARIER l'expression de la valeur artisanale d'un cluster à l'autre, pas seulement à l'intérieur d'un cluster. Banque de formulations à faire tourner (voir Étape 4, P3 artisan).
 
 ### 🔁 GATE anti-footprint inter-cluster — squelettes par type de produit (vérif AVANT application)
-Le vrai duplicate inter-cluster n'est PAS la prose complète (chaque perso a un lore distinct → les P2 divergent naturellement). Le risque réel = le **SQUELETTE répété par TYPE de produit**, car l'angle d'ouverture (P1) et le P3 artisan sont dictés par le produit, pas par le perso. En écrivant deux clusters de la même franchise à la suite, on calque inconsciemment le nouveau sur le précédent.
-- **Exemple réel (Vegeta SSJ → Gohan SSJ2, 2026-06-19)** : 6/7 P1 et 7/7 P3 partageaient le même squelette ("Compact et collector, ce porte-clé...", "Votre setup mérite [X]...", "Ce magnet... s'accroche sur votre frigo et ne lâche plus", P3 "Dessiné ligne à ligne à la main sur tablette en Anjou..." **verbatim**). Cause racine : banque P3 à 4 entrées rotées dans le même ordre = récurrence garantie.
-- **Procédure (légère, juste avant l'Étape 7)** : ouvrir le DERNIER `_seo_new.json` de la même franchise et comparer, produit par produit du même type :
-  - (a) les **4-5 premiers mots du P1** → doivent différer (verbe/structure d'attaque) ;
-  - (b) la **formule P3 artisan** → doit différer (verbe d'attaque + construction).
-- **Ne PAS** diff la prose entière (inutile : perso différent = texte différent). Si collision sur (a) ou (b) → reformuler l'ouverture / piocher une autre entrée P3.
+Le vrai duplicate inter-cluster n'est PAS la prose complète (chaque perso a un lore distinct → les P2 divergent naturellement). Le risque réel = le **SQUELETTE répété par TYPE de produit** : P1 (ouverture), CTA, P3 artisan ET les phrases de remplissage sont dictés par le PRODUIT, pas par le perso. En écrivant un cluster après un autre, on calque inconsciemment le nouveau sur le précédent.
+
+- **⚠️ LE FOOTPRINT EST CROSS-FRANCHISE, PAS SEULEMENT INTRA-FRANCHISE.** L'ancienne règle ne comparait qu'à la même franchise → trou béant. Un Tapis Saitama, un Tapis Guts et un Tapis DMG (3 franchises) se calquaient tous (« À chaque session, [perso] veille sur votre bureau » verbatim 3/3). Le client/Google voit le TYPE de produit, pas la franchise. **On compare donc TOUJOURS aux 3 derniers clusters faits, TOUTES franchises confondues.**
+- **Exemple réel #1 (Vegeta SSJ → Gohan SSJ2, 2026-06-19)** : 6/7 P1 et 7/7 P3 partageaient le squelette. Cause : banque P3 rotée dans le même ordre.
+- **Exemple réel #2 (DMG → Guts → Saitama, 2026-06-19, 3 franchises ≠)** : collisions verbatim sur Tapis P1+CTA, Magnet P1+CTA, Tote P1, Chiff P1+CTA, Tableau P1+CTA, Mug CTA. Cause racine : la GATE ne regardait que la même franchise + aucun garde-fou sur les CTA. → Saitama réécrit, GATE élargie ci-dessous.
+
+**Procédure OBLIGATOIRE (juste avant l'Étape 7) — consulter `footprint_log.md` :**
+Un fichier `/home/user/Personnal/footprint_log.md` consigne, pour les ~3 derniers clusters (toutes franchises), par TYPE de produit : l'angle d'ouverture P1, le verbe+registre du CTA, et l'entrée P3 utilisée.
+1. **AVANT d'écrire** un cluster : ouvrir `footprint_log.md`, lire les lignes du type de produit concerné. Choisir pour CHAQUE produit un angle P1, un verbe/registre CTA et une entrée P3 **différents des 3 dernières lignes**.
+2. **APRÈS application** : ajouter une ligne par produit du nouveau cluster dans `footprint_log.md` (date, perso, type, angle P1, verbe CTA, n° P3).
+3. **Diff de contrôle**, produit par produit du même type, contre les 3 dernières entrées du log :
+   - (a) **4-5 premiers mots du P1** → doivent différer (verbe/structure d'attaque) ;
+   - (b) **verbe d'impératif + structure du CTA** → doivent différer (ex : ne pas réutiliser « Posez-le… s'installe sur votre bureau », « Fixez-le, le collector… », « Glissez-la dans votre sac… ») ;
+   - (c) **phrase de remplissage produit** → reformuler les tics récurrents : « Ce magnet en métal rigide est la pièce collector… », « fait reconnaître les vrais fans au premier regard », « voici [perso] dans toute sa [qualité] » ;
+   - (d) **formule P3 artisan** → entrée de banque différente des 3 derniers du même type.
+- **Ne PAS** diff la prose entière (inutile : perso différent = P2 différent). Si collision sur (a), (b), (c) ou (d) → reformuler avant application.
 - **Banque P3 ÉLARGIE** (faire tourner, ne jamais réutiliser la même que le cluster précédent du même type) :
   1. "Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou."
   2. "Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou."

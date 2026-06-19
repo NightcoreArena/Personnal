@@ -349,6 +349,19 @@ Franchise de niche en FR → volumes globaux faibles.
 
 → Première franchise Yu-Gi-Oh! mesurée (2026-06-19). "YGO" = alias court usité dans les méta titres (suffixe). "Yu-Gi-Oh!" avec point d'exclamation = graphie officielle FR.
 
+### One Punch Man / OPM (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos de la franchise : Saitama, Genos, Tatsumaki, Garou...
+"One Punch Man" > "OPM" pour les produits. "saitama" seul (14800) polysémique (ville japonaise) → toujours combiner avec "One Punch Man" dans les méta titres.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| poster one punch man | 70 | Tableau COLLECTION (keyword franchise → collections) ; texte fiche OK |
+| cadeau one punch man | 20 | angle cadeau, tous produits |
+| goodies one punch man | 20 | angle collection |
+| mug one punch man | 20 | Mug : texte |
+
+→ Première franchise OPM mesurée (2026-06-19). Volumes faibles. "poster one punch man" (70) = le plus fort → appartient aux COLLECTIONS, texte fiche OK mais pas ouvrir le méta titre produit. "saitama" + "one punch man" = combo non ambigu retenu en méta titre.
+
 ### Evoli (Pokémon) — mesuré 2026-06-19
 - Perso : **evoli 18100** > evoli pokemon 3600 > pokemon evoli 2400 > evolution evoli 6600 (informationnel)
 - Alias : "evoli shiny" 1300 = informationnel (couleur) ; "evoli evolve/evolution" = informationnel (lore)
@@ -386,7 +399,7 @@ Franchise de niche en FR → volumes globaux faibles.
   | Tote Bag DRAFT | tote bag/sac guts berserk = 0 | topique |
   | Magnet | magnet/aimant guts berserk = 0 | topique |
 - 6 handles corrigés (fautes "bersek" → "berserk" + manque "guts") + 6×301. T-Shirt title : parenthèses supprimées.
-- Suffixes méta : Tasse Céramique / Affiche & Toile / Breloque Métal / Du S au XXL / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant Collector.
+- Suffixes méta : Tasse Céramique / Affiche & Toile / Métal Brossé / Du S au XXL / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant Collector. (PK corrigé 2026-06-19 : Breloque Métal → Métal Brossé)
 - 13 alt texts mis à jour (Tote Bag DRAFT = 0 image). PREMIÈRE franchise Berserk : broad-intent consigné au ledger.
 - Fichier final → guts_berserk_seo_new.json.
 
@@ -405,9 +418,30 @@ Franchise de niche en FR → volumes globaux faibles.
   | Tapis | tapis de souris dark magician girl = 0 | topique |
   | Tote Bag DRAFT | tote bag/sac dark magician girl = 0 | topique |
   | Magnet | magnet/aimant dark magician girl = 0 | topique |
-- 0 handle renommé. Suffixes méta : Tasse Yu-Gi-Oh / Affiche & Toile / Breloque Métal / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant YGO.
+- 0 handle renommé. Suffixes méta : Tasse Yu-Gi-Oh / Affiche & Toile / Médaillon Métal / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant YGO. (PK corrigé 2026-06-19 : Breloque Métal → Médaillon Métal)
 - 10 alt texts mis à jour (Tote Bag DRAFT = 0 image). PREMIÈRE franchise Yu-Gi-Oh! : broad-intent consigné au ledger.
 - Fichier final → dark_magician_girl_seo_new.json.
+
+---
+
+### Saitama (One Punch Man) — mesuré 2026-06-19
+- Perso : **saitama one punch man 720** > one punch man saitama 480 > saitama opm 480 > saitama 14800 (polysémique — ville japonaise) > figurine saitama 390 (hors produit)
+- Décision : "Saitama One Punch Man" retenu dans tous les méta titres (disambiguation obligatoire — "saitama" seul = ville).
+- Alias "Héros Chauve" = informationnel/lore → tissé dans les textes (P1, CTA), jamais en méta titre.
+- Combos produit :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug saitama 20 / tasse saitama 0 / mug one punch man 20 | mug saitama (20, perso > franchise pour fiche produit) |
+  | Tableau | poster saitama 20 / tableau saitama 0 / poster one punch man 70 | poster saitama (20 — "poster one punch man" 70 = COLLECTION) |
+  | Porte Clé | porte cle saitama/one punch man = 0 | topique |
+  | Chiffonnette | chiffonnette/chiffon saitama = 0 | topique |
+  | Tapis | tapis de souris saitama/one punch man = 0 | topique |
+  | Tote Bag DRAFT | tote bag/sac saitama = 0 | topique |
+  | Magnet | magnet/aimant saitama = 0 | topique |
+- 6 handles renommés (one-punch-man → saitama) + 6×301. Tableau title corrigé ("One Punch Man" → "Saitama").
+- Suffixes méta : Tasse Céramique / Affiche & Toile / Médaillon Métal / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant Collector.
+- 11 alt texts mis à jour (Tote Bag DRAFT sans image). PREMIÈRE franchise OPM : broad-intent consigné au ledger.
+- Fichier final → saitama_seo_new.json.
 
 ---
 
