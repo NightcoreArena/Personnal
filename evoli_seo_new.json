@@ -1,0 +1,182 @@
+{
+  "cluster": "Evoli (Pokémon)",
+  "franchise": "Pokémon",
+  "date": "2026-06-19",
+  "version": "v1 — 8 produits (T-Shirt ACTIF, Tote Bag DRAFT). 1 handle renommé (T-Shirt). PREMIÈRE franchise Pokémon du projet. Keyword perso : evoli (18100/mois).",
+  "keyword_principal": "evoli (18100/mois)",
+  "alias_perso": {
+    "evoli pokemon": "3600/mois — variante franchise. LSI dans le texte.",
+    "pokemon evoli": "2400/mois — ordre inversé, LSI dans le texte.",
+    "evoli shiny": "1300/mois — informationnel (couleur). Non utilisé en méta.",
+    "evoli evolution": "3600/mois — informationnel (lore). Nourrit P2."
+  },
+  "semrush_data": {
+    "date_recherche": "2026-06-19",
+    "perso": {
+      "evoli": 18100,
+      "evoli pokemon": 3600,
+      "pokemon evoli": 2400,
+      "evoli shiny": 1300,
+      "evolution evoli": 6600
+    },
+    "par_produit": {
+      "Mug": {
+        "mug evoli": 20,
+        "tasse evoli": 40,
+        "mug pokemon evoli": 20,
+        "tasse pokemon evoli": 20,
+        "mug eevee": 0,
+        "gagnant": "tasse evoli (40) — TASSE > MUG en volume. Méta titre ouvre sur Tasse."
+      },
+      "Tableau": {
+        "tableau evoli": 0,
+        "poster evoli": 20,
+        "affiche evoli": 0,
+        "cadre evoli": 0,
+        "toile evoli": 0,
+        "poster eevee": 20,
+        "gagnant": "poster evoli (20) — poster = gagnant, méta titre ouvre sur Poster."
+      },
+      "T-Shirt": {
+        "t shirt evoli": 30,
+        "tee shirt evoli": 20,
+        "t-shirt evoli": 0,
+        "tshirt evoli": 0,
+        "t shirt eevee": 20,
+        "gagnant": "t shirt evoli (30)"
+      },
+      "Porte Cle": {
+        "porte cle evoli": 0,
+        "porte-cle evoli": 0,
+        "porte clef evoli": 0,
+        "keychain evoli": 0,
+        "gagnant": "topique (0 vérifié 2026-06-19)"
+      },
+      "Chiffonnette": {
+        "chiffonnette evoli": 0,
+        "chiffon evoli": 0,
+        "microfibre evoli": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19)"
+      },
+      "Tapis": {
+        "tapis de souris evoli": 20,
+        "tapis evoli": 20,
+        "mousepad evoli": 0,
+        "tapis gaming evoli": 0,
+        "gagnant": "tapis de souris evoli (20)"
+      },
+      "Tote Bag": {
+        "tote bag evoli": 0,
+        "sac evoli": 170,
+        "cabas evoli": 0,
+        "tote bag eevee": 0,
+        "gagnant": "sac evoli (170) — SURPRISE. Méta titre ouvre sur Sac. H1 reste Tote Bag Evoli. DRAFT."
+      },
+      "Magnet": {
+        "magnet evoli": 0,
+        "aimant evoli": 0,
+        "magnet frigo evoli": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19)"
+      }
+    },
+    "intentions_larges_franchise_pokemon": {
+      "cadeau pokemon": 1300,
+      "poster pokemon": 1300,
+      "t shirt pokemon": 1000,
+      "tapis pokemon": 880,
+      "affiche pokemon": 720,
+      "mug pokemon": 590,
+      "goodies pokemon": 320,
+      "tote bag pokemon": 30,
+      "note": "PREMIÈRE FRANCHISE Pokémon — à consigner au ledger pour tous les futurs clusters Pokémon"
+    }
+  },
+  "handles_renommes": [
+    {
+      "produit": "T-Shirt Evoli",
+      "ancien": "t-shirt-pokemon-enfant",
+      "nouveau": "t-shirt-evoli",
+      "redirect_301": "/products/t-shirt-pokemon-enfant → /products/t-shirt-evoli"
+    }
+  ],
+  "maillage_anneau": "Mug → Tableau → PK → T-Shirt → Chiff → Tapis → Magnet → Mug (Tote Bag DRAFT → Mug uniquement)",
+  "suffixes_meta": {
+    "Mug": "Mug Céramique",
+    "Tableau": "Affiche & Toile",
+    "T-Shirt": "Du S au XXL",
+    "PK": "Breloque Métal",
+    "Chiff": "Microfibre Douce",
+    "Tapis": "Tapis Gaming",
+    "Tote Bag": "Tote Bag Satiné",
+    "Magnet": "Aimant Collector"
+  },
+  "products": [
+    {
+      "id": "gid://shopify/Product/10146807873866",
+      "title": "Mug Evoli",
+      "handle": "mug-evoli",
+      "seo_title": "Tasse Evoli ☕ | Mug Céramique",
+      "seo_description": "Tasse Evoli Pokémon illustrée à la main en Anjou. L'idée cadeau collector pour les dresseurs : commencez chaque matin avec votre partenaire préféré.",
+      "descriptionHtml": "<p>Chaque matin commence mieux en compagnie d'Evoli, l'un des Pokémon les plus aimés de la franchise. Cette tasse Evoli illustrée à la main en Anjou est l'idée cadeau Pokémon idéale pour les dresseurs de tous les âges, à doubler avec notre <a href=\"/products/tableau-evoli\">poster Evoli</a> pour un duo collector.</p><p>Dans l'univers Pokémon, Evoli est la seule créature capable d'évoluer en huit formes distinctes selon la pierre utilisée, l'heure du jour ou les liens d'amitié tissés avec son dresseur. Cette flexibilité unique, absente chez n'importe quel autre Pokémon, en fait un symbole de liberté et de potentiel depuis la première génération.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Conçu au stylet et dessiné à la main, ce visuel numérique ne doit rien à l'IA, façonné dans l'Anjou.</strong></p><p>Versez-vous un café, Evoli veille sur votre matin.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10183461536074",
+      "title": "Tableau Evoli",
+      "handle": "tableau-evoli",
+      "seo_title": "Poster Evoli 🖼️ | Affiche & Toile",
+      "seo_description": "Poster Evoli Pokémon en affiche HD, toile ou cadre. Pour les fans qui veulent afficher leur partenaire préféré dans leur déco gaming ou chambre.",
+      "descriptionHtml": "<p>Pour les dresseurs Pokémon qui veulent habiller leur chambre ou leur bureau, voici leur compagnon dans toute sa douceur. Ce poster Evoli illustré à la main en Anjou s'accroche en affiche HD, toile sur châssis ou cadre encadré pour une déco Pokémon qui ne passe pas inaperçue, à compléter avec notre <a href=\"/products/porte-cle-evoli\">porte-clé Evoli</a>.</p><p>Dans Pokémon, Evoli accompagne les dresseurs les plus attachés à l'amitié plutôt qu'à la puissance brute. Dans le jeu Pokémon Let's Go Evoli (Nintendo Switch, 2018), il refuse d'entrer dans sa Pokéball et préfère rester sur l'épaule de son dresseur : un détail qui dit tout de sa personnalité affectueuse.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin.</strong></p><p>Choisissez votre format, Evoli s'affiche chez vous.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10181104140618",
+      "title": "Porte Clé Evoli",
+      "handle": "porte-cle-evoli",
+      "seo_title": "Porte Clé Evoli 🔑 | Breloque Métal",
+      "seo_description": "Porte-clé Evoli Pokémon en métal collector. Le goodie idéal pour les fans d'Evoli toujours prêts à afficher leur partenaire dans leur quotidien.",
+      "descriptionHtml": "<p>Dans votre poche ou à votre sac, Evoli vous accompagne partout. Ce porte-clé Evoli en métal robuste est le goodie collector pour les fans de l'univers Pokémon, compact et solide, à compléter avec notre <a href=\"/products/t-shirt-evoli\">t-shirt Evoli</a> pour porter ses couleurs au quotidien.</p><p>Dans Pokémon, Evoli peut évoluer en Mentali par amitié pendant le jour, ou en Noctali par amitié pendant la nuit : deux formes opposées issues du même lien entre un dresseur et son partenaire. Ce duo d'évolutions psychique et ténèbres illustre à lui seul toute la richesse de la relation entre Evoli et ses compagnons humains.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Pensé et dessiné à la main sur tablette, ce motif numérique ne doit rien à l'IA : une création artisanale 100% angevine.</strong></p><p>Emportez-le, Evoli vous suit où que vous alliez.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10301631496522",
+      "title": "T-Shirt Evoli",
+      "handle_ancien": "t-shirt-pokemon-enfant",
+      "handle": "t-shirt-evoli",
+      "redirect_301_a_creer": "/products/t-shirt-pokemon-enfant → /products/t-shirt-evoli",
+      "seo_title": "T-Shirt Evoli 👕 | Du S au XXL",
+      "seo_description": "T-shirt Evoli Pokémon illustré à la main en Anjou. Du S au XXL et de 2 à 12 ans pour les fans qui veulent porter leur partenaire préféré.",
+      "descriptionHtml": "<p>Affichez vos couleurs de dresseur au quotidien avec ce t-shirt Evoli illustré à la main en Anjou. Disponible du S au XXL et de 2 à 12 ans, il s'offre aussi bien à un adulte qu'à un enfant fan d'Evoli, à assortir avec la <a href=\"/products/chiffonnette-evoli\">chiffonnette Evoli</a> pour compléter votre collection Pokémon.</p><p>L'univers Pokémon doit beaucoup à Evoli : c'est l'un des rares Pokémon à avoir eu son propre jeu dédié, Pokémon Let's Go Evoli (Nintendo Switch, 2018), où il joue le rôle de partenaire inamovible refusant de se laisser enfermer dans une Pokéball. Une personnalité attachante qui lui a valu des fans dans le monde entier.</p><ul><li>Taille Adulte : S à XXL</li><li>Taille Enfant : 2 à 12 ans</li><li>Matière : Polyester doux toucher coton</li><li>Impression : Sublimation thermique haute définition</li><li>Entretien : Lavable en machine 30°</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou.</strong></p><p>Enfilez-le, votre Pokémon préféré s'affiche dans votre style.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15361804108106",
+      "title": "Chiffonnette Evoli",
+      "handle": "chiffonnette-evoli",
+      "seo_title": "Chiffonnette Evoli 🧼 | Microfibre Douce",
+      "seo_description": "Chiffonnette Evoli Pokémon en microfibre ultra-douce. Nettoie lunettes et écrans sans rayer. Le cadeau malin pour les fans d'Evoli, discret et précieux.",
+      "descriptionHtml": "<p>Pour nettoyer lunettes et écrans sans rayer, avec la douceur du Pokémon le plus affectueux de la franchise. Cette chiffonnette Evoli en microfibre ultra-douce est le cadeau Pokémon qu'on n'attendait pas et qu'on ne lâche plus, à compléter avec le <a href=\"/products/tapis-de-souris-evoli\">tapis de souris Evoli</a> pour habiller tout votre bureau.</p><p>Evoli doit une partie de son succès mondial à sa capacité à nouer des liens. Dans les jeux Pokémon, certaines de ses évolutions ne s'obtiennent qu'avec un niveau d'amitié maximal, une mécanique rare qui a profondément ancré Evoli dans l'imaginaire de toute une génération de dresseurs.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Glissez-la dans votre sac, le cadeau Pokémon discret qui révèle les vrais fans d'Evoli.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15372516983114",
+      "title": "Tapis de Souris Evoli",
+      "handle": "tapis-de-souris-evoli",
+      "seo_title": "Tapis de Souris Evoli 🖱️ | Tapis Gaming",
+      "seo_description": "Tapis de souris Evoli Pokémon pour votre setup gaming. Glisse optimale, base antidérapante. Installez Evoli sur votre bureau pour chaque session.",
+      "descriptionHtml": "<p>À chaque session, Evoli veille sur votre bureau. Ce tapis de souris Evoli offre une glisse précise et silencieuse pour votre setup, à compléter avec le <a href=\"/products/magnet-evoli\">magnet Evoli</a> pour personnaliser tout votre espace aux couleurs du Pokémon le plus évolutif de la franchise.</p><p>Dans Pokémon, les évolutions d'Evoli par pierre élémentaire sont parmi les plus emblématiques de la franchise : la Pierre Feu donne Pyroli, la Pierre Eau donne Aquali, la Pierre Foudre donne Voltali. Trois formes radicalement différentes issues du même Evoli, une capacité de transformation qui fascine les dresseurs depuis 1996.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Né sous le stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou.</strong></p><p>Posez-le sur votre bureau, le Pokémon le plus adaptable de la franchise prend ses marques.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380209598794",
+      "title": "Tote Bag Evoli",
+      "handle": "tote-bag-evoli",
+      "status": "DRAFT",
+      "seo_title": "Sac Evoli 👜 | Tote Bag Satiné",
+      "seo_description": "Sac Evoli Pokémon en tissu satiné brillant. Le tote bag cadeau pour les fans d'Evoli qui veulent leur partenaire partout avec eux.",
+      "descriptionHtml": "<p>Emmener Evoli partout, c'est désormais possible. Ce sac Evoli en tissu satiné épais fait reconnaître les vrais fans d'Evoli au premier regard, idéal comme cadeau pour les dresseurs Pokémon, à compléter avec la <a href=\"/products/mug-evoli\">tasse Evoli</a> pour un duo collector.</p><p>Evoli est le Pokémon que l'on choisit pour sa personnalité, pas pour ses statistiques. Depuis sa création en 1996, il est devenu l'un des Pokémon les plus populaires de la franchise grâce à son charme visuel unique, ses grandes oreilles, ses yeux expressifs et sa fourrure crème. Un design pensé pour l'attachement instantané.</p><ul><li>Surface : Tissu satiné épais (280g)</li><li>Dimensions : 36x33cm</li><li>Impression : Sublimation brillante inaltérable</li><li>Entretien : Lavage à 30° max</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Chaque trait de ce visuel numérique est posé à la main au stylet, sans aucune IA, dans notre atelier de l'Anjou.</strong></p><p>Portez-le à l'épaule, Evoli s'invite dans votre quotidien.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380968735050",
+      "title": "Magnet Evoli",
+      "handle": "magnet-evoli",
+      "seo_title": "Magnet Evoli 🧲 | Aimant Collector",
+      "seo_description": "Magnet Evoli Pokémon en métal rigide. L'aimant collector pour les fans d'Evoli : petit, solide, reconnaissable au premier coup d'oeil sur votre frigo.",
+      "descriptionHtml": "<p>Accrochez Evoli sur votre frigo. Ce magnet Evoli Pokémon en métal rigide est la pièce collector pour les fans de la franchise, petit mais solide et reconnaissable au premier regard, à associer avec la <a href=\"/products/mug-evoli\">tasse Evoli</a> pour compléter la collection.</p><p>Apparu dès la première génération Pokémon en 1996, Evoli reste l'un des Pokémon les plus présents sur les goodies et figurines de la franchise. Sa silhouette de petit renardeau brun, ses longues oreilles et sa collerette crème sont instantanément reconnaissables : un design pensé pour durer et pour être collectionné.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Dessin numérique né sous le stylet, entièrement à la main et sans IA, façonné en Anjou au cœur de la France.</strong></p><p>Fixez-le, le collector Pokémon que les vrais fans d'Evoli reconnaissent au premier regard.</p>"
+    }
+  ]
+}
