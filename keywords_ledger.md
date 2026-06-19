@@ -239,6 +239,14 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 - Suffixes méta variés (anti-redondance inter-cluster DB) : Tasse Céramique / Poster & Toile / Breloque Métal / Chiffon Lunettes / Tapis Gamer / Sac Satiné / Aimant Frigo.
 - 11 alt texts mis à jour. Fichier final → goku_shenron_seo_new.json.
 
+### Vegeta SSJ4 (Dragon Ball GT) — mesuré 2026-06-19
+- Perso : **vegeta ssj4 590** > ssj4 vegeta 320 = vegeta super saiyan 4 320 > vegeta gt 260 > dragon ball z vegeta ssj4 260 > vegeta ssj4 daima 110
+- Alias clé : "vegeta super saiyan 4" (320) → LSI dans le texte (P1/P2). Anglicisme, jamais en méta titre.
+- Tous les combos produit = NOTHING FOUND → cluster 100% topique pur.
+- Seul keyword GT-produit trouvé : "poster dragon ball gt" 20 → intention large dans le Tableau.
+- Suffixes méta (anti-redondance inter-cluster DB) : Chope 340ml / Affiche & Cadre / Médaillon Métal / Lingette Écran / Base Antidérapante / Cabas Coton / Aimant Collector.
+- 0 handle renommé. 11 alt texts mis à jour. Fichier final → vegeta_ssj4_seo_new.json.
+
 ---
 
 ## 4. Gap concurrentiel (combos transactionnels via organic_research)
