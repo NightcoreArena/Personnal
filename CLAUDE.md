@@ -326,6 +326,12 @@ Un perso est souvent cherché sous un AUTRE nom que son nom principal. Lister TO
 Chaque produit a des SYNONYMES qu'il faut tester. Un produit = une ligne phrase_these avec toutes ses variantes + le perso ET ses alias.
 **Tester TOUS les synonymes ci-dessous, même ceux qu'on croit nuls : un appel `phrase_these` couvre toute une ligne, donc le coût est nul et les surprises sont réelles (ex : Gaara → tout produit à 0 sauf "poster" 20 et "sac" 20 ; "t shirt gaara" 20 alors que pas de produit). Ne JAMAIS raccourcir la liste.**
 
+🔴 **GATE ORDRE DES MOTS (anti-erreur Meruem "meruem poster 20 oublié", 2026-06-19) — OBLIGATOIRE.** Semrush compte "[produit] [perso]" et "[perso] [produit]" comme DEUX keywords distincts à volumes différents (ex : `meruem poster` 20 ≠ `poster meruem` 10). Tester UN seul ordre rate du volume. DEUX méthodes, l'une OU l'autre :
+- **Méthode A (fiable, recommandée) = reproduire le Keyword Magic Tool "Inclure au moins un".** Lancer `phrase_fullsearch` sur "[perso]" AVEC `display_filter` pour ne garder que les phrases contenant un terme produit : `display_filter: "+|Ph|Co|poster"` (un filtre par terme produit ; `Co` = contient). Ça remonte TOUS les combos produit (les 2 ordres + variantes) en éliminant le bruit lore (mort, vs, komugi…) qui sinon sature le top et tronque les combos à 20. Refaire par terme produit (poster, mug, tasse, magnet, aimant, tapis, sac, porte cle, chiffon…).
+- **Méthode B (si pas de filtre) = tester explicitement les DEUX ordres** dans phrase_these : `[produit] [perso];[perso] [produit]` pour chaque synonyme. Ne jamais se contenter de "[produit] [perso]".
+- **Le volume retenu = la somme d'intention des 2 ordres** (ex : Poster Meruem = 20 + 10 = ~30), mais le méta titre s'ouvre sur le mot produit, pas l'ordre exact (Google gère les variantes proches).
+- ⚠️ Ne PLUS jamais conclure "0" ou "10" sur un produit sans avoir couvert les deux ordres (filtre ou double requête).
+
 | Produit | Keywords à tester (avec [perso] ET alias perso) |
 |---|---|
 | Mug | `mug [perso];tasse [perso];gobelet [perso];chope [perso];mug café [perso]` |
