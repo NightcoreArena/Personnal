@@ -283,6 +283,24 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 - Suffixes méta (anti-redondance inter-cluster DB) : Tasse DBZ / Toile Tendue / Médaillon Acier / Chiffon Optique / Tapis DBZ / Sac Toile / Aimant DBZ.
 - 11 alt texts mis à jour (Tableau = 5 variantes avec type). Fichier final → gohan_ssj2_seo_new.json.
 
+### Pokémon (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Evoli, Pikachu, Salamèche, Bulbizarre, Mewtwo, Dracaufeu...
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| cadeau pokemon | 1300 | angle cadeau, tous produits |
+| poster pokemon | 1300 | Tableau : texte |
+| t shirt pokemon | 1000 | T-Shirt : texte |
+| tapis pokemon | 880 | Tapis : texte |
+| affiche pokemon | 720 | Tableau : texte |
+| mug pokemon | 590 | Mug : texte |
+| goodies pokemon | 320 | angle collection, tous produits |
+| tote bag pokemon | 30 | Tote Bag : texte |
+
+→ Première franchise Pokémon mesurée (2026-06-19). Alias "Pokémon" sans accent = variante courante en recherche FR.
+
+---
+
 ### Hunter x Hunter / HxH (mesuré 2026-06-19, fr)
 Réutilisable pour tous les persos : Hisoka, Killua, Gon, Kurapika, Leorio, Meruem...
 Alias "HxH" = équivalent à "Hunter x Hunter" pour tous les volumes → utiliser les deux dans les textes.
@@ -298,6 +316,25 @@ Alias "HxH" = équivalent à "Hunter x Hunter" pour tous les volumes → utilise
 | goodies hunter x hunter | 20 | angle collection |
 | mug hunter x hunter | 20 | Mug : texte |
 | tapis hunter x hunter | 20 | Tapis : texte |
+
+### Evoli (Pokémon) — mesuré 2026-06-19
+- Perso : **evoli 18100** > evoli pokemon 3600 > pokemon evoli 2400 > evolution evoli 6600 (informationnel)
+- Alias : "evoli shiny" 1300 = informationnel (couleur) ; "evoli evolve/evolution" = informationnel (lore)
+- Combos produit (balayage synonymes complet) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | **tasse evoli 40** > mug evoli 20 | **Tasse Evoli (40) — TASSE GAGNE sur Mug** |
+  | Tableau | poster evoli 20 / tableau evoli 0 / cadre evoli 0 / affiche evoli 0 | **Poster Evoli (20)** |
+  | T-Shirt | **t shirt evoli 30** / tee shirt evoli 20 | **T-Shirt Evoli (30)** |
+  | Porte Clé | porte cle evoli 0 / keychain evoli 0 | topique |
+  | Chiffonnette | NOTHING FOUND (tous 0) | topique |
+  | Tapis | tapis de souris evoli 20 / tapis evoli 20 | **tapis de souris evoli (20)** |
+  | Tote Bag DRAFT | tote bag evoli 0 / **sac evoli 170** | **sac evoli (170) — SURPRISE, méta = "Sac Evoli"** |
+  | Magnet | NOTHING FOUND (tous 0) | topique |
+- ⚠️ 1 handle renommé : t-shirt-pokemon-enfant → t-shirt-evoli + 1×301.
+- Suffixes méta (premiers Pokémon) : Mug Céramique / Affiche & Toile / Du S au XXL / Breloque Métal / Microfibre Douce / Tapis Gaming / Tote Bag Satiné / Aimant Collector.
+- 13 alt texts mis à jour (Tote Bag DRAFT sans image). Alt T-Shirt image 2 corrigé (suppression description illustration interdite).
+- Fichier final → evoli_seo_new.json.
 
 ---
 
