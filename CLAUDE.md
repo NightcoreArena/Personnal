@@ -154,6 +154,14 @@ Exemples variés sur le même keyword "Zenitsu Demon Slayer" :
 - Tapis : "Sur votre bureau, place au Souffle de la Foudre : ce tapis de souris Zenitsu Demon Slayer est illustré à la main en Anjou."
 - Magnet : "Ce magnet collector en métal rigide rend hommage à Zenitsu Demon Slayer. Illustré à la main en Anjou, compact et solide."
 
+### 🎯 Règle du Filet de Sécurité (Intentions Larges) — ABSOLUE
+**OBLIGATOIRE sur 100% des fiches.** Ne te repose JAMAIS uniquement sur le nom du personnage ou sur le lore de niche. Tu dois IMPÉRATIVEMENT intégrer des "intentions de recherche larges" (transactionnelles) sur CHAQUE fiche du cluster pour capter le trafic de masse de la franchise mère. C'est le filet qui rattrape les clusters topiques purs (combos perso = 0) : même si "[produit] [perso]" ne pèse rien, "[produit] [franchise]" et "cadeau [franchise]" pèsent souvent des centaines de recherches/mois.
+
+- **Le Lexique obligatoire** : piocher dans des termes comme "cadeau [Franchise]", "goodies [Franchise]", "déco manga", "idée cadeau otaku", "[Produit] [Franchise]" (ex : Mug Dragon Ball, Poster One Piece). Les volumes franchise sont au registre `keywords_ledger.md` (réutilisables sans re-mesurer).
+- **Application ASYMÉTRIQUE — couvrir TOUT le cluster** : vérifie fiche par fiche. N'oublie JAMAIS le Tableau, le Porte-clé ou le Magnet sous prétexte qu'ils ont moins de texte. Le piège classique = mettre "cadeau Dragon Ball" sur le Mug et la Chiffonnette puis oublier le reste. Chaque fiche doit contenir au moins une intention large.
+- **Intégration NATURELLE** : ces termes se tissent fluidement dans la prose (P1, P2 ou CTA), jamais en bloc ni en répétition mécanique. Une intention large par fiche suffit si elle a une raison narrative d'être là (cadeau, déco, setup, collection). Objectif : ne jamais alerter les filtres de keyword stuffing de Google.
+- **Check final** : avant présentation, relis les 7-8 fiches et confirme que CHACUNE contient une intention large. Si une fiche n'en a pas → l'ajouter avant validation.
+
 ---
 
 ## Blocs de specs standardisés (copier-coller)
