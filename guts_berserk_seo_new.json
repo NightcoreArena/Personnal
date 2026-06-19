@@ -1,0 +1,182 @@
+{
+  "cluster": "Guts Berserk",
+  "franchise": "Berserk",
+  "date": "2026-06-19",
+  "version": "v1 — 8 produits (Tote Bag DRAFT). 6 handles corrigés (fautes bersek→berserk + manque guts). PREMIÈRE franchise Berserk du projet.",
+  "keyword_principal": "guts berserk (5400/mois)",
+  "alias_perso": {
+    "guts": "14800/mois — polysémique (intestins, courage, Dragon's Dogma...). Utilisé dans les textes comme variation naturelle, JAMAIS seul en méta titre.",
+    "black swordsman guts": "2900/mois — alias EN. Informationnel/lore. Tissé dans P1/P2, jamais en méta titre.",
+    "guts the berserk": "1900/mois — variante avec article. LSI texte.",
+    "berserk anime guts": "1900/mois — variante franchise en tête. LSI texte.",
+    "chevalier noir berserk": "20/mois — alias FR. Tissé dans le texte.",
+    "guts chevalier noir": "20/mois — alias FR. Tissé dans le texte."
+  },
+  "semrush_data": {
+    "date_recherche": "2026-06-19",
+    "perso": {
+      "guts berserk": 5400,
+      "guts": 14800,
+      "black swordsman guts": 2900,
+      "guts the berserk": 1900,
+      "berserk anime guts": 1900,
+      "guts berserk manga": 1600,
+      "berserk guts": 1300
+    },
+    "par_produit": {
+      "Mug": {
+        "mug guts berserk": 0,
+        "tasse guts berserk": 0,
+        "mug guts": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19)"
+      },
+      "Tableau": {
+        "tableau guts berserk": 0,
+        "poster guts berserk": 0,
+        "affiche guts berserk": 0,
+        "tableau guts": 0,
+        "poster guts": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19). Poster retenu cohérence inter-clusters."
+      },
+      "Porte Cle": {
+        "porte cle guts berserk": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19)"
+      },
+      "T-Shirt": {
+        "t shirt guts berserk": 0,
+        "t shirt guts": 20,
+        "gagnant": "t shirt guts (20, ambigu — retenu malgré ambiguïté, seul combo à volume)"
+      },
+      "Chiffonnette": {
+        "chiffonnette guts berserk": 0,
+        "chiffon guts berserk": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19)"
+      },
+      "Tapis": {
+        "tapis de souris guts berserk": 0,
+        "tapis guts berserk": 0,
+        "mousepad guts berserk": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19)"
+      },
+      "Tote Bag": {
+        "tote bag guts berserk": 0,
+        "sac guts berserk": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19) — DRAFT"
+      },
+      "Magnet": {
+        "magnet guts berserk": 0,
+        "aimant guts berserk": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19)"
+      }
+    },
+    "intentions_larges_franchise_berserk": {
+      "t shirt berserk": 390,
+      "figurine berserk": 1600,
+      "poster berserk": 140,
+      "affiche berserk": 30,
+      "goodies berserk": 30,
+      "cadeau berserk": 20,
+      "mug berserk": 20,
+      "tapis berserk": 20,
+      "note": "PREMIÈRE FRANCHISE Berserk — consigner au ledger. 't shirt berserk' (390) = intention large la plus forte → intégrer dans T-Shirt."
+    }
+  },
+  "handles_renommes": [
+    {"produit": "Mug Guts Berserk", "ancien": "mug-bersek", "nouveau": "mug-guts-berserk", "raison": "faute de frappe + manque guts"},
+    {"produit": "Tableau Guts Berserk", "ancien": "tableau-berserk", "nouveau": "tableau-guts-berserk", "raison": "manque guts dans le handle"},
+    {"produit": "Chiffonnette Guts Berserk", "ancien": "chiffonnette-bersek", "nouveau": "chiffonnette-guts-berserk", "raison": "faute de frappe + manque guts"},
+    {"produit": "Tapis de Souris Guts Berserk", "ancien": "tapis-de-souris-bersek", "nouveau": "tapis-de-souris-guts-berserk", "raison": "faute de frappe + manque guts"},
+    {"produit": "Tote Bag Guts Berserk", "ancien": "tote-bag-bersek", "nouveau": "tote-bag-guts-berserk", "raison": "faute de frappe + manque guts"},
+    {"produit": "Magnet Guts Berserk", "ancien": "magnet-bersek", "nouveau": "magnet-guts-berserk", "raison": "faute de frappe + manque guts"}
+  ],
+  "title_renommes": [
+    {"produit": "T-Shirt Guts (Berserk)", "ancien": "T-Shirt Guts (Berserk)", "nouveau": "T-Shirt Guts Berserk", "raison": "parenthèses anormales — uniformisation"}
+  ],
+  "maillage_anneau": "Mug → Tableau → PK → T-Shirt → Chiff → Tapis → Magnet → Mug (Tote Bag DRAFT → Mug uniquement)",
+  "suffixes_meta": {
+    "Mug": "Tasse Céramique",
+    "Tableau": "Affiche & Toile",
+    "PK": "Breloque Métal",
+    "T-Shirt": "Du S au XXL",
+    "Chiff": "Microfibre Douce",
+    "Tapis": "Tapis Gaming",
+    "Tote Bag": "Sac Satiné",
+    "Magnet": "Aimant Collector"
+  },
+  "products": [
+    {
+      "id": "gid://shopify/Product/10146803286346",
+      "title": "Mug Guts Berserk",
+      "handle_ancien": "mug-bersek",
+      "handle_nouveau": "mug-guts-berserk",
+      "seo_title": "Mug Guts Berserk ⚔️ | Tasse Céramique",
+      "seo_description": "Mug Guts Berserk illustré à la main en Anjou. Le cadeau pour les fans du Chevalier Noir qui veulent démarrer la journée avec la légende de Berserk.",
+      "descriptionHtml": "<p>Le café du matin prend une toute autre dimension avec ce mug Guts Berserk illustré à la main en Anjou. L'idée cadeau Berserk pour les fans du manga culte de Kentaro Miura, à compléter avec notre <a href=\"/products/tableau-guts-berserk\">poster Guts Berserk</a> pour un duo collector.</p><p>Condamné par la Marque du Sacrifice à attirer les démons jusqu'à la fin de ses jours, Guts affronte l'obscurité de la nuit sans jamais plier. Ce signe gravé dans sa chair depuis l'Éclipse fait de lui l'une des figures les plus tragiques de toute la dark fantasy, un survivant acharné qui continue à se battre malgré tout.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Chaque trait de ce visuel numérique est posé à la main au stylet, sans aucune IA, dans notre atelier de l'Anjou.</strong></p><p>Savourez votre café avec le Chevalier Noir pour vous tenir compagnie.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10183463600458",
+      "title": "Tableau Guts Berserk",
+      "handle_ancien": "tableau-berserk",
+      "handle_nouveau": "tableau-guts-berserk",
+      "seo_title": "Poster Guts Berserk 🖼️ | Affiche & Toile",
+      "seo_description": "Poster Guts Berserk en affiche HD, toile ou cadre. Pour les fans de dark fantasy qui veulent afficher le Chevalier Noir dans leur déco.",
+      "descriptionHtml": "<p>Pour les fans de dark fantasy qui cherchent un poster Berserk hors du commun, voici Guts dans toute sa puissance sombre. Ce poster Guts Berserk illustré à la main en Anjou se décline en affiche HD, toile sur châssis ou cadre encadré, à associer avec notre <a href=\"/products/porte-cle-guts-berserk\">porte-clé Guts Berserk</a>.</p><p>L'Épée du Dragonmeurtrier, démesurée, plus lourde qu'un homme ordinaire, est devenue l'emblème absolu de Guts dans le manga de Miura. Forgée pour abattre les créatures de l'Apôtre, cette arme illustre à elle seule la démesure du Chevalier Noir face au monde des ténèbres et à l'emprise des Apôtres sur le destin des hommes.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Façonné à la main au stylet dans l'atelier angevin, ce motif numérique est garanti 100% sans IA.</strong></p><p>Choisissez votre format, le Chevalier Noir s'affiche sur vos murs.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10181106598218",
+      "title": "Porte Clé Guts Berserk",
+      "handle_ancien": "porte-cle-guts-berserk",
+      "handle_nouveau": "porte-cle-guts-berserk",
+      "seo_title": "Porte Clé Guts Berserk 🔑 | Breloque Métal",
+      "seo_description": "Porte-clé Guts Berserk en métal collector. Le goodie Berserk pour les fans du Chevalier Noir, compact et solide, partout avec vous.",
+      "descriptionHtml": "<p>Sur votre trousseau, le Chevalier Noir ne vous quitte plus. Ce porte-clé Guts Berserk en métal robuste est le goodie collector pour les fans de l'œuvre de Miura, compact et solide à la fois. À compléter avec notre <a href=\"/products/t-shirt-guts-berserk\">t-shirt Guts Berserk</a> pour afficher la légende du Chevalier Noir jusque sur vos vêtements.</p><p>Dans Berserk, l'Armure Berserker est la pièce d'équipement la plus redoutable jamais portée par Guts. Forgée pour un guerrier de légende, elle lui permet de dépasser les limites du corps humain au prix de sa propre raison, un pari terrible que seul le Chevalier Noir peut tenir face aux Apôtres.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou.</strong></p><p>Emportez-le, la légende de Berserk vous accompagne partout.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10289841668426",
+      "title": "T-Shirt Guts Berserk",
+      "title_ancien": "T-Shirt Guts (Berserk)",
+      "handle_ancien": "t-shirt-guts-berserk",
+      "handle_nouveau": "t-shirt-guts-berserk",
+      "seo_title": "T-Shirt Guts Berserk 👕 | Du S au XXL",
+      "seo_description": "T-shirt Guts Berserk en polyester doux, du S au XXL et 2-12 ans. Portez le Chevalier Noir au quotidien. Idée cadeau Berserk pour fans du manga.",
+      "descriptionHtml": "<p>Pour les fans qui veulent afficher Berserk au quotidien, ce t-shirt Guts Berserk illustré à la main en Anjou fait l'affaire. Disponible du S au XXL adulte et en tailles enfant, c'est l'idée cadeau t-shirt Berserk par excellence, à compléter avec notre <a href=\"/products/chiffonnette-guts-berserk\">chiffonnette Guts Berserk</a> pour un duo du quotidien.</p><p>Dans l'épopée de Miura, Guts était le guerrier le plus puissant de la Bande du Faucon, la troupe de mercenaires menée par Griffith. Leur lien fraternel a basculé lors de l'Éclipse, quand Griffith a sacrifié ses compagnons pour accomplir son destin, forgeant en Guts une vengeance qui donnera la direction de toute sa vie.</p><ul><li>Taille Adulte : S à XXL</li><li>Taille Enfant : 2 à 12 ans</li><li>Matière : Polyester doux toucher coton</li><li>Impression : Sublimation thermique haute définition</li><li>Entretien : Lavable en machine 30°</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Pensé et dessiné à la main sur tablette, ce motif numérique ne doit rien à l'IA : une création artisanale 100% angevine.</strong></p><p>Portez le Chevalier Noir au quotidien, du S au XXL.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15361804730698",
+      "title": "Chiffonnette Guts Berserk",
+      "handle_ancien": "chiffonnette-bersek",
+      "handle_nouveau": "chiffonnette-guts-berserk",
+      "seo_title": "Chiffonnette Guts Berserk 🧼 | Microfibre Douce",
+      "seo_description": "Chiffonnette Guts Berserk en microfibre ultra-douce. Nettoie lunettes et écrans. Le cadeau Berserk discret pour les vrais fans du Chevalier Noir.",
+      "descriptionHtml": "<p>Pour nettoyer lunettes et écrans avec l'esthétique sombre de Berserk, cette chiffonnette Guts Berserk en microfibre ultra-douce est le cadeau qu'on n'attendait pas. Compacte et lavable en machine, elle s'utilise partout, à compléter avec le <a href=\"/products/tapis-de-souris-guts-berserk\">tapis de souris Guts Berserk</a> pour habiller votre bureau aux couleurs du Chevalier Noir.</p><p>Kentaro Miura a consacré trente ans à Berserk, une œuvre de dark fantasy poursuivie après sa mort en 2021 par son équipe Studio Gaga. Ce manga est devenu un pilier de la culture manga mondiale, l'une des séries les plus récompensées et les plus pleurées de l'histoire du médium.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Conçu au stylet et dessiné à la main, ce visuel numérique ne doit rien à l'IA, façonné dans l'Anjou.</strong></p><p>Glissez-la dans votre sac, le cadeau Berserk discret pour les vrais fans.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15372518326602",
+      "title": "Tapis de Souris Guts Berserk",
+      "handle_ancien": "tapis-de-souris-bersek",
+      "handle_nouveau": "tapis-de-souris-guts-berserk",
+      "seo_title": "Tapis de Souris Guts Berserk 🖱️ | Tapis Gaming",
+      "seo_description": "Tapis de souris Guts Berserk pour votre setup gaming. Le Chevalier Noir veille sur votre bureau à chaque session.",
+      "descriptionHtml": "<p>À chaque session, le Chevalier Noir veille sur votre bureau. Ce tapis de souris Guts Berserk offre une glisse précise et silencieuse pour votre setup gaming, l'accessoire pour les fans de la dark fantasy de Miura. À compléter avec le <a href=\"/products/magnet-guts-berserk\">magnet Guts Berserk</a> pour personnaliser tout votre espace aux couleurs de Berserk.</p><p>Dans le manga de Miura, les combats nocturnes de Guts contre les Apôtres sont parmi les séquences les plus intenses de toute la série. Marqué du Signe du Sacrifice, chaque nuit le transforme en cible pour les créatures des ténèbres, et pourtant il tient, seul, armé de son Dragonmeurtrier, sans jamais reculer.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin.</strong></p><p>Posez-le, le Chevalier Noir s'installe sur votre bureau.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380210942282",
+      "title": "Tote Bag Guts Berserk",
+      "status": "DRAFT",
+      "handle_ancien": "tote-bag-bersek",
+      "handle_nouveau": "tote-bag-guts-berserk",
+      "seo_title": "Tote Bag Guts Berserk 👜 | Sac Satiné",
+      "seo_description": "Tote Bag Guts Berserk en tissu satiné. Pour les fans qui veulent emmener la légende du Chevalier Noir partout avec eux.",
+      "descriptionHtml": "<p>Portez la légende du Chevalier Noir avec vous partout. Ce tote bag Guts Berserk en tissu satiné épais fait reconnaître les vrais fans de Berserk au premier regard, idéal comme cadeau pour les amateurs de dark fantasy. À compléter avec le <a href=\"/products/mug-guts-berserk\">mug Guts Berserk</a> pour un duo collector.</p><p>Berserk est l'une des œuvres manga les plus collectionnées au monde. Ses éditions prestige, ses réimpressions soignées, ses couvertures emblématiques en font un incontournable pour les amateurs du medium. Guts, son héros, est devenu l'icône de la dark fantasy bien au-delà du seul Japon, reconnu par les fans de la première heure aux quatre coins du monde.</p><ul><li>Surface : Tissu satiné épais (280g)</li><li>Dimensions : 36x33cm</li><li>Impression : Sublimation brillante inaltérable</li><li>Entretien : Lavage à 30° max</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Portez-le à l'épaule, la légende de Berserk s'invite dans votre quotidien.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380971192650",
+      "title": "Magnet Guts Berserk",
+      "handle_ancien": "magnet-bersek",
+      "handle_nouveau": "magnet-guts-berserk",
+      "seo_title": "Magnet Guts Berserk 🧲 | Aimant Collector",
+      "seo_description": "Magnet Guts Berserk en métal rigide. La pièce collector Berserk pour les fans du Chevalier Noir, compact et reconnaissable au premier regard.",
+      "descriptionHtml": "<p>Accrochez le Chevalier Noir sur votre frigo. Ce magnet Guts Berserk en métal rigide est la pièce collector pour les fans de Berserk, petit mais reconnaissable au premier regard par n'importe quel amateur de dark fantasy. À associer avec le <a href=\"/products/mug-guts-berserk\">mug Guts Berserk</a> pour compléter la collection.</p><p>L'Éclipse est l'événement central de Berserk : quand Griffith active le Beherit et sacrifie la Bande du Faucon aux démons, Guts perd tout, à l'exception de sa vie et de sa volonté de survie. Ce moment fondateur fait de lui un personnage unique dans le manga, marqué à jamais par la trahison de son ancien frère d'armes.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Né sous le stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou.</strong></p><p>Fixez-le, le collector Berserk que les vrais fans reconnaissent au premier coup d'oeil.</p>"
+    }
+  ]
+}
