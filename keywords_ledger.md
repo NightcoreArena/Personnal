@@ -424,6 +424,25 @@ Réutilisable pour tous les persos de la franchise : Saitama, Genos, Tatsumaki, 
 
 ---
 
+### Meruem (Hunter x Hunter) — mesuré 2026-06-19
+- Perso : **meruem 4400** > meruem hxh 880 > meruem hunter x hunter 720 > hxh/hunter x hunter meruem 390 > meruem x komugi 320 > netero vs meruem 320 > meruem mort 140 > figurine meruem 90 (hors produit)
+- "meruem" non ambigu (exclusivement HxH). "roi des fourmis" = polysémique (Polnareff, Solo Leveling) → texte uniquement, jamais méta titre.
+- Combos produit (testés DANS LES 2 ORDRES DE MOTS, 2026-06-19) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Tableau | **meruem poster 20** + poster meruem 10 = ~30 / affiche/tableau/cadre/toile/deco = 0 | **Poster (~30 combiné)** |
+  | Mug | mug/tasse meruem (2 ordres) = 0 | topique |
+  | Porte Clé | porte cle/keychain meruem (2 ordres) = 0 | topique |
+  | Chiffonnette | chiffon/chiffonnette/microfibre meruem (2 ordres) = 0 | topique |
+  | Tapis | tapis de souris/tapis/mousepad meruem (2 ordres) = 0 | topique |
+  | Magnet | magnet/aimant meruem (2 ordres) = 0 | topique |
+- ⚠️ LEÇON ORDRE DES MOTS : "meruem poster" (20) ≠ "poster meruem" (10). Toujours tester les 2 sens (cf. GATE CLAUDE.md Étape 3.2).
+- 0 handle renommé, 0 title renommé. Suffixes méta : Tasse Céramique / Affiche & Cadre / Médaillon Métal / Lingette Écran / Tapis Gamer / Aimant Collector (tous ≠ de Hisoka, même franchise).
+- 10 alt texts mis à jour. 2e cluster HxH (après Hisoka) : broad-intent réutilisé du ledger.
+- Fichier final → meruem_seo_new.json.
+
+---
+
 ### Saitama (One Punch Man) — mesuré 2026-06-19
 - Perso : **saitama one punch man 720** > one punch man saitama 480 > saitama opm 480 > saitama 14800 (polysémique — ville japonaise) > figurine saitama 390 (hors produit)
 - Décision : "Saitama One Punch Man" retenu dans tous les méta titres (disambiguation obligatoire — "saitama" seul = ville).

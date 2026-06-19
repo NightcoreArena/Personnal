@@ -13,6 +13,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## MUG
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-19 | Meruem | "Un fan de Hunter x Hunter le sait : Meruem est dans une catégorie à part" | Offrez-le ou gardez-le (cadeau) | 3 |
 | 2026-06-19 | Saitama | "Dès le premier café, retrouvez l'énergie de l'entraînement…" | Buvez (usage/humour) | 8 |
 | 2026-06-19 | Guts | "Le café du matin prend une toute autre dimension…" | Savourez (usage) | 5 |
 | 2026-06-19 | DMG | "Chaque matin commence sous le signe de la magie…" | Versez-vous (usage) | 6 |
@@ -20,6 +21,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## TABLEAU
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-19 | Meruem | "Un poster Hunter x Hunter de ce niveau s'encadre, se met sur toile…" | Sélectionnez votre format… s'installe (déco) | 7 |
 | 2026-06-19 | Saitama | "Décorer son mur avec un poster One Punch Man…" | Sublimez (déco) | 5 |
 | 2026-06-19 | Guts | "Pour les fans de dark fantasy… voici… puissance sombre" | Choisissez votre format… s'affiche (déco) | 9 |
 | 2026-06-19 | DMG | "Pour les fans… honorer la carte… voici… splendeur" | Choisissez votre format… s'affiche (déco) | 3 |
@@ -28,6 +30,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## PORTE CLÉ
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-19 | Meruem | "Ce porte-clé Meruem Hunter x Hunter en métal robuste est la pièce collector…" | Glissez-le sur votre trousseau (everyday carry) | 6 |
 | 2026-06-19 | Saitama | "Partout avec vous, Saitama vous accompagne sans faillir" | Accrochez-le à vos clés (everyday carry) | 4 |
 | 2026-06-19 | Guts | "Sur votre trousseau, [perso] ne vous quitte plus" | Emportez-le, la légende… partout (everyday) | 1 |
 | 2026-06-19 | DMG | "Sur votre trousseau, [perso] vous accompagne au quotidien" | Emportez-la, [perso] veille sur vos clés | 7 |
@@ -36,6 +39,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## CHIFFONNETTE
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-19 | Meruem | "Entretenir ses lunettes ou nettoyer un écran, c'est plus agréable quand Meruem veille" | Prenez-la, vos écrans apprécieront (usage) | 5 |
 | 2026-06-19 | Saitama | "Un écran plein de traces, des lunettes embuées…" | Gardez-la à portée de main (usage) | 9 |
 | 2026-06-19 | Guts | "Pour nettoyer lunettes et écrans avec l'esthétique sombre…" | Glissez-la dans votre sac, le cadeau… | 6 |
 | 2026-06-19 | DMG | "Pour nettoyer lunettes et écrans avec l'élégance…" | Glissez-la dans votre sac, le cadeau… | 1 |
@@ -44,6 +48,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## TAPIS DE SOURIS
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-19 | Meruem | "Le Roi des Fourmis Chimères s'invite dans votre setup gaming…" | Équipez votre bureau, le Roi prend sa place (setup) | 4 |
 | 2026-06-19 | Saitama | "Votre setup gaming mérite mieux qu'un tapis quelconque" | Déroulez-le sous votre souris (setup) | 1 |
 | 2026-06-19 | Guts | "À chaque session, [perso] veille sur votre bureau" | Posez-le, [perso] s'installe sur votre bureau | 7 |
 | 2026-06-19 | DMG | "À chaque session, [perso] veille sur votre bureau" | Posez-le, [perso] s'installe sur votre bureau | 2 |
@@ -60,6 +65,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## MAGNET
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-19 | Meruem | "Les collectionneurs de goodies Hunter x Hunter connaissent la valeur d'une pièce…" | Collez-le sur votre frigo et affichez votre allégeance (collection) | 8 |
 | 2026-06-19 | Saitama | "Sur la porte du frigo ou un meuble en métal…" | Épinglez-le et complétez votre collection (collection) | 2 |
 | 2026-06-19 | Guts | "Accrochez [perso] sur votre frigo. Ce magnet… pièce collector" | Fixez-le, le collector… reconnaissent | 4 |
 | 2026-06-19 | DMG | "Accrochez [perso] sur votre frigo. Ce magnet… pièce collector" | Fixez-la, le collector… reconnaissent | 4 |
