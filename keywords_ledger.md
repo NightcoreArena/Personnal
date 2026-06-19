@@ -283,6 +283,22 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 - Suffixes méta (anti-redondance inter-cluster DB) : Tasse DBZ / Toile Tendue / Médaillon Acier / Chiffon Optique / Tapis DBZ / Sac Toile / Aimant DBZ.
 - 11 alt texts mis à jour (Tableau = 5 variantes avec type). Fichier final → gohan_ssj2_seo_new.json.
 
+### Hunter x Hunter / HxH (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Hisoka, Killua, Gon, Kurapika, Leorio, Meruem...
+Alias "HxH" = équivalent à "Hunter x Hunter" pour tous les volumes → utiliser les deux dans les textes.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| poster hunter x hunter | 210 | Tableau : texte |
+| t shirt hunter x hunter | 210 | T-Shirt : texte |
+| poster hxh | 210 | Tableau : texte (alias HxH) |
+| t shirt hxh | 210 | T-Shirt : texte (alias HxH) |
+| affiche hunter x hunter | 50 | Tableau : texte |
+| cadeau hunter x hunter | 30 | angle cadeau, tous produits |
+| goodies hunter x hunter | 20 | angle collection |
+| mug hunter x hunter | 20 | Mug : texte |
+| tapis hunter x hunter | 20 | Tapis : texte |
+
 ---
 
 ## 4. Gap concurrentiel (combos transactionnels via organic_research)
