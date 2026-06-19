@@ -247,6 +247,25 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 - Suffixes méta (anti-redondance inter-cluster DB) : Chope 340ml / Affiche & Cadre / Médaillon Métal / Lingette Écran / Base Antidérapante / Cabas Coton / Aimant Collector.
 - 0 handle renommé. 11 alt texts mis à jour. Fichier final → vegeta_ssj4_seo_new.json.
 
+### Vegeta SSJ (Dragon Ball Z) — mesuré 2026-06-19
+- Perso : **vegeta ssj 880** = vegeta super saiyan 880 > vegeta dbz 390 > vegeta ssj2 320 = vegeta dragon ball z 320 > vegeta ssj1 110 > vegeta 27100 (trop générique)
+- Alias clé : "vegeta super saiyan" (880) → LSI dans le texte. "vegeta dbz" (390) → tisser dans P1/P2. "vegeta" seul → trop générique pour méta titre mais nourrit les combos produits.
+- Combos produit :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug vegeta 20 / tasse vegeta 20 / mug vegeta ssj 0 | **mug vegeta (20)** |
+  | T-Shirt | **t shirt vegeta 110** / tee shirt vegeta 20 | **t shirt vegeta (110) — WINNER du cluster** |
+  | Porte Clé | porte clé vegeta 0 / porte clé vegeta 20 | porte clé vegeta (20) |
+  | Chiffonnette | chiffonnette vegeta 0 / microfibre vegeta 0 | topique |
+  | Tapis | tapis de souris vegeta 0 / tapis gaming vegeta 0 | topique |
+  | Tote Bag DRAFT | tote bag vegeta 0 / sac vegeta 0 | topique |
+  | Magnet | magnet vegeta 0 / aimant vegeta 0 | topique |
+- ⚠️ Pas de Tableau Vegeta SSJ dans ce cluster (Tableau Vegeta SSJ4 + Tableau Majin Vegeta existent). Cluster = 7 produits sans Tableau.
+- H1 renommés : "Vegeta SSJ" → "Vegeta" sur 5 produits (Mug, PK, Chiff, Tapis, Tote Bag). T-Shirt et Magnet déjà corrects.
+- 5 handles renommés : mug/pk/chiff/tapis/tote-bag-vegeta-ssj → -vegeta + 5×301.
+- Suffixes méta (anti-redondance inter-cluster DB) : Tasse à Café / Adulte & Enfant / Porte-clé Acier / Microfibre Douce / Tapis XXL / Sac Tissu / Aimant Métal.
+- 9 alt texts mis à jour (Tote Bag DRAFT = 0 image). Fichier final → vegeta_ssj_seo_new.json.
+
 ---
 
 ## 4. Gap concurrentiel (combos transactionnels via organic_research)
