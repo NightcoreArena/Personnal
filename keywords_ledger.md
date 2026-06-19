@@ -349,6 +349,23 @@ Franchise de niche en FR → volumes globaux faibles.
 
 → Première franchise Yu-Gi-Oh! mesurée (2026-06-19). "YGO" = alias court usité dans les méta titres (suffixe). "Yu-Gi-Oh!" avec point d'exclamation = graphie officielle FR.
 
+### Chainsaw Man / CSM (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos de la franchise : Makima, Denji, Power, Aki, Pochita...
+⚠️ "makima" seul 8100/mois mais volume majoritairement NSFW/hentai → toujours combiner avec "Chainsaw Man" dans les méta titres pour les persos NSFW-contaminés.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine chainsaw man | 720 | hors produit, signale intention d'achat CSM |
+| poster chainsaw man | 50 | Tableau : texte (intention large) |
+| t shirt chainsaw man | 50 | T-Shirt : texte |
+| affiche chainsaw man | 50 | Tableau : texte |
+| goodies chainsaw man | 30 | angle collection, tous produits |
+| mug chainsaw man | 20 | Mug : texte |
+
+→ Première franchise Chainsaw Man mesurée (2026-06-19). Volumes faibles. Organic research (manga-shop.fr) n'a révélé aucun gap actionnable CSM. "Chainsaw Man" > "CSM" pour les méta titres FR.
+
+---
+
 ### One Punch Man / OPM (mesuré 2026-06-19, fr)
 Réutilisable pour tous les persos de la franchise : Saitama, Genos, Tatsumaki, Garou...
 "One Punch Man" > "OPM" pour les produits. "saitama" seul (14800) polysémique (ville japonaise) → toujours combiner avec "One Punch Man" dans les méta titres.
@@ -421,6 +438,26 @@ Réutilisable pour tous les persos de la franchise : Saitama, Genos, Tatsumaki, 
 - 0 handle renommé. Suffixes méta : Tasse Yu-Gi-Oh / Affiche & Toile / Médaillon Métal / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant YGO. (PK corrigé 2026-06-19 : Breloque Métal → Médaillon Métal)
 - 10 alt texts mis à jour (Tote Bag DRAFT = 0 image). PREMIÈRE franchise Yu-Gi-Oh! : broad-intent consigné au ledger.
 - Fichier final → dark_magician_girl_seo_new.json.
+
+---
+
+### Makima (Chainsaw Man) — mesuré 2026-06-19
+- Perso : **makima chainsaw man 1300** (retenu) / "makima" seul 8100 = NSFW-contaminé, INTERDIT en méta titre seul
+- Alias : chainsaw man makima 720 / makima chainsawman 320 / makima csm 70 ; "Démon du Contrôle" = épithète canon FR → texte uniquement (volume nul en FR)
+- Combos produit (testés DANS LES 2 ORDRES, 2026-06-19) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Tableau | **poster makima 20** / makima poster 0 / affiche/tableau/cadre/toile/deco = 0 | **Poster (20)** |
+  | Tapis | **makima mousepad 20** mais anglicisme INTERDIT / tapis de souris makima = 0 | topique (Tapis de Souris retenu) |
+  | Mug | mug/tasse makima (2 ordres) = 0 | topique |
+  | Porte Clé | porte cle/keychain makima (2 ordres) = 0 | topique |
+  | Chiffonnette | chiffon/chiffonnette/microfibre makima (2 ordres) = 0 | topique |
+  | Magnet | magnet/aimant makima (2 ordres) = 0 | topique |
+- Questions lore (phrase_questions FR) : "why did makima kill power" 40 (top question → P2 Chiffonnette) / "quel est le pouvoir de makima" 30 / "est ce que makima aime denji" 20 → P2 PK
+- phrase_related clé : "makima is listening" 880 → capté par Tapis P2 ("tout voir, tout entendre") + CTA / "makima figurine" 140 (hors produit — opportunité future figurine)
+- 0 handle/title renommé. Suffixes méta : Tasse Céramique / Affiche & Toile / Médaillon Métal / Microfibre Douce / Tapis Gamer / Aimant Collector.
+- 10 alt texts mis à jour. PREMIÈRE franchise Chainsaw Man : broad-intent consigné au ledger.
+- Fichier final → makima_seo_new.json.
 
 ---
 
