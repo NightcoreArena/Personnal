@@ -533,6 +533,25 @@ Réutilisable pour tous les persos de la franchise : Rudo (Rudo Surebrec), Amo, 
 - 10 alt texts mis à jour. PREMIÈRE franchise Gachiakuta : broad-intent consigné au ledger.
 - Fichier final → rudo_gachiakuta_seo_new.json.
 
+### Dragon Ball Super (groupe illustration) — mesuré 2026-06-19
+- Franchise arc : **dragon ball super 22200** > goku dbs 2400 > db super 4400 > dbs 5400 > goku dragon ball super 1600
+- ⚠️ Exception "perso = franchise" (groupe illustration : Goku + Vegeta + Shenron en SSB). Traité comme Goldorak — "[produit] Dragon Ball Super" directement sur les fiches produit (pas réservé aux collections).
+- Combos produit (balayage synonymes complet, 2026-06-19) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug dragon ball super 20 / dragon ball super mug 20 / tasse dragon ball super 20 | **mug dragon ball super (20)** |
+  | Tableau | **dragon ball super poster 90** / poster dragon ball super 70 / tableau dragon ball super 20 / affiche dragon ball super 20 | **Poster Dragon Ball Super (90, ordre inversé retenu)** |
+  | Porte Clé | porte cle dragon ball super (2 ordres) = 0 | topique |
+  | Chiffonnette | chiffonnette/chiffon dragon ball super = 0 | topique |
+  | Tapis | tapis dragon ball super 20 / dragon ball super tapis 20 / tapis de souris dragon ball super 10 | **tapis dragon ball super (20)** |
+  | Magnet | magnet/aimant dragon ball super (2 ordres) = 0 | topique |
+- Questions lore : "quelle est la suite de dragon ball super" 110 / "combien de tome dragon ball super" 70. Lore axé SSB/ki divin/Beerus, Tournoi de la Puissance/Ultra Instinct, Black Goku/Zamasu, Super Dragon Balls/Shenron cosmique.
+- Broad intent DBS-spécifique : poster dragon ball super (70+90=160 combiné). Broad Dragon Ball franchise réutilisé du ledger section 2.
+- 0 handle renommé (tous contenaient déjà "dragon-ball-super"). H1 déjà corrects.
+- Suffixes méta (anti-redondance, réutilisation cluster Goku Shenron #4 permise) : Tasse Céramique / Affiche & Toile / Acier Collector / Chiffon Lunettes / Tapis Gaming / Aimant Frigo.
+- 10 alt texts mis à jour (5 variantes Tableau + 5 produits uniques).
+- Fichier final → dragon_ball_super_seo_new.json.
+
 ---
 
 ## 4. Gap concurrentiel (combos transactionnels via organic_research)

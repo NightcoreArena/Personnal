@@ -1,0 +1,110 @@
+{
+  "cluster": "Dragon Ball Super",
+  "franchise": "Dragon Ball",
+  "date": "2026-06-19",
+  "illustration": "Goku + Vegeta en Super Saiyan Blue + Shenron — arc Dragon Ball Super",
+  "semrush_data": {
+    "date_recherche": "2026-06-19",
+    "perso": {
+      "dragon ball super": 22200,
+      "goku dragon ball super": 1600,
+      "dragon ball super broly": 2900,
+      "dragon ball super manga": 1000,
+      "dragon ball super scan": 1300,
+      "dragon ball super black goku": 1000,
+      "goku dbs": 2400,
+      "dbs": 5400,
+      "db super": 4400
+    },
+    "par_produit": {
+      "Mug":        { "mug dragon ball super": 20, "dragon ball super mug": 20, "tasse dragon ball super": 20, "dragon ball super tasse": 0, "gagnant": "mug dragon ball super (20)" },
+      "Tableau":    { "poster dragon ball super": 70, "dragon ball super poster": 90, "tableau dragon ball super": 20, "affiche dragon ball super": 20, "dragon ball super affiche": 20, "gagnant": "dragon ball super poster (90) — méta titre commence par Poster" },
+      "Porte Clé":  { "porte cle dragon ball super": 0, "dragon ball super porte cle": 0, "gagnant": "topique" },
+      "Chiffonnette": { "chiffonnette dragon ball super": 0, "chiffon dragon ball super": 0, "gagnant": "topique" },
+      "Tapis":      { "tapis de souris dragon ball super": 10, "tapis dragon ball super": 20, "dragon ball super tapis": 20, "gagnant": "tapis dragon ball super (20)" },
+      "Magnet":     { "magnet dragon ball super": 0, "aimant dragon ball super": 0, "gagnant": "topique" }
+    },
+    "broad_intent": {
+      "cadeau dragon ball": 90,
+      "goodies dragon ball": 90,
+      "poster dragon ball": 720,
+      "note": "Données franchise Dragon Ball réutilisées depuis le ledger (2026-06-18). DBS-spécifique : poster dragon ball super (70+90=160). 'Dragon Ball Super' = keyword produit et franchise arc — traité comme exception perso=franchise (groupe illustration)."
+    },
+    "questions_lore": {
+      "quelle est la suite de dragon ball super": 110,
+      "combien de tome dragon ball super": 70,
+      "note": "Questions axées continuité — pas de lore perso exploitable. Angle lore = origine SSB (ki divin/Beerus), Tournoi de la Puissance, arc Black Goku/Zamasu, Super Dragon Balls/Shenron."
+    },
+    "phrase_related_top": {
+      "goku dbs": 2400,
+      "goku ultra instinct": 6600,
+      "dragon ball super: super hero": 2400,
+      "note": "Ultra Instinct = forme DISTINCTE de SSB (post-Blue). Tisser dans Tapis P2 (Goku dépasse le Blue dans le ToP). 'Super Hero' = film différent. 'goku dbs' = bon LSI pour les textes."
+    }
+  },
+  "handle_renames": [],
+  "note_handles": "Tous les handles contiennent déjà 'dragon-ball-super'. 0 renommage nécessaire. Tableau handle déjà 'poster-dragon-ball-super'. H1 déjà corrects.",
+  "maillage": "Mug → Tableau → Porte Clé → Chiffonnette → Tapis → Magnet → Mug",
+  "products": [
+    {
+      "type": "Mug",
+      "id": "gid://shopify/Product/15638367502666",
+      "handle": "mug-dragon-ball-super",
+      "seo_title": "Mug Dragon Ball Super ☕ | Tasse Céramique",
+      "seo_description": "Mug Dragon Ball Super avec Goku et Vegeta SSB illustré à la main. Cadeau pour les fans du manga et de l'anime DBS.",
+      "p3_bank": 1,
+      "alt_text": "Mug Dragon Ball Super illustré à la main en Anjou",
+      "descriptionHtml": "<p>Ce mug Dragon Ball Super rassemble Goku et Vegeta en Super Saiyan Blue sous le regard de Shenron. Illustré à la main en Anjou, c'est le compagnon idéal de vos matins, un cadeau Dragon Ball Super qui parle aux vrais fans de l'arc DBS comme à ceux qui découvrent le manga.</p><p>Dans Dragon Ball Super, le Super Saiyan Blue marque l'avènement du ki divin : Goku et Vegeta transcendent leurs limites en fusionnant puissance et énergie divine sous la tutelle involontaire de Beerus, le Dieu de la Destruction. Un niveau de puissance inimaginable après la saga Majin Boo.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou.</strong></p><p>Sirotez votre café avec Goku et Vegeta SSB, et découvrez <a href=\"/products/poster-dragon-ball-super\">notre poster Dragon Ball Super</a> pour habiller votre mur DBS.</p>"
+    },
+    {
+      "type": "Tableau",
+      "id": "gid://shopify/Product/15638367666506",
+      "handle": "poster-dragon-ball-super",
+      "seo_title": "Poster Dragon Ball Super 🖼️ | Affiche & Toile",
+      "seo_description": "Poster Dragon Ball Super : Goku, Vegeta et Shenron en SSB illustrés à la main. Affiche, toile ou cadre pour votre déco.",
+      "p3_bank": 4,
+      "alt_text": "Poster Dragon Ball Super illustré à la main en Anjou",
+      "descriptionHtml": "<p>Un poster Dragon Ball Super dans votre salon ou votre chambre, c'est l'aura Super Saiyan Blue qui entre dans votre décor. Illustré à la main en Anjou, disponible en affiche, toile ou cadre, ce poster DBS s'adapte à tous les styles et toutes les pièces.</p><p>Dragon Ball Super déploie ses enjeux à l'échelle cosmique : les Super Dragon Balls ont la taille de planètes, les tournois inter-universels jouent la survie de mondes entiers, et Shenron répond à des vœux d'une puissance sans précédent. Un imaginaire taillé pour les grandes impressions murales.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Né sous le stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou.</strong></p><p>Transformez votre mur en univers Dragon Ball Super : choisissez votre format et complétez avec <a href=\"/products/porte-cle-dragon-ball-super\">notre porte-clé Dragon Ball Super</a> pour un duo déco-collection.</p>"
+    },
+    {
+      "type": "Porte Clé",
+      "id": "gid://shopify/Product/15638367535434",
+      "handle": "porte-cle-dragon-ball-super",
+      "seo_title": "Porte Clé Dragon Ball Super 🔑 | Acier Collector",
+      "seo_description": "Porte-clé Dragon Ball Super en métal : Goku et Vegeta SSB sur votre trousseau. Cadeau collector pour fans de l'arc DBS.",
+      "p3_bank": 2,
+      "alt_text": "Porte Clé Dragon Ball Super illustré à la main en Anjou",
+      "descriptionHtml": "<p>Goku et Vegeta en Super Saiyan Blue sur votre trousseau : ce porte-clé Dragon Ball Super en métal est fait pour les fans de l'ère SSB. Idéal comme cadeau Dragon Ball Super, seul ou associé à <a href=\"/products/chiffonnette-dragon-ball-super\">notre chiffonnette Dragon Ball Super</a> pour un duo collector original.</p><p>Dans Dragon Ball Super, accéder au Blue exige un entraînement auprès des dieux : Whis, l'Ange de Beerus, guide Goku et Vegeta vers la maîtrise du ki divin. Ce niveau dépasse tout ce que Dragon Ball Z avait montré et pose les bases d'une nouvelle ère pour le shōnen.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Ajoutez-le à votre trousseau et portez l'énergie divine de Dragon Ball Super partout avec vous.</p>"
+    },
+    {
+      "type": "Chiffonnette",
+      "id": "gid://shopify/Product/15638367633738",
+      "handle": "chiffonnette-dragon-ball-super",
+      "seo_title": "Chiffonnette Dragon Ball Super 🧼 | Chiffon Lunettes",
+      "seo_description": "Chiffonnette Dragon Ball Super en microfibre : nettoie lunettes et écrans avec l'énergie SSB de l'arc DBS.",
+      "p3_bank": 8,
+      "alt_text": "Chiffonnette Dragon Ball Super illustrée à la main en Anjou",
+      "descriptionHtml": "<p>Dragon Ball Super, c'est l'ère du Super Saiyan Blue : Goku et Vegeta dépassent les dieux, Shenron exauce des vœux cosmiques. Cette chiffonnette en microfibre illustrée à la main en Anjou rend hommage à cet arc qui a redéfini Dragon Ball pour toute une génération de fans du manga et de l'anime.</p><p>Dragon Ball Super ose l'un de ses arcs les plus intenses avec la saga Black Goku : Trunks du Futur revient dans un monde ravagé par Goku Black et le dieu imposteur Zamasu. Un arc sombre qui contraste avec la lumière bleue de l'ère SSB et qui a marqué le fandom DBS.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Dessin numérique né sous le stylet, entièrement à la main et sans IA, façonné en Anjou au cœur de la France.</strong></p><p>Emportez-la dans votre trousse et complétez avec <a href=\"/products/tapis-de-souris-dragon-ball-super\">notre tapis de souris Dragon Ball Super</a> : un setup DBS complet pour les vrais fans.</p>"
+    },
+    {
+      "type": "Tapis de Souris",
+      "id": "gid://shopify/Product/15638367600970",
+      "handle": "tapis-de-souris-dragon-ball-super",
+      "seo_title": "Tapis de Souris Dragon Ball Super 🖱️ | Tapis Gaming",
+      "seo_description": "Tapis de souris Dragon Ball Super illustré à la main. L'énergie du Tournoi de la Puissance sur votre bureau de jeu.",
+      "p3_bank": 3,
+      "alt_text": "Tapis de Souris Dragon Ball Super illustré à la main en Anjou",
+      "descriptionHtml": "<p>Le Tournoi de la Puissance prend vie sur votre bureau : ce tapis de souris Dragon Ball Super illustré à la main en Anjou place Goku, Vegeta et Shenron en Super Saiyan Blue au cœur de votre espace de jeu. Pour les fans du manga et de l'anime DBS.</p><p>Dans Dragon Ball Super, le Tournoi de la Puissance réunit 80 combattants de 8 univers : Goku y déclenche pour la première fois l'Ultra Instinct, une forme qui transcende le Blue lui-même. Un arc qui a fédéré des millions de fans autour de l'anime Dragon Ball.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Pensé et dessiné à la main sur tablette, ce motif numérique ne doit rien à l'IA : une création artisanale 100% angevine.</strong></p><p>Étalez-le sous votre souris et laissez Goku et Vegeta SSB alimenter chaque partie. Complétez avec <a href=\"/products/magnet-dragon-ball-super\">notre magnet Dragon Ball Super</a> sur le frigo.</p>"
+    },
+    {
+      "type": "Magnet",
+      "id": "gid://shopify/Product/15638367568202",
+      "handle": "magnet-dragon-ball-super",
+      "seo_title": "Magnet Dragon Ball Super 🧲 | Aimant Frigo",
+      "seo_description": "Magnet Dragon Ball Super collector : Goku, Vegeta SSB et Shenron sur votre frigo. Pièce métal rigide illustrée à la main.",
+      "p3_bank": 9,
+      "alt_text": "Magnet Dragon Ball Super illustré à la main en Anjou",
+      "descriptionHtml": "<p>Goku, Vegeta en Super Saiyan Blue et Shenron réunis en 5cm sur votre frigo : ce magnet Dragon Ball Super en métal rigide est la pièce collector qui manquait à votre cuisine. Finition mylar brillant, discret mais immédiatement reconnaissable par tout fan de l'arc DBS.</p><p>Shenron, le Grand Dragon Divin, est l'âme des Dragon Balls depuis le premier opus. Dans Dragon Ball Super, les Super Dragon Balls convoquent un dragon encore plus imposant, à l'échelle d'étoiles entières, pour des vœux d'une puissance cosmique. Un symbole d'espoir que la franchise porte depuis des décennies.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Façonné à la main au stylet dans l'atelier angevin, ce motif numérique est garanti 100% sans IA.</strong></p><p>Posez-le sur votre frigo et complétez la collection DBS avec <a href=\"/products/mug-dragon-ball-super\">notre mug Dragon Ball Super</a> : le cadeau idéal pour tout fan de l'arc.</p>"
+    }
+  ]
+}
