@@ -229,6 +229,16 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 - Cluster topique pur sur "goku enfant"/"sangoku". H1 = "Mug Goku Enfant", "T-Shirt Goku Enfant" etc. Méta Mug/T-Shirt utilisent "Sangoku" (plus gros volume produit).
 - **Nom alternatif (3.1bis) testé** : "sangoku petit" 590 = informationnel (lore). "goku kid" 720 = anglicisme interdit. → ni l'un ni l'autre dans les métas.
 
+### Goku Shenron (Dragon Ball) — mesuré 2026-06-19
+- Perso combo : **goku shenron 30** > sangoku shenron 20 > goku et shenron 20 / goku riding shenron 20 / son goku shenron 20
+- ⚠️ Il existe déjà un cluster "Shenron" distinct (produits illustrant Shenron seul). Ce cluster = Goku ENFANT sur Shenron (illustration duo). Handle et H1 : "goku-shenron" (jamais "shenron" seul → conflit handles).
+- Tous les combos produit = 0 (NOTHING FOUND ou 0 vérifié 2026-06-19) → cluster 100% topique pur.
+- "sangoku shenron" et "goku riding shenron" = informationnel uniquement → tissés dans le texte, jamais en méta titre.
+- 7 handles renommés (mug/tableau/pk/chiff/tapis/totebag/magnet)-goku-dragon-enfant → -goku-shenron + 7×301.
+- Exception tableau : ancien handle "tableau-goku-shenron-enfant" → "tableau-goku-shenron".
+- Suffixes méta variés (anti-redondance inter-cluster DB) : Tasse Céramique / Poster & Toile / Breloque Métal / Chiffon Lunettes / Tapis Gamer / Sac Satiné / Aimant Frigo.
+- 11 alt texts mis à jour. Fichier final → goku_shenron_seo_new.json.
+
 ---
 
 ## 4. Gap concurrentiel (combos transactionnels via organic_research)
