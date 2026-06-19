@@ -144,6 +144,24 @@ Ajouter **1 lien `<a>` par fiche**, tissé naturellement dans la prose (jamais u
 - "Illustré à la main en Anjou" est répété sur des CENTAINES de fiches tous clusters confondus → boilerplate que Google peut dévaluer.
 - VARIER l'expression de la valeur artisanale d'un cluster à l'autre, pas seulement à l'intérieur d'un cluster. Banque de formulations à faire tourner (voir Étape 4, P3 artisan).
 
+### 🔁 GATE anti-footprint inter-cluster — squelettes par type de produit (vérif AVANT application)
+Le vrai duplicate inter-cluster n'est PAS la prose complète (chaque perso a un lore distinct → les P2 divergent naturellement). Le risque réel = le **SQUELETTE répété par TYPE de produit**, car l'angle d'ouverture (P1) et le P3 artisan sont dictés par le produit, pas par le perso. En écrivant deux clusters de la même franchise à la suite, on calque inconsciemment le nouveau sur le précédent.
+- **Exemple réel (Vegeta SSJ → Gohan SSJ2, 2026-06-19)** : 6/7 P1 et 7/7 P3 partageaient le même squelette ("Compact et collector, ce porte-clé...", "Votre setup mérite [X]...", "Ce magnet... s'accroche sur votre frigo et ne lâche plus", P3 "Dessiné ligne à ligne à la main sur tablette en Anjou..." **verbatim**). Cause racine : banque P3 à 4 entrées rotées dans le même ordre = récurrence garantie.
+- **Procédure (légère, juste avant l'Étape 7)** : ouvrir le DERNIER `_seo_new.json` de la même franchise et comparer, produit par produit du même type :
+  - (a) les **4-5 premiers mots du P1** → doivent différer (verbe/structure d'attaque) ;
+  - (b) la **formule P3 artisan** → doit différer (verbe d'attaque + construction).
+- **Ne PAS** diff la prose entière (inutile : perso différent = texte différent). Si collision sur (a) ou (b) → reformuler l'ouverture / piocher une autre entrée P3.
+- **Banque P3 ÉLARGIE** (faire tourner, ne jamais réutiliser la même que le cluster précédent du même type) :
+  1. "Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou."
+  2. "Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou."
+  3. "Pensé et dessiné à la main sur tablette, ce motif numérique ne doit rien à l'IA : une création artisanale 100% angevine."
+  4. "Né sous le stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou."
+  5. "Chaque trait de ce visuel numérique est posé à la main au stylet, sans aucune IA, dans notre atelier de l'Anjou."
+  6. "Conçu au stylet et dessiné à la main, ce visuel numérique ne doit rien à l'IA, façonné dans l'Anjou."
+  7. "Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin."
+  8. "Dessin numérique né sous le stylet, entièrement à la main et sans IA, façonné en Anjou au cœur de la France."
+  9. "Façonné à la main au stylet dans l'atelier angevin, ce motif numérique est garanti 100% sans IA."
+
 ### Placement du keyword dans l'intro — RÈGLE ANTI-FORMULAIQUE
 Le keyword "[perso] [franchise]" DOIT apparaître dans le premier paragraphe de chaque fiche — mais PAS toujours en première position.
 - INTERDIT : 7 intros qui commencent toutes par `[verbe] Zenitsu Demon Slayer [contexte]` → structure identique = duplicate pattern
