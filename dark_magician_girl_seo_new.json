@@ -1,0 +1,147 @@
+{
+  "cluster": "Dark Magician Girl / Magicienne des Ténèbres (Yu-Gi-Oh!)",
+  "franchise": "Yu-Gi-Oh!",
+  "date": "2026-06-19",
+  "version": "v1 — 7 produits (Tote Bag DRAFT). 0 handle renommé. PREMIÈRE franchise Yu-Gi-Oh! du projet. Keyword EN gagnant : dark magician girl (1900/mois) > magicienne des ténèbres (590/mois).",
+  "keyword_principal": "dark magician girl (1900/mois)",
+  "alias_perso": {
+    "magicienne des tenebres": "590/mois — nom FR officiel TCG. Utilisé dans les H1 et dans le texte.",
+    "magicienne des tenebres yu gi oh": "170/mois — LSI dans le texte.",
+    "yu gi oh dark magician girl": "140/mois — variante avec franchise. LSI dans le texte."
+  },
+  "semrush_data": {
+    "date_recherche": "2026-06-19",
+    "perso": {
+      "dark magician girl": 1900,
+      "magicienne des tenebres": 590,
+      "magicienne des tenebres yu gi oh": 170,
+      "yu gi oh dark magician girl": 140,
+      "magicien des tenebres": 480
+    },
+    "par_produit": {
+      "Mug": {
+        "mug dark magician girl": 0,
+        "tasse dark magician girl": 0,
+        "mug magicienne des tenebres": 0,
+        "tasse magicienne des tenebres": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19). Cluster 100% topique pur."
+      },
+      "Tableau": {
+        "tableau dark magician girl": 0,
+        "poster dark magician girl": 0,
+        "affiche dark magician girl": 0,
+        "tableau magicienne des tenebres": 0,
+        "poster magicienne des tenebres": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19). Poster retenu par cohérence inter-clusters."
+      },
+      "Porte Cle": {
+        "porte cle dark magician girl": 0,
+        "porte cle magicienne des tenebres": 0,
+        "gagnant": "topique (0 vérifié 2026-06-19)"
+      },
+      "Chiffonnette": {
+        "chiffonnette dark magician girl": 0,
+        "chiffon dark magician girl": 0,
+        "chiffonnette magicienne des tenebres": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19)"
+      },
+      "Tapis": {
+        "tapis de souris dark magician girl": 0,
+        "tapis dark magician girl": 0,
+        "tapis de souris magicienne des tenebres": 0,
+        "gagnant": "topique (0 vérifié 2026-06-19)"
+      },
+      "Tote Bag": {
+        "tote bag dark magician girl": 0,
+        "sac dark magician girl": 0,
+        "sac magicienne des tenebres": 0,
+        "gagnant": "topique (0 vérifié 2026-06-19) — DRAFT"
+      },
+      "Magnet": {
+        "magnet dark magician girl": 0,
+        "aimant dark magician girl": 0,
+        "magnet magicienne des tenebres": 0,
+        "gagnant": "topique — NOTHING FOUND (2026-06-19)"
+      }
+    },
+    "intentions_larges_franchise_yugioh": {
+      "figurine yu gi oh": 590,
+      "t shirt yu gi oh": 90,
+      "poster yu gi oh": 70,
+      "cadeau yu gi oh": 20,
+      "goodies yu gi oh": 20,
+      "mug yu gi oh": 20,
+      "note": "PREMIÈRE FRANCHISE Yu-Gi-Oh! — volumes faibles. À consigner au ledger."
+    }
+  },
+  "handles_renommes": [],
+  "maillage_anneau": "Mug → Tableau → PK → Chiff → Tapis → Magnet → Mug (Tote Bag DRAFT → Mug uniquement)",
+  "suffixes_meta": {
+    "Mug": "Tasse Yu-Gi-Oh",
+    "Tableau": "Affiche & Toile",
+    "PK": "Breloque Métal",
+    "Chiff": "Microfibre Douce",
+    "Tapis": "Tapis Gaming",
+    "Tote Bag": "Sac Satiné",
+    "Magnet": "Aimant YGO"
+  },
+  "products": [
+    {
+      "id": "gid://shopify/Product/10146807218506",
+      "title": "Mug Magicienne des Ténèbres",
+      "handle": "mug-magicienne-des-tenebres",
+      "seo_title": "Mug Dark Magician Girl ☕ | Tasse Yu-Gi-Oh",
+      "seo_description": "Mug Dark Magician Girl illustré à la main en Anjou. L'idée cadeau Yu-Gi-Oh pour les duellistes qui démarrent leur journée avec la Magicienne des Ténèbres.",
+      "descriptionHtml": "<p>Chaque matin commence sous le signe de la magie avec ce mug Dark Magician Girl illustré à la main en Anjou. L'idée cadeau Yu-Gi-Oh! idéale pour les duellistes de tous niveaux, à doubler avec notre <a href=\"/products/tableau-magicienne-des-tenebres\">poster Magicienne des Ténèbres</a> pour un duo collector.</p><p>Dans l'univers Yu-Gi-Oh!, la Magicienne des Ténèbres est l'apprentie directe du Magicien des Ténèbres, le monstre emblématique de Yugi Muto. Liée à son maître par un lien indéfectible, elle ne se contente pas de suivre son chemin : elle forge le sien, faisant de chaque duel une démonstration de sa propre puissance magique.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Conçu au stylet et dessiné à la main, ce visuel numérique ne doit rien à l'IA, façonné dans l'Anjou.</strong></p><p>Versez-vous un café, la Magicienne des Ténèbres veille sur votre matin.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10183466647882",
+      "title": "Tableau Magicienne des Ténèbres",
+      "handle": "tableau-magicienne-des-tenebres",
+      "seo_title": "Poster Dark Magician Girl 🖼️ | Affiche & Toile",
+      "seo_description": "Poster Dark Magician Girl en affiche HD, toile ou cadre. Pour les fans de Yu-Gi-Oh! qui veulent afficher la Magicienne des Ténèbres dans leur déco.",
+      "descriptionHtml": "<p>Pour les fans de Yu-Gi-Oh! qui veulent honorer la carte la plus reconnaissable de la franchise, voici la Magicienne des Ténèbres dans toute sa splendeur. Ce poster Dark Magician Girl illustré à la main en Anjou s'accroche en affiche HD, toile sur châssis ou cadre encadré, à compléter avec notre <a href=\"/products/porte-cle-magicienne-des-tenebres\">porte-clé Magicienne des Ténèbres</a>.</p><p>Dans le TCG Yu-Gi-Oh!, la Magicienne des Ténèbres est devenue l'une des illustrations les plus célèbres de la franchise depuis sa première apparition dans les années 2000. Sa silhouette de magicienne a marqué des générations de duellistes, faisant d'elle un symbole incontournable de la culture Yu-Gi-Oh! à travers le monde.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Pensé et dessiné à la main sur tablette, ce motif numérique ne doit rien à l'IA : une création artisanale 100% angevine.</strong></p><p>Choisissez votre format, la Magicienne des Ténèbres s'affiche chez vous.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/10181109580106",
+      "title": "Porte Clé Magicienne des Ténèbres",
+      "handle": "porte-cle-magicienne-des-tenebres",
+      "seo_title": "Porte Clé Dark Magician Girl 🔑 | Breloque Métal",
+      "seo_description": "Porte-clé Dark Magician Girl en métal collector. Le goodie Yu-Gi-Oh! pour les fans de la Magicienne des Ténèbres, compact et à emporter partout.",
+      "descriptionHtml": "<p>Sur votre trousseau, la Magicienne des Ténèbres vous accompagne au quotidien. Ce porte-clé Dark Magician Girl en métal robuste est le goodie Yu-Gi-Oh! collector pour les fans de la franchise, compact et solide, à compléter avec la <a href=\"/products/chiffonnette-magicienne-des-tenebres\">chiffonnette Magicienne des Ténèbres</a> pour un duo de poche.</p><p>Dans l'anime Yu-Gi-Oh!, la Magicienne des Ténèbres apparaît comme un esprit éveillé par les cartes de Yugi Muto lors des duels les plus décisifs. Sa loyauté envers le Roi des Jeux et sa relation avec le Magicien des Ténèbres en font un personnage attachant bien au-delà de ses seules statistiques de combat.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin.</strong></p><p>Emportez-la, la Magicienne des Ténèbres veille sur vos clés.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15361804206410",
+      "title": "Chiffonnette Magicienne des Ténèbres",
+      "handle": "chiffonnette-magicienne-des-tenebres",
+      "seo_title": "Chiffonnette Dark Magician Girl 🧼 | Microfibre Douce",
+      "seo_description": "Chiffonnette Dark Magician Girl en microfibre ultra-douce. Nettoie lunettes et écrans. Le cadeau Yu-Gi-Oh! discret qui révèle les vrais fans.",
+      "descriptionHtml": "<p>Pour nettoyer lunettes et écrans avec l'élégance de la magie noire de Yu-Gi-Oh! Cette chiffonnette Dark Magician Girl en microfibre ultra-douce est le cadeau qu'on n'attendait pas et qu'on ne lâche plus, à compléter avec le <a href=\"/products/tapis-de-souris-magicienne-des-tenebres\">tapis de souris Magicienne des Ténèbres</a> pour habiller tout votre bureau.</p><p>Dans le TCG Yu-Gi-Oh!, la Magicienne des Ténèbres tire sa puissance du Cimetière : elle gagne des points d'attaque supplémentaires pour chaque Magicien des Ténèbres qui y est envoyé. Ce lien de puissance entre l'apprentie et son maître est l'une des mécaniques les plus poétiques de toute la franchise.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou.</strong></p><p>Glissez-la dans votre sac, le cadeau Yu-Gi-Oh! discret qui révèle les vrais fans.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15372520096074",
+      "title": "Tapis de Souris Magicienne des Ténèbres",
+      "handle": "tapis-de-souris-magicienne-des-tenebres",
+      "seo_title": "Tapis de Souris Dark Magician Girl 🖱️ | Tapis Gaming",
+      "seo_description": "Tapis de souris Dark Magician Girl pour votre setup gaming. La Magicienne des Ténèbres sur votre bureau pour chaque session Yu-Gi-Oh!",
+      "descriptionHtml": "<p>À chaque session, la Magicienne des Ténèbres veille sur votre bureau. Ce tapis de souris Dark Magician Girl offre une glisse précise et silencieuse pour votre setup, à compléter avec le <a href=\"/products/magnet-magicienne-des-tenebres\">magnet Magicienne des Ténèbres</a> pour personnaliser tout votre espace aux couleurs de Yu-Gi-Oh!</p><p>Dans l'anime Yu-Gi-Oh!, les duels les plus intenses révèlent la vraie nature de chaque carte. La Magicienne des Ténèbres n'est pas seulement un monstre de soutien : elle est une guerrière à part entière, capable de retourner le cours d'un duel au moment où personne ne l'attend, aux côtés de Yami Yugi.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Posez-le, la Magicienne des Ténèbres s'installe sur votre bureau.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380212941130",
+      "title": "Tote Bag Magicienne des Ténèbres",
+      "handle": "tote-bag-magicienne-des-tenebres",
+      "status": "DRAFT",
+      "seo_title": "Tote Bag Dark Magician Girl 👜 | Sac Satiné",
+      "seo_description": "Tote Bag Dark Magician Girl en tissu satiné. Le sac cadeau Yu-Gi-Oh! pour les fans qui veulent emporter la Magicienne des Ténèbres partout.",
+      "descriptionHtml": "<p>Portez l'esprit du duel avec vous partout. Ce tote bag Dark Magician Girl en tissu satiné épais fait reconnaître les vrais fans de Yu-Gi-Oh! au premier regard, idéal comme cadeau pour les duellistes, à compléter avec le <a href=\"/products/mug-magicienne-des-tenebres\">mug Magicienne des Ténèbres</a> pour un duo collector.</p><p>La Magicienne des Ténèbres est l'un des personnages les plus représentés sur les goodies et collections Yu-Gi-Oh! depuis sa première apparition. Sa popularité transcende les générations de joueurs et de fans de l'anime, faisant d'elle une icône de la franchise aussi reconnaissable que le Magicien des Ténèbres lui-même.</p><ul><li>Surface : Tissu satiné épais (280g)</li><li>Dimensions : 36x33cm</li><li>Impression : Sublimation brillante inaltérable</li><li>Entretien : Lavage à 30° max</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Dessin numérique né sous le stylet, entièrement à la main et sans IA, façonné en Anjou au cœur de la France.</strong></p><p>Portez-le à l'épaule, la Magicienne des Ténèbres s'invite dans votre quotidien.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15380973977930",
+      "title": "Magnet Magicienne des Ténèbres",
+      "handle": "magnet-magicienne-des-tenebres",
+      "seo_title": "Magnet Dark Magician Girl 🧲 | Aimant YGO",
+      "seo_description": "Magnet Dark Magician Girl en métal rigide. La pièce collector Yu-Gi-Oh! pour les fans de la Magicienne des Ténèbres, petit et reconnaissable.",
+      "descriptionHtml": "<p>Accrochez la Magicienne des Ténèbres sur votre frigo. Ce magnet Dark Magician Girl en métal rigide est la pièce collector Yu-Gi-Oh! pour les fans de la franchise, petit mais solide et reconnaissable au premier regard, à associer avec le <a href=\"/products/mug-magicienne-des-tenebres\">mug Magicienne des Ténèbres</a> pour compléter la collection.</p><p>Dans l'univers Yu-Gi-Oh!, la magie noire est l'essence même du Magicien des Ténèbres et de son apprentie. La Magicienne des Ténèbres incarne cette dualité entre puissance brute et finesse stratégique, une combinaison qui en fait l'une des cartes les plus appréciées des duellistes depuis la première génération de l'anime.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Né sous le stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou.</strong></p><p>Fixez-la, le collector Yu-Gi-Oh! que les vrais fans reconnaissent au premier coup d'oeil.</p>"
+    }
+  ]
+}
