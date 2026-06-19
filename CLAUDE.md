@@ -463,6 +463,17 @@ Pour chaque produit (130-160 mots de prose unique au total) :
 Présenter les descriptions depuis le fichier écrit.
 Si corrections → mettre à jour le fichier PUIS appliquer.
 
+### Étape 6.5 — LINT OBLIGATOIRE (gate mécanique avant Shopify) 🔴
+**Avant TOUTE mutation `productUpdate`, lancer le linter sur le fichier du cluster :**
+```bash
+python3 /home/user/Personnal/seo_lint.py [perso]_seo_new.json
+```
+- **Un seul FAIL = INTERDICTION d'appliquer.** Corriger le JSON, relancer, et n'appliquer que sur exit code 0.
+- Les WARN se revoient au jugement (mots un peu hors cible, intention large à confirmer, lien à vérifier vs DRAFT).
+- Le linter vérifie mécaniquement ce que la checklist Étape 5 demandait "mentalement" : placement varié des liens de maillage (refus si trop de liens en CTA ou connecteur répété = pattern formulaïque), 1 seul `<a>` relatif par fiche pointant vers un autre produit du cluster, méta titre ≤ 60 / méta desc ≤ 155, termes interdits en méta desc (sans IA / Anjou / Made in), franchise 1× max, pas de tiret long (—) ni balise Hn, 130-160 mots de prose, ouvertures P1 distinctes, verbes de CTA distincts, emojis variés, n° P3 uniques, anglicismes interdits dans les méta titres.
+- **Le lint ne remplace PAS le jugement éditorial** (qualité lore, ton persona, alignement question/P2) : il attrape les fautes structurelles répétitives, pas la justesse du contenu. La checklist Étape 5 reste à faire pour ce qui n'est pas automatisable.
+- Re-lancer aussi le lint APRÈS toute correction demandée par la propriétaire (Étape 6), avant de ré-appliquer.
+
 ### Étape 7 — Appliquer en batch GraphQL
 Mutations `productUpdate` par lots de 2-4 (alias GraphQL).
 Champs : `descriptionHtml` + `seo { title description }`.
