@@ -40,6 +40,15 @@
       "affiche chainsaw man": 50,
       "goodies chainsaw man": 30,
       "mug chainsaw man": 20
+    },
+    "questions_lore": {
+      "note": "phrase_questions FR. 'est ce que makima aime denji' 20 confirmé par capture utilisateur (2026-06-19). Le reste vu en fullsearch.",
+      "est ce que makima aime denji": 20,
+      "makima creepy": 390,
+      "makima death": 320,
+      "makima demon": 170,
+      "makima age": 140,
+      "alignement_lore": "La question 'makima aime denji' (relation Makima/Denji) est captée par le P2 du Porte Clé (dynamique maître/chien, manipulation). 'makima death'/'demon' captés par le P2 du Magnet (Démon du Contrôle, fin tragique)."
     }
   },
   "handles_renommes": [],
