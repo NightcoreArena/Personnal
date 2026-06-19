@@ -317,6 +317,23 @@ Alias "HxH" = équivalent à "Hunter x Hunter" pour tous les volumes → utilise
 | mug hunter x hunter | 20 | Mug : texte |
 | tapis hunter x hunter | 20 | Tapis : texte |
 
+### Berserk (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Guts, Griffith, Casca, Zodd, Skull Knight...
+Franchise de niche transactionnelle en FR — volumes produit faibles mais audience très passionnée.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine berserk | 1600 | hors produit, signale intention d'achat Berserk |
+| t shirt berserk | 390 | T-Shirt : texte (intention large la plus forte) |
+| poster berserk | 140 | Tableau : texte |
+| affiche berserk | 30 | Tableau : texte |
+| goodies berserk | 30 | angle collection, tous produits |
+| cadeau berserk | 20 | angle cadeau, tous produits |
+| mug berserk | 20 | Mug : texte |
+| tapis berserk | 20 | Tapis : texte |
+
+→ Première franchise Berserk mesurée (2026-06-19). "Berserk" seul (40500/mois) = majorité manga/scan → informationnel. Keywords transactionnels faibles mais audience ultra-engagée. "Chevalier Noir" / "Black Swordsman" = alias perso (pas des keywords produit), tissés dans le texte.
+
 ### Yu-Gi-Oh! / YGO (mesuré 2026-06-19, fr)
 Réutilisable pour tous les persos de la franchise : Dark Magician Girl, Dark Magician, Exodia, Blue-Eyes White Dragon...
 Franchise de niche en FR → volumes globaux faibles.
@@ -350,6 +367,28 @@ Franchise de niche en FR → volumes globaux faibles.
 - Suffixes méta (premiers Pokémon) : Mug Céramique / Affiche & Toile / Du S au XXL / Breloque Métal / Microfibre Douce / Tapis Gaming / Tote Bag Satiné / Aimant Collector.
 - 13 alt texts mis à jour (Tote Bag DRAFT sans image). Alt T-Shirt image 2 corrigé (suppression description illustration interdite).
 - Fichier final → evoli_seo_new.json.
+
+---
+
+### Guts Berserk — mesuré 2026-06-19
+- Perso : **guts berserk 5400** > guts 14800 (polysémique, pas en méta titre seul) > black swordsman guts 2900 > guts the berserk 1900 > berserk anime guts 1900 > guts berserk manga 1600
+- Alias EN "Black Swordsman" (2900) = informationnel/lore → tissé dans le texte, jamais en méta titre.
+- Alias FR "chevalier noir berserk" (20), "guts chevalier noir" (20) → tissés dans le texte.
+- Combos produit (tous NOTHING FOUND = 0 vérifié 2026-06-19) → cluster 100% topique pur.
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug/tasse guts berserk = 0 | topique |
+  | Tableau | poster/tableau/affiche guts berserk = 0 | topique (Poster choisi cohérence) |
+  | Porte Clé | porte cle guts berserk = 0 | topique |
+  | T-Shirt | t shirt guts berserk = 0 / **t shirt guts = 20** | t shirt guts (20, ambigu — retenu seul volume) |
+  | Chiffonnette | chiffonnette/chiffon guts berserk = 0 | topique |
+  | Tapis | tapis de souris guts berserk = 0 | topique |
+  | Tote Bag DRAFT | tote bag/sac guts berserk = 0 | topique |
+  | Magnet | magnet/aimant guts berserk = 0 | topique |
+- 6 handles corrigés (fautes "bersek" → "berserk" + manque "guts") + 6×301. T-Shirt title : parenthèses supprimées.
+- Suffixes méta : Tasse Céramique / Affiche & Toile / Breloque Métal / Du S au XXL / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant Collector.
+- 13 alt texts mis à jour (Tote Bag DRAFT = 0 image). PREMIÈRE franchise Berserk : broad-intent consigné au ledger.
+- Fichier final → guts_berserk_seo_new.json.
 
 ---
 
