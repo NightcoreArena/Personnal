@@ -247,8 +247,7 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 - Suffixes méta (anti-redondance inter-cluster DB) : Chope 340ml / Affiche & Cadre / Médaillon Métal / Lingette Écran / Base Antidérapante / Cabas Coton / Aimant Collector.
 - 0 handle renommé. 11 alt texts mis à jour. Fichier final → vegeta_ssj4_seo_new.json.
 
-### Vegeta SSJ (Dragon Ball Z) — mesuré 2026-06-19
-- Perso : **vegeta ssj 880** = vegeta super saiyan 880 > vegeta dbz 390 > vegeta ssj2 320 = vegeta dragon ball z 320 > vegeta ssj1 110 > vegeta 27100 (trop générique)
+### Vegeta SSJ (Dragon Ball Z) — mesuré 2026-06-19- Perso : **vegeta ssj 880** = vegeta super saiyan 880 > vegeta dbz 390 > vegeta ssj2 320 = vegeta dragon ball z 320 > vegeta ssj1 110 > vegeta 27100 (trop générique)
 - Alias clé : "vegeta super saiyan" (880) → LSI dans le texte. "vegeta dbz" (390) → tisser dans P1/P2. "vegeta" seul → trop générique pour méta titre mais nourrit les combos produits.
 - Combos produit :
   | Produit | Mesures | Retenu (méta titre) |
@@ -265,6 +264,24 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 - 5 handles renommés : mug/pk/chiff/tapis/tote-bag-vegeta-ssj → -vegeta + 5×301.
 - Suffixes méta (anti-redondance inter-cluster DB) : Tasse à Café / Adulte & Enfant / Porte-clé Acier / Microfibre Douce / Tapis XXL / Sac Tissu / Aimant Métal.
 - 9 alt texts mis à jour (Tote Bag DRAFT = 0 image). Fichier final → vegeta_ssj_seo_new.json.
+
+### Gohan SSJ2 (Dragon Ball Z) — mesuré 2026-06-19
+- Perso : **gohan ssj2 1900** > son gohan 3600 > gohan beast 5400 (forme DISTINCTE, futur cluster) > dbz gohan ssj2 720 > gohan super saiyan 2 590 > gohan dbz 590 > gohan ssj 2 480
+- ⚠️ "gohan" seul (5400) trop générique ; "gohan beast" (5400) = forme différente (DBS: Super Hero) → cluster futur potentiel → handles conservés en -gohan-ssj2 pour éviter conflit.
+- Combos produit :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug gohan 0 / tasse gohan 0 / mug gohan ssj2 0 | topique |
+  | Tableau | tableau gohan 0 / **poster gohan 20** / poster gohan ssj2 20 | **poster gohan ssj2 (20)** |
+  | Porte Clé | porte cle gohan 0 / porte cle gohan ssj2 0 | topique |
+  | Chiffonnette | chiffonnette gohan 0 / microfibre gohan 0 | topique |
+  | Tapis | tapis de souris gohan 0 / tapis gaming gohan 0 | topique |
+  | Tote Bag DRAFT | tote bag gohan 0 / sac gohan 0 | topique |
+  | Magnet | magnet gohan 0 / aimant gohan 0 | topique |
+  | T-Shirt | **t shirt gohan 20** — OPPORTUNITÉ, pas de T-Shirt dans le store |
+- 1 handle corrigé : Tableau gohan-ssj2-poster → tableau-gohan-ssj2 + 1×301 (+ cadre-gohan-ssj2 → tableau-gohan-ssj2 mis à jour).
+- Suffixes méta (anti-redondance inter-cluster DB) : Tasse DBZ / Toile Tendue / Médaillon Acier / Chiffon Optique / Tapis DBZ / Sac Toile / Aimant DBZ.
+- 11 alt texts mis à jour (Tableau = 5 variantes avec type). Fichier final → gohan_ssj2_seo_new.json.
 
 ---
 
