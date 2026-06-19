@@ -703,5 +703,8 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 **Hunter x Hunter** :
 - [x] Hisoka — 7 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : hisoka (9900/mois). Combos produit : mug/tapis/porte-clé/poster hisoka = 20/mois ; chiff/tote bag/magnet = 0 (topique). 0 handle renommé. Suffixes méta : Tasse HxH / Poster & Toile / Breloque Métal / Chiffon Lunettes / Tapis Gaming / Sac Satiné / Aimant HxH. PREMIÈRE franchise HxH : intentions larges mesurées (poster hxh/hunter x hunter 210/mois, t shirt hxh 210/mois) et consignées au ledger. 10 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → hisoka_seo_new.json.
 
+**Yu-Gi-Oh!** :
+- [x] Dark Magician Girl (Magicienne des Ténèbres) — 7 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : dark magician girl (1900/mois EN) > magicienne des ténèbres (590/mois FR). Méta titres en EN car volume 3x supérieur (nom propre international, pas un anglicisme produit). Cluster 100% topique pur (tous combos = NOTHING FOUND). 0 handle renommé. Suffixes méta : Tasse Yu-Gi-Oh / Affiche & Toile / Breloque Métal / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant YGO. PREMIÈRE franchise Yu-Gi-Oh! : broad-intent consigné au ledger. 10 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → dark_magician_girl_seo_new.json.
+
 **T-Shirt Dessin (collection)** :
 - [x] Cluster complet — 39 produits traités (2026-06-17)

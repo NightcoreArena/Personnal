@@ -317,6 +317,21 @@ Alias "HxH" = équivalent à "Hunter x Hunter" pour tous les volumes → utilise
 | mug hunter x hunter | 20 | Mug : texte |
 | tapis hunter x hunter | 20 | Tapis : texte |
 
+### Yu-Gi-Oh! / YGO (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos de la franchise : Dark Magician Girl, Dark Magician, Exodia, Blue-Eyes White Dragon...
+Franchise de niche en FR → volumes globaux faibles.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine yu gi oh | 590 | hors produit, signale intention d'achat YGO |
+| t shirt yu gi oh | 90 | T-Shirt : texte |
+| poster yu gi oh | 70 | Tableau : texte |
+| cadeau yu gi oh | 20 | angle cadeau, tous produits |
+| goodies yu gi oh | 20 | angle collection |
+| mug yu gi oh | 20 | Mug : texte |
+
+→ Première franchise Yu-Gi-Oh! mesurée (2026-06-19). "YGO" = alias court usité dans les méta titres (suffixe). "Yu-Gi-Oh!" avec point d'exclamation = graphie officielle FR.
+
 ### Evoli (Pokémon) — mesuré 2026-06-19
 - Perso : **evoli 18100** > evoli pokemon 3600 > pokemon evoli 2400 > evolution evoli 6600 (informationnel)
 - Alias : "evoli shiny" 1300 = informationnel (couleur) ; "evoli evolve/evolution" = informationnel (lore)
@@ -335,6 +350,25 @@ Alias "HxH" = équivalent à "Hunter x Hunter" pour tous les volumes → utilise
 - Suffixes méta (premiers Pokémon) : Mug Céramique / Affiche & Toile / Du S au XXL / Breloque Métal / Microfibre Douce / Tapis Gaming / Tote Bag Satiné / Aimant Collector.
 - 13 alt texts mis à jour (Tote Bag DRAFT sans image). Alt T-Shirt image 2 corrigé (suppression description illustration interdite).
 - Fichier final → evoli_seo_new.json.
+
+---
+
+### Dark Magician Girl / Magicienne des Ténèbres (Yu-Gi-Oh!) — mesuré 2026-06-19
+- Perso : **dark magician girl 1900** > magicienne des tenebres 590 > magicienne des tenebres yu gi oh 170 > yu gi oh dark magician girl 140
+- Décision : "Dark Magician Girl" (EN) retenu dans les méta titres (1900 > 590, nom propre international à volume supérieur — pas un anglicisme produit selon CLAUDE.md). H1 et textes = "Magicienne des Ténèbres" (FR officiel TCG).
+- Combos produit (tous NOTHING FOUND = 0 vérifié 2026-06-19) → cluster 100% topique pur.
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug/tasse dark magician girl/magicienne des tenebres = 0 | topique |
+  | Tableau | poster/tableau/affiche dark magician girl/magicienne = 0 | topique (Poster choisi cohérence) |
+  | Porte Clé | porte cle dark magician girl/magicienne = 0 | topique |
+  | Chiffonnette | chiffonnette/chiffon dark magician girl = 0 | topique |
+  | Tapis | tapis de souris dark magician girl = 0 | topique |
+  | Tote Bag DRAFT | tote bag/sac dark magician girl = 0 | topique |
+  | Magnet | magnet/aimant dark magician girl = 0 | topique |
+- 0 handle renommé. Suffixes méta : Tasse Yu-Gi-Oh / Affiche & Toile / Breloque Métal / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant YGO.
+- 10 alt texts mis à jour (Tote Bag DRAFT = 0 image). PREMIÈRE franchise Yu-Gi-Oh! : broad-intent consigné au ledger.
+- Fichier final → dark_magician_girl_seo_new.json.
 
 ---
 
