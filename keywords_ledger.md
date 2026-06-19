@@ -379,6 +379,20 @@ Réutilisable pour tous les persos de la franchise : Saitama, Genos, Tatsumaki, 
 
 → Première franchise OPM mesurée (2026-06-19). Volumes faibles. "poster one punch man" (70) = le plus fort → appartient aux COLLECTIONS, texte fiche OK mais pas ouvrir le méta titre produit. "saitama" + "one punch man" = combo non ambigu retenu en méta titre.
 
+### Gachiakuta (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos de la franchise : Rudo (Rudo Surebrec), Amo, Riyo...
+⚠️ "gachiakuta" seul 33100/mois — présence NSFW notable (amo gachiakuta hentai 3600) mais non-dominante → utilisable en méta titre combiné avec le perso. "rudo" seul polysémique (film espagnol "Rudo y Cursi") → toujours combiner avec "gachiakuta".
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| gachiakuta manga | 1900 | texte tous produits (broad intent) |
+| gachiakuta anime | 1000 | texte tous produits (broad intent) |
+| figurine gachiakuta | 210 | hors produit, signale intention d'achat |
+| poster gachiakuta | 30 | Tableau : texte + méta titre (seul combo produit à volume) |
+| gachiakuta goodies | 20 | angle collection |
+
+→ Première franchise Gachiakuta mesurée (2026-06-19). Volumes très faibles sur les combos produit. "poster gachiakuta" (30) = seul non-nul. "sphere gachiakuta" (1300) + "gachiakuta rudo rage" (320) = LSI lore clé à tisser dans les textes.
+
 ### Evoli (Pokémon) — mesuré 2026-06-19
 - Perso : **evoli 18100** > evoli pokemon 3600 > pokemon evoli 2400 > evolution evoli 6600 (informationnel)
 - Alias : "evoli shiny" 1300 = informationnel (couleur) ; "evoli evolve/evolution" = informationnel (lore)
@@ -498,6 +512,26 @@ Réutilisable pour tous les persos de la franchise : Saitama, Genos, Tatsumaki, 
 - Suffixes méta : Tasse Céramique / Affiche & Toile / Médaillon Métal / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant Collector.
 - 11 alt texts mis à jour (Tote Bag DRAFT sans image). PREMIÈRE franchise OPM : broad-intent consigné au ledger.
 - Fichier final → saitama_seo_new.json.
+
+---
+
+### Rudo Gachiakuta — mesuré 2026-06-19
+- Perso : **rudo gachiakuta 1300** > gachiakuta rudo 720 > rudo surebrec 480 > gachiakuta rudo rage 320 > gachiakuta rudo surebrec 210 ; "rudo" seul polysémique
+- Keyword retenu : "rudo gachiakuta" (1300 combiné) — toujours combiner perso + franchise dans les méta titres
+- Combos produit (tous 0 sauf Tableau, 2026-06-19) :
+  | Produit | Mesures | Retenu (méta titre) |
+  |---|---|---|
+  | Mug | mug/tasse rudo gachiakuta (2 ordres) = 0 | topique |
+  | Tableau | **poster gachiakuta 30** / affiche/tableau/cadre/toile = 0 | **Poster (30)** |
+  | Porte Clé | porte cle rudo gachiakuta (2 ordres) = 0 | topique |
+  | Chiffonnette | chiffonnette/chiffon rudo gachiakuta (2 ordres) = 0 | topique |
+  | Tapis | tapis de souris rudo gachiakuta (2 ordres) = 0 | topique |
+  | Magnet | magnet/aimant rudo gachiakuta (2 ordres) = 0 | topique |
+- Questions lore (phrase_questions FR) : "is amo dead in gachiakuta" 30 / "quand sort la saison 2 de gachiakuta" 90. Amo mentionnée dans Magnet P2 (alignement).
+- 6 handles renommés (-gachiakuta → -rudo-gachiakuta) + 6×301. Tableau : "poster-gachiakuta" → "poster-rudo-gachiakuta".
+- Suffixes méta (tous ≠ de Makima) : Chope 340ml / Affiche & Cadre / Acier Collector / Chiffon Lunettes / Tapis Gaming / Aimant Métal.
+- 10 alt texts mis à jour. PREMIÈRE franchise Gachiakuta : broad-intent consigné au ledger.
+- Fichier final → rudo_gachiakuta_seo_new.json.
 
 ---
 
