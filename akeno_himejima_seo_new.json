@@ -1,0 +1,100 @@
+{
+  "cluster": "Akeno Himejima (High School DxD)",
+  "date": "2026-06-20",
+  "semrush_data": {
+    "date_recherche": "2026-06-20",
+    "perso": {
+      "akeno himejima": 880,
+      "akeno": 880,
+      "high school dxd akeno": 390,
+      "akeno dxd": 320,
+      "hs dxd akeno": 320,
+      "akeno highschool dxd": 260
+    },
+    "alias": "akeno seul = polysemous (akeno hijama = bien-etre, 1000/mois). Utiliser akeno himejima partout pour disambiguation.",
+    "questions_lore": "ERROR 50 NOTHING FOUND — aucune question a volume sur akeno himejima. Pas de P2 a aligner sur des questions.",
+    "par_produit": {
+      "Mug":            { "mug akeno himejima": 0, "tasse akeno himejima": 0, "mug high school dxd": 0, "gagnant": "mug akeno himejima (0) topique pur" },
+      "Tableau":        { "poster akeno himejima": 0, "tableau akeno himejima": 0, "affiche akeno himejima": 0, "poster high school dxd": 10, "gagnant": "poster akeno himejima (0) topique pur — poster high school dxd (10) = collection" },
+      "Tapis de Souris":{ "tapis de souris akeno himejima": 0, "mousepad akeno": 0, "tapis gaming akeno": 0, "gagnant": "tapis de souris akeno himejima (0) topique pur" },
+      "Chiffonnette":   { "chiffonnette akeno himejima": 0, "microfibre akeno": 0, "gagnant": "chiffonnette akeno himejima (0) topique pur" },
+      "Magnet":         { "magnet akeno himejima": 0, "aimant akeno himejima": 0, "gagnant": "magnet akeno himejima (0) topique pur" },
+      "Porte Cle":      { "porte cle akeno himejima": 0, "keychain akeno": 0, "gagnant": "porte cle akeno himejima (0) topique pur" }
+    },
+    "intentions_larges": "poster high school dxd (10) seul keyword franchise non-nul. Tous broad-intent (cadeau high school dxd, goodies dxd) = 0. Cluster topique pur.",
+    "note_strategie": "akeno seul polysemous. Utiliser Akeno Himejima dans tous les meta titres. Autorité topique via descriptions riches lore HS DxD."
+  },
+  "handles": {
+    "renaming": [
+      { "old": "mug-akeno",                  "new": "mug-akeno-himejima" },
+      { "old": "porte-cle-akeno",            "new": "porte-cle-akeno-himejima" },
+      { "old": "magnet-akeno",               "new": "magnet-akeno-himejima" },
+      { "old": "tapis-de-souris-akeno",      "new": "tapis-de-souris-akeno-himejima" },
+      { "old": "chiffonnette-akeno",         "new": "chiffonnette-akeno-himejima" }
+    ],
+    "no_change": ["tableau-akeno-himejima"]
+  },
+  "maillage": "Mug(mug-akeno-himejima) -> Tableau(tableau-akeno-himejima) -> Tapis(tapis-de-souris-akeno-himejima) -> Chiffonnette(chiffonnette-akeno-himejima) -> Magnet(magnet-akeno-himejima) -> Porte Cle(porte-cle-akeno-himejima) -> Mug",
+  "products": [
+    {
+      "id": "gid://shopify/Product/15642060849482",
+      "title": "Mug Akeno",
+      "handle_old": "mug-akeno",
+      "handle_new": "mug-akeno-himejima",
+      "seo_title": "Mug Akeno Himejima ☕ High School DxD | Chope 340ml",
+      "seo_description": "Mug Akeno Himejima illustré à la main : un café avec la Vice-Présidente du Club Occulte de DxD. Idée cadeau High School DxD incontournable.",
+      "descriptionHtml": "<p>Commencer la journée sous le regard espiègle d'Akeno Himejima, c'est le rituel des fans de High School DxD qui n'ont pas froid aux yeux. Ce mug Akeno Himejima illustré à la main en Anjou met la Vice-Présidente du Club de Recherche Occulte entre vos mains dès le premier café. Associez-le à <a href=\"/products/tableau-akeno-himejima\">notre poster Akeno Himejima</a> pour une déco chambre digne du Club Occulte.</p><p>Douce et taquine avec son « Ara ara~ » légendaire, Akeno Himejima se transforme dès l'entrée au combat en une redoutable utilisatrice de foudre sacrée. Ce contraste entre la jeune femme raffinée et la guerrière sadique qui jubile face à ses ennemis est l'une des signatures les plus mémorables de la série d'Ichiei Ishibumi.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Chaque trait de ce visuel numérique est posé à la main au stylet, sans aucune IA, dans notre atelier de l'Anjou.</strong></p><p>Versez-vous un café et laissez Akeno commencer la journée avec vous.</p>",
+      "footprint": { "P1_angle": "Commencer la journee sous le regard espiegle d'Akeno Himejima / rituel des fans DxD", "CTA_verbe": "Versez-vous un cafe (usage)", "P3": 5 }
+    },
+    {
+      "id": "gid://shopify/Product/15642061013322",
+      "title": "Tableau Akeno Himejima",
+      "handle_old": "tableau-akeno-himejima",
+      "handle_new": "tableau-akeno-himejima",
+      "seo_title": "Poster Akeno Himejima 🖼️ High School DxD | Affiche & Cadre",
+      "seo_description": "Poster Akeno Himejima en affiche, toile ou cadre. La Reine foudroyante de High School DxD illumine votre chambre ou votre bureau manga.",
+      "descriptionHtml": "<p>Afficher Akeno Himejima sur un mur, c'est choisir l'un des personnages les plus saisissants de High School DxD pour habiller sa chambre ou son bureau. Ce poster Akeno Himejima est disponible en affiche HD, toile tendue ou cadre, pour s'adapter à tous les espaces. Associez-le avec <a href=\"/products/tapis-de-souris-akeno-himejima\">notre tapis de souris Akeno Himejima</a> pour un bureau entièrement dédié à DxD.</p><p>Née d'un père Ange Déchu membre de la Grigori et d'une mère prêtresse humaine, Akeno Himejima maîtrise la Foudre Sacrée : une technique qui fusionne la magie divine et la puissance foudroyante de sa lignée déchue. Cette dualité lumière-ombre, inscrite dans son sang, est la source de sa force et de sa fascination dans l'univers d'Ichiei Ishibumi.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou.</strong></p><p>Sélectionnez votre format et accrochez Akeno Himejima là où votre regard se pose le plus souvent.</p>",
+      "footprint": { "P1_angle": "Afficher Akeno Himejima sur un mur / personnage saisissant de HS DxD pour habiller chambre ou bureau", "CTA_verbe": "Selectionnez votre format (deco, format)", "P3": 1 }
+    },
+    {
+      "id": "gid://shopify/Product/15642060947786",
+      "title": "Tapis de Souris Akeno",
+      "handle_old": "tapis-de-souris-akeno",
+      "handle_new": "tapis-de-souris-akeno-himejima",
+      "seo_title": "Tapis de Souris Akeno Himejima 🖱️ | Tapis Gamer",
+      "seo_description": "Tapis de souris Akeno Himejima pour un setup sous les yeux de la Reine de DxD. Surface polyester, base antidérapante, illustré à la main.",
+      "descriptionHtml": "<p>Ce tapis de souris Akeno Himejima place la Reine du peerage de Rias Gremory au coeur de votre setup. Pour un bureau de fan complet, retrouvez aussi <a href=\"/products/chiffonnette-akeno-himejima\">notre chiffonnette Akeno Himejima</a> : un duo pratique pour votre espace High School DxD. Illustré à la main en Anjou, ce tapis gamer s'adapte à toutes les sessions, du gaming intense au travail quotidien.</p><p>Au sein du peerage de Rias Gremory, Akeno Himejima occupe la pièce Reine : la plus polyvalente et la plus puissante sur l'échiquier diabolique. Fidèle à Rias depuis leur enfance, elle lui doit une loyauté absolue qui tranche avec sa personnalité complexe. Dans High School DxD, la Reine n'est jamais loin lorsqu'une bataille se prépare.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Façonné à la main au stylet dans l'atelier angevin, ce motif numérique est garanti 100% sans IA.</strong></p><p>Installez-le sous votre souris : Akeno Himejima veille sur chaque session.</p>",
+      "footprint": { "P1_angle": "Ce tapis Akeno Himejima place la Reine du peerage de Rias au coeur de votre setup", "CTA_verbe": "Installez-le sous votre souris (setup)", "P3": 9 }
+    },
+    {
+      "id": "gid://shopify/Product/15642060980554",
+      "title": "Chiffonnette Akeno",
+      "handle_old": "chiffonnette-akeno",
+      "handle_new": "chiffonnette-akeno-himejima",
+      "seo_title": "Chiffonnette Akeno Himejima 🧼 | Lingette Écran",
+      "seo_description": "Chiffonnette Akeno Himejima en microfibre : le cadeau High School DxD malin pour nettoyer lunettes et écrans au quotidien.",
+      "descriptionHtml": "<p>Nettoyer lunettes et écrans avec le sourire espiègle d'Akeno Himejima, c'est une idée cadeau High School DxD qu'on n'attendait pas. Cette chiffonnette Akeno Himejima en microfibre se glisse dans n'importe quelle trousse ou sac. À offrir avec <a href=\"/products/magnet-akeno-himejima\">notre magnet Akeno Himejima</a> pour un duo cadeau DxD compact et original.</p><p>Akeno Himejima a grandi dans la douleur : sa mère, une miko humaine, a été tuée par des ennemis de son père l'Ange Déchu Baraqiel. Rejetée par la famille maternelle, elle a longtemps porté une haine profonde envers Baraqiel avant d'entreprendre, au fil des arcs de High School DxD, un chemin vers la réconciliation.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Né sous le stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou.</strong></p><p>Gardez-la à portée de main pour vos écrans, ou glissez-la dans un emballage cadeau otaku.</p>",
+      "footprint": { "P1_angle": "Nettoyer lunettes et ecrans avec le sourire d'Akeno Himejima / idee cadeau DxD qu'on n'attendait pas", "CTA_verbe": "Gardez-la a portee de main (usage)", "P3": 4 }
+    },
+    {
+      "id": "gid://shopify/Product/15642060915018",
+      "title": "Magnet Akeno",
+      "handle_old": "magnet-akeno",
+      "handle_new": "magnet-akeno-himejima",
+      "seo_title": "Magnet Akeno Himejima 🧲 High School DxD | Aimant Métal",
+      "seo_description": "Magnet Akeno Himejima en métal sur votre frigo : la Vice-Présidente du Club Occulte rejoint votre collection de goodies DxD.",
+      "descriptionHtml": "<p>Ce magnet Akeno Himejima en métal rigide s'impose sur n'importe quelle surface magnétique avec la même présence que la Vice-Présidente du Club de Recherche Occulte dans les couloirs de Kuoh. Son diamètre de 5cm et sa finition Mylar glossy en font une pièce collector à ajouter à vos goodies anime. Associez-le avec <a href=\"/products/porte-cle-akeno-himejima\">notre porte-clé Akeno Himejima</a> pour un duo métal collector High School DxD.</p><p>Son père Baraqiel est l'un des Rois Déchus de la Grigori, l'organisation des Anges Déchus dans l'univers de High School DxD. C'est de lui qu'Akeno Himejima tient son affinité pour la foudre, bien qu'elle ait longtemps refusé cette partie d'elle-même. Cette tension entre héritage angélique et identité de diable est le fil rouge de son évolution dans la série.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Conçu au stylet et dessiné à la main, ce visuel numérique ne doit rien à l'IA, façonné dans l'Anjou.</strong></p><p>Collez-le sur votre frigo et laissez Akeno Himejima rejoindre votre collection de goodies DxD.</p>",
+      "footprint": { "P1_angle": "Ce magnet Akeno Himejima s'impose avec la meme presence que la VP du Club Occulte dans les couloirs de Kuoh", "CTA_verbe": "Collez-le sur votre frigo (collection)", "P3": 6 }
+    },
+    {
+      "id": "gid://shopify/Product/15642060882250",
+      "title": "Porte Clé Akeno",
+      "handle_old": "porte-cle-akeno",
+      "handle_new": "porte-cle-akeno-himejima",
+      "seo_title": "Porte Clé Akeno Himejima 🔑 DxD | Médaillon Métal",
+      "seo_description": "Porte-clé Akeno Himejima en métal partout avec vous. La guerrière foudroyante de High School DxD s'invite sur votre trousseau.",
+      "descriptionHtml": "<p>Le porte-clé Akeno Himejima en métal robuste est l'accessoire High School DxD que vous emportez sans y penser, chaque jour. Offrez-le en duo avec <a href=\"/products/mug-akeno-himejima\">notre mug Akeno Himejima</a> pour un cadeau collector complet digne du Club de Recherche Occulte. Son médaillon 3x4cm et son anneau solide résistent à l'usage quotidien sans perdre leur éclat.</p><p>Issei Hyoudou, l'Empereur Dragon Écarlate et protagoniste de High School DxD, peut compter sur l'affection d'Akeno Himejima au fil des batailles. Plus qu'une alliée, elle incarne la guerrière fidèle qui protège ceux auxquels elle tient, indépendamment de sa pièce sur l'échiquier du peerage. Cette force tranquille, discrète sous le « Ara ara~ », est ce qui rend Akeno Himejima si attachante dans la série d'Ichiei Ishibumi.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin.</strong></p><p>Suspendez-le à votre sac ou glissez-le sur votre trousseau : Akeno vous accompagne partout.</p>",
+      "footprint": { "P1_angle": "Le porte-cle Akeno Himejima en metal est l'accessoire HS DxD que vous emportez sans y penser chaque jour", "CTA_verbe": "Suspendez-le a votre sac (everyday carry)", "P3": 7 }
+    }
+  ]
+}
