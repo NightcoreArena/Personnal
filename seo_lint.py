@@ -165,11 +165,11 @@ def lint(data):
             kw_re = re.compile(r"\b" + re.escape(keyword) + r"\b")
             total_kw = len(kw_re.findall(prose.lower()))
             p1_kw = len(kw_re.findall(strip_tags(ps[0]).lower())) if ps else 0
+            # ≥3 en P1 = stuffing (sujet + répétition produit + ancre). Le minimum
+            # naturel pour un perso à 1 mot est 2 (sujet + ancre du lien en P1) : toléré.
             if p1_kw >= 3:
-                add("FAIL", scope, f"mot-clé '{keyword}' {p1_kw}× dans le P1 (stuffing) : 1× suffit, le reste en LSI/ancre courte")
-            elif p1_kw == 2:
-                add("WARN", scope, f"mot-clé '{keyword}' 2× dans le P1 : préférer 1× + ancre courte")
-            if total_kw >= 4:
+                add("FAIL", scope, f"mot-clé '{keyword}' {p1_kw}× dans le P1 (stuffing) : retirer la répétition produit, garder sujet + ancre")
+            if total_kw >= 5:
                 add("WARN", scope, f"mot-clé '{keyword}' {total_kw}× dans la fiche (densité élevée, varier en pronoms/épithètes)")
 
         # --- H1 : collecte pour contrôle de cohérence inter-fiches ---
