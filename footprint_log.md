@@ -13,6 +13,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## MUG
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Haikyuu | "Vous cherchez un cadeau manga qui plaira à coup sûr à un fan d'Haikyuu ? Ce mug illustré à la main en Anjou est la réponse." | Glissez-le dans un emballage et offrez-le (cadeau) | 3 |
 | 2026-06-20 | Elden Ring | "Ce mug Elden Ring est fait pour les sessions qui finissent trop tard et les cafés avalés entre deux tentatives sur Malenia." | Reprenez des forces avant le prochain boss (usage/énergie) | 8 |
 | 2026-06-20 | Cowboy Bebop | "Ce mug Cowboy Bebop rend hommage à la série qui a redéfini l'animation japonaise dans les années 90, en mêlant space western, film noir et bande-son jazz." | Savourez chaque café (usage/ambiance) | 2 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Commencer la journée sous le regard espiègle d'Akeno Himejima, c'est le rituel des fans de High School DxD qui n'ont pas froid aux yeux." | Versez-vous un café (usage) | 5 |
@@ -28,6 +29,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## TABLEAU
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Haikyuu | "Votre chambre ou votre bureau mérite une touche de terrain de volley." | Imprimez-le dans le format qui s'adapte (déco/format) | 2 |
 | 2026-06-20 | Elden Ring | "Un tableau Elden Ring sur votre mur, c'est la lumière dorée de l'Erdtree qui illumine votre espace au quotidien." | Habillez votre mur, l'Erdtree éclaire votre espace (déco) | 4 |
 | 2026-06-20 | Cowboy Bebop | "Le poster Cowboy Bebop s'impose sur un mur comme la série s'est imposée dans l'histoire de l'animation : avec une identité visuelle immédiatement reconnaissable et un style graphique unique." | Accrochez-le (déco) | 6 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Afficher Akeno Himejima sur un mur, c'est choisir l'un des personnages les plus saisissants de HS DxD pour habiller sa chambre ou son bureau." | Sélectionnez votre format (déco, format) | 1 |
@@ -44,6 +46,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## PORTE CLÉ
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Haikyuu | "Haikyuu sur votre trousseau, partout avec vous : ce porte-clé en métal robuste est l'accessoire collector que les fans du manga de Furudate cherchent." | Clipez-le à votre sac ou à votre trousseau (everyday carry) | 1 |
 | 2026-06-20 | Elden Ring | "Ce porte-clé Elden Ring en métal est l'accessoire des fans du jeu qui n'ont pas besoin de l'expliquer pour être reconnus." | Portez-le sur votre trousseau, l'Entre-Terre vous accompagne (everyday carry) | 5 |
 | 2026-06-20 | Cowboy Bebop | "Ce porte-clé Cowboy Bebop en métal est la pièce collector discrète pour les fans de l'anime culte de Sunrise." | Fixez-le à votre trousseau (everyday carry) | 3 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Le porte-clé Akeno Himejima en métal robuste est l'accessoire HS DxD que vous emportez sans y penser, chaque jour." | Suspendez-le à votre sac (everyday carry) | 7 |
@@ -60,6 +63,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## CHIFFONNETTE
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Haikyuu | "Un cadeau anime qu'on n'attend pas et qu'on finit par utiliser chaque jour : cette chiffonnette Haikyuu en microfibre ultra-douce..." | Sortez-la à chaque séance (usage) | 5 |
 | 2026-06-20 | Elden Ring | "Pour les fans de FromSoftware, glisser une chiffonnette Elden Ring dans un cadeau gaming, c'est la touche inattendue qui fait mouche à coup sûr." | Rangez-la dans votre sac de tous les jours, Malenia veille (usage) | 3 |
 | 2026-06-20 | Cowboy Bebop | "La chiffonnette Cowboy Bebop en microfibre fait partie des cadeaux anime qu'on n'imagine pas avant de les recevoir et qu'on finit par utiliser chaque jour." | Glissez-la dans votre trousse (usage) | 7 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Nettoyer lunettes et écrans avec le sourire espiègle d'Akeno Himejima, c'est une idée cadeau High School DxD qu'on n'attendait pas." | Gardez-la à portée de main (usage) | 4 |
@@ -76,6 +80,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## TAPIS DE SOURIS
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Haikyuu | "Votre setup gaming ou bureau de travail prend un tout autre caractère avec le tapis de souris Haikyuu sous la main." | Tendez-le sous votre souris (setup) | 6 |
 | 2026-06-20 | Elden Ring | "Le tapis de souris Elden Ring transforme votre bureau en fragment de l'Entre-Terre, base antidérapante pour tenir face aux boss les plus coriaces." | Déployez-le sur votre bureau, l'Entre-Terre s'étend sous votre main (setup) | 2 |
 | 2026-06-20 | Cowboy Bebop | "Pour les sessions gaming ou de travail, ce tapis de souris Cowboy Bebop apporte l'esthétique space western de la série culte à portée de main, base antidérapante incluse." | Posez-le sous votre souris (setup) | 5 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Ce tapis de souris Akeno Himejima place la Reine du peerage de Rias Gremory au coeur de votre setup." | Installez-le sous votre souris (setup) | 9 |
@@ -100,6 +105,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## MAGNET
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Haikyuu | "Les collectionneurs de goodies manga savent que les meilleures pièces tiennent en cinq centimètres." | Attachez-le sur votre frigo ou sur un tableau magnétique (collection) | 7 |
 | 2026-06-20 | Elden Ring | "Ce magnet Elden Ring en métal prend la meilleure place sur votre frigo : cinq centimètres de lore FromSoftware, impossible à ignorer pour les fans du jeu vidéo." | Posez-le sur votre frigo, il prend sa place dans votre collection (collection) | 1 |
 | 2026-06-20 | Cowboy Bebop | "Ce magnet Cowboy Bebop en métal s'accroche sur votre frigo comme la série reste accrochée à la mémoire des fans d'anime : sans effort." | Aimantez-le sur votre frigo (collection) | 4 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Ce magnet Akeno Himejima en métal rigide s'impose sur n'importe quelle surface magnétique avec la même présence que la VP du Club Occulte dans les couloirs de Kuoh." | Collez-le sur votre frigo (collection) | 6 |
