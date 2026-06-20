@@ -13,6 +13,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## MUG
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Kimetsu no Yaiba (groupe) | "Quatre pourfendeurs réunis sur votre mug, c'est l'idée cadeau Demon Slayer qu'un vrai fan ne refuse pas." | Offrez ce mug / gardez-le pour vous (cadeau) | 3 |
 | 2026-06-19 | Dragon Ball Super | "Ce mug Dragon Ball Super rassemble Goku et Vegeta en Super Saiyan Blue…" | Sirotez votre café (usage) | 1 |
 | 2026-06-19 | Rudo (Gachiakuta) | "Issu des taudis de la Sphère, jeté dans Le Gouffre et pourtant debout…" | Régalez-vous (usage) | 4 |
 | 2026-06-19 | Makima | "Commencer la journée sous le regard de Makima Chainsaw Man, c'est le rituel des vrais fans…" | Dégustez votre café (usage/humour) | 2 |
@@ -24,6 +25,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## TABLEAU
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Kimetsu no Yaiba (groupe) | "Tanjiro, Nezuko, Zenitsu et Inosuke ensemble : ce poster KNY s'impose sur n'importe quel mur." | Encadrez-le ou optez pour la toile (déco, choix format) | 5 |
 | 2026-06-19 | Dragon Ball Super | "Un poster Dragon Ball Super dans votre salon ou votre chambre, c'est l'aura Super Saiyan Blue…" | Transformez votre mur (déco) | 4 |
 | 2026-06-19 | Rudo (Gachiakuta) | "Ce poster Rudo Gachiakuta apporte dans votre pièce l'ambiance brute et intense…" | Habillez votre mur (déco) | 2 |
 | 2026-06-19 | Makima | "Afficher Makima chez soi, c'est assumer l'un des personnages les plus magnétiques…" | Affichez Makima, votre mur prend le contrôle (déco) | 1 |
@@ -36,6 +38,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## PORTE CLÉ
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Kimetsu no Yaiba (groupe) | "Un porte-clé KNY en métal : l'idée cadeau DS collector que le destinataire emportera partout sans y penser." | Accrochez-le / glissez-le (everyday carry) | 4 |
 | 2026-06-19 | Dragon Ball Super | "Goku et Vegeta en Super Saiyan Blue sur votre trousseau…" | Ajoutez-le à votre trousseau (everyday carry) | 2 |
 | 2026-06-19 | Rudo (Gachiakuta) | "Chaque fois que vous saisissez vos clés, Rudo Gachiakuta est là…" | Attachez-le à votre trousseau (everyday carry) | 5 |
 | 2026-06-19 | Makima | "Les fans de Chainsaw Man reconnaîtront Makima au premier regard sur ce porte-clé en métal collector…" | Suspendez-le à votre sac (everyday carry) | 3 |
@@ -48,6 +51,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## CHIFFONNETTE
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Kimetsu no Yaiba (groupe) | "Ce cadeau Demon Slayer passe inaperçu dans un sac mais déclenche toujours un sourire : la chiffonnette KNY…" | Offrez-la ou gardez-la pour vous (cadeau/usage) | 6 |
 | 2026-06-19 | Dragon Ball Super | "Dragon Ball Super, c'est l'ère du Super Saiyan Blue…" | Emportez-la dans votre trousse (usage) | 8 |
 | 2026-06-19 | Rudo (Gachiakuta) | "L'ironie, dans Gachiakuta manga, c'est que Rudo Surebrec a commencé comme nettoyeur…" | Rangez-la dans votre sac (usage) | 3 |
 | 2026-06-19 | Makima | "Offrir un accessoire Chainsaw Man utile au quotidien, c'est l'idée maligne derrière cette chiffonnette Makima…" | Nettoyez vos écrans, Makima veille au grain (usage) | 7 |
@@ -60,6 +64,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## TAPIS DE SOURIS
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Kimetsu no Yaiba (groupe) | "Ce tapis de souris KNY pose sur votre bureau les quatre pourfendeurs de l'ère Taishō." | Déroulez-le sous votre souris (setup) | 7 |
 | 2026-06-19 | Dragon Ball Super | "Le Tournoi de la Puissance prend vie sur votre bureau…" | Étalez-le sous votre souris (setup) | 3 |
 | 2026-06-19 | Rudo (Gachiakuta) | "Rudo Gachiakuta sur votre bureau, c'est l'énergie brute du Gouffre dans chaque session…" | Déployez-le sur votre bureau (setup) | 6 |
 | 2026-06-19 | Makima | "Sous l'emprise de Makima, votre setup gaming change d'atmosphère…" | Installez-le, Makima surveille chacun de vos clics (setup/surveillance) | 9 |
@@ -80,6 +85,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## MAGNET
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Kimetsu no Yaiba (groupe) | "Pour les collectionneurs de goodies Demon Slayer, ce magnet KNY rassemble les quatre héros sur 5cm de métal brillant." | Fixez-le / épinglez-le (collection) | 2 |
 | 2026-06-19 | Dragon Ball Super | "Goku, Vegeta en Super Saiyan Blue et Shenron réunis en 5cm sur votre frigo…" | Posez-le sur votre frigo (collection) | 9 |
 | 2026-06-19 | Rudo (Gachiakuta) | "Ce magnet Rudo Gachiakuta rejoint votre frigo ou n'importe quelle surface en métal…" | Ajoutez Rudo à votre frigo (collection) | 7 |
 | 2026-06-19 | Makima | "Petit format, grande présence : ce magnet Makima Chainsaw Man trouve sa place sur un frigo…" | Aimantez-le et complétez votre panthéon Chainsaw Man (collection) | 6 |
