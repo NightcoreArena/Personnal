@@ -50,11 +50,27 @@ def first_words(text, n):
 
 
 def get_handle(p):
-    # tolérance aux variantes de schéma entre clusters (handle / new_handle)
-    for k in ("handle", "new_handle", "current_handle"):
+    # tolérance aux variantes de schéma entre clusters (handle / new_handle / handle_new)
+    for k in ("handle", "new_handle", "handle_new", "current_handle"):
         if p.get(k):
             return p[k]
     return None
+
+
+def get_scope(p):
+    return p.get("type") or p.get("title") or get_handle(p) or "?"
+
+
+def get_keyword(data):
+    """Mot-clé perso pour le contrôle de densité (anti-stuffing).
+    Priorité au champ explicite, sinon dérivé du nom de cluster (avant la parenthèse)."""
+    kw = data.get("keyword") or data.get("perso_keyword")
+    if kw:
+        return kw.strip().lower()
+    cluster = data.get("cluster", "")
+    cluster = re.sub(r"\(.*?\)", "", cluster)  # retire "(High School DxD)" etc.
+    cluster = re.sub(r"[:\-–].*$", "", cluster)  # retire un sous-titre éventuel
+    return cluster.strip().lower()
 
 
 def emoji_in(title):
@@ -75,6 +91,7 @@ def emoji_in(title):
 def lint(data):
     products = data.get("products", [])
     franchise = data.get("franchise", "").strip().lower()
+    keyword = get_keyword(data)
     n = len(products)
     if n == 0:
         add("FAIL", "global", "aucun produit dans le JSON")
@@ -86,10 +103,11 @@ def lint(data):
     p3_banks = {}
     link_in_cta = 0
     link_connectors = {}
+    title_has_full = []  # (scope, bool) : H1 contient-il le nom complet du perso ?
     handles = {get_handle(p) for p in products if get_handle(p)}
 
     for p in products:
-        scope = p.get("type", p.get("handle", "?"))
+        scope = get_scope(p)
         html = p.get("descriptionHtml", "")
         title = p.get("seo_title", "")
         desc = p.get("seo_description", "")
@@ -141,6 +159,23 @@ def lint(data):
             add("WARN", scope, f"{wc} mots de prose (hors cible 130-160)")
         else:
             add("PASS", scope, f"{wc} mots de prose")
+
+        # --- densité du mot-clé exact (anti-stuffing) ---
+        if keyword:
+            prose_l = prose.lower()
+            total_kw = prose_l.count(keyword)
+            p1_kw = strip_tags(ps[0]).lower().count(keyword) if ps else 0
+            if p1_kw >= 3:
+                add("FAIL", scope, f"mot-clé '{keyword}' {p1_kw}× dans le P1 (stuffing) : 1× suffit, le reste en LSI/ancre courte")
+            elif p1_kw == 2:
+                add("WARN", scope, f"mot-clé '{keyword}' 2× dans le P1 : préférer 1× + ancre courte")
+            if total_kw >= 4:
+                add("WARN", scope, f"mot-clé '{keyword}' {total_kw}× dans la fiche (densité élevée, varier en pronoms/épithètes)")
+
+        # --- H1 : collecte pour contrôle de cohérence inter-fiches ---
+        if keyword:
+            h1 = (p.get("title") or "").lower()
+            title_has_full.append((scope, keyword in h1))
 
         # --- P1 opener unique ---
         if ps:
@@ -223,9 +258,19 @@ def lint(data):
     else:
         add("PASS", "cluster", f"placement des liens varié ({link_in_cta}/{n} en CTA)")
 
+    # cohérence des H1 (tous nom complet OU tous nom court, pas un mélange)
+    if keyword and title_has_full:
+        vals = {v for _, v in title_has_full}
+        if len(vals) > 1:
+            withk = [s for s, v in title_has_full if v]
+            without = [s for s, v in title_has_full if not v]
+            add("WARN", "cluster",
+                f"H1 incohérent : nom complet '{keyword}' présent sur [{', '.join(withk)}] "
+                f"mais absent sur [{', '.join(without)}] — uniformiser")
+
     # broad intent par fiche
     for p in products:
-        scope = p.get("type", "?")
+        scope = get_scope(p)
         txt = strip_tags(p.get("descriptionHtml", "")).lower()
         if not any(t in txt for t in BROAD_INTENT_TOKENS):
             add("WARN", scope, "aucune intention large détectée (cadeau/goodies/déco/manga...)")
