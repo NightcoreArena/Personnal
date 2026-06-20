@@ -2,11 +2,11 @@
 
 But : empêcher le footprint cross-franchise (P1, CTA, P3, phrases de remplissage qui se calquent d'un cluster à l'autre sur un même type de produit).
 
-**Usage (voir GATE dans CLAUDE.md) :**
+**Usage (voir GATE dans seo_methodology.md, section R2) :**
 1. AVANT d'écrire un cluster → lire les lignes du type de produit concerné. Choisir un angle P1, un verbe/registre CTA et une entrée P3 DIFFÉRENTS des 3 dernières lignes.
 2. APRÈS application → ajouter une ligne par produit en HAUT de chaque table (le plus récent en premier).
 
-Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
+Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 
 ---
 
