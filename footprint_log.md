@@ -13,6 +13,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## MUG
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Cowboy Bebop | "Ce mug Cowboy Bebop rend hommage à la série qui a redéfini l'animation japonaise dans les années 90, en mêlant space western, film noir et bande-son jazz." | Savourez chaque café (usage/ambiance) | 2 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Commencer la journée sous le regard espiègle d'Akeno Himejima, c'est le rituel des fans de High School DxD qui n'ont pas froid aux yeux." | Versez-vous un café (usage) | 5 |
 | 2026-06-20 | Kimetsu no Yaiba (groupe) | "Quatre pourfendeurs réunis sur votre mug, c'est l'idée cadeau Demon Slayer qu'un vrai fan ne refuse pas." | Offrez ce mug / gardez-le pour vous (cadeau) | 3 |
 | 2026-06-19 | Dragon Ball Super | "Ce mug Dragon Ball Super rassemble Goku et Vegeta en Super Saiyan Blue…" | Sirotez votre café (usage) | 1 |
@@ -26,6 +27,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## TABLEAU
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Cowboy Bebop | "Le poster Cowboy Bebop s'impose sur un mur comme la série s'est imposée dans l'histoire de l'animation : avec une identité visuelle immédiatement reconnaissable et un style graphique unique." | Accrochez-le (déco) | 6 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Afficher Akeno Himejima sur un mur, c'est choisir l'un des personnages les plus saisissants de HS DxD pour habiller sa chambre ou son bureau." | Sélectionnez votre format (déco, format) | 1 |
 | 2026-06-20 | Kimetsu no Yaiba (groupe) | "Tanjiro, Nezuko, Zenitsu et Inosuke ensemble : ce poster KNY s'impose sur n'importe quel mur." | Encadrez-le ou optez pour la toile (déco, choix format) | 5 |
 | 2026-06-19 | Dragon Ball Super | "Un poster Dragon Ball Super dans votre salon ou votre chambre, c'est l'aura Super Saiyan Blue…" | Transformez votre mur (déco) | 4 |
@@ -40,6 +42,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## PORTE CLÉ
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Cowboy Bebop | "Ce porte-clé Cowboy Bebop en métal est la pièce collector discrète pour les fans de l'anime culte de Sunrise." | Fixez-le à votre trousseau (everyday carry) | 3 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Le porte-clé Akeno Himejima en métal robuste est l'accessoire HS DxD que vous emportez sans y penser, chaque jour." | Suspendez-le à votre sac (everyday carry) | 7 |
 | 2026-06-20 | Kimetsu no Yaiba (groupe) | "Un porte-clé KNY en métal : l'idée cadeau DS collector que le destinataire emportera partout sans y penser." | Accrochez-le / glissez-le (everyday carry) | 4 |
 | 2026-06-19 | Dragon Ball Super | "Goku et Vegeta en Super Saiyan Blue sur votre trousseau…" | Ajoutez-le à votre trousseau (everyday carry) | 2 |
@@ -54,6 +57,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## CHIFFONNETTE
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Cowboy Bebop | "La chiffonnette Cowboy Bebop en microfibre fait partie des cadeaux anime qu'on n'imagine pas avant de les recevoir et qu'on finit par utiliser chaque jour." | Glissez-la dans votre trousse (usage) | 7 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Nettoyer lunettes et écrans avec le sourire espiègle d'Akeno Himejima, c'est une idée cadeau High School DxD qu'on n'attendait pas." | Gardez-la à portée de main (usage) | 4 |
 | 2026-06-20 | Kimetsu no Yaiba (groupe) | "Ce cadeau Demon Slayer passe inaperçu dans un sac mais déclenche toujours un sourire : la chiffonnette KNY…" | Offrez-la ou gardez-la pour vous (cadeau/usage) | 6 |
 | 2026-06-19 | Dragon Ball Super | "Dragon Ball Super, c'est l'ère du Super Saiyan Blue…" | Emportez-la dans votre trousse (usage) | 8 |
@@ -68,6 +72,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## TAPIS DE SOURIS
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Cowboy Bebop | "Pour les sessions gaming ou de travail, ce tapis de souris Cowboy Bebop apporte l'esthétique space western de la série culte à portée de main, base antidérapante incluse." | Posez-le sous votre souris (setup) | 5 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Ce tapis de souris Akeno Himejima place la Reine du peerage de Rias Gremory au coeur de votre setup." | Installez-le sous votre souris (setup) | 9 |
 | 2026-06-20 | Kimetsu no Yaiba (groupe) | "Ce tapis de souris KNY pose sur votre bureau les quatre pourfendeurs de l'ère Taishō." | Déroulez-le sous votre souris (setup) | 7 |
 | 2026-06-19 | Dragon Ball Super | "Le Tournoi de la Puissance prend vie sur votre bureau…" | Étalez-le sous votre souris (setup) | 3 |
@@ -90,6 +95,7 @@ Légende P3 = n° de la banque P3 (CLAUDE.md, section GATE).
 ## MAGNET
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-20 | Cowboy Bebop | "Ce magnet Cowboy Bebop en métal s'accroche sur votre frigo comme la série reste accrochée à la mémoire des fans d'anime : sans effort." | Aimantez-le sur votre frigo (collection) | 4 |
 | 2026-06-20 | Akeno Himejima (HS DxD) | "Ce magnet Akeno Himejima en métal rigide s'impose sur n'importe quelle surface magnétique avec la même présence que la VP du Club Occulte dans les couloirs de Kuoh." | Collez-le sur votre frigo (collection) | 6 |
 | 2026-06-20 | Kimetsu no Yaiba (groupe) | "Pour les collectionneurs de goodies Demon Slayer, ce magnet KNY rassemble les quatre héros sur 5cm de métal brillant." | Fixez-le / épinglez-le (collection) | 2 |
 | 2026-06-19 | Dragon Ball Super | "Goku, Vegeta en Super Saiyan Blue et Shenron réunis en 5cm sur votre frigo…" | Posez-le sur votre frigo (collection) | 9 |
