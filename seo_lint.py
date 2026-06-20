@@ -162,9 +162,9 @@ def lint(data):
 
         # --- densité du mot-clé exact (anti-stuffing) ---
         if keyword:
-            prose_l = prose.lower()
-            total_kw = prose_l.count(keyword)
-            p1_kw = strip_tags(ps[0]).lower().count(keyword) if ps else 0
+            kw_re = re.compile(r"\b" + re.escape(keyword) + r"\b")
+            total_kw = len(kw_re.findall(prose.lower()))
+            p1_kw = len(kw_re.findall(strip_tags(ps[0]).lower())) if ps else 0
             if p1_kw >= 3:
                 add("FAIL", scope, f"mot-clé '{keyword}' {p1_kw}× dans le P1 (stuffing) : 1× suffit, le reste en LSI/ancre courte")
             elif p1_kw == 2:
