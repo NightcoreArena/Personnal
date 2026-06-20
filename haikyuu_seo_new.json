@@ -1,0 +1,136 @@
+{
+  "cluster": "Haikyuu",
+  "keyword": "haikyuu",
+  "date": "2026-06-20",
+  "semrush_data": {
+    "date_recherche": "2026-06-20",
+    "perso": {
+      "haikyuu": 18100,
+      "hinata haikyuu": 720,
+      "haikyuu hinata": 260,
+      "figurine haikyuu": 590
+    },
+    "par_produit": {
+      "Mug": {
+        "mug haikyuu": 0,
+        "tasse haikyuu": 0,
+        "haikyuu mug": 10,
+        "haikyuu tasse": 0,
+        "gagnant": "mug haikyuu (topique, 0 — cluster franchise)"
+      },
+      "Tableau": {
+        "tableau haikyuu": 20,
+        "poster haikyuu": 50,
+        "affiche haikyuu": 20,
+        "haikyuu poster": 30,
+        "haikyuu affiche": 20,
+        "haikyuu tableau": 0,
+        "gagnant": "poster haikyuu (50) — méta titre s'ouvre sur Poster"
+      },
+      "Porte Cle": {
+        "porte cle haikyuu": 0,
+        "porte clé haikyuu": 20,
+        "keychain haikyuu": 20,
+        "haikyuu keychain": 20,
+        "gagnant": "porte clé haikyuu / keychain haikyuu (20 ex-aequo — retenu : porte clé)"
+      },
+      "Chiffonnette": {
+        "chiffonnette haikyuu": 0,
+        "chiffon haikyuu": 0,
+        "microfibre haikyuu": 0,
+        "gagnant": "chiffonnette haikyuu (topique, 0 — cluster franchise)"
+      },
+      "Tapis": {
+        "tapis de souris haikyuu": 20,
+        "tapis haikyuu": 0,
+        "mousepad haikyuu": 0,
+        "haikyuu mousepad": 0,
+        "gagnant": "tapis de souris haikyuu (20)"
+      },
+      "Magnet": {
+        "magnet haikyuu": 0,
+        "aimant haikyuu": 0,
+        "magnet frigo haikyuu": 0,
+        "gagnant": "magnet haikyuu (topique, 0 — cluster franchise)"
+      }
+    },
+    "intentions_larges": {
+      "poster manga": 1000,
+      "cadeau manga": 590,
+      "poster anime": 590,
+      "mug manga": 260,
+      "goodies manga": 210,
+      "cadeau anime": 110,
+      "cadeau haikyuu": 20,
+      "goodies haikyuu": 20
+    },
+    "questions_lore": {
+      "est ce que hinata meurt dans haikyuu": 20,
+      "combien de saison haikyuu": 30,
+      "comment se termine haikyuu": 20,
+      "note": "Volumes faibles en FR. Question 'hinata mort' oriente angle lore fin de série sur Tapis ou Magnet."
+    },
+    "alias_perso": {
+      "hinata haikyuu": 720,
+      "haikyuu hinata": 260,
+      "petit géant / small giant": "non testé séparément — terme lore uniquement, 0 transactionnel attendu",
+      "note": "Aucun alias à volume transactionnel — le nom de franchise 'haikyuu' reste le keyword pivot"
+    }
+  },
+  "products": [
+    {
+      "id": "gid://shopify/Product/15538603884874",
+      "title": "Mug Haikyuu",
+      "handle": "mug-haikyuu",
+      "status": "ACTIVE",
+      "seo_title": "Mug Haikyuu ☕ | Tasse Manga",
+      "seo_description": "Mug Haikyuu pour les matins d'entraînement et les cafés entre matchs. Le cadeau manga qui parle aux fans de Karasuno dès la première gorgée.",
+      "descriptionHtml": "<p>Vous cherchez un cadeau manga qui plaira à coup sûr à un fan d'Haikyuu ? Ce mug illustré à la main en Anjou est la réponse. Hinata Shoyo, n°10 de Karasuno, s'invite dans chaque tasse, pour un rituel matinal avec une bonne dose d'esprit de compétition. Découvrez aussi <a href=\"/products/poster-haikyuu\">notre tableau Haikyuu</a> pour compléter le duo fan-déco.</p><p>Dans l'œuvre de Haruichi Furudate, Hinata est l'incarnation de la combativité pure : malgré une stature de 164 cm, il saute plus haut que quiconque grâce à son timing hors norme et à sa connexion de jeu unique avec Kageyama. Le tandem rapide qu'ils forment, le fameux synchrone set, est l'un des moteurs narratifs de toute la série.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Pensé et dessiné à la main sur tablette, ce motif numérique ne doit rien à l'IA : une création artisanale 100% angevine.</strong></p><p>Glissez-le dans un emballage et offrez-le au fan de goodies Haikyuu que vous connaissez.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15538604409162",
+      "title": "Tableau Haikyuu",
+      "handle": "poster-haikyuu",
+      "status": "ACTIVE",
+      "seo_title": "Poster Haikyuu 🖼️ Décoration Manga | Affiche & Toile",
+      "seo_description": "Poster Haikyuu : l'énergie de Karasuno s'affiche en affiche HD, toile ou cadre sur votre mur. L'idée déco manga qu'un fan adorera.",
+      "descriptionHtml": "<p>Votre chambre ou votre bureau mérite une touche de terrain de volley. Ce poster Haikyuu en format affiche, toile tendue ou cadre met en valeur Hinata Shoyo et l'énergie de Karasuno sous les projecteurs. Un cadeau manga qui parle immédiatement aux fans du manga sportif de Haruichi Furudate. Complétez votre collection avec <a href=\"/products/porte-cle-haikyuu\">notre porte-clé Haikyuu</a> en métal.</p><p>Karasuno, surnommé autrefois le Corbeau déclinant, s'est réinventé grâce à une génération de joueurs qui refusaient de plier. Le slogan de l'équipe résume tout : les corbeaux ne font pas de bruit mais ils ne lâchent jamais. Cette intensité, c'est exactement ce qu'on retrouve dans chaque match dessiné par Furudate.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Imprimez-le dans le format qui s'adapte à votre espace, et laissez Karasuno prendre sa place sur votre mur.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15538603852106",
+      "title": "Porte Clé Haikyuu",
+      "handle": "porte-cle-haikyuu",
+      "status": "ACTIVE",
+      "seo_title": "Porte Clé Haikyuu 🔑 Cadeau Manga | Médaillon Métal",
+      "seo_description": "Porte clé Haikyuu en métal : Hinata Shoyo sur votre trousseau, partout avec vous. L'idée cadeau manga collector pour un vrai fan de la série.",
+      "descriptionHtml": "<p>Haikyuu sur votre trousseau, partout avec vous : ce porte-clé en métal robuste est l'accessoire collector que les fans du manga de Furudate cherchent. Hinata Shoyo en impression haute définition, dans un médaillon compact de 3x4 cm. En cherchant un cadeau anime original, pensez aussi à <a href=\"/products/chiffonnette-haikyuu\">notre chiffonnette Haikyuu</a> en microfibre.</p><p>Shoyo Hinata a grandi en observant le Petit Géant, joueur légendaire de Karasuno qui l'a précédé. Comme son modèle, il a prouvé qu'un attaquant de petite taille peut dominer le filet avec des sauts explosifs et une lecture du jeu instinctive. Ce porte-clé rend hommage à cet héritage.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou.</strong></p><p>Clipez-le à votre sac ou à votre trousseau : un collector Haikyuu qui fait reconnaître les vrais fans.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15538604343626",
+      "title": "Chiffonnette Haikyuu",
+      "handle": "chiffonnette-haikyuu",
+      "status": "ACTIVE",
+      "seo_title": "Chiffonnette Haikyuu 🧼 Cadeau Anime | Microfibre Douce",
+      "seo_description": "Chiffonnette Haikyuu pour lunettes et écrans. Le cadeau anime inattendu et utile que les fans de Karasuno apprécient chaque jour.",
+      "descriptionHtml": "<p>Un cadeau anime qu'on n'attend pas et qu'on finit par utiliser chaque jour : cette chiffonnette Haikyuu en microfibre ultra-douce est l'idée parfaite pour le fan qui a déjà tout en poster et en figurine. Hinata Shoyo et l'ambiance Karasuno sur 18x15 cm de tissu doux pour lunettes et écrans. La pairer avec <a href=\"/products/tapis-de-souris-haikyuu\">notre tapis de souris Haikyuu</a> complète un joli duo setup.</p><p>L'arc de la Guerre des Poubelles est souvent cité parmi les meilleurs moments du manga : Karasuno affronte Nekoma dans un match de rivalité vieille de plusieurs générations. La tension entre ces deux équipes, construite match après match, reflète ce que Haikyuu sait faire mieux que tout autre shonen sportif.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Chaque trait de ce visuel numérique est posé à la main au stylet, sans aucune IA, dans notre atelier de l'Anjou.</strong></p><p>Sortez-la à chaque séance et prenez soin de vos écrans avec un brin d'esprit de Karasuno.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15538604179786",
+      "title": "Tapis de Souris Haikyuu",
+      "handle": "tapis-de-souris-haikyuu",
+      "status": "ACTIVE",
+      "seo_title": "Tapis de Souris Haikyuu 🖱️ | Base Antidérapante",
+      "seo_description": "Tapis de souris Haikyuu pour votre bureau ou setup : Hinata Shoyo et l'intensité de Karasuno sous votre main, session après session.",
+      "descriptionHtml": "<p>Votre setup gaming ou bureau de travail prend un tout autre caractère avec le tapis de souris Haikyuu sous la main. Hinata Shoyo au-dessus du filet, pour que chaque session soit jouée avec l'intensité de Karasuno. Un accessoire manga fait pour durer, avec base en caoutchouc antidérapant et surface polyester. Associez-le à <a href=\"/products/magnet-haikyuu\">notre magnet Haikyuu</a> pour étoffer votre collection.</p><p>Dans les Nationals, Karasuno affronte Inarizaki, clan aux rotations imprévisibles porté par les jumeaux Miya. C'est lors de ces matchs que le synchrone set de Kageyama et Hinata atteint son paroxysme : une passe aveugle, une frappe en plein vol, une salle entière en suspens. Ce tapis rappelle cette précision au millimètre.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Matière : Surface polyester pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Conçu au stylet et dessiné à la main, ce visuel numérique ne doit rien à l'IA, façonné dans l'Anjou.</strong></p><p>Tendez-le sous votre souris et jouez chaque session avec l'énergie du n°10 de Karasuno.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15538604147018",
+      "title": "Magnet Haikyuu",
+      "handle": "magnet-haikyuu",
+      "status": "ACTIVE",
+      "seo_title": "Magnet Haikyuu 🧲 Goodies Manga Collector | Aimant Métal",
+      "seo_description": "Magnet Haikyuu en métal : Hinata Shoyo sur votre frigo, pièce collector à offrir ou garder. Les goodies manga qui font vraiment plaisir.",
+      "descriptionHtml": "<p>Les collectionneurs de goodies manga savent que les meilleures pièces tiennent en cinq centimètres. Ce magnet Haikyuu en coque métal rigide à finition Mylar brillante est une pièce collector discrète que l'on remarque dès qu'on ouvre le frigo. Hinata Shoyo, n°10 de Karasuno, compact et percutant. Pour aller plus loin dans la collection, jetez un œil à <a href=\"/products/mug-haikyuu\">notre mug Haikyuu</a>.</p><p>Avant de rejoindre Karasuno, Hinata avait une seule ambition : jouer au même niveau que le Petit Géant, l'ailier légendaire de cette même école. Dans le manga, ce désir de dépasser ses limites est le moteur de chaque entraînement, chaque chute et chaque retour en force. Une volonté qui se lit dans chaque pixel de cet aimant.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin.</strong></p><p>Attachez-le sur votre frigo ou sur un tableau magnétique : un collector Haikyuu que les fans reconnaissent au premier coup d'œil.</p>"
+    }
+  ]
+}
