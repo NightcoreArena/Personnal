@@ -54,6 +54,9 @@ Maillage : un module server-rendered existe déjà (collections associées + 6 p
 ### 🎯 Filet de Sécurité (intentions larges) — sur 100% des fiches
 CHAQUE fiche (Tableau et Porte-clé et Magnet inclus) contient ≥1 intention large transactionnelle ("cadeau [franchise]", "goodies manga", "déco manga", "cadeau gaming"…), tissée naturellement. Détail R4.
 
+### 🔎 Semrush — non-négociables (procédure complète R6, à OUVRIR avant de chiffrer)
+Avant tout méta titre : **preuve fraîche cette session** (aucun "0" supposé). Lancer `phrase_fullsearch "[perso]"` ET le lire ligne par ligne, PUIS un `phrase_these` par produit avec TOUS les synonymes (R6 a la table). **Tester les DEUX ordres** "[produit] [perso]" et "[perso] [produit]". Tester les ALIAS du perso. Le keyword qui ouvre le méta titre = gagnant prouvé (peut différer du H1). Consigner dans `semrush_data`. Si "[produit] [perso]" < 50/mois → mesurer les intentions larges (cadeau/poster/goodies franchise).
+
 ### 🔁 GATE anti-footprint (résumé — détail R2)
 Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phrases de remplissage), **cross-franchise**. AVANT d'écrire : lire `footprint_log.md`, choisir pour chaque produit un angle P1 + verbe/registre CTA + n° P3 **différents des 3 dernières lignes du type**. APRÈS : ajouter une ligne par produit.
 
