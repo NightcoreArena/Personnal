@@ -3,6 +3,15 @@
 Référence rapide chargée automatiquement. Pour la version complète : `/home/user/Personnal/seo_methodology.md`.
 Branche de travail : `claude/shopify-301-redirects-ruwtnr`
 
+## Pattern d'exécution — 2 sous-agents (TOUJOURS utiliser)
+
+Pour chaque cluster, lancer **2 sous-agents Sonnet** pour économiser la fenêtre principale :
+- **Sous-agent A** (model: "sonnet") : Étapes 1→6.5 — Shopify listing + Semrush + rédaction + lint → présente les fiches pour validation, NE PAS appliquer
+- **Sous-agent B** (model: "sonnet") : Étapes 7→8 — productUpdate + alt texts + footprint_log + seo_methodology + commit/push → rapport court
+
+Les deux agents lisent CLAUDE.md, footprint_log.md, seo_methodology.md eux-mêmes.
+Committer les fichiers modifiés non encore commités si le hook git se plaint pendant que le sous-agent B tourne.
+
 ---
 
 ## PERSONA — qui écrit (à incarner à CHAQUE rédaction)
