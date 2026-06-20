@@ -27,7 +27,8 @@ PRODUCT_EMOJIS = {"☕", "🖼", "🔑", "👕", "🧼", "🖱", "👜", "🧲"}
 ANGLICISMES_TITRE = ["mousepad", "keychain", "breloque"]
 META_DESC_INTERDITS = ["sans ia", "anjou", "made in"]
 BROAD_INTENT_TOKENS = ["cadeau", "goodies", "déco", "decoration", "décoration",
-                       "manga", "anime", "idée cadeau", "collection"]
+                       "manga", "anime", "idée cadeau", "collection",
+                       "gaming", "jeu vidéo", "jeu video", "gamer"]
 
 results = []  # (level, scope, msg)
 
