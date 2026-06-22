@@ -72,18 +72,57 @@
     }
   },
   "handles_renommes": [
-    {"produit": "Mug Saitama", "ancien": "mug-one-punch-man", "nouveau": "mug-saitama", "raison": "handle franchise → handle perso"},
-    {"produit": "Tableau Saitama", "ancien": "tableau-one-punch-man", "nouveau": "tableau-saitama", "raison": "handle franchise → handle perso"},
-    {"produit": "Chiffonnette Saitama", "ancien": "chiffonnette-one-punch-man", "nouveau": "chiffonnette-saitama", "raison": "handle franchise → handle perso"},
-    {"produit": "Tapis de Souris Saitama", "ancien": "tapis-de-souris-one-punch-man", "nouveau": "tapis-de-souris-saitama", "raison": "handle franchise → handle perso"},
-    {"produit": "Tote Bag Saitama", "ancien": "tote-bag-one-punch-man", "nouveau": "tote-bag-saitama", "raison": "handle franchise → handle perso"},
-    {"produit": "Magnet Saitama", "ancien": "magnet-one-punch-man", "nouveau": "magnet-saitama", "raison": "handle franchise → handle perso"}
+    {
+      "produit": "Mug Saitama",
+      "ancien": "mug-one-punch-man",
+      "nouveau": "mug-saitama",
+      "raison": "handle franchise → handle perso"
+    },
+    {
+      "produit": "Tableau Saitama",
+      "ancien": "tableau-one-punch-man",
+      "nouveau": "tableau-saitama",
+      "raison": "handle franchise → handle perso"
+    },
+    {
+      "produit": "Chiffonnette Saitama",
+      "ancien": "chiffonnette-one-punch-man",
+      "nouveau": "chiffonnette-saitama",
+      "raison": "handle franchise → handle perso"
+    },
+    {
+      "produit": "Tapis de Souris Saitama",
+      "ancien": "tapis-de-souris-one-punch-man",
+      "nouveau": "tapis-de-souris-saitama",
+      "raison": "handle franchise → handle perso"
+    },
+    {
+      "produit": "Tote Bag Saitama",
+      "ancien": "tote-bag-one-punch-man",
+      "nouveau": "tote-bag-saitama",
+      "raison": "handle franchise → handle perso"
+    },
+    {
+      "produit": "Magnet Saitama",
+      "ancien": "magnet-one-punch-man",
+      "nouveau": "magnet-saitama",
+      "raison": "handle franchise → handle perso"
+    }
   ],
   "title_renommes": [
-    {"produit": "Tableau One Punch Man", "ancien": "Tableau One Punch Man", "nouveau": "Tableau Saitama", "raison": "H1 = [Produit] [Perso], la franchise va dans le méta titre"}
+    {
+      "produit": "Tableau One Punch Man",
+      "ancien": "Tableau One Punch Man",
+      "nouveau": "Tableau Saitama",
+      "raison": "H1 = [Produit] [Perso], la franchise va dans le méta titre"
+    }
   ],
   "exclus": [
-    {"produit": "Tote Bag Genos", "handle": "tote-bag-genos", "raison": "personnage différent (Genos ≠ Saitama) — cluster futur potentiel"}
+    {
+      "produit": "Tote Bag Genos",
+      "handle": "tote-bag-genos",
+      "raison": "personnage différent (Genos ≠ Saitama) — cluster futur potentiel"
+    }
   ],
   "maillage_anneau": "Mug → Tableau → PK → Chiff → Tapis → Magnet → Mug (Tote Bag DRAFT → Mug uniquement)",
   "suffixes_meta": {
@@ -102,7 +141,7 @@
       "handle_ancien": "mug-one-punch-man",
       "handle_nouveau": "mug-saitama",
       "seo_title": "Mug Saitama One Punch Man ☕ | Tasse Céramique",
-      "seo_description": "Mug Saitama One Punch Man illustré à la main en Anjou. L'idée cadeau pour les fans du héros le plus fort du monde qui démarrent la journée en forme.",
+      "seo_description": "Mug Saitama One Punch Man illustré à la main. Le cadeau pour les fans du héros le plus fort du monde — démarrez la journée avec un seul coup.",
       "descriptionHtml": "<p>Dès le premier café, retrouvez l'énergie de l'entraînement légendaire de Saitama One Punch Man avec ce mug illustré à la main en Anjou. L'idée cadeau One Punch Man pour les fans du héros le plus fort du monde, à compléter avec notre <a href=\"/products/tableau-saitama\">poster Saitama</a> pour un duo collector.</p><p>Cent pompes, cent squats, cent abdominaux et dix kilomètres de course, chaque jour pendant trois ans : l'entraînement de Saitama est devenu un mythe du manga. Résultat : une puissance absolue que rien ni personne ne peut égaler, et une solitude de guerrier que nul adversaire ne peut briser.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Dessin numérique né sous le stylet, entièrement à la main et sans IA, façonné en Anjou au cœur de la France.</strong></p><p>Buvez votre café tranquille, Saitama s'occupe du reste.</p>"
     },
     {

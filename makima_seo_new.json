@@ -25,12 +25,33 @@
       "figurine makima": 140
     },
     "par_produit_2_ordres": {
-      "Tableau": { "poster makima": 20, "makima poster": 0, "affiche/tableau/cadre/toile/deco makima (2 ordres)": 0, "gagnant": "Poster (poster makima 20)" },
-      "Tapis": { "makima mousepad": 20, "tapis de souris/tapis/mousepad makima autres ordres": 0, "gagnant": "topique — 'makima mousepad' 20 NON captable (anglicisme interdit en méta). Méta = Tapis de Souris" },
-      "Mug": { "mug/tasse makima (2 ordres)": 0, "gagnant": "topique" },
-      "Porte Cle": { "porte cle/keychain makima (2 ordres)": 0, "gagnant": "topique" },
-      "Chiffonnette": { "chiffon/chiffonnette/microfibre makima (2 ordres)": 0, "gagnant": "topique" },
-      "Magnet": { "magnet/aimant makima (2 ordres)": 0, "gagnant": "topique" }
+      "Tableau": {
+        "poster makima": 20,
+        "makima poster": 0,
+        "affiche/tableau/cadre/toile/deco makima (2 ordres)": 0,
+        "gagnant": "Poster (poster makima 20)"
+      },
+      "Tapis": {
+        "makima mousepad": 20,
+        "tapis de souris/tapis/mousepad makima autres ordres": 0,
+        "gagnant": "topique — 'makima mousepad' 20 NON captable (anglicisme interdit en méta). Méta = Tapis de Souris"
+      },
+      "Mug": {
+        "mug/tasse makima (2 ordres)": 0,
+        "gagnant": "topique"
+      },
+      "Porte Cle": {
+        "porte cle/keychain makima (2 ordres)": 0,
+        "gagnant": "topique"
+      },
+      "Chiffonnette": {
+        "chiffon/chiffonnette/microfibre makima (2 ordres)": 0,
+        "gagnant": "topique"
+      },
+      "Magnet": {
+        "magnet/aimant makima (2 ordres)": 0,
+        "gagnant": "topique"
+      }
     },
     "intentions_larges_chainsaw_man": {
       "note": "PREMIÈRE franchise CSM — à consigner au ledger.",
@@ -83,14 +104,21 @@
     "Tapis": "Tapis Gamer",
     "Magnet": "Aimant Collector"
   },
-  "footprint_p3": { "Mug": 2, "Tableau": 1, "PK": 3, "Chiff": 7, "Tapis": 9, "Magnet": 6 },
+  "footprint_p3": {
+    "Mug": 2,
+    "Tableau": 1,
+    "PK": 3,
+    "Chiff": 7,
+    "Tapis": 9,
+    "Magnet": 6
+  },
   "products": [
     {
       "id": "gid://shopify/Product/15642099974474",
       "title": "Mug Makima",
       "handle": "mug-makima",
       "seo_title": "Mug Makima Chainsaw Man ☕ | Tasse Céramique",
-      "seo_description": "Mug Makima Chainsaw Man illustré à la main en Anjou. L'idée cadeau pour les fans du Démon du Contrôle qui démarrent la journée.",
+      "seo_description": "Mug Makima Chainsaw Man illustré à la main. L'idée cadeau pour les fans du Démon du Contrôle qui démarrent la journée sous son regard.",
       "descriptionHtml": "<p>Commencer la journée sous le regard de Makima Chainsaw Man, c'est le rituel des vrais fans du manga de Tatsuki Fujimoto. Ce mug illustré à la main en Anjou est l'idée cadeau Chainsaw Man pour les amateurs de dark fantasy moderne, à compléter avec notre <a href=\"/products/tableau-makima\">poster Makima</a> pour un duo collector.</p><p>Makima est le Démon du Contrôle, l'un des antagonistes les plus glaçants de Chainsaw Man. Sous ses airs calmes de haute gradée du Bureau de la Sécurité Publique, elle manipule démons et humains avec la même froideur, convaincue de pouvoir façonner à sa main un monde meilleur.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou.</strong></p><p>Dégustez votre café, Makima garde le contrôle.</p>"
     },
     {

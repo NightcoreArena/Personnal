@@ -82,15 +82,50 @@
     }
   },
   "handles_renommes": [
-    {"produit": "Mug Guts Berserk", "ancien": "mug-bersek", "nouveau": "mug-guts-berserk", "raison": "faute de frappe + manque guts"},
-    {"produit": "Tableau Guts Berserk", "ancien": "tableau-berserk", "nouveau": "tableau-guts-berserk", "raison": "manque guts dans le handle"},
-    {"produit": "Chiffonnette Guts Berserk", "ancien": "chiffonnette-bersek", "nouveau": "chiffonnette-guts-berserk", "raison": "faute de frappe + manque guts"},
-    {"produit": "Tapis de Souris Guts Berserk", "ancien": "tapis-de-souris-bersek", "nouveau": "tapis-de-souris-guts-berserk", "raison": "faute de frappe + manque guts"},
-    {"produit": "Tote Bag Guts Berserk", "ancien": "tote-bag-bersek", "nouveau": "tote-bag-guts-berserk", "raison": "faute de frappe + manque guts"},
-    {"produit": "Magnet Guts Berserk", "ancien": "magnet-bersek", "nouveau": "magnet-guts-berserk", "raison": "faute de frappe + manque guts"}
+    {
+      "produit": "Mug Guts Berserk",
+      "ancien": "mug-bersek",
+      "nouveau": "mug-guts-berserk",
+      "raison": "faute de frappe + manque guts"
+    },
+    {
+      "produit": "Tableau Guts Berserk",
+      "ancien": "tableau-berserk",
+      "nouveau": "tableau-guts-berserk",
+      "raison": "manque guts dans le handle"
+    },
+    {
+      "produit": "Chiffonnette Guts Berserk",
+      "ancien": "chiffonnette-bersek",
+      "nouveau": "chiffonnette-guts-berserk",
+      "raison": "faute de frappe + manque guts"
+    },
+    {
+      "produit": "Tapis de Souris Guts Berserk",
+      "ancien": "tapis-de-souris-bersek",
+      "nouveau": "tapis-de-souris-guts-berserk",
+      "raison": "faute de frappe + manque guts"
+    },
+    {
+      "produit": "Tote Bag Guts Berserk",
+      "ancien": "tote-bag-bersek",
+      "nouveau": "tote-bag-guts-berserk",
+      "raison": "faute de frappe + manque guts"
+    },
+    {
+      "produit": "Magnet Guts Berserk",
+      "ancien": "magnet-bersek",
+      "nouveau": "magnet-guts-berserk",
+      "raison": "faute de frappe + manque guts"
+    }
   ],
   "title_renommes": [
-    {"produit": "T-Shirt Guts (Berserk)", "ancien": "T-Shirt Guts (Berserk)", "nouveau": "T-Shirt Guts Berserk", "raison": "parenthèses anormales — uniformisation"}
+    {
+      "produit": "T-Shirt Guts (Berserk)",
+      "ancien": "T-Shirt Guts (Berserk)",
+      "nouveau": "T-Shirt Guts Berserk",
+      "raison": "parenthèses anormales — uniformisation"
+    }
   ],
   "maillage_anneau": "Mug → Tableau → PK → T-Shirt → Chiff → Tapis → Magnet → Mug (Tote Bag DRAFT → Mug uniquement)",
   "suffixes_meta": {
@@ -110,7 +145,7 @@
       "handle_ancien": "mug-bersek",
       "handle_nouveau": "mug-guts-berserk",
       "seo_title": "Mug Guts Berserk ⚔️ | Tasse Céramique",
-      "seo_description": "Mug Guts Berserk illustré à la main en Anjou. Le cadeau pour les fans du Chevalier Noir qui veulent démarrer la journée avec la légende de Berserk.",
+      "seo_description": "Mug Guts Berserk illustré à la main. Le cadeau idéal pour les fans du Chevalier Noir qui démarrent la journée avec la légende de l'anime culte.",
       "descriptionHtml": "<p>Le café du matin prend une toute autre dimension avec ce mug Guts Berserk illustré à la main en Anjou. L'idée cadeau Berserk pour les fans du manga culte de Kentaro Miura, à compléter avec notre <a href=\"/products/tableau-guts-berserk\">poster Guts Berserk</a> pour un duo collector.</p><p>Condamné par la Marque du Sacrifice à attirer les démons jusqu'à la fin de ses jours, Guts affronte l'obscurité de la nuit sans jamais plier. Ce signe gravé dans sa chair depuis l'Éclipse fait de lui l'une des figures les plus tragiques de toute la dark fantasy, un survivant acharné qui continue à se battre malgré tout.</p><ul><li>Format : 340ml (idéal thé/café)</li><li>Matière : Céramique blanche premium</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inaltérable</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Chaque trait de ce visuel numérique est posé à la main au stylet, sans aucune IA, dans notre atelier de l'Anjou.</strong></p><p>Savourez votre café avec le Chevalier Noir pour vous tenir compagnie.</p>"
     },
     {
