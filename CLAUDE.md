@@ -2,7 +2,7 @@
 
 Carte de référence chargée à chaque session. Le **détail opérationnel** (procédure Semrush, workflow étape par étape, GATE complète, banque P3, specs) est dans `seo_methodology.md` → section "🔧 RÉFÉRENCE OPÉRATIONNELLE DÉTAILLÉE" (R1→R7). **Lire la section R concernée AU MOMENT de l'étape**, pas avant.
 
-Pas de sous-agents (coût token trop élevé). Un cluster = une session.
+Pas de sous-agents (coût token trop élevé). **1-2 clusters par session max** — commit `footprint_log.md` entre les deux.
 
 ---
 
@@ -63,17 +63,17 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 
 ## Pointeurs vers `seo_methodology.md` (lire à la demande)
 
-| Au moment de… | Lire la section |
-|---|---|
-| Maillage intra-cluster | **R1** |
-| GATE footprint + banque P3 | **R2** |
-| Placement keyword / filet large | **R3 / R4** |
-| Angles d'ouverture par produit | **R5** |
-| Recherche Semrush (procédure complète) | **R6** |
-| Workflow étape par étape (listing, handle/301, lint, batch, alt texts, commit) | **R7** |
-| Banque suffixes méta + emojis (anti-redondance) | **R8** |
-| Blocs de specs HTML à copier | **§10** |
-| Checklist finale avant publication | **R7** (étape 7) |
+| Au moment de… | Fichier | Ligne approx. |
+|---|---|---|
+| Maillage intra-cluster | `seo_methodology.md` | **~132** (R1) |
+| GATE footprint + banque P3 | `seo_methodology.md` | **~141** (R2) |
+| Placement keyword / filet large | `seo_methodology.md` | **~165** (R3/R4) |
+| Angles d'ouverture par produit | `seo_methodology.md` | **~173** (R5) |
+| Recherche Semrush (procédure complète) | `seo_methodology.md` | **~188** (R6) |
+| Workflow étape par étape | `seo_methodology.md` | **~225** (R7) |
+| Banque suffixes méta + emojis | `seo_methodology.md` | **~247** (R8) |
+| Blocs de specs HTML à copier (VERBATIM) | `seo_specs.md` | fichier entier |
+| Checklist finale avant publication | `seo_methodology.md` | **~225** (R7, étape 7) |
 
 ---
 

@@ -107,23 +107,21 @@ def norm_spec(s):
 
 
 def load_spec_reference():
-    """Charge les blocs de specs canoniques depuis §10 de seo_methodology.md.
+    """Charge les blocs de specs canoniques depuis seo_specs.md (fichier dédié).
     Source de vérité UNIQUE : empêche toute divergence de spec (ex : 330 vs 340 ml).
     Retourne {titre_section_lower: set(specs normalisées)} ou None si introuvable."""
     here = os.path.dirname(os.path.abspath(__file__))
     md = None
-    for path in (os.path.join(here, "seo_methodology.md"),
-                 os.path.join(os.getcwd(), "seo_methodology.md")):
+    for path in (os.path.join(here, "seo_specs.md"),
+                 os.path.join(os.getcwd(), "seo_specs.md")):
         if os.path.exists(path):
             with open(path, encoding="utf-8") as f:
                 md = f.read()
             break
     if md is None:
         return None
-    m = re.search(r"##\s*10\..*?(?=\n##\s|\Z)", md, flags=re.S)
-    section = m.group(0) if m else md
     blocks = {}
-    for hm in re.finditer(r"###\s*(.+?)\n```html\s*(.*?)```", section, flags=re.S):
+    for hm in re.finditer(r"###\s*(.+?)\n```html\s*(.*?)```", md, flags=re.S):
         heading = hm.group(1).strip().lower()
         lis = re.findall(r"<li>(.*?)</li>", hm.group(2), flags=re.S)
         blocks[heading] = {norm_spec(x) for x in lis}
@@ -174,7 +172,7 @@ def lint(data):
     handles = {get_handle(p) for p in products if get_handle(p)}
     spec_ref = load_spec_reference()
     if spec_ref is None:
-        add("WARN", "global", "seo_methodology.md §10 introuvable : specs non vérifiées")
+        add("WARN", "global", "seo_specs.md introuvable : specs non vérifiées")
 
     for p in products:
         scope = get_scope(p)
