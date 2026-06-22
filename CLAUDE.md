@@ -74,7 +74,7 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 | Workflow étape par étape (listing, handle/301, lint, batch, alt texts, commit) | **R7** |
 | Banque suffixes méta + emojis (anti-redondance) | **R8** |
 | Blocs de specs HTML à copier | **§10** |
-| Checklist finale avant publication | **§13** |
+| Checklist finale avant publication | **R7** (étape 7) |
 
 ---
 
