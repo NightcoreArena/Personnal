@@ -1,0 +1,107 @@
+{
+  "cluster": "Blue Lock",
+  "date": "2026-06-21",
+  "branch": "claude/cluster-seo-blue-lock-c6rp57",
+
+  "semrush_data": {
+    "database": "fr",
+    "fullsearch_seed": "blue lock 49500/mois",
+    "perso_aliases_volume": {
+      "kaiser blue lock": 9900,
+      "nagi blue lock": 4400,
+      "shidou blue lock": 2900,
+      "rin blue lock": 2400,
+      "bachira blue lock": 1900,
+      "isagi blue lock": 1900,
+      "ego blue lock": 1600
+    },
+    "phrase_these_results": {
+      "poster blue lock": 170,
+      "blue lock poster": 70,
+      "tasse blue lock": 40,
+      "blue lock goodies": 30,
+      "mug blue lock": 20,
+      "tapis de souris blue lock": 20,
+      "porte cle blue lock": 20,
+      "cadeau blue lock": 20,
+      "chiffonnette blue lock": 0,
+      "magnet blue lock": 0
+    },
+    "keyword_winner_by_product": {
+      "mug": "tasse blue lock (40/mois) cluster topique",
+      "tableau": "poster blue lock (170/mois)",
+      "tapis_de_souris": "cluster topique (20/mois)",
+      "porte_cle": "cluster topique (20/mois)",
+      "chiffonnette": "cluster topique (0/mois verifie 2026-06-21)",
+      "magnet": "cluster topique (0/mois verifie 2026-06-21)"
+    },
+    "intentions_larges": "cadeau manga, goodies manga, deco manga, cadeau gaming integres naturellement",
+    "cannibalisation": "aucune collection Blue Lock par type produit - keyword poster blue lock libre"
+  },
+
+  "maillage_chain": [
+    "mug-blue-lock -> poster-blue-lock",
+    "poster-blue-lock -> porte-cle-blue-lock",
+    "porte-cle-blue-lock -> chiffonnette-blue-lock",
+    "chiffonnette-blue-lock -> tapis-de-souris-blue-lock",
+    "tapis-de-souris-blue-lock -> magnet-blue-lock",
+    "magnet-blue-lock -> mug-blue-lock"
+  ],
+
+  "products": [
+    {
+      "id": "gid://shopify/Product/15449608028490",
+      "handle": "mug-blue-lock",
+      "title": "Mug Blue Lock",
+      "seo_title": "Tasse Blue Lock ☕ Football Anime | Cadeau Manga",
+      "seo_description": "Tasse Blue Lock illustrée à la main pour les fans du foot anime. Programme Ego dans votre café. Cadeau manga sport artisanal, fabriqué en France.",
+      "p3_bank": 4,
+      "descriptionHtml": "<p>Dans l’arène Blue Lock, chaque détail compte, même le rituel du matin. Cette tasse est le compagnon quotidien des fans qui vivent le foot et l’anime avec la même intensité que le Programme Ego l’exige. Un cadeau manga sport qui ne passe pas inaperçu. À associer avec notre <a href=\"/products/poster-blue-lock\">affiche Blue Lock</a> pour un duo déco et accessoire dans l’univers.</p><p>Yoichi Isagi, numéro 11 du Blue Lock, a construit son jeu autour d’une arme invisible : la vision métavisionnaire. Anticiper la trajectoire de la balle une fraction de seconde avant tout le monde, lire le mouvement avant qu’il n’existe encore. C’est cette lucidité glaciale, née dans la pression de la sélection d’Ego, qui fait du manga de Muneyuki Kaneshiro et Yusuke Nomura un phénomène mondial depuis 2018.</p><ul><li>Contenance : 330 ml</li><li>Matière : Céramique blanche</li><li>Entretien : Compatible micro-ondes et lave-vaisselle</li><li>Impression : Sublimation inhérente</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Né sous le stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou.</strong></p><p>Commandez votre tasse Blue Lock et démarrez chaque journée dans l’esprit de l’égoïsme offensif.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15449503007050",
+      "handle": "poster-blue-lock",
+      "title": "Tableau Blue Lock",
+      "seo_title": "Poster Blue Lock 🖼️ Manga Football | Affiche Anime",
+      "seo_description": "Poster Blue Lock en affiche, toile ou cadre : idée déco manga foot faite à la main. Illustré artisanalement en France pour les fans de l’anime.",
+      "p3_bank": 8,
+      "descriptionHtml": "<p>La déco manga foot trouve rarement une illustration aussi singulière que ce poster Blue Lock dessiné à la main. Affiche papier HD, toile sur châssis ou cadre avec vitre : trois options pour adapter le format à votre espace. À retrouver aussi en version <a href=\"/products/porte-cle-blue-lock\">porte-clé Blue Lock</a> pour les collectionneurs de goodies anime qui aiment les ensembles cohérents.</p><p>Jinpachi Ego, le sélectionneur atypique engagé par la Japan Football Union, a fondé le Programme Blue Lock sur un axiome brutal : l’égoïsme absolu en attaque est la seule voie vers le titre mondial. Ce postulat inversé, qui choque autant qu’il captive, est la colonne vertébrale du manga de Muneyuki Kaneshiro et Yusuke Nomura, l’une des idées les plus originales du shōnen sportif contemporain.</p><ul><li>Affiche : Impression HD sur papier photo premium 200g (du 10x15 au 50x70cm)</li><li>Tableau : Toile tendue sur châssis bois FSC (21x29cm)</li><li>Cadre : Finition noir ou blanc, avec vitre verre ou plexiglas léger</li><li>Exclusivité : Dessin 100% artisanal, encres anti-UV, sans IA (Made in Anjou)</li></ul><p><strong>Dessin numérique né sous le stylet, entièrement à la main et sans IA, façonné en Anjou au coeur de la France.</strong></p><p>Choisissez votre format et recevez votre poster Blue Lock sous quelques jours.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15449668911434",
+      "handle": "porte-cle-blue-lock",
+      "title": "Porte Cle Blue Lock",
+      "seo_title": "Porte Cle Blue Lock 🔑 Collector | Goodies Manga",
+      "seo_description": "Porte-clé Blue Lock en métal : accessoire collector pour les fans du manga de foot. Illustré à la main, idée cadeau anime parfaite. Fabriqué en France.",
+      "p3_bank": 6,
+      "descriptionHtml": "<p>Un cadeau manga foot qui tient dans la poche : ce porte-clé Blue Lock en métal robuste est l’accessoire collector des fans du Programme Ego qui veulent afficher leur passion au quotidien. Découvrez aussi <a href=\"/products/chiffonnette-blue-lock\">notre chiffonnette Blue Lock</a> pour compléter l’idée cadeau anime avec un accessoire du quotidien.</p><p>Nagi Seishiro est l’un des paradoxes de Blue Lock : un génie naturel qui n’avait jamais touché un ballon avant le lycée, amené au foot par son coquipier Reo Mikage. Son contrôle de balle hors norme et ses feintes instinctives font de lui l’un des attaquants les plus redoutables de la sélection d’Ego, sans qu’il ait jamais eu besoin de travailler vraiment pour y arriver.</p><ul><li>Dimensions : Médaillon 3x4 cm</li><li>Matière : Métal robuste, anneau solide de 3cm</li><li>Impression : Sublimation haute définition</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Conçu au stylet et dessiné à la main, ce visuel numérique ne doit rien à l’IA, façonné dans l’Anjou.</strong></p><p>Offrez-le ou glissez-le directement sur votre trousseau : l’accessoire Blue Lock qui part en oublié, revient en indispensable.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15456946946378",
+      "handle": "chiffonnette-blue-lock",
+      "title": "Chiffonnette Blue Lock",
+      "seo_title": "Chiffonnette Blue Lock 🧼 Microfibre | Cadeau Anime",
+      "seo_description": "Chiffonnette Blue Lock en microfibre : nettoie lunettes et écrans, cadeau anime foot inattendu et apprécié. Illustration artisanale, lavable en machine.",
+      "p3_bank": 2,
+      "descriptionHtml": "<p>Le Programme Blue Lock exige une précision absolue. Vos lunettes et vos écrans méritent le même soin : cette chiffonnette microfibre nettoie sans rayer, s’emporte partout, et fait toujours son effet en tant que cadeau anime foot inattendu. À compléter avec <a href=\"/products/tapis-de-souris-blue-lock\">notre tapis de souris Blue Lock</a> pour un setup déco cohérent.</p><p>Meguru Bachira est l’instinct à l’état pur dans Blue Lock : son style de dribble anarchique naît d’un monstre intérieur qui prend le contrôle quand le jeu s’emballe. Sa capacité à lire les espaces entre les défenseurs et à y surgir sans préméditation fait de lui l’un des attaquants les plus imprévisibles de la sélection d’Ego, et l’une des voix les plus humaines du manga.</p><ul><li>Dimensions : 18x15 cm</li><li>Matière : Microfibre ultra-douce</li><li>Usage : Nettoie lunettes et écrans sans rayer</li><li>Entretien : Lavable en machine</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Cette illustration numérique naît d’un trait fait main, sans la moindre IA, et prend vie en France au coeur de l’Anjou.</strong></p><p>Adoptez-la pour vos écrans ou glissez-la dans un paquet cadeau Blue Lock.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15449694699850",
+      "handle": "tapis-de-souris-blue-lock",
+      "title": "Tapis de Souris Blue Lock",
+      "seo_title": "Tapis de Souris Blue Lock 🖱️ Gaming | Deco Manga",
+      "seo_description": "Tapis de souris Blue Lock pour fan de foot et d’anime : surface de glisse optimale, base antidérapante. Idée cadeau gaming manga artisanale.",
+      "p3_bank": 1,
+      "descriptionHtml": "<p>Pour les fans qui veulent un setup gaming à la hauteur de leur passion pour Blue Lock : ce tapis de souris couvre votre bureau d’une illustration exclusive du manga foot le plus ambitieux de la décennie. Idée cadeau gaming manga parfaite. À associer avec <a href=\"/products/magnet-blue-lock\">notre magnet Blue Lock</a> pour marquer son territoire jusque sur le frigo.</p><p>Rin Itoshi est le rival le plus redoutable de Yoichi Isagi dans Blue Lock : talent brut, vision du jeu parfaite, et une blessure profonde liée à son frère aîné Sae Itoshi, prodige évoluant dans le football professionnel européen. Leur relation fracturée est l’un des fils émotionnels les plus tendus du manga, un récit de fraternité brisée par l’excellence et l’orgueil, typique de la plume de Muneyuki Kaneshiro.</p><ul><li>Dimensions : 22x18 cm (épaisseur 2mm)</li><li>Surface : Polyester HD pour glisse optimale</li><li>Maintien : Base en caoutchouc antidérapant</li><li>Impression : Sublimation inhérente</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l’Anjou.</strong></p><p>Lancez-le sur votre bureau et jouez dans l’esprit du Programme Ego.</p>"
+    },
+    {
+      "id": "gid://shopify/Product/15456937935178",
+      "handle": "magnet-blue-lock",
+      "title": "Magnet Blue Lock",
+      "seo_title": "Magnet Blue Lock 🧲 Manga Foot | Cadeau Goodies",
+      "seo_description": "Magnet Blue Lock en métal rigide : goodies manga foot collector pour votre frigo. Finition Mylar glossy, illustré à la main en France.",
+      "p3_bank": 9,
+      "descriptionHtml": "<p>Offrir un goodies Blue Lock inattendu, c’est souvent le meilleur choix : ce magnet en métal rigide déclenche toujours la conversation sur le frigo d’un fan du manga foot. Cinq centimètres de Mylar glossy ultra-brillant, livré depuis la France. Pour compléter le cadeau, ajoutez <a href=\"/products/mug-blue-lock\">notre tasse Blue Lock</a> et faites d’un accessoire un vrai coffret anime.</p><p>Shidou Ryusei est l’électron libre du Programme Ego : son style de jeu acrobatique et totalement imprévisible en fait la terreur des défenseurs, mais aussi quelqu’un de parfois ingérable pour ses propres équipiers. Ses tirs en volée depuis des positions impossibles, nés d’une agilité hors norme, font de lui l’une des figures les plus spectaculaires et les plus déstabilisantes du manga de Kaneshiro et Nomura.</p><ul><li>Dimensions : Diamètre 5 cm</li><li>Matière : Coque métal rigide</li><li>Finition : Mylar glossy ultra-brillant et protecteur</li><li>Exclusivité : Dessin 100% artisanal, sans IA (Made in Anjou)</li></ul><p><strong>Façonné à la main au stylet dans l’atelier angevin, ce motif numérique est garanti 100% sans IA.</strong></p><p>Glissez-le dans un emballage ou posez-le directement sur votre frigo : le cadeau goodies manga foot qu’on ne refuse jamais.</p>"
+    }
+  ]
+}
