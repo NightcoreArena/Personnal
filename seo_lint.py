@@ -172,6 +172,15 @@ def lint(data):
     spec_ref = load_spec_reference()
     if spec_ref is None:
         add("WARN", "global", "seo_specs.md introuvable : specs non vérifiées")
+    # Le check "franchise répétée en méta desc" ne tourne que si le champ existe.
+    # Skip silencieux = piège ("0 WARN" laisse croire la règle passée). On le rend
+    # visible. NB : pour une franchise SOLO (perso = franchise : Elden Ring, Cowboy
+    # Bebop, Haikyuu…), l'absence est NORMALE (le mot-clé EST la franchise et peut
+    # se répéter) ; ajouter le champ seulement si franchise ≠ perso.
+    if not franchise:
+        add("WARN", "global",
+            "champ 'franchise' absent : check 'franchise répétée en méta desc' "
+            "non effectué (OK si franchise solo = perso ; sinon ajouter le champ)")
 
     for p in products:
         scope = get_scope(p)
