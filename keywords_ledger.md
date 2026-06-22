@@ -1,6 +1,6 @@
 # Registre keywords — Les Bois d'Aurore (DATA CONCRÈTE, pas de prédiction)
 
-Voir CLAUDE.md Étape 3.7. Ce fichier n'est PAS un devin. On ne déduit jamais "ce synonyme gagne d'habitude, teste-le en premier" : tester tous les synonymes d'un produit coûte UN appel `phrase_these`, donc on mesure frais à chaque perso.
+Voir `seo_methodology.md` R6 §3.7. Ce fichier n'est PAS un devin. On ne déduit jamais "ce synonyme gagne d'habitude, teste-le en premier" : tester tous les synonymes d'un produit coûte UN appel `phrase_these`, donc on mesure frais à chaque perso.
 
 **Ce fichier sert uniquement à :**
 1. **Réutiliser les keywords niveau FRANCHISE / générique déjà mesurés** (mêmes pour tous les persos d'une œuvre → pas besoin de re-mesurer).

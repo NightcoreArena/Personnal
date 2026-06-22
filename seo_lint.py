@@ -331,8 +331,6 @@ def lint(data):
     for v, who in cta_verbs.items():
         if len(who) > 1 and v:
             add("FAIL", "cluster", f"verbe de CTA '{v}' répété sur : {', '.join(who)}")
-    for e, who in {}.items():
-        pass
     # emojis dupliqués
     seen = {}
     for scope, e in emojis.items():

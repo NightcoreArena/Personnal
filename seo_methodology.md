@@ -7,18 +7,21 @@
 
 Traiter par franchise, pas par type de produit (pour garder la cohérence topique) :
 
-**Demon Slayer** (cluster par cluster) :
+**Demon Slayer** :
 - [x] Akaza — 7 produits traités (2026-06-17)
-- [x] Zenitsu — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Maillage vérifié (métachamps OK). Tableau méta titre = "Poster Zenitsu" (à confirmer Semrush).
+- [x] Zenitsu — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Maillage vérifié (métachamps OK).
+- [x] Nezuko — 8 produits traités (2026-06-18) : Mug, Poster, Porte Clé, T-Shirt, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Maillage vérifié (métachamps OK). Intentions larges : cadeau DS 210/mois, poster DS 720/mois, t-shirt manga 720/mois.
+- [x] Shinobu Kocho — 7 produits (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: shinobu (14800). 7×301 (suppression -pilier-insecte).
+- [x] Muzan Kibutsuji — 7 produits (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: muzan (8100). 7×301 (suppression -kibutsuji).
 - [ ] Inosuke
 - [ ] Tanjiro
-- [x] Nezuko — 8 produits traités (2026-06-18) : Mug, Poster, Porte Clé, T-Shirt, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Maillage vérifié (métachamps OK). Intentions larges intégrées (cadeau DS 210/mois, poster DS 720/mois, t-shirt manga 720/mois, goodies manga 210/mois).
 - [ ] Rengoku
 - [ ] Doma
 - [ ] (autres personnages DS)
 
 **Pokémon** :
 - [x] Pikachu (mug existant, à vérifier)
+- [x] Evoli — 8 produits (2026-06-19) : Mug, Tableau, Porte Clé, T-Shirt, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: evoli (18100). 1×301 (t-shirt-pokemon-enfant→t-shirt-evoli).
 - [ ] (autres personnages Pokémon)
 
 **Kpop Demon Hunter** :
@@ -65,20 +68,14 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 - [x] Ulquiorra Schiffer — 7 produits (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Magnet, Tote Bag. Keyword: ulquiorra (3600). 1×301 (porte-cle-ulquiorra-schiffer→porte-cle-ulquiorra).
 - [ ] (autres personnages Bleach)
 
-**Demon Slayer** :
-- [x] Shinobu Kocho — 7 produits (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: shinobu (14800). 7×301 (suppression -pilier-insecte).
-- [x] Muzan Kibutsuji — 7 produits (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: muzan (8100). 7×301 (suppression -kibutsuji).
-
 **Dragon Ball** :
+- [x] Shenron — 7 produits (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: shenron (4400). 7×301 (handles renommés vers "shenron").
 - [x] Goku Nuage Magique — 5 produits (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis. Keyword: goku nuage magique (170). 0 handle renommé.
 - [x] Goku Enfant / Sangoku — 7 produits (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, T-Shirt, Magnet. Keyword: sangoku (14800). 2×301 (magnet/t-shirt-goku→-goku-enfant).
 - [x] Goku Shenron — 7 produits (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: goku shenron (30). 7×301 (goku-dragon-enfant→goku-shenron).
 - [x] Vegeta SSJ4 — 7 produits (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: vegeta ssj4 (590). 0 handle renommé.
 - [x] Vegeta SSJ — 7 produits (2026-06-19) : Mug, T-Shirt, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: vegeta ssj (880). 5×301 (vegeta-ssj→vegeta).
 - [x] Gohan SSJ2 — 7 produits (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: gohan ssj2 (1900). 2×301 (gohan-ssj2-poster→tableau-gohan-ssj2).
-
-**Pokémon** :
-- [x] Evoli — 8 produits (2026-06-19) : Mug, Tableau, Porte Clé, T-Shirt, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: evoli (18100). 1×301 (t-shirt-pokemon-enfant→t-shirt-evoli).
 
 **Hunter x Hunter** :
 - [x] Hisoka — 7 produits (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: hisoka (9900). 0 handle renommé.
@@ -119,6 +116,9 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 
 **Kimetsu no Yaiba (groupe illustration)** :
 - [x] Kimetsu no Yaiba — 6 produits (2026-06-20) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Magnet. Keyword: poster kimetsu no yaiba (140). 0 handle renommé.
+
+**Frieren (Sousou no Frieren)** :
+- [x] Frieren — 6 produits (2026-06-20) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Magnet. Keyword: frieren (33100). 0 handle renommé.
 
 **T-Shirt Dessin (collection)** :
 - [x] Cluster complet — 39 produits traités (2026-06-17)
@@ -234,7 +234,7 @@ Le keyword gagnant (plus gros volume PROUVÉ) ouvre le méta titre. Le mot produ
 - Handle (URL) = contient la franchise si perso ambigu.
 - Modifier le handle (+ créer 301) si : handle ≠ slug du keyword dominant, perso ambigu, incohérence intra-cluster. Procédure : `productUpdate` handle/title → `urlRedirectCreate` `{ path: "/products/[ancien]", target: "/products/[nouveau]" }` → MAJ liens maillage dans le JSON → batch aliases GraphQL. **JAMAIS changer un handle sans 301.**
 
-**Étape 4 — Écrire le fichier `[perso]_seo_new.json`** AVANT de présenter. Bloc `semrush_data` OBLIGATOIRE en tête (volumes + gagnant par produit). Par produit (130-160 mots de prose unique) : P1 intention + keyword tôt (structure variée) + intention large ; P2 lore LSI distinct ; specs (bloc §10) ; P3 artisan en gras (banque R2, tournante) ; CTA registre varié.
+**Étape 4 — Écrire le fichier `[perso]_seo_new.json`** AVANT de présenter. Bloc `semrush_data` OBLIGATOIRE en tête (volumes + gagnant par produit). Par produit (130-160 mots de prose unique) : P1 intention + keyword tôt (structure variée) + intention large ; P2 lore LSI distinct ; specs (copier depuis `seo_specs.md` VERBATIM) ; P3 artisan en gras (banque R2, tournante) ; CTA registre varié.
 
 **Étape 6.5 — LINT OBLIGATOIRE :** `python3 /home/user/Personnal/seo_lint.py [perso]_seo_new.json`. **1 FAIL = interdiction d'appliquer.** Corriger, relancer, appliquer sur exit code 0 seulement. Re-lint après toute correction.
 

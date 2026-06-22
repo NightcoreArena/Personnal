@@ -88,10 +88,10 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 
 | Cluster | Produits | Date |
 |---|---|---|
+| Blue Lock | 6 | 2026-06-22 |
+| Frieren | 6 | 2026-06-20 |
 | Haikyuu | 6 | 2026-06-20 |
 | Elden Ring | 6 | 2026-06-20 |
 | Cowboy Bebop | 6 | 2026-06-20 |
-| Kimetsu no Yaiba (groupe) | 6 | 2026-06-20 |
-| Akeno Himejima | 6 | 2026-06-20 |
 
 Liste complète + notes par cluster : `seo_methodology.md` (section clusters terminés).
