@@ -250,6 +250,8 @@ La base `fr` retourne souvent 0 pour les combos nichés. Ce n'est pas un échec 
 
 Ces blocs sont identiques pour tous les personnages du même type de produit. C'est du contenu structuré standardisé : Google ne le pénalise pas comme duplicate.
 
+> ⚠️ **Copier VERBATIM** (valeurs ET libellés). `seo_lint.py` parse cette section §10 comme source de vérité unique et **refuse (FAIL)** toute spec divergente d'une fiche (ex : 330 vs 340 ml, « Contenance » au lieu de « Format »). Pour changer une spec, l'éditer ICI d'abord.
+
 ### Mug
 ```html
 <ul>

@@ -17,6 +17,7 @@ tokens interdits, doublons intra-cluster).
 """
 
 import sys
+import os
 import re
 import json
 import unicodedata
@@ -38,6 +39,17 @@ EMOJI_BY_TYPE = [
 ]
 # mots qui DOIVENT porter un accent dans un méta titre (anti "Porte Cle").
 ACCENT_TRAPS = {"cle": "clé"}
+# produit -> fragment du titre de section §10 (seo_methodology.md) à matcher.
+# Permet de comparer les specs d'une fiche au bloc canonique de son type.
+SPEC_TYPE_NEEDLES = [
+    (("mug", "tasse"), "mug"),
+    (("tableau", "poster", "affiche", "cadre", "toile"), "tableau"),
+    (("tapis",), "tapis"),
+    (("chiffonnette",), "chiffonnette"),
+    (("tote", "cabas", "sac"), "tote"),
+    (("magnet", "aimant"), "magnet"),
+    (("porte",), "porte"),
+]
 ANGLICISMES_TITRE = ["mousepad", "keychain", "breloque"]
 META_DESC_INTERDITS = ["sans ia", "anjou", "made in"]
 BROAD_INTENT_TOKENS = ["cadeau", "goodies", "déco", "decoration", "décoration",
@@ -88,6 +100,46 @@ def get_keyword(data):
     return cluster.strip().lower()
 
 
+def norm_spec(s):
+    """Normalise une ligne de spec pour comparaison : sans balise, sans espace, minuscule.
+    'Contenance : 340 ml' et 'contenance:340ml' deviennent identiques ; '330' != '340'."""
+    return re.sub(r"\s+", "", strip_tags(s)).lower()
+
+
+def load_spec_reference():
+    """Charge les blocs de specs canoniques depuis §10 de seo_methodology.md.
+    Source de vérité UNIQUE : empêche toute divergence de spec (ex : 330 vs 340 ml).
+    Retourne {titre_section_lower: set(specs normalisées)} ou None si introuvable."""
+    here = os.path.dirname(os.path.abspath(__file__))
+    md = None
+    for path in (os.path.join(here, "seo_methodology.md"),
+                 os.path.join(os.getcwd(), "seo_methodology.md")):
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as f:
+                md = f.read()
+            break
+    if md is None:
+        return None
+    m = re.search(r"##\s*10\..*?(?=\n##\s*11\.)", md, flags=re.S)
+    section = m.group(0) if m else md
+    blocks = {}
+    for hm in re.finditer(r"###\s*(.+?)\n```html\s*(.*?)```", section, flags=re.S):
+        heading = hm.group(1).strip().lower()
+        lis = re.findall(r"<li>(.*?)</li>", hm.group(2), flags=re.S)
+        blocks[heading] = {norm_spec(x) for x in lis}
+    return blocks or None
+
+
+def canonical_specs_for(ptype, spec_ref):
+    """Retourne le set de specs canoniques pour le type de produit, ou None."""
+    if not spec_ref:
+        return None
+    key = next((h for needles, h in SPEC_TYPE_NEEDLES if any(nd in ptype for nd in needles)), None)
+    if not key:
+        return None
+    return next((specs for heading, specs in spec_ref.items() if key in heading), None)
+
+
 def emoji_in(title):
     found = set()
     for ch in title:
@@ -120,6 +172,9 @@ def lint(data):
     link_connectors = {}
     title_has_full = []  # (scope, bool) : H1 contient-il le nom complet du perso ?
     handles = {get_handle(p) for p in products if get_handle(p)}
+    spec_ref = load_spec_reference()
+    if spec_ref is None:
+        add("WARN", "global", "seo_methodology.md §10 introuvable : specs non vérifiées")
 
     for p in products:
         scope = get_scope(p)
@@ -166,6 +221,15 @@ def lint(data):
             if re.search(rf"\b{bad}\b", title.lower()):
                 add("FAIL", scope,
                     f"accent manquant dans le méta titre : '{bad}' → '{good}'")
+
+        # --- specs conformes au bloc canonique §10 (anti 330/340 ml) ---
+        canon = canonical_specs_for(ptype, spec_ref)
+        if canon:
+            for li in re.findall(r"<li>(.*?)</li>", html, flags=re.S):
+                if norm_spec(li) not in canon:
+                    add("FAIL", scope,
+                        f"spec hors référence §10 : « {strip_tags(li).strip()} » "
+                        f"— copier le bloc §10 verbatim")
 
         # --- méta description ---
         if len(desc) > 155:
