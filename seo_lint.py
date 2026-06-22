@@ -120,7 +120,7 @@ def load_spec_reference():
             break
     if md is None:
         return None
-    m = re.search(r"##\s*10\..*?(?=\n##\s*11\.)", md, flags=re.S)
+    m = re.search(r"##\s*10\..*?(?=\n##\s|\Z)", md, flags=re.S)
     section = m.group(0) if m else md
     blocks = {}
     for hm in re.finditer(r"###\s*(.+?)\n```html\s*(.*?)```", section, flags=re.S):
