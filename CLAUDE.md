@@ -2,7 +2,6 @@
 
 Carte de référence chargée à chaque session. Le **détail opérationnel** (procédure Semrush, workflow étape par étape, GATE complète, banque P3, specs) est dans `seo_methodology.md` → section "🔧 RÉFÉRENCE OPÉRATIONNELLE DÉTAILLÉE" (R1→R7). **Lire la section R concernée AU MOMENT de l'étape**, pas avant.
 
-Branche de travail : `claude/shopify-301-redirects-ruwtnr`
 Pas de sous-agents (coût token trop élevé). Un cluster = une session.
 
 ---
