@@ -9,6 +9,10 @@ Voir `seo_methodology.md` R6 §3.7. Ce fichier n'est PAS un devin. On ne déduit
 **Ce qu'on re-mesure TOUJOURS frais par perso** : les combos "[produit] [perso]" (ex : "poster ulquiorra"). Différents d'un perso à l'autre.
 **Règle de fraîcheur** : toute donnée > ~6 mois doit être re-mesurée.
 
+> ⚡ **Lecture économe (ne PAS lire le fichier entier) :** consulter l'index ci-dessous. Si la franchise y est → `Grep "### [Franchise]"` (avec -A 15) pour ne charger QUE sa table. Toujours lire §1 (générique). Si absente → §1 seul, puis mesurer frais.
+
+**Index §2 (franchises mesurées)** : Dragon Ball · Naruto/Boruto · Bleach · Demon Slayer/Kimetsu · Hunter x Hunter · Berserk · Yu-Gi-Oh! · One Punch Man · Chainsaw Man · Blue Lock · Elden Ring · One Piece · Pokémon · Cowboy Bebop · Gachiakuta.
+
 ---
 
 ## 1. Générique manga/anime — réutilisable pour TOUS les clusters (mesuré 2026-06-18, fr)
