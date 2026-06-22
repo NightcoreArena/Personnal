@@ -65,15 +65,16 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 
 | Au moment de… | Fichier | Ligne approx. |
 |---|---|---|
-| Maillage intra-cluster | `seo_methodology.md` | **~132** (R1) |
-| GATE footprint + banque P3 | `seo_methodology.md` | **~141** (R2) |
-| Placement keyword / filet large | `seo_methodology.md` | **~165** (R3/R4) |
-| Angles d'ouverture par produit | `seo_methodology.md` | **~173** (R5) |
-| Recherche Semrush (procédure complète) | `seo_methodology.md` | **~188** (R6) |
-| Workflow étape par étape | `seo_methodology.md` | **~225** (R7) |
-| Banque suffixes méta + emojis | `seo_methodology.md` | **~247** (R8) |
+| Maillage intra-cluster | `seo_methodology.md` | **~13** (R1) |
+| GATE footprint + banque P3 | `seo_methodology.md` | **~22** (R2) |
+| Placement keyword / filet large | `seo_methodology.md` | **~46** (R3/R4) |
+| Angles d'ouverture par produit | `seo_methodology.md` | **~54** (R5) |
+| Recherche Semrush (procédure complète) | `seo_methodology.md` | **~69** (R6) |
+| Workflow étape par étape | `seo_methodology.md` | **~106** (R7) |
+| Banque suffixes méta + emojis | `seo_methodology.md` | **~128** (R8) |
 | Blocs de specs HTML à copier (VERBATIM) | `seo_specs.md` | fichier entier |
-| Checklist finale avant publication | `seo_methodology.md` | **~225** (R7, étape 7) |
+| Checklist finale avant publication | `seo_methodology.md` | **~106** (R7, étape 7) |
+| Journal clusters terminés (complet) | `clusters_done.md` | fichier entier |
 
 ---
 
@@ -94,4 +95,4 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 | Frieren | 6 | 2026-06-20 |
 | Haikyuu | 6 | 2026-06-20 |
 
-Liste complète + notes par cluster : `seo_methodology.md` (section clusters terminés).
+Liste complète + notes par cluster : `clusters_done.md`.
