@@ -107,3 +107,121 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 | tapis demon slayer | 70 | Tapis : texte |
 
 ---
+
+### Hunter x Hunter / HxH (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Hisoka, Gon, Killua, Kurapika, Leorio, Chrollo...
+"hunter x hunter" = "hxh" à volume égal (210) — alterner dans le texte.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| poster hunter x hunter | 210 | Tableau : P1 / texte |
+| t shirt hunter x hunter | 210 | T-Shirt : P1 / texte |
+| poster hxh | 210 | Tableau : texte (variante) |
+| t shirt hxh | 210 | T-Shirt : texte (variante) |
+| affiche hunter x hunter | 50 | Tableau : texte |
+| cadeau hunter x hunter | 30 | angle cadeau, tous produits |
+| goodies hunter x hunter | 20 | angle collection |
+| mug hunter x hunter | 20 | Mug : texte |
+
+---
+
+### Berserk (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Guts, Griffith, Casca, Puck...
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine berserk | 1600 | hors produit, signale intention d'achat Berserk |
+| t shirt berserk | 390 | T-Shirt : P1 / texte |
+| poster berserk | 140 | Tableau : texte |
+| affiche berserk | 30 | Tableau : texte |
+| goodies berserk | 30 | angle collection |
+| cadeau berserk | 20 | angle cadeau |
+| mug berserk | 20 | Mug : texte |
+| tapis berserk | 20 | Tapis : texte |
+
+---
+
+### Yu-Gi-Oh! (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Dark Magician Girl, Yugi, Kaiba, Dark Magician...
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine yu gi oh | 590 | hors produit, signale intention d'achat YGO |
+| t shirt yu gi oh | 90 | T-Shirt : texte |
+| poster yu gi oh | 70 | Tableau : texte |
+| cadeau yu gi oh | 20 | angle cadeau |
+| goodies yu gi oh | 20 | angle collection |
+| mug yu gi oh | 20 | Mug : texte |
+
+---
+
+### One Punch Man (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Saitama, Genos, Tatsumaki...
+Volumes faibles — cluster topique pur sur les persos.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| poster one punch man | 70 | Tableau : texte |
+| cadeau one punch man | 20 | angle cadeau |
+| goodies one punch man | 20 | angle collection |
+| mug one punch man | 20 | Mug : texte |
+
+---
+
+### Chainsaw Man (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Makima, Denji, Power, Aki...
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine chainsaw man | 720 | hors produit, signale intention d'achat CSM |
+| poster chainsaw man | 50 | Tableau : texte |
+| t shirt chainsaw man | 50 | T-Shirt : texte |
+| affiche chainsaw man | 50 | Tableau : texte |
+| goodies chainsaw man | 30 | angle collection |
+| mug chainsaw man | 20 | Mug : texte |
+
+---
+
+### Blue Lock (mesuré 2026-06-21, fr)
+Réutilisable pour tous les persos : Kaiser, Nagi, Shidou, Rin, Bachira, Isagi, Ego...
+Aucune collection Blue Lock par type produit → keyword "poster blue lock" libre pour les fiches.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| poster blue lock | 170 | Tableau : P1 / méta |
+| blue lock poster | 70 | Tableau : texte (variante ordre) |
+| tasse blue lock | 40 | Mug : P1 / méta (tasse > mug) |
+| blue lock goodies | 30 | angle collection |
+| mug blue lock | 20 | Mug : texte |
+| tapis de souris blue lock | 20 | Tapis : texte |
+| porte cle blue lock | 20 | Porte Clé : texte |
+| cadeau blue lock | 20 | angle cadeau |
+
+---
+
+### Elden Ring (mesuré 2026-06-20, fr)
+Réutilisable pour tous les persos : Malenia, Ranni, Godfrey, Radahn...
+"poster jeu video" / "cadeau jeu video" / "mug jeu video" sont des keywords génériques gaming (pas ER-spécifiques) — tisser naturellement.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine elden ring | 720 | hors produit, signale intention d'achat ER |
+| poster jeu video | 70 | Tableau : texte (générique gaming) |
+| cadeau jeu video | 40 | angle cadeau (générique gaming) |
+| mug jeu video | 30 | Mug : texte (générique gaming) |
+| cadeau elden ring | 20 | angle cadeau |
+| goodies elden ring | 20 | angle collection |
+
+---
+
+### Gachiakuta (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Rudo, Reguler, 9e...
+Cluster topique pur — pas de keywords "[produit] gachiakuta" à volume. "gachiakuta manga" (1900) et "anime gachiakuta" (1000) = termes de découverte, non-transactionnels.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| figurine gachiakuta | 210 | hors produit |
+| poster gachiakuta | 30 | Tableau : texte si naturel |
+| gachiakuta goodies | 20 | angle collection si naturel |
+
+---
