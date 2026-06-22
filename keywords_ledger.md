@@ -214,6 +214,44 @@ Réutilisable pour tous les persos : Malenia, Ranni, Godfrey, Radahn...
 
 ---
 
+### One Piece (mesuré 2026-06-18, fr)
+Réutilisable pour tous les persos : Trafalgar Law, Ace, Luffy, Zoro, Nami...
+Note : "[produit] [perso] one piece" = 0 sur tous les persos testés → cluster topique pur sur les persos. Seuls les keywords franchise ont du volume.
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| poster one piece | 1900 | Tableau : texte |
+| affiche one piece | 1000 | Tableau : texte |
+| cadeau one piece | 1300 | angle cadeau, tous produits |
+| mug one piece | 880 | Mug : texte |
+| tableau one piece | 480 | Tableau : texte |
+| tapis de souris one piece | 390 | Tapis : texte |
+| goodies one piece | 210 | angle collection |
+| porte cle one piece | 210 | Porte Clé : texte |
+
+---
+
+### Pokémon (mesuré 2026-06-19, fr)
+Réutilisable pour tous les persos : Evoli, Pikachu, Salamèche, Rondoudou...
+
+| Keyword | Volume | Usage |
+|---|---|---|
+| cadeau pokemon | 1300 | angle cadeau, tous produits |
+| poster pokemon | 1300 | Tableau : P1 / texte |
+| t shirt pokemon | 1000 | T-Shirt : P1 / texte |
+| tapis pokemon | 880 | Tapis : P1 / texte |
+| affiche pokemon | 720 | Tableau : texte |
+| mug pokemon | 590 | Mug : P1 / texte |
+| goodies pokemon | 320 | angle collection |
+| tote bag pokemon | 30 | Tote Bag : texte |
+
+---
+
+### Cowboy Bebop (mesuré 2026-06-20, fr)
+**Topique pur** — aucun keyword "[produit] cowboy bebop" à volume significatif. Ne pas re-mesurer par perso, intégrer uniquement les génériques manga/anime (§1).
+
+---
+
 ### Gachiakuta (mesuré 2026-06-19, fr)
 Réutilisable pour tous les persos : Rudo, Reguler, 9e...
 Cluster topique pur — pas de keywords "[produit] gachiakuta" à volume. "gachiakuta manga" (1900) et "anime gachiakuta" (1000) = termes de découverte, non-transactionnels.

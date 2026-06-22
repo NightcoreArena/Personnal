@@ -24,7 +24,6 @@ import unicodedata
 
 # ---------- helpers ----------
 
-PRODUCT_EMOJIS = {"☕", "🖼", "🔑", "👕", "🧼", "🖱", "👜", "🧲"}
 # emoji attendu par type de produit (anti 🧻/🧼 et autres confusions visuelles).
 # Ordre = priorité de match ; on dérive le type du title/handle.
 EMOJI_BY_TYPE = [
@@ -220,14 +219,14 @@ def lint(data):
                 add("FAIL", scope,
                     f"accent manquant dans le méta titre : '{bad}' → '{good}'")
 
-        # --- specs conformes au bloc canonique §10 (anti 330/340 ml) ---
+        # --- specs conformes au bloc canonique seo_specs.md (anti 330/340 ml) ---
         canon = canonical_specs_for(ptype, spec_ref)
         if canon:
             for li in re.findall(r"<li>(.*?)</li>", html, flags=re.S):
                 if norm_spec(li) not in canon:
                     add("FAIL", scope,
-                        f"spec hors référence §10 : « {strip_tags(li).strip()} » "
-                        f"— copier le bloc §10 verbatim")
+                        f"spec hors référence : « {strip_tags(li).strip()} » "
+                        f"— copier depuis seo_specs.md VERBATIM")
 
         # --- méta description ---
         if len(desc) > 155:
