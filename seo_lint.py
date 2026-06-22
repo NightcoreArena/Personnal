@@ -24,6 +24,20 @@ import unicodedata
 # ---------- helpers ----------
 
 PRODUCT_EMOJIS = {"☕", "🖼", "🔑", "👕", "🧼", "🖱", "👜", "🧲"}
+# emoji attendu par type de produit (anti 🧻/🧼 et autres confusions visuelles).
+# Ordre = priorité de match ; on dérive le type du title/handle.
+EMOJI_BY_TYPE = [
+    (("mug", "tasse"), "☕"),
+    (("tableau", "poster", "affiche", "cadre", "toile"), "🖼"),
+    (("porte",), "🔑"),
+    (("t-shirt", "tshirt", "tee"), "👕"),
+    (("chiffonnette",), "🧼"),
+    (("tapis",), "🖱"),
+    (("tote", "cabas", "sac"), "👜"),
+    (("magnet", "aimant"), "🧲"),
+]
+# mots qui DOIVENT porter un accent dans un méta titre (anti "Porte Cle").
+ACCENT_TRAPS = {"cle": "clé"}
 ANGLICISMES_TITRE = ["mousepad", "keychain", "breloque"]
 META_DESC_INTERDITS = ["sans ia", "anjou", "made in"]
 BROAD_INTENT_TOKENS = ["cadeau", "goodies", "déco", "decoration", "décoration",
@@ -109,6 +123,13 @@ def lint(data):
 
     for p in products:
         scope = get_scope(p)
+        # noms de champs JSON : un champ absent = erreur silencieuse coûteuse
+        # (le JSON semblait OK mais le lint comptait 0 mot). Message explicite.
+        for field in ("descriptionHtml", "seo_title", "seo_description"):
+            if field not in p:
+                add("FAIL", scope,
+                    f"champ '{field}' absent — noms attendus : "
+                    f"descriptionHtml / seo_title / seo_description / p3_bank")
         html = p.get("descriptionHtml", "")
         title = p.get("seo_title", "")
         desc = p.get("seo_description", "")
@@ -131,6 +152,20 @@ def lint(data):
             add("WARN", scope, "aucun emoji dans le méta titre")
         else:
             emojis[scope] = frozenset(em)
+        # emoji cohérent avec le type de produit (dérivé du title/handle)
+        ptype = (p.get("type") or p.get("title") or get_handle(p) or "").lower()
+        expected_emoji = next(
+            (emo for needles, emo in EMOJI_BY_TYPE if any(nd in ptype for nd in needles)),
+            None)
+        if expected_emoji and em and expected_emoji not in em:
+            add("FAIL", scope,
+                f"emoji {sorted(em)} ne correspond pas au type '{ptype}' "
+                f"(attendu : {expected_emoji})")
+        # accent manquant (ex : 'Porte Cle' au lieu de 'Porte Clé')
+        for bad, good in ACCENT_TRAPS.items():
+            if re.search(rf"\b{bad}\b", title.lower()):
+                add("FAIL", scope,
+                    f"accent manquant dans le méta titre : '{bad}' → '{good}'")
 
         # --- méta description ---
         if len(desc) > 155:
