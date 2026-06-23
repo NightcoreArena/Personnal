@@ -14,10 +14,10 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 |---|---|---|---|---|
 
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
+| 2026-06-23 | Ikki du Phénix | "Savourez votre café avec la puissance d'Ikki du Phénix, ce mug illustré à la main pour les fans de Saint Seiya." | Savourez (usage/lore) | 1 |
 | 2026-06-23 | Power | "Power ne fait pas les choses à moitié : ce mug Chainsaw Man illustré à la main est à l'image de la Fiend la plus turbulente de l'univers." | Offrez (cadeau/manga) | 2 |
 | 2026-06-23 | Xilonen | "Les joueurs de Genshin Impact ont leurs rituels matinaux, et ce mug Xilonen illustré à la main s'intègre naturellement dans le vôtre." | Adoptez (usage/lore) | 7 |
 | 2026-06-22 | Blue Lock | "Dans l'arène Blue Lock, chaque détail compte, même le rituel du matin." | Commandez (compétition/ego) | 4 |
-| 2026-06-20 | Akeno Himejima | "Commencer la journée sous le regard espiègle d'Akeno Himejima, c'est le rituel des fans de High School DxD." | Versez-vous (rituel/lore) | 5 |
 | ⚠️ INTERDITS récurrents | | "Démarrez chaque journée / chaque matin avec [perso]" | "Savourez [X] avec [perso]" | |
 
 ---
@@ -50,10 +50,10 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 |---|---|---|---|---|
 
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
+| 2026-06-23 | Ikki du Phénix | "Transportez-la partout : cette chiffonnette Ikki du Phénix en microfibre nettoie lunettes et écrans avec la précision d'un guerrier maîtrisant son Cosmos." | Transportez-la (déplacement/usage) | 7 |
 | 2026-06-23 | Power | "Offrir un cadeau Chainsaw Man inattendu, c'est parfois ce qui marque le plus : cette chiffonnette Power en microfibre nettoie lunettes et écrans avec une efficacité que la Démone du Sang réserve plutôt aux combats." | Emportez-la (usage/cadeau) | 5 |
 | 2026-06-23 | Xilonen | "Autant apporter le soin d'une forge-maîtresse à l'entretien de vos écrans : cette chiffonnette Xilonen en microfibre nettoie lunettes et appareils sans la moindre rayure." | Rangez-la (usage/gaming) | 9 |
 | 2026-06-22 | Blue Lock | "Le Programme Blue Lock exige une précision absolue. Vos lunettes et vos écrans méritent le même soin." | Adoptez-la (lore/précision) | 2 |
-| 2026-06-20 | Akeno Himejima | "Nettoyer lunettes et écrans avec le sourire espiègle d'Akeno Himejima, c'est une idée cadeau High School DxD." | Gardez-la à portée de main (cadeau/usage) | 4 |
 | ⚠️ INTERDITS récurrents | | "Pour nettoyer lunettes et écrans avec [X]" — "Gardez-la à portée de main" (brûlé ×2 : Akeno + Frieren) | "Glissez-la dans votre sac, le cadeau [franchise]… vrais fans" | |
 
 ---
@@ -62,10 +62,10 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 |---|---|---|---|---|
 
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
+| 2026-06-23 | Ikki du Phénix | "Installez-le sous votre souris et laissez le Cosmos d'Ikki du Phénix brûler sur votre bureau." | Installez-le (setup/lore) | 8 |
 | 2026-06-23 | Power | "Poser Power, la Démone du Sang de Chainsaw Man, sur votre bureau, c'est le détail gaming que les fans du manga remarquent en premier." | Glissez Power (gaming/setup) | 3 |
 | 2026-06-23 | Xilonen | "Un setup gaming qui reflète votre passion pour Genshin Impact mérite une touche Natlan." | Complétez (setup/gaming) | 6 |
 | 2026-06-22 | Blue Lock | "Pour les fans qui veulent un setup gaming à la hauteur de leur passion pour Blue Lock." | Lancez-le (gaming/setup) | 1 |
-| 2026-06-20 | Akeno Himejima | "Ce tapis de souris Akeno Himejima place la Reine du peerage de Rias Gremory au cœur de votre setup." | Installez-le sous votre souris (setup/lore) | 9 |
 | ⚠️ INTERDITS récurrents | | "À chaque session, [perso] veille sur votre bureau" — "Ce tapis [perso] transforme votre bureau en [lieu]" | "Déroulez-le" (brûlé ×2 : Frieren + Kimetsu) — "Posez-le" — "Déployez-le sur votre bureau" | |
 
 ---
@@ -74,10 +74,10 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 |---|---|---|---|---|
 
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
+| 2026-06-23 | Ikki du Phénix | "Suspendez-le à votre épaule et portez le Cosmos du Phénix partout où vous allez." | Suspendez-le (quotidien/style) | 1 |
 | 2026-06-23 | Power | "Afficher son univers manga en sortant de chez soi, c'est le rôle de ce tote bag Power Chainsaw Man en tissu satiné." | Balancez-le (convention/communauté) | 7 |
 | 2026-06-23 | Xilonen | "Qu'on aille en convention anime, en cours ou en ville, ce tote bag Xilonen Genshin Impact signale l'appartenance à la communauté de Natlan." | Sortez-le (convention/communauté) | 4 |
 | 2026-06-19 | Dark Magician Girl | "Portez l'esprit du duel avec vous partout. Ce tote bag Dark Magician Girl en tissu satiné..." | Portez-le à l'épaule (everyday carry/style) | 8 |
-| 2026-06-19 | Evoli | "Emmener Evoli partout, c'est désormais possible. Ce sac en tissu satiné épais fait reconnaître..." | Portez-le à l'épaule (everyday carry/style) | 5 |
 | ⚠️ INTERDITS MAJEURS | | "Le compagnon des journées bien remplies…" (brûlé sur ~11 fiches juin-18) — "Portez la légende/l'esprit… avec vous partout. Ce tote bag…" | "Portez-le à l'épaule, [X] s'invite dans votre quotidien" (brûlé ×4) — "Emportez-le partout, il vous suivra du matin au soir" (brûlé ×7+) | |
 
 ---
@@ -86,10 +86,10 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 |---|---|---|---|---|
 
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
+| 2026-06-23 | Ikki du Phénix | "Positionnez-le sur n'importe quelle surface magnétique et laissez le Phénix s'imposer dans votre collection." | Positionnez-le (placement/collection) | 2 |
 | 2026-06-23 | Power | "Un frigo, un tableau blanc, n'importe quelle surface magnétique : ce magnet Power Chainsaw Man en métal rigide y trouve sa place et compose naturellement un set collector…" | Aimantez-le (collection/frigo) | 4 |
 | 2026-06-23 | Xilonen | "Les collectionneurs de goodies Genshin Impact le savent : les meilleures pièces tiennent parfois dans un seul aimant." | Ajoutez-le (collection/frigo) | 8 |
 | 2026-06-22 | Blue Lock | "Offrir un goodies Blue Lock inattendu, c'est souvent le meilleur choix." | Glissez-le (cadeau/conversation) | 9 |
-| 2026-06-20 | Akeno Himejima | "Ce magnet Akeno Himejima en métal rigide s'impose sur n'importe quelle surface magnétique." | Collez-le sur votre frigo (collection/lore) | 6 |
 | ⚠️ INTERDITS récurrents | | "Accrochez [perso] sur votre frigo. Ce magnet… métal rigide est la pièce collector" — "Cinq centimètres de [X] suffisent" (brûlé ×2 : Frieren + Elden Ring) | "Collez-le" (brûlé ×2 : Akeno + Frieren) — "Fixez-le/la, le collector [franchise] que les fans reconnaissent" | |
 
 ---
