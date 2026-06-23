@@ -116,7 +116,7 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 - [x] Xilonen — 7 produits (2026-06-23) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag (DRAFT), Magnet. Keyword: estimé "mug xilonen" / "poster xilonen" (Semrush non disponible — exception utilisateur 2026-06-23, re-mesurer). 0 handle renommé. Maillage : Mug→Tableau→Tapis→PK→Chiff→Magnet→Mug circulaire ; Tote Bag (DRAFT)→Tableau.
 
 **Saint Seiya** :
-- [x] Ikki du Phénix — 5 produits (2026-06-23) : Mug, Chiffonnette, Tapis, Tote Bag (DRAFT), Magnet. Keyword: cluster topique pur (Semrush non disponible — exception utilisateur, re-mesurer). 0 handle renommé. Maillage : Mug→Chiffonnette→Magnet→Tapis→Mug (4×) ; Tote Bag (DRAFT)→Mug. 5 alt texts mis à jour.
+- [x] Ikki du Phénix — 7 produits (2026-06-23) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag (DRAFT), Magnet. Keyword: cluster topique pur (Semrush non disponible — exception utilisateur, re-mesurer). 5×301 (mug/chiffonnette/tapis/tote-bag/magnet : -phoenix-saint-seiya → -ikki-du-phenix). Maillage : Mug→Tableau→Tapis→PK→Chiff→Magnet→Mug (circulaire) ; Tote Bag (DRAFT)→Tableau. 7 alt texts mis à jour.
 
 **Kimetsu no Yaiba (groupe illustration)** :
 - [x] Kimetsu no Yaiba — 6 produits (2026-06-20) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Magnet. Keyword: poster kimetsu no yaiba (140). 0 handle renommé.
