@@ -9,38 +9,19 @@ Le contexte store, la persona, les règles de rédaction et de méta vivent dans
 
 ---
 
-## 5. Carte des mots-clés : Collections vs Pages Produit
+## 5. Mots-clés détenus par les COLLECTIONS (data — ne pas viser en méta titre produit)
 
-### Règle fondamentale
-- **Collection page** = cible le keyword générique `[produit] demon slayer` ou `[produit] manga`
-- **Page produit** = cible le keyword spécifique `[produit] [personnage]` ou `[personnage] demon slayer`
+La RÈGLE (collection owns `[produit] [franchise]` / produit owns `[produit] [perso]`) est en **R6 « Règle de propriété »**. Ici, juste la data : ces keywords appartiennent aux pages collection, ne PAS les cibler en méta titre produit (cannibalisation). Quand le combo produit nu est à ~0 (cluster topique), la fiche convertit + renforce l'autorité topique ; mettre la phrase `[perso] [franchise]` exacte dans le texte (pas le combo collection).
 
-Ne jamais mettre un keyword de collection comme cible principale d'une page produit → cannibalisation.
-
-### Mots-clés owned par les pages COLLECTION (NE PAS utiliser dans les méta titres produit)
-
-| Keyword | Volume | Collection |
+| Keyword (ex. Demon Slayer) | Volume | → Collection |
 |---|---|---|
-| porte clé demon slayer | 210/mois | Collection Porte Clé Demon Slayer |
-| tapis de souris demon slayer | 140/mois | Collection Tapis de Souris Demon Slayer |
-| tableau demon slayer | 110/mois | Collection Tableau Demon Slayer |
-| mug demon slayer | ~200/mois | Collection Mug Demon Slayer |
-| magnet demon slayer | 20/mois | Collection Magnet Demon Slayer |
-| tote bag demon slayer | 20/mois | Collection Tote Bag Demon Slayer |
-| chiffonnette demon slayer | 0/mois | Collection Chiffonnette Demon Slayer |
+| porte clé demon slayer | 210/mois | Porte Clé Demon Slayer |
+| tapis de souris demon slayer | 140/mois | Tapis de Souris Demon Slayer |
+| tableau demon slayer | 110/mois | Tableau Demon Slayer |
+| mug demon slayer | ~200/mois | Mug Demon Slayer |
+| magnet / tote bag demon slayer | 20/mois | resp. collections |
+| chiffonnette demon slayer | 0/mois | Chiffonnette Demon Slayer |
 | [produit] manga | variable | Collections Manga par produit |
-
-### Mots-clés pour les pages PRODUIT
-
-La réalité Semrush : les combos `[produit] [personnage]` (ex : "tapis de souris akaza", "magnet akaza") ont en général **0 à 10 recherches/mois en France**.
-
-Le seul keyword à volume pour Akaza : **"akaza demon slayer" (2 900/mois)** et **"demon slayer akaza" (1 000/mois)**.
-
-**Conséquence stratégique :**
-- Les pages produit Akaza ne visent pas à ranker sur leur propre combinaison produit+personnage
-- Elles servent à renforcer l'autorité topique sur "akaza demon slayer" via un cluster
-- Leur objectif principal est la **conversion** pour les visiteurs qui arrivent depuis des recherches liées à Akaza
-- L'exact phrase "akaza demon slayer" doit apparaître dans le corps du texte de chaque fiche produit Akaza
 
 ---
 
@@ -361,6 +342,7 @@ Intégrer une "intention de recherche large" transactionnelle sur CHAQUE fiche (
 **3.1bis — NOMS ALTERNATIFS (angle mort fréquent) :** lister TOUS les alias (épithète/titre, romanisations, nom EN/FR, forme/transformation) et lancer fullsearch + balayage 3.2 sur chacun à volume. Deux issues : (1) "[produit] [alias]" à volume → peut ouvrir/enrichir le méta titre ; (2) alias nu à volume informationnel/lore seulement → va dans le TEXTE (P1/P2), jamais le méta titre.
 
 **3.2 — Une requête `phrase_these` par type de produit, TOUS les synonymes :**
+🔴 **GATE NOM NU** : `[perso]` dans la table ci-dessous = le nom SEUL du personnage (`mira`, `shadow`, `zoey`), JAMAIS nom+franchise. Tester `mug mira`, **PAS** `mug mira kpop demon hunters` : appender la franchise réduit à une longue traîne quasi vide et fait conclure « 0 » à tort, alors que le combo nu porte le volume réel. La franchise se mesure en 3.3 (intro), pas ici. (Vécu : cluster Mira/Zoey conclu « NOTHING FOUND » par ajout abusif de la franchise au combo produit.)
 🔴 **GATE ORDRE DES MOTS** : Semrush compte "[produit] [perso]" et "[perso] [produit]" comme 2 keywords distincts. Tester les DEUX ordres (ou `phrase_fullsearch` + `display_filter: "+|Ph|Co|poster"` par terme produit). Volume retenu = somme des 2 ordres.
 
 | Produit | Keywords à tester (avec [perso] ET alias) |
@@ -398,7 +380,8 @@ Le keyword gagnant (plus gros volume PROUVÉ) ouvre le méta titre. Le mot produ
 - Title (H1) = vu par le CLIENT, format `[Type produit] [Personnage]`, sans franchise (sauf perso incompréhensible seul).
 - Meta title = vu par GOOGLE, porte le keyword complet.
 - Handle (URL) = contient la franchise si perso ambigu.
-- Modifier le handle (+ créer 301) si : handle ≠ slug du keyword dominant, perso ambigu, incohérence intra-cluster. Procédure : `productUpdate` handle/title → `urlRedirectCreate` `{ path: "/products/[ancien]", target: "/products/[nouveau]" }` → MAJ liens maillage dans le JSON → batch aliases GraphQL. **JAMAIS changer un handle sans 301.**
+- 🔴 **RACCOURCIR quand l'épithète/franchise est superflue** et que le nom nu est le keyword dominant (cf. GATE nom nu 3.2). Ex : `mug shadow the hedgehog` → H1 « Mug Shadow » + handle `mug-shadow` ; `magnet muzan kibutsuji` → « Magnet Muzan » + `magnet-muzan`. Le méta titre peut, lui, garder la forme longue pour Google si elle aide. Garder la forme longue UNIQUEMENT si le nom nu est ambigu ou sans volume.
+- Modifier le handle (+ créer 301) si : nom nu dominant (raccourcir), handle ≠ slug du keyword dominant, perso ambigu, incohérence intra-cluster. Procédure : `productUpdate` handle/title → `urlRedirectCreate` `{ path: "/products/[ancien]", target: "/products/[nouveau]" }` → MAJ liens maillage dans le JSON → batch aliases GraphQL. **JAMAIS changer un handle sans 301.**
 
 **Étape 4 — Écrire le fichier `[perso]_seo_new.json`** AVANT de présenter. Bloc `semrush_data` OBLIGATOIRE en tête (volumes + gagnant par produit). Par produit (130-160 mots de prose unique) : P1 intention + keyword tôt (structure variée) + intention large ; P2 lore LSI distinct ; specs (bloc §10) ; P3 artisan en gras (banque R2, tournante) ; CTA registre varié.
 

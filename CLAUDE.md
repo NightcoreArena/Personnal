@@ -2,12 +2,21 @@
 
 Carte de référence chargée à chaque session. Le **détail opérationnel** (procédure Semrush, workflow étape par étape, GATE complète, banque P3, specs) est dans `seo_methodology.md` → section "🔧 RÉFÉRENCE OPÉRATIONNELLE DÉTAILLÉE" (R1→R9). **Lire la section R concernée AU MOMENT de l'étape**, pas avant.
 
-⚠️ **COÛT TOKEN — NE JAMAIS lire `seo_methodology.md` en entier** (67 KB). Pour une section : `grep -n "^## " seo_methodology.md` pour trouver sa ligne, puis `Read` avec `offset`/`limit` (≈25 lignes pour une section R, ≈80 pour §10). Idem pour `footprint_log.md` / `keywords_ledger.md` : ne lire que la table du type de produit concerné.
+⚠️ **COÛT TOKEN — NE JAMAIS lire `seo_methodology.md` en entier** (~430 l.). Pour une section : `grep -n "^## " seo_methodology.md` pour trouver sa ligne, puis `Read` avec `offset`/`limit` (≈25 lignes pour une section R, ≈80 pour §10). Idem pour `footprint_log.md` / `keywords_ledger.md` : ne lire que la table du type concerné. Ne JAMAIS relire un fichier déjà lu dans la session.
 
 📁 **Politique fichiers (2026-06-23)** : AUCUN backup. `[perso]_seo_new.json` = transitoire (linter + appliquer puis `rm`, jamais committé). Lore canon d'une franchise → `lore/[franchise].md` (recherche web faite UNE fois, relue ensuite — ne PAS re-googler perso par perso). Détail §9 methodology.
 
 Branche de travail : `claude/shopify-301-redirects-ruwtnr`
 Pas de sous-agents (coût token trop élevé). Un cluster = une session.
+
+### ⚡ Boucle cluster minimale (suivre dans l'ordre, sans détour ni re-lecture)
+1. **Lister** : 1 requête GraphQL `products(query:"[perso]")` (inclure DRAFT).
+2. **Semrush** : 1 `phrase_fullsearch "[perso]"` (nom NU) + 1 `phrase_these`/produit (combos nom NU, cf. 🔎). Consigner volumes.
+3. **GATE** : lire UNIQUEMENT les tables footprint des types concernés → choisir P1/CTA/P3 libres.
+4. **Écrire** `[perso]_seo_new.json` (tout d'un coup) → **lint** → corriger jusqu'à exit 0.
+5. **Appliquer** : `productUpdate` par lots de 4 (`descriptionHtml` + `seo{title description}` ENSEMBLE). Puis alt texts par lot.
+6. **H1/handle** : raccourcir + 301 si nom nu dominant (voir 🔗).
+7. **Clore** : MAJ footprint_log + §15, commit (sans _seo_new), `rm` le JSON. PAS de backup.
 
 ---
 
@@ -60,6 +69,11 @@ CHAQUE fiche (Tableau et Porte-clé et Magnet inclus) contient ≥1 intention la
 
 ### 🔎 Semrush — non-négociables (procédure complète R6, à OUVRIR avant de chiffrer)
 Avant tout méta titre : **preuve fraîche cette session** (aucun "0" supposé). Lancer `phrase_fullsearch "[perso]"` ET le lire ligne par ligne, PUIS un `phrase_these` par produit avec TOUS les synonymes (R6 a la table). **Tester les DEUX ordres** "[produit] [perso]" et "[perso] [produit]". Tester les ALIAS du perso. Le keyword qui ouvre le méta titre = gagnant prouvé (peut différer du H1). Consigner dans `semrush_data`. Si "[produit] [perso]" < 50/mois → mesurer les intentions larges (cadeau/poster/goodies franchise).
+
+🔴 **NOM NU obligatoire dans les combos produit.** `[perso]` = le nom SEUL (`mira`, `shadow`, `zoey`), JAMAIS nom+franchise. Tester `mug mira` — **PAS** `mug mira kpop demon hunters`. Ajouter la franchise écrase tout le volume et fait conclure « 0 / NOTHING FOUND » à tort, alors que le combo nu capte les vraies intentions. La franchise se teste séparément (perso+franchise) pour la phrase d'intro, pas dans les combos produit.
+
+### 🔗 H1 + Handle — raccourcir si l'épithète est superflue (détail R7 §2.5)
+H1 client = `[Type] [Perso]` sans franchise. Si le nom nu est le keyword dominant, **raccourcir H1 ET handle** (+ 301 obligatoire) : `mug shadow the hedgehog` → « Mug Shadow » + `mug-shadow` ; `magnet muzan kibutsuji` → « Magnet Muzan » + `magnet-muzan`. Le méta titre peut garder la forme longue pour Google. Garder long seulement si nom nu ambigu/sans volume. **Jamais de changement de handle sans `urlRedirectCreate`.**
 
 ### 🔁 GATE anti-footprint (résumé — détail R2)
 Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phrases de remplissage), **cross-franchise**. AVANT d'écrire : lire `footprint_log.md`, choisir pour chaque produit un angle P1 + verbe/registre CTA + n° P3 **différents des 3 dernières lignes du type**. APRÈS : ajouter une ligne par produit.
