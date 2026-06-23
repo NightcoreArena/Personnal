@@ -153,130 +153,62 @@ Ces blocs sont identiques pour tous les personnages du même type de produit. C'
 
 ---
 
-## 15. Ordre de priorité pour les clusters suivants
+## 15. Clusters terminés
 
-Traiter par franchise, pas par type de produit (pour garder la cohérence topique) :
+| Cluster | Date | N | Keyword méta | Suffixes (Mug/Tab/PK/Chiff/Tapis/Tote/Magnet/TShirt) | 301 |
+|---|---|---|---|---|---|
+| T-Shirt Dessin | 2026-06-17 | 39 | — | — | — |
+| Goldorak | 2026-06-17 | 13 | goldorak | — | — |
+| Solo Leveling Arise | 2026-06-17 | 8 | — | — | — |
+| Shadow the Hedgehog | 2026-06-17 | 8 | shadow sonic (9900) | — | — |
+| KPop DH (cluster) | 2026-06-17 | 8 | — | — | — |
+| Akaza (DS) | 2026-06-17 | 7 | — | — | — |
+| Rumi (KPop DH) | 2026-06-18 | 6 | rumi kpop demon hunters (14800) | — | — |
+| Zenitsu (DS) | 2026-06-18 | 7 | zenitsu demon slayer | Tab=Poster Zenitsu | — |
+| Nezuko (DS) | 2026-06-18 | 8 | nezuko | — | — |
+| Trafalgar Law (OP) | 2026-06-18 | 7 | — | — | — |
+| Ace (OP) | 2026-06-18 | 7 | ace one piece (6600) | — | 4 |
+| Asuna+duo (SAO) | 2026-06-18 | 14 | asuna | — | — |
+| Carnets Apothicaire | 2026-06-18 | 7 | les carnets apothicaire (60500) | — | 7 |
+| Boruto | 2026-06-18 | 7 | boruto (22200) | Tab=Poster Boruto | — |
+| Gaara | 2026-06-18 | 7 | gaara (9900) | Tab=Poster Gaara | — |
+| Ulquiorra (Bleach) | 2026-06-18 | 7 | ulquiorra (3600) | — | 1 |
+| Shinobu (DS) | 2026-06-18 | 7 | shinobu (14800) | Tab=Poster Shinobu Kocho | 7 |
+| Muzan (DS) | 2026-06-18 | 7 | muzan (8100) | — | 7 |
+| Goku Nuage Magique (DB) | 2026-06-18 | 5 | goku nuage magique (170) | — | — |
+| Goku Enfant/Sangoku (DB) | 2026-06-18 | 7 | sangoku (14800) | Mug=Mug Sangoku / Tab=Poster Goku Enfant / Tshirt=T-Shirt Sangoku | 2 |
+| Goku Shenron (DB) | 2026-06-19 | 7 | goku shenron (30) | Mug=Tasse Céramique / Tab=Poster & Toile / PK=Breloque Métal / Chiff=Chiffon Lunettes / Tapis=Tapis Gamer / Tote=Sac Satiné / Magnet=Aimant Frigo | 7 |
+| Vegeta SSJ4 (DB) | 2026-06-19 | 7 | vegeta ssj4 (590) | Mug=Chope 340ml / Tab=Affiche & Cadre / PK=Médaillon Métal / Chiff=Lingette Écran / Tapis=Base Antidérapante / Tote=Cabas Coton / Magnet=Aimant Collector | 0 |
+| Vegeta SSJ (DB) | 2026-06-19 | 7 | vegeta ssj (880) | Mug=Tasse à Café / PK=Porte-clé Acier / Chiff=Microfibre Douce / Tapis=Tapis XXL / Tote=Sac Tissu / Magnet=Aimant Métal / Tshirt=Adulte & Enfant | 5 |
+| Gohan SSJ2 (DB) | 2026-06-19 | 7 | gohan ssj2 (1900) | Mug=Tasse DBZ / Tab=Toile Tendue / PK=Médaillon Acier / Chiff=Chiffon Optique / Tapis=Tapis DBZ / Tote=Sac Toile / Magnet=Aimant DBZ | 2 |
+| Evoli (Pokémon) | 2026-06-19 | 8 | evoli (18100) | Mug=Tasse Evoli / Tab=Affiche & Toile / PK=Breloque Métal / Chiff=Microfibre Douce / Tapis=Tapis Gaming / Tote=Sac Satiné / Magnet=Aimant Collector / Tshirt=Du S au XXL | 1 |
+| Hisoka (HxH) | 2026-06-19 | 7 | hisoka (9900) | Mug=Tasse HxH / Tab=Poster & Toile / PK=Breloque Métal / Chiff=Chiffon Lunettes / Tapis=Tapis Gaming / Tote=Sac Satiné / Magnet=Aimant HxH | 0 |
+| Meruem (HxH) | 2026-06-19 | 6 | meruem (4400) | Mug=Tasse Céramique / Tab=Affiche & Cadre / PK=Médaillon Métal / Chiff=Lingette Écran / Tapis=Tapis Gamer / Magnet=Aimant Collector | 0 |
+| Guts (Berserk) | 2026-06-19 | 8 | guts berserk (5400) | Mug=Tasse Céramique / Tab=Affiche & Toile / PK=Breloque Métal / Chiff=Microfibre Douce / Tapis=Tapis Gaming / Tote=Sac Satiné / Magnet=Aimant Collector / Tshirt=Du S au XXL | 6 |
+| Dark Magician Girl (YGO) | 2026-06-19 | 7 | dark magician girl (1900 EN) | Mug=Tasse Yu-Gi-Oh / Tab=Affiche & Toile / PK=Médaillon Métal / Chiff=Microfibre Douce / Tapis=Tapis Gaming / Tote=Sac Satiné / Magnet=Aimant YGO | 0 |
+| Saitama (OPM) | 2026-06-19 | 7 | saitama one punch man (720) | Mug=Tasse Céramique / Tab=Affiche & Toile / PK=Médaillon Métal / Chiff=Microfibre Douce / Tapis=Tapis Gaming / Tote=Sac Satiné / Magnet=Aimant Collector | 6 |
+| Makima (CSM) | 2026-06-19 | 6 | makima chainsaw man (1300) | Mug=Tasse Céramique / Tab=Affiche & Toile / PK=Médaillon Métal / Chiff=Microfibre Douce / Tapis=Tapis Gamer / Magnet=Aimant Collector | 0 |
+| Rudo (Gachiakuta) | 2026-06-19 | 6 | rudo gachiakuta (1300) | Mug=Chope 340ml / Tab=Affiche & Cadre / PK=Acier Collector / Chiff=Chiffon Lunettes / Tapis=Tapis Gaming / Magnet=Aimant Métal | 6 |
+| Dragon Ball Super | 2026-06-19 | 6 | dragon ball super | Mug=Tasse Céramique / Tab=Affiche & Toile / PK=Acier Collector / Chiff=Chiffon Lunettes / Tapis=Tapis Gaming / Magnet=Aimant Frigo | 0 |
+| Akeno Himejima (HS DxD) | 2026-06-20 | 6 | akeno himejima | Mug=Chope 340ml / Tab=Affiche & Cadre / PK=Médaillon Métal / Chiff=Lingette Écran / Tapis=Tapis Gamer / Magnet=Aimant Métal | 5 |
+| Haikyuu | 2026-06-20 | 6 | poster haikyuu (50) | Mug=Tasse Manga / Tab=Affiche & Toile / PK=Médaillon Métal / Chiff=Microfibre Douce / Tapis=Base Antidérapante / Magnet=Aimant Métal | 0 |
+| Elden Ring | 2026-06-20 | 6 | tableau/tapis elden ring | Mug=Tasse Jeu Vidéo / Tab=Poster & Affiche / PK=Médaillon Métal / Chiff=Microfibre Douce / Tapis=Tapis Gaming / Magnet=Aimant Collector | 0 |
+| Cowboy Bebop | 2026-06-20 | 6 | poster cowboy bebop (90+110) | Mug=Tasse Anime / Tab=Affiche & Toile / PK=Médaillon Métal / Chiff=Microfibre Douce / Tapis=Tapis Gaming / Magnet=Aimant Collector | 0 |
+| Kimetsu no Yaiba (groupe) | 2026-06-20 | 6 | kimetsu no yaiba | Mug=Tasse Céramique / Tab=Affiche & Toile / PK=Acier Collector / Chiff=Microfibre Douce / Tapis=Tapis Gaming / Magnet=Aimant Collector | 0 |
+| Mira (KPop DH) | 2026-06-22 | 6 | mira kpop demon hunters (8100) | — | — |
+| Zoey (KPop DH) | 2026-06-22 | 6 | zoey kpop demon hunters (12100) | — | — |
 
-**Demon Slayer** (cluster par cluster) :
-- [x] Akaza — 7 produits traités (2026-06-17)
-- [x] Zenitsu — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Maillage vérifié (métachamps OK). Tableau méta titre = "Poster Zenitsu" (à confirmer Semrush).
-- [ ] Inosuke
-- [ ] Tanjiro
-- [x] Nezuko — 8 produits traités (2026-06-18) : Mug, Poster, Porte Clé, T-Shirt, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Maillage vérifié (métachamps OK). Intentions larges intégrées (cadeau DS 210/mois, poster DS 720/mois, t-shirt manga 720/mois, goodies manga 210/mois).
-- [ ] Rengoku
-- [ ] Doma
-- [ ] (autres personnages DS)
-
-**Pokémon** :
-- [x] Pikachu (mug existant, à vérifier)
-- [ ] (autres personnages Pokémon)
-
-**Kpop Demon Hunter** :
-- [x] Cluster complet — 8 produits traités (2026-06-17) : Mug, Tableau, Tapis de Souris, Chiffonnette, Tote Bag, Magnet, Porte Clé, T-Shirt
-- [x] Rumi — 6 produits traités (2026-06-18) : Mug, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Pas de Tableau. Keyword principal : rumi kpop demon hunters (14800/mois). Erreurs factuelles corrigées (Tapis + Magnet décrivaient Mirko/MHA). Backup → rumi_backup.json, fichier final → rumi_seo_new.json.
-- [x] Mira — 6 produits traités (2026-06-22) : Mug, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Keyword principal : mira kpop demon hunters (8100/mois). Backup → mira_backup.json, fichier final → mira_seo_new.json.
-- [x] Zoey — 6 produits traités (2026-06-22) : Mug, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Keyword principal : zoey kpop demon hunters (12100/mois). Backup → zoey_backup.json, fichier final → zoey_seo_new.json.
-- [ ] Huntrix (personnage individuel)
-
-**Solo Leveling Arise** :
-- [x] Cluster complet — 8 produits traités (2026-06-17) : Mug, Tableau (renommé Arise), Tapis de Souris, Chiffonnette, Tote Bag, Magnet, Porte Clé, T-Shirt Sung Jinwoo
-- Note : "Tableau Solo Leveling" → renommé "Tableau Solo Leveling Arise" (Option A, cohérence cluster)
-- Note : T-Shirt Sung Jinwoo corrigé (bug "Mao Mao" dans méta description)
-
-**Goldorak** :
-- [x] Cluster complet — 13 produits traités (2026-06-17) : Mug, Mug Vaisseau, Tableau, Tableau Vaisseau, T-Shirt, Porte Clé, Porte Clé Vaisseau, Chiffonnette, Chiffonnette Vaisseau, Tapis de Souris, Tapis de Souris Vaisseau, Magnet, Magnet Vaisseau
-- Note : Goldorak = franchise solo → keywords "[produit] goldorak" appartiennent aux pages produit (pas aux collections)
-- Note : Backup → goldorak_backup.json (originaux avant réécriture)
-
-**Shadow the Hedgehog** :
-- [x] Cluster complet — 8 produits traités (2026-06-17) : Mug, Tableau, T-Shirt, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT)
-- Note : "shadow sonic" (9 900/mois) > "shadow the hedgehog" (4 400/mois) → keyword secondaire dans méta titres
-- Note : Volumes product-level quasi nuls → stratégie cluster topique uniquement
-- Note : Backup → shadow_backup.json, fichier final → shadow_seo_new.json
-
-**One Piece** :
-- [x] Trafalgar Law — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Intentions larges intégrées (cadeau one piece 1300/mois, poster one piece 1900/mois, mug one piece 880/mois). Backup → law_backup.json, fichier final → law_seo_new.json.
-- [x] Ace — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : ace one piece (6600/mois). Cluster topique pur. Handles uniformisés en *-ace-one-piece + 4x301. 10 alt texts mis à jour. Fichier final → ace_seo_new.json.
-- [ ] (autres personnages One Piece)
-
-**Sword Art Online** :
-- [x] Asuna (solo + duo Asuna & Kirito) — 14 produits traités (2026-06-18) : 7 solo (Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Magnet, Tote Bag DRAFT) + 7 duo. Volumes [produit] asuna quasi nuls — stratégie cluster topique pur. 22 alt texts mis à jour. Backup → asuna_backup.json, fichier final → asuna_seo_new.json.
-- [ ] (autres personnages SAO)
-
-**Les Carnets de l'Apothicaire** :
-- [x] Cluster complet — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Keyword principal : les carnets de l'apothicaire (60 500/mois). Volumes [produit] = 0 → cluster topique pur. Handles renommés de carnet → les-carnets + 7×301 redirects. 11 alt texts mis à jour. Fichier final → carnets_seo_new.json.
-
-**Boruto / Naruto** :
-- [x] Boruto Uzumaki — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : boruto (22200/mois). Cluster topique pur. Poster boruto (20/mois) > tableau/affiche (20, tied) → méta titre Tableau = "Poster Boruto". 11 alt texts mis à jour. Fichier final → boruto_seo_new.json.
-- [x] Gaara — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : gaara (9900/mois), gaara naruto (1600/mois). Cluster topique pur. Poster gaara (20/mois, tied avec tableau) → méta titre Tableau = "Poster Gaara". Sac gaara (20/mois) → suffixe Tote Bag. Balayage synonymes exhaustif (table 3.2 complète + fullsearch). 10 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → gaara_seo_new.json.
-- [ ] Sarada Uchiha
-- [ ] Hinata
-
-**Bleach** :
-- [x] Ulquiorra Schiffer — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet, Tote Bag (DRAFT). Keyword principal : ulquiorra (3600/mois) > ulquiorra schiffer (2900/mois). Cluster topique pur. H1 courts uniformisés sur "ulquiorra" (sans "Schiffer"). Handle porte-cle-ulquiorra-schiffer → porte-cle-ulquiorra + 1×301. 11 alt texts mis à jour. Fichier final → ulquiorra_seo_new.json.
-- [ ] (autres personnages Bleach)
-
-**Demon Slayer** :
-- [x] Shinobu Kocho — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : shinobu (14800/mois), shinobu kocho (4400/mois). Cluster topique pur. Poster shinobu kocho (20/mois) → méta titre Tableau = "Poster Shinobu Kocho". Handles renommés : suppression -pilier-insecte sur 7 produits + 7×301. 10 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → shinobu_seo_new.json.
-- [x] Muzan Kibutsuji — 7 produits traités (2026-06-18)
-
-**Dragon Ball** (cluster par cluster) :
-- [x] Goku Nuage Magique — 5 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris. Keyword : goku nuage magique (170/mois). Cluster topique pur (kintoun = 0, tous combos = NOTHING FOUND). Handles OK (pas de renommage). 10 alt texts mis à jour. Franchise : Dragon Ball > DBZ pour les méta. Fichier final → goku_nuage_magique_seo_new.json. : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : muzan (8100/mois), muzan kibutsuji (2400/mois). Cluster 100% topique pur (tous combos produit = NOTHING FOUND). Handles renommés : suppression -kibutsuji sur 7 produits + 7×301. 11 alt texts mis à jour (Tote Bag DRAFT sans image). Alias 3.1bis : muzan jackson (480) et muzan michael jackson (260) = informationnel seulement. Fichier final → muzan_seo_new.json.
-
-- [x] Goku Enfant / Sangoku — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, T-Shirt, Magnet. Keyword : sangoku (14800/mois), goku enfant (480/mois). Cluster topique pur — DÉCOUVERTE : t shirt sangoku (110/mois) et poster goku (70/mois) → méta T-Shirt = "T-Shirt Sangoku", méta Tableau = "Poster Goku Enfant", méta Mug = "Mug Sangoku" (mug sangoku = mug goku = 20). Handles renommés : magnet-goku → magnet-goku-enfant, t-shirt-goku → t-shirt-goku-enfant + 2×301. 13 alt texts mis à jour. Fichier final → goku_enfant_seo_new.json.
-- [x] Goku Shenron — 7 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : goku shenron (30/mois). Cluster 100% topique pur (tous combos = 0). ⚠️ Cluster "Shenron" distinct déjà existant (dragon seul) → ce cluster = duo Goku enfant sur Shenron. Handles renommés : [produit]-goku-dragon-enfant → [produit]-goku-shenron + 7×301. Suffixes méta variés anti-redondance inter-cluster DB : Tasse Céramique / Poster & Toile / Breloque Métal / Chiffon Lunettes / Tapis Gamer / Sac Satiné / Aimant Frigo. 11 alt texts mis à jour. Fichier final → goku_shenron_seo_new.json.
-- [x] Vegeta SSJ4 — 7 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : vegeta ssj4 (590/mois). Cluster 100% topique pur (tous combos = NOTHING FOUND). Alias : vegeta super saiyan 4 (320) → LSI texte uniquement. 0 handle renommé. Suffixes méta : Chope 340ml / Affiche & Cadre / Médaillon Métal / Lingette Écran / Base Antidérapante / Cabas Coton / Aimant Collector. 11 alt texts mis à jour. Fichier final → vegeta_ssj4_seo_new.json.
-- [x] Vegeta SSJ (= "Vegeta") — 7 produits traités (2026-06-19)
-- [x] Gohan SSJ2 — 7 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : gohan ssj2 (1900/mois). Cluster topique pur (tous combos = 0 sauf poster gohan ssj2 = 20). Handle Tableau corrigé : gohan-ssj2-poster → tableau-gohan-ssj2 + 2×301 (cadre-gohan-ssj2 mis à jour). Suffixes méta : Tasse DBZ / Toile Tendue / Médaillon Acier / Chiffon Optique / Tapis DBZ / Sac Toile / Aimant DBZ. GATE anti-footprint appliquée (12/12 collisions corrigées vs Vegeta SSJ). 11 alt texts mis à jour. Fichier final → gohan_ssj2_seo_new.json. : Mug, T-Shirt, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. ⚠️ Pas de Tableau dans ce cluster. Keyword : vegeta ssj (880/mois) ; WINNER cluster = t shirt vegeta (110/mois). H1 uniformisés sur "Vegeta" (suppression "SSJ"). 5 handles renommés : mug/pk/chiff/tapis/tote-bag-vegeta-ssj → -vegeta + 5×301. Suffixes méta : Tasse à Café / Adulte & Enfant / Porte-clé Acier / Microfibre Douce / Tapis XXL / Sac Tissu / Aimant Métal. 9 alt texts mis à jour. Fichier final → vegeta_ssj_seo_new.json.
-
-**Pokémon** :
-- [x] Evoli — 8 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, T-Shirt, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : evoli (18100/mois). DÉCOUVERTE : tasse evoli (40) > mug evoli (20) → méta Mug = "Tasse Evoli". sac evoli (170/mois) → méta Tote Bag = "Sac Evoli". t shirt evoli (30/mois) → méta T-Shirt. poster evoli (20/mois) → méta Tableau. 1 handle renommé : t-shirt-pokemon-enfant → t-shirt-evoli + 1×301. Suffixes méta : Mug Céramique / Affiche & Toile / Du S au XXL / Breloque Métal / Microfibre Douce / Tapis Gaming / Tote Bag Satiné / Aimant Collector. PREMIÈRE franchise Pokémon : broad-intent consigné au ledger. 13 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → evoli_seo_new.json.
-
-**Hunter x Hunter** :
-- [x] Hisoka — 7 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : hisoka (9900/mois). Combos produit : mug/tapis/porte-clé/poster hisoka = 20/mois ; chiff/tote bag/magnet = 0 (topique). 0 handle renommé. Suffixes méta : Tasse HxH / Poster & Toile / Breloque Métal / Chiffon Lunettes / Tapis Gaming / Sac Satiné / Aimant HxH. PREMIÈRE franchise HxH : intentions larges mesurées (poster hxh/hunter x hunter 210/mois, t shirt hxh 210/mois) et consignées au ledger. 10 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → hisoka_seo_new.json.
-- [x] Meruem — 6 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet (pas de Tote Bag ni T-Shirt). Keyword : meruem (4400/mois). Combos produit testés DANS LES 2 ORDRES DE MOTS : seul "meruem poster" 20 + "poster meruem" 10 (~30) ressort, tout le reste = 0 → cluster topique pur. "roi des fourmis" polysémique → texte uniquement. 0 handle/title renommé. Suffixes méta : Tasse Céramique / Affiche & Cadre / Médaillon Métal / Lingette Écran / Tapis Gamer / Aimant Collector (tous ≠ Hisoka). 10 alt texts mis à jour. 2e cluster HxH : broad-intent réutilisé du ledger. LEÇON : GATE ordre des mots ajoutée au CLAUDE.md (Étape 3.2). Fichier final → meruem_seo_new.json.
-
-**Berserk** :
-- [x] Guts Berserk — 8 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, T-Shirt, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : guts berserk (5400/mois). Alias "Black Swordsman" (2900) = informationnel, tissé dans le texte. Cluster 100% topique pur. 6 handles corrigés (fautes "bersek"→"berserk" + manque "guts") + 6×301. T-Shirt title corrigé (parenthèses supprimées). Suffixes méta : Tasse Céramique / Affiche & Toile / Breloque Métal / Du S au XXL / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant Collector. PREMIÈRE franchise Berserk : broad-intent consigné au ledger. 13 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → guts_berserk_seo_new.json.
-
-**Yu-Gi-Oh!** :
-- [x] Dark Magician Girl (Magicienne des Ténèbres) — 7 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : dark magician girl (1900/mois EN) > magicienne des ténèbres (590/mois FR). Méta titres en EN car volume 3x supérieur (nom propre international, pas un anglicisme produit). Cluster 100% topique pur (tous combos = NOTHING FOUND). 0 handle renommé. Suffixes méta : Tasse Yu-Gi-Oh / Affiche & Toile / Médaillon Métal / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant YGO. (PK corrigé 2026-06-19 : Breloque Métal → Médaillon Métal) PREMIÈRE franchise Yu-Gi-Oh! : broad-intent consigné au ledger. 10 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → dark_magician_girl_seo_new.json.
-
-**One Punch Man / OPM** :
-- [x] Saitama — 7 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Exclus : Tote Bag Genos (autre perso). Keyword : saitama one punch man (720/mois combiné). "saitama" seul polysémique (ville japonaise) → toujours combiner avec "One Punch Man" dans les méta titres. Cluster quasi-topique pur (mug saitama 20 et poster saitama 20 seulement). "poster one punch man" (70) = keyword COLLECTION, non utilisé en méta titre fiche. 6 handles renommés (one-punch-man → saitama) + 6×301. Tableau title corrigé ("Tableau One Punch Man" → "Tableau Saitama"). Suffixes méta : Tasse Céramique / Affiche & Toile / Médaillon Métal / Microfibre Douce / Tapis Gaming / Sac Satiné / Aimant Collector. PREMIÈRE franchise OPM : broad-intent consigné au ledger. 11 alt texts mis à jour (Tote Bag DRAFT sans image). Fichier final → saitama_seo_new.json.
-
-**Chainsaw Man** :
-- [x] Makima — 6 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet (pas de Tote Bag ni T-Shirt). Keyword : makima chainsaw man (1300/mois) — "makima" seul 8100 mais NSFW-contaminé, toujours combiner avec "Chainsaw Man" dans les méta titres. Combos produit : poster makima (20) seul non-nul, tous les autres à 0. "makima mousepad" 20 = anglicisme interdit → Tapis de Souris retenu. "makima is listening" (880) = capté par Tapis P2 + CTA. "why did makima kill power" (40) = top question → P2 Chiffonnette (Power sacrifiée pour briser Denji). Organic research (manga-shop.fr) : aucun gap CSM actionnable. 0 handle/title renommé. Suffixes méta : Tasse Céramique / Affiche & Toile / Médaillon Métal / Microfibre Douce / Tapis Gamer / Aimant Collector. PREMIÈRE franchise Chainsaw Man : broad-intent consigné au ledger. 10 alt texts mis à jour. Fichier final → makima_seo_new.json.
-
-**Gachiakuta** :
-- [x] Rudo (Rudo Surebrec) — 6 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet. Keyword : rudo gachiakuta (1300/mois combiné) — "rudo" seul polysémique (film espagnol), "gachiakuta" seul utilisable mais toujours combiner. Combos produit : poster gachiakuta (30) seul non-nul → Tableau méta titre commence par "Poster". Questions lore : "is amo dead in gachiakuta" 30 → Amo mentionnée Magnet P2. Lore clé : Sacred (outil de nettoyage → arme), Le Gouffre, la Sphère, rage mode. 6 handles renommés (-gachiakuta → -rudo-gachiakuta) + 6×301. Suffixes méta : Chope 340ml / Affiche & Cadre / Acier Collector / Chiffon Lunettes / Tapis Gaming / Aimant Métal. PREMIÈRE franchise Gachiakuta : broad-intent consigné au ledger. 10 alt texts mis à jour. Fichier final → rudo_gachiakuta_seo_new.json.
-
-**Dragon Ball Super (groupe illustration)** :
-- [x] Dragon Ball Super — 6 produits traités (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet. Illustration : Goku + Vegeta en Super Saiyan Blue + Shenron (arc DBS). Exception "perso = franchise" (groupe — traité comme Goldorak). Keyword produits : mug dragon ball super (20), dragon ball super poster (90), tapis dragon ball super (20), topique pour PK/Chiff/Magnet. Lore : SSB/ki divin/Beerus, Tournoi de la Puissance/Ultra Instinct, Black Goku/Zamasu, Super Dragon Balls/Shenron cosmique. 0 handle renommé (tous déjà corrects). Suffixes méta : Tasse Céramique / Affiche & Toile / Acier Collector / Chiffon Lunettes / Tapis Gaming / Aimant Frigo. 10 alt texts mis à jour (5 variantes Tableau). Fichier final → dragon_ball_super_seo_new.json.
-
-**Akeno Himejima (High School DxD)** :
-- [x] Akeno Himejima — 6 produits traités (2026-06-20) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet. Cluster topique pur : tous [produit] akeno himejima = 0, poster high school dxd = 10 (collection). "akeno" seul polysémique (akeno hijama = bien-être, 1000/mois) : "himejima" ajouté partout. 5 handles renommés (mug/pk/magnet/tapis/chiff + "-himejima") + 5×301. Suffixes méta : Chope 340ml / Affiche & Cadre / Médaillon Métal / Lingette Écran / Tapis Gamer / Aimant Métal. Lore : Foudre Sacrée (fusion angélique + ange déchu), "Ara ara~" persona duelle, Baraqiel/Grigori, mère miko tuée, pièce Reine de Rias, Issei Hyoudou. PREMIÈRE franchise High School DxD. 10 alt texts mis à jour (5 variantes Tableau). Fichier final → akeno_himejima_seo_new.json.
-
-**Haikyuu** :
-- [x] Haikyuu — 6 produits traités (2026-06-20) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet. Personnage illustré : Hinata Shoyo (n°10, Karasuno). Cluster franchise (perso = franchise). Keywords produits : poster haikyuu (50), tapis de souris haikyuu (20), porte clé haikyuu (20), topique pour Mug/Chiff/Magnet. Broad-intent : poster manga (1000), cadeau manga (590), poster anime (590), mug manga (260), goodies manga (210). Lore : synchrone set Hinata/Kageyama/164cm (Mug), Karasuno "Corbeau déclinant"/slogan (Tableau), Petit Géant/héritage (PK), Guerre des Poubelles/Nekoma (Chiff), Nationals vs Inarizaki/jumeaux Miya (Tapis), ambition Petit Géant/moteur de la série (Magnet). 0 handle renommé (poster-haikyuu déjà optimal). Suffixes méta : Tasse Manga / Affiche & Toile / Médaillon Métal / Microfibre Douce / Base Antidérapante / Aimant Métal. PREMIÈRE franchise Haikyuu. 1 produit à traiter séparément : Mug Hinata (handle mug-hinata, cluster Hinata dédié). Alt texts mis à jour. Fichier final → haikyuu_seo_new.json.
-
-**Elden Ring** :
-- [x] Elden Ring — 6 produits traités (2026-06-20) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet. Cluster franchise jeu vidéo (perso = franchise). Keywords produits : tableau elden ring (110), tapis de souris elden ring (50), mug elden ring (20), topique pour PK/Chiff/Magnet. Broad-intent : cadeau gaming / cadeau jeu vidéo (40), figurine elden ring (720). Lore : George R.R. Martin/Marika/Radahn/Ranni (Mug), Leyndell/Stormveil/Farum Azula/GOTY 2022 (Tableau), Ranni/Ordre Doré/Ère des Étoiles (PK), Malenia/Lame de Miquella/"I have never known defeat" (Chiff), Starscourge Radahn/Léonard/Festival de Radahn/DLC Enir-Ilim (Tapis), Shadow of the Erdtree/Messmer l'Empaleur/fils secret de Marika (Magnet). 0 handle renommé (tous déjà corrects). Suffixes méta : Tasse Jeu Vidéo / Poster & Affiche / Médaillon Métal / Microfibre Douce / Tapis Gaming / Aimant Collector. PREMIÈRE franchise jeu vidéo standalone (angle "cadeau gaming"/"jeu vidéo" à la place de "manga"/"anime"). 10 alt texts mis à jour (5 variantes Tableau). Fichier final → elden_ring_seo_new.json.
-
-**Cowboy Bebop** :
-- [x] Cowboy Bebop — 6 produits traités (2026-06-20) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet. Cluster topique pur : seuls "poster cowboy bebop" (90) et "cowboy bebop poster" (110) ont du volume. Handle Tableau déjà "poster-cowboy-bebop" (optimal). 0 handle renommé. Lore : Yoko Kanno/The Seatbelts/sessions jazz, Spike Spiegel/Red Dragon/Julia/Vicious/Jeet Kune Do/Swordfish II, Faye Valentine/cryogénie 50 ans/Venus/amnésie, Jet Black/ex-ISSP, fin ambiguë "You're gonna carry that weight". PREMIÈRE franchise Cowboy Bebop. Broad-intent : poster manga (1000), poster anime (590), mug manga (260). Suffixes méta : Tasse Anime / Affiche & Toile / Médaillon Métal / Microfibre Douce / Tapis Gaming / Aimant Collector. 10 alt texts mis à jour (5 variantes Tableau). Fichier final → cowboy_bebop_seo_new.json.
-
-**Kimetsu no Yaiba (groupe illustration)** :
-- [x] Kimetsu no Yaiba — 6 produits traités (2026-06-20) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Magnet. Illustration : Tanjiro, Nezuko, Zenitsu et Inosuke dynamique (groupe). Exception "perso = franchise" (groupe — traité comme DBS/Goldorak). Keyword produits : "[produit] demon slayer" appartient aux pages COLLECTION → utiliser "Kimetsu no Yaiba" comme identifiant unique dans les méta titres pour éviter cannibalisation. Combos produit : poster kimetsu no yaiba (140), mug kimetsu no yaiba (0 propre mais couvert via "mug demon slayer" collection). Lore : Tanjiro/souffle de l'eau, Nezuko/Art du Sang Démoniaque, Zenitsu/Souffle de la Foudre, Inosuke/Souffle de la Bête, époque Taishō, Muzan Kibutsuji. 0 handle renommé (tous déjà corrects). Suffixes méta : Tasse Céramique / Affiche & Toile / Acier Collector / Microfibre Douce / Tapis Gaming / Aimant Collector. 10 alt texts mis à jour. Fichier final → kimetsu_no_yaiba_seo_new.json.
-
-**T-Shirt Dessin (collection)** :
-- [x] Cluster complet — 39 produits traités (2026-06-17)
+**À traiter :**
+- Demon Slayer : Inosuke, Tanjiro, Rengoku, Doma
+- One Piece : (autres persos)
+- Dragon Ball : (autres persos)
+- Naruto/Boruto : Sarada Uchiha, Hinata
+- Bleach : (autres persos)
+- KPop DH : Huntrix
+- Pokémon : Pikachu (vérifier mug existant)
+- SAO : (autres persos)
 
 ---
-
-# 🔧 RÉFÉRENCE OPÉRATIONNELLE DÉTAILLÉE (source de vérité — déplacée de CLAUDE.md le 2026-06-20)
-
-CLAUDE.md ne garde que le cœur (persona + règles de jugement + résumés). Le détail mécanique vit ici et se lit À LA DEMANDE au moment de l'étape concernée.
 
 ## R1. Maillage intra-cluster (lien sémantique même personnage)
 
