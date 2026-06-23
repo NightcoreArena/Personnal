@@ -11,7 +11,7 @@ Pas de sous-agents (coût token trop élevé). Un cluster = une session.
 
 ### ⚡ Boucle cluster minimale (suivre dans l'ordre, sans détour ni re-lecture)
 1. **Lister** : 1 requête GraphQL `products(query:"[perso]")` (inclure DRAFT).
-2. **Semrush** : 1 `phrase_fullsearch "[perso]"` (nom NU) + 1 `phrase_these`/produit (combos nom NU, cf. 🔎). Consigner volumes.
+2. **Semrush** : 1 `phrase_fullsearch "[perso]"` (nom NU, lire tout) + 1 `phrase_these` GLOBAL tous types (cf. 🔎) + 1 `phrase_these` intro variant → **3 appels max**. Consigner volumes.
 3. **GATE** : lire UNIQUEMENT les tables footprint des types concernés → choisir P1/CTA/P3 libres.
 4. **Écrire** `[perso]_seo_new.json` (tout d'un coup) → **lint** → corriger jusqu'à exit 0.
 5. **Appliquer** : `productUpdate` par lots de 4 (`descriptionHtml` + `seo{title description}` ENSEMBLE). Puis alt texts par lot.
@@ -68,7 +68,11 @@ Maillage : un module server-rendered existe déjà (collections associées + 6 p
 CHAQUE fiche (Tableau et Porte-clé et Magnet inclus) contient ≥1 intention large transactionnelle ("cadeau [franchise]", "goodies manga", "déco manga", "cadeau gaming"…), tissée naturellement. Détail R4.
 
 ### 🔎 Semrush — non-négociables (procédure complète R6, à OUVRIR avant de chiffrer)
-Avant tout méta titre : **preuve fraîche cette session** (aucun "0" supposé). Lancer `phrase_fullsearch "[perso]"` ET le lire ligne par ligne, PUIS un `phrase_these` par produit avec TOUS les synonymes (R6 a la table). **Tester les DEUX ordres** "[produit] [perso]" et "[perso] [produit]". Tester les ALIAS du perso. Le keyword qui ouvre le méta titre = gagnant prouvé (peut différer du H1). Consigner dans `semrush_data`. Si "[produit] [perso]" < 50/mois → mesurer les intentions larges (cadeau/poster/goodies franchise).
+Avant tout méta titre : **preuve fraîche cette session** (aucun "0" supposé). 3 appels max :
+1. `phrase_fullsearch "[perso]"` → couvre les deux ordres + alias. Lire tout.
+2. 1 `phrase_these` GLOBAL (tous types en une requête, table dans R6) → confirme les zéros.
+3. `phrase_these "[perso] [franchise];[franchise] [perso]"` → gagnant pour les intros.
++(optionnel si topique) `phrase_these "cadeau [franchise];goodies..."` → intentions larges. Réutiliser ledger §2 si franchise déjà mesurée.
 
 🔴 **NOM NU obligatoire dans les combos produit.** `[perso]` = le nom SEUL (`mira`, `shadow`, `zoey`), JAMAIS nom+franchise. Tester `mug mira` — **PAS** `mug mira kpop demon hunters`. Ajouter la franchise écrase tout le volume et fait conclure « 0 / NOTHING FOUND » à tort, alors que le combo nu capte les vraies intentions. La franchise se teste séparément (perso+franchise) pour la phrase d'intro, pas dans les combos produit.
 

@@ -8,6 +8,18 @@ But : empêcher le footprint cross-franchise (P1, CTA, P3, phrases de remplissag
 
 Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 
+## 🚫 Tics bannis — formules à ne JAMAIS réutiliser (cross-franchise, cross-cluster)
+
+Ajouter ici tout nouveau tic détecté en fin de session.
+
+| Tic | Contexte d'origine |
+|---|---|
+| "commencer la journée sous le regard de [perso]" | Akeno (HS DxD) + Makima (CSM) — mugs identiques |
+| "c'est le rituel des (vrais) fans" | Suit le tic précédent — Akeno + Makima |
+| "rend hommage à" | CTA passe-partout, robotique |
+| "offrez-le ou gardez-le" / variantes | Ambivalence formulaïque, trop mécanique |
+| "dans une catégorie à part" | Meruem mug — superlatif vide |
+
 ---
 
 ## MUG

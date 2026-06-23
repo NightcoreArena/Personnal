@@ -273,20 +273,15 @@ Intégrer une "intention de recherche large" transactionnelle sur CHAQUE fiche (
 
 **3.1bis — NOMS ALTERNATIFS (angle mort fréquent) :** lister TOUS les alias (épithète/titre, romanisations, nom EN/FR, forme/transformation) et lancer fullsearch + balayage 3.2 sur chacun à volume. Deux issues : (1) "[produit] [alias]" à volume → peut ouvrir/enrichir le méta titre ; (2) alias nu à volume informationnel/lore seulement → va dans le TEXTE (P1/P2), jamais le méta titre.
 
-**3.2 — Une requête `phrase_these` par type de produit, TOUS les synonymes :**
-🔴 **GATE NOM NU** : `[perso]` dans la table ci-dessous = le nom SEUL du personnage (`mira`, `shadow`, `zoey`), JAMAIS nom+franchise. Tester `mug mira`, **PAS** `mug mira kpop demon hunters` : appender la franchise réduit à une longue traîne quasi vide et fait conclure « 0 » à tort, alors que le combo nu porte le volume réel. La franchise se mesure en 3.3 (intro), pas ici. (Vécu : cluster Mira/Zoey conclu « NOTHING FOUND » par ajout abusif de la franchise au combo produit.)
-🔴 **GATE ORDRE DES MOTS** : Semrush compte "[produit] [perso]" et "[perso] [produit]" comme 2 keywords distincts. Tester les DEUX ordres (ou `phrase_fullsearch` + `display_filter: "+|Ph|Co|poster"` par terme produit). Volume retenu = somme des 2 ordres.
+**3.2 — UNE seule requête `phrase_these` globale (tous types en un appel) :**
+🔴 **GATE NOM NU** : `[perso]` = le nom SEUL (`mira`, `shadow`), JAMAIS nom+franchise. `mug mira` et non `mug mira kpop demon hunters`. (Vécu : Mira/Zoey conclu « NOTHING FOUND » à tort.)
+🔴 **GATE ORDRE DES MOTS** : `phrase_fullsearch` (3.1) couvre déjà les deux ordres. Pour phrase_these : on teste l'ordre "[produit] [perso]" (le plus cherché en FR) — si fullsearch n'a rien remonté sur un type, l'absence = 0 implicite.
 
-| Produit | Keywords à tester (avec [perso] ET alias) |
-|---|---|
-| Mug | `mug [perso];tasse [perso];gobelet [perso];chope [perso];mug café [perso]` |
-| Tableau | `tableau [perso];poster [perso];affiche [perso];toile [perso];cadre [perso];peinture [perso];déco [perso];décoration murale [perso];poster mural [perso];kakemono [perso]` |
-| Tapis de Souris | `tapis de souris [perso];tapis souris [perso];mousepad [perso];tapis gaming [perso];tapis gamer [perso];deskmat [perso];tapis xxl [perso]` |
-| Chiffonnette | `chiffonnette [perso];chiffon lunettes [perso];chiffon [perso];chiffon écran [perso];microfibre [perso];lingette microfibre [perso]` |
-| Tote Bag | `tote bag [perso];sac [perso];sac toile [perso];cabas [perso];sac shopping [perso];sac coton [perso];sac tissu [perso];sac courses [perso]` |
-| Magnet | `magnet [perso];aimant [perso];magnet frigo [perso];aimant frigo [perso]` |
-| Porte Clé | `porte clé [perso];porte-clé [perso];porte clef [perso];porte clés [perso];keychain [perso];breloque [perso]` |
-| T-Shirt | `t shirt [perso];tee shirt [perso];t-shirt [perso];tshirt [perso]` |
+Construire **une seule** requête `phrase_these` avec tous les synonymes :
+
+`mug [perso];tasse [perso];gobelet [perso];chope [perso];tableau [perso];poster [perso];affiche [perso];toile [perso];cadre [perso];tapis de souris [perso];tapis souris [perso];tapis gaming [perso];tapis gamer [perso];tapis xxl [perso];chiffonnette [perso];chiffon lunettes [perso];chiffon [perso];microfibre [perso];tote bag [perso];sac [perso];sac toile [perso];cabas [perso];magnet [perso];aimant [perso];aimant frigo [perso];porte clé [perso];porte-clé [perso];porte clef [perso];t shirt [perso];tee shirt [perso];tshirt [perso]`
+
+Lire les résultats : toute ligne avec volume > 0 = winner potentiel. Absence d'un type = 0 confirmé. Garder la table de synonymes ci-dessus en tête si un type manque et qu'on veut creuser.
 
 Le keyword gagnant (plus gros volume PROUVÉ) ouvre le méta titre. Le mot produit du méta titre peut DIFFÉRER du H1 (on suit le volume). Si tout à 0 (vérifié) : cluster topique, consigner "0 (vérifié [date])".
 
@@ -321,7 +316,7 @@ Le keyword gagnant (plus gros volume PROUVÉ) ouvre le méta titre. Le mot produ
 
 **Étape 7 — Appliquer en batch GraphQL :** `productUpdate` par lots de 2-4. Champs `descriptionHtml` + `seo { title description }`. **CRITIQUE : toujours passer `title` ET `description` ensemble — passer seul `title` efface la description.**
 
-**Étape 7.5 — Alt texts :** récupérer IDs via `{ product(id){ media(first:10){ nodes{ ... on MediaImage { id image { altText } } } } } }`. `productUpdateMedia` par lot. Format : `[Produit] [Perso] [Franchise] illustré à la main en Anjou`. Tableau : conserver le type (Cadre Noir / Poster / Affiche). Jamais décrire l'illustration.
+**Étape 7.5 — Alt texts :** récupérer IDs via `{ product(id:$id){ media(first:10){ nodes{ ... on MediaImage { id image { altText } } } } } }`. Mutation : **`fileUpdate`** (PAS `productUpdateMedia` — dépréciée). Format alt text : `[Produit] [Perso] [Franchise] illustré à la main en Anjou`. Tableau : conserver le type (Cadre Noir / Poster / Affiche). Jamais décrire l'illustration.
 
 **Étape 8 — Commit + nettoyage :** PAS de backup, PAS de `_seo_new` committé (§9 : fichier transitoire). MAJ footprint_log.md (6 lignes) + entrée cluster (§15), puis `git add footprint_log.md seo_methodology.md` → commit `SEO rewrite: cluster [Perso] — N produits` → `git push -u origin [branche active]`. Enfin `rm [perso]_seo_new.json` pour garder l'arbre propre (Shopify = source de vérité).
 
