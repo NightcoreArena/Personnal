@@ -88,6 +88,7 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 - [x] Saitama — 7 produits (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: saitama one punch man (720). 6×301 (one-punch-man→saitama).
 
 **Chainsaw Man** :
+- [x] Power — 7 produits (2026-06-23) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag (DRAFT), Magnet. Keyword: cluster topique pur (Semrush non disponible — exception utilisateur, re-mesurer). 0 handle renommé. Maillage : Mug→Tableau→Tapis→PK→Chiff→Magnet→Mug circulaire ; Tote Bag (DRAFT)→Tableau. 11 alt texts mis à jour.
 - [x] Makima — 6 produits (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Magnet. Keyword: makima chainsaw man (1300). 0 handle renommé.
 
 **Gachiakuta** :
