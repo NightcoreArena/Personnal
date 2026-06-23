@@ -111,6 +111,9 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 **Blue Lock** :
 - [x] Blue Lock — 6 produits (2026-06-22) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Magnet. Keyword: poster blue lock (170). 0 handle renommé.
 
+**Genshin Impact** :
+- [x] Xilonen — 7 produits (2026-06-23) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag (DRAFT), Magnet. Keyword: estimé "mug xilonen" / "poster xilonen" (Semrush non disponible — exception utilisateur 2026-06-23, re-mesurer). 0 handle renommé. Maillage : Mug→Tableau→Tapis→PK→Chiff→Magnet→Mug circulaire ; Tote Bag (DRAFT)→Tableau.
+
 **Kimetsu no Yaiba (groupe illustration)** :
 - [x] Kimetsu no Yaiba — 6 produits (2026-06-20) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Magnet. Keyword: poster kimetsu no yaiba (140). 0 handle renommé.
 
