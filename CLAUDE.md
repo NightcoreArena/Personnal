@@ -81,6 +81,7 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 | Checklist finale avant publication | **§13** |
 | Politique fichiers (pas de backup, _seo_new transitoire) | **§9** |
 | Lore canon d'une franchise déjà traitée | `lore/[franchise].md` |
+| Volumes keywords déjà mesurés (réutiliser, ne pas re-Semrush) | `keywords_ledger.md` (§1 générique + §2 ta franchise — lire CETTE sous-section seulement) |
 
 ---
 
