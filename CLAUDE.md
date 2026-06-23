@@ -6,7 +6,7 @@ Carte de référence chargée à chaque session. Le **détail opérationnel** (p
 
 📁 **Politique fichiers (2026-06-23)** : AUCUN backup. `[perso]_seo_new.json` = transitoire (linter + appliquer puis `rm`, jamais committé). Lore canon d'une franchise → `lore/[franchise].md` (recherche web faite UNE fois, relue ensuite — ne PAS re-googler perso par perso). Détail §9 methodology.
 
-Branche de travail : `claude/shopify-301-redirects-ruwtnr`
+Branche de travail : `claude/kpop-demon-hunter-clusters-kta5z9`
 Pas de sous-agents (coût token trop élevé). Un cluster = une session.
 
 ### ⚡ Boucle cluster minimale (suivre dans l'ordre, sans détour ni re-lecture)
@@ -93,9 +93,6 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 | Banque suffixes méta + emojis (anti-redondance) | **R8** |
 | Blocs de specs HTML à copier | **§10** |
 | Checklist finale avant publication | **§13** |
-| Politique fichiers (pas de backup, _seo_new transitoire) | **§9** |
-| Lore canon d'une franchise déjà traitée | `lore/[franchise].md` |
-| Volumes keywords déjà mesurés (réutiliser, ne pas re-Semrush) | `keywords_ledger.md` (§1 générique + §2 ta franchise — lire CETTE sous-section seulement) |
 
 ---
 
@@ -104,16 +101,3 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 - Tote Bags DRAFT : inclure dans le cluster comme les autres.
 - Métachamps thème : remplis par la propriétaire, ne plus vérifier.
 
----
-
-## Clusters terminés (récents)
-
-| Cluster | Produits | Date |
-|---|---|---|
-| Zoey (KPop DH) | 6 | 2026-06-22 |
-| Mira (KPop DH) | 6 | 2026-06-22 |
-| Haikyuu | 6 | 2026-06-20 |
-| Elden Ring | 6 | 2026-06-20 |
-| Cowboy Bebop | 6 | 2026-06-20 |
-
-Liste complète + notes par cluster : `seo_methodology.md` (section clusters terminés).
