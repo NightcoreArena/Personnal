@@ -105,13 +105,3 @@ Réutilisable pour tous les persos : Shinobu, Tanjiro, Inosuke, Rengoku, Akaza, 
 | goodies demon slayer | 110 | angle collection |
 | tableau demon slayer | 110 | Tableau : texte |
 | tapis demon slayer | 70 | Tapis : texte |
-
----
-
-## 4. Gap concurrentiel (combos transactionnels via organic_research)
-
-À remplir : combos "[produit] [perso/franchise]" sur lesquels des concurrents rankent et qu'on n'avait pas testés.
-
-| Franchise | Combo | Volume | Concurrent | Statut |
-|---|---|---|---|---|
-| — | — | — | — | — |
