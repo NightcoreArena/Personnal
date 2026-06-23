@@ -13,6 +13,8 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 ## MUG
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-22 | Zoey (KPop DH) | "Zoey, la maknae de HUNTR/X, veille sur votre tasse et vos matins en même temps." | Sirotez votre café du matin (usage) | 9 |
+| 2026-06-22 | Mira (KPop DH) | "La danseuse de HUNTR/X mérite une tasse à la hauteur de son énergie." | Dégustez votre café du matin (usage) | 6 |
 | 2026-06-20 | Haikyuu | "Vous cherchez un cadeau manga qui plaira à coup sûr à un fan d'Haikyuu ? Ce mug illustré à la main en Anjou est la réponse." | Glissez-le dans un emballage et offrez-le (cadeau) | 3 |
 | 2026-06-20 | Elden Ring | "Ce mug Elden Ring est fait pour les sessions qui finissent trop tard et les cafés avalés entre deux tentatives sur Malenia." | Reprenez des forces avant le prochain boss (usage/énergie) | 8 |
 | 2026-06-20 | Cowboy Bebop | "Ce mug Cowboy Bebop rend hommage à la série qui a redéfini l'animation japonaise dans les années 90, en mêlant space western, film noir et bande-son jazz." | Savourez chaque café (usage/ambiance) | 2 |
@@ -46,6 +48,8 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 ## PORTE CLÉ
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-22 | Zoey (KPop DH) | "Ce porte-clé Zoey KPop Demon Hunters en métal accompagne vos clés au quotidien, discret et solide." | Accrochez-le à votre sac (everyday carry) | 5 |
+| 2026-06-22 | Mira (KPop DH) | "Compact et discret, ce porte-clé Mira KPop Demon Hunters en métal suit vos clés matin et soir sans y penser." | Suspendez-le à votre sac (everyday carry) | 8 |
 | 2026-06-20 | Haikyuu | "Haikyuu sur votre trousseau, partout avec vous : ce porte-clé en métal robuste est l'accessoire collector que les fans du manga de Furudate cherchent." | Clipez-le à votre sac ou à votre trousseau (everyday carry) | 1 |
 | 2026-06-20 | Elden Ring | "Ce porte-clé Elden Ring en métal est l'accessoire des fans du jeu qui n'ont pas besoin de l'expliquer pour être reconnus." | Portez-le sur votre trousseau, l'Entre-Terre vous accompagne (everyday carry) | 5 |
 | 2026-06-20 | Cowboy Bebop | "Ce porte-clé Cowboy Bebop en métal est la pièce collector discrète pour les fans de l'anime culte de Sunrise." | Fixez-le à votre trousseau (everyday carry) | 3 |
@@ -63,6 +67,8 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 ## CHIFFONNETTE
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-22 | Zoey (KPop DH) | "La chiffonnette Zoey KPop Demon Hunters en microfibre est le cadeau goodies kpop que personne n'anticipe mais que tout fan finit par adorer." | Gardez-la à portée de main, Zoey veille sur vos écrans (usage) | 2 |
+| 2026-06-22 | Mira (KPop DH) | "Le cadeau KPop Demon Hunters auquel on ne pense pas d'emblée mais qu'on finit toujours par utiliser." | Emportez-la dans votre sac (usage) | 9 |
 | 2026-06-20 | Haikyuu | "Un cadeau anime qu'on n'attend pas et qu'on finit par utiliser chaque jour : cette chiffonnette Haikyuu en microfibre ultra-douce..." | Sortez-la à chaque séance (usage) | 5 |
 | 2026-06-20 | Elden Ring | "Pour les fans de FromSoftware, glisser une chiffonnette Elden Ring dans un cadeau gaming, c'est la touche inattendue qui fait mouche à coup sûr." | Rangez-la dans votre sac de tous les jours, Malenia veille (usage) | 3 |
 | 2026-06-20 | Cowboy Bebop | "La chiffonnette Cowboy Bebop en microfibre fait partie des cadeaux anime qu'on n'imagine pas avant de les recevoir et qu'on finit par utiliser chaque jour." | Glissez-la dans votre trousse (usage) | 7 |
@@ -80,6 +86,8 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 ## TAPIS DE SOURIS
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-22 | Zoey (KPop DH) | "Votre bureau prend une autre dimension avec la maknae de HUNTR/X dessus." | Déployez-le sur votre setup gaming (setup) | 3 |
+| 2026-06-22 | Mira (KPop DH) | "Votre setup mérite la lead dancer de HUNTR/X." | Installez-le sur votre bureau gaming (setup) | 7 |
 | 2026-06-20 | Haikyuu | "Votre setup gaming ou bureau de travail prend un tout autre caractère avec le tapis de souris Haikyuu sous la main." | Tendez-le sous votre souris (setup) | 6 |
 | 2026-06-20 | Elden Ring | "Le tapis de souris Elden Ring transforme votre bureau en fragment de l'Entre-Terre, base antidérapante pour tenir face aux boss les plus coriaces." | Déployez-le sur votre bureau, l'Entre-Terre s'étend sous votre main (setup) | 2 |
 | 2026-06-20 | Cowboy Bebop | "Pour les sessions gaming ou de travail, ce tapis de souris Cowboy Bebop apporte l'esthétique space western de la série culte à portée de main, base antidérapante incluse." | Posez-le sous votre souris (setup) | 5 |
@@ -97,6 +105,8 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 ## TOTE BAG
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-22 | Zoey (KPop DH) | "Pour vos sorties, la fac ou les conventions, ce tote bag Zoey KPop Demon Hunters emporte mangas, affaires et goodies sans flancher." | Remplissez-le de vos affaires (usage/quotidien) | 8 |
+| 2026-06-22 | Mira (KPop DH) | "À la fac, en convention ou en virée en ville, ce tote bag Mira KPop Demon Hunters en tissu satiné avale mangas, carnets et affaires sans protester." | Chargez-le de vos affaires et partez (usage/quotidien) | 5 |
 | 2026-06-19 | Saitama | "Pour les courses, la fac ou une virée en ville…" | Adoptez-le au quotidien… bandoulière (style) | 6 |
 | 2026-06-19 | Guts | "Portez la légende… avec vous partout. Ce tote bag…" | Portez-le à l'épaule… quotidien | 2 |
 | 2026-06-19 | DMG | "Portez l'esprit du duel avec vous partout. Ce tote bag…" | Portez-le à l'épaule… quotidien | 8 |
@@ -105,6 +115,8 @@ Légende P3 = n° de la banque P3 (seo_methodology.md, section R2).
 ## MAGNET
 | Date | Perso | Angle P1 (ouverture) | CTA (verbe + registre) | P3 |
 |---|---|---|---|---|
+| 2026-06-22 | Zoey (KPop DH) | "Sur votre frigo ou un tableau magnétique, ce magnet Zoey KPop Demon Hunters en coque métal rigide prend sa place avec discrétion." | Fixez-le sur votre frigo (collection) | 6 |
+| 2026-06-22 | Mira (KPop DH) | "Une petite pièce pour les collections qui ont du caractère." | Collez-le sur votre frigo (collection) | 3 |
 | 2026-06-20 | Haikyuu | "Les collectionneurs de goodies manga savent que les meilleures pièces tiennent en cinq centimètres." | Attachez-le sur votre frigo ou sur un tableau magnétique (collection) | 7 |
 | 2026-06-20 | Elden Ring | "Ce magnet Elden Ring en métal prend la meilleure place sur votre frigo : cinq centimètres de lore FromSoftware, impossible à ignorer pour les fans du jeu vidéo." | Posez-le sur votre frigo, il prend sa place dans votre collection (collection) | 1 |
 | 2026-06-20 | Cowboy Bebop | "Ce magnet Cowboy Bebop en métal s'accroche sur votre frigo comme la série reste accrochée à la mémoire des fans d'anime : sans effort." | Aimantez-le sur votre frigo (collection) | 4 |
