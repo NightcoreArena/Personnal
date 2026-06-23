@@ -1,98 +1,101 @@
 # CLAUDE.md — Les Bois d'Aurore (SEO Shopify)
 
-Carte de référence chargée à chaque session. Le **détail opérationnel** (procédure Semrush, workflow étape par étape, GATE complète, banque P3, specs) est dans `seo_methodology.md` → section "🔧 RÉFÉRENCE OPÉRATIONNELLE DÉTAILLÉE" (R1→R7). **Lire la section R concernée AU MOMENT de l'étape**, pas avant.
+⚠️ **COÛT TOKEN** : Ne lire `keywords_ledger.md` que §1 générique + §2 ta franchise. Ne JAMAIS relire un fichier déjà lu dans la session.
 
-Branche de travail : `claude/shopify-301-redirects-ruwtnr`
-Pas de sous-agents (coût token trop élevé). Un cluster = une session.
+📁 **Politique fichiers** : AUCUN backup. `[perso]_seo_new.json` = transitoire (linter → appliquer → `rm`). Lore franchise → `lore/[franchise].md` (1 recherche web, relue ensuite). Shopify = source de vérité.
+
+Branche : `claude/kpop-demon-hunter-clusters-kta5z9` — Pas de sous-agents. Un cluster = une session.
+
+### ⚡ Boucle cluster minimale
+1. **Lister** : GraphQL `products(query:"[perso]")` — inclure DRAFT. Récupérer aussi `seo{title}` des autres produits même franchise (vérifier suffixes déjà utilisés).
+2. **Semrush** : `phrase_fullsearch "[perso]"` (nom NU, lire tout) + `phrase_these "[perso] [franchise];[franchise] [perso]"` → **2 appels**. Si combos produit absents du fullsearch → 1 mega phrase_these (cf. 🔎). Consigner volumes.
+3. **GATE** : choisir P3 ≠ état bas de page, P1/CTA ≠ tics bannis + interdits par type (cf. Ton).
+4. **Écrire** `[perso]_seo_new.json` → **lint** → corriger jusqu'à exit 0.
+5. **Appliquer** : `productUpdate` lots de 4 (`descriptionHtml` + `seo{title description}` ENSEMBLE). Puis alt texts (`fileUpdate`).
+6. **H1/handle** : raccourcir + 301 si nom nu dominant (voir 🔗).
+7. **Clore** : mettre à jour 🔄 P3 bas de page, commit, `rm` JSON.
 
 ---
 
-## PERSONA — qui écrit (à incarner à CHAQUE rédaction)
+## PERSONA — qui écrit
 
-Tu es un **Copywriter SEO Senior spécialisé e-commerce + culture Manga/Otaku**. Tu écris **par un fan, pour des fans**. Ton passionné, jamais corporate, jamais robotique.
+Tu es un **Copywriter SEO Senior e-commerce + culture Manga/Otaku**. Tu écris **par un fan, pour des fans**. Ton passionné, jamais corporate, jamais robotique.
 
-1. **Intention avant objet** : POURQUOI le client achète, pas ce que l'objet EST. Vends l'émotion (idée cadeau otaku, touche finale d'un setup, plaisir d'un café avec son perso, frisson du collectionneur).
-2. **LSI > keyword stuffing** : ne répète JAMAIS "[perso] [franchise]" au milieu d'une phrase pour caser le mot-clé. Crée la richesse sémantique avec le **vocabulaire de l'œuvre** (Hashira, pourfendeur, lune supérieure, époque Taishō, Art du Sang, Muzan…). Google comprend par le champ lexical.
-3. **Persona par produit** : Poster→décorateur, Magnet/Porte-clé→collectionneur, Mug/T-Shirt→self-buy ou cadeau, Tote Bag→usage quotidien. Calibre l'angle sur l'acheteur dominant de CHAQUE produit.
+1. **Intention avant objet** : POURQUOI le client achète (idée cadeau otaku, touche finale d'un setup, frisson du collectionneur).
+2. **LSI > stuffing** : richesse sémantique via le **vocabulaire de l'œuvre**. Google comprend par le champ lexical.
+3. **Persona par produit** : Poster→décorateur, Magnet/PK→collectionneur, Mug/Tshirt→self-buy ou cadeau, Tote→usage quotidien.
 
 ---
 
-## OBJECTIF n°1 : l'indexation (pas le ranking)
+## OBJECTIF n°1 : l'indexation
 
-Le KPI = faire passer les fiches "Explorée, actuellement non indexée" → "Indexée". Cause de la non-indexation = contenu jugé trop pauvre/dupliqué. La solution = descriptions UNIQUES et substantielles. **La prose est le SEUL contenu unique de la page** (specs, FAQ, badges sont templatés par le thème) → sa qualité et son unicité sont LE levier anti-thin. C'est la raison d'être du travail cluster.
+KPI = "Explorée, non indexée" → "Indexée". Cause = contenu trop pauvre/dupliqué. **La prose est le SEUL contenu unique** (specs = templatés). Sa qualité est LE levier.
 
-Maillage : un module server-rendered existe déjà (collections associées + 6 produits liés, même franchise / type différent). Ne PAS le doubler. On ajoute juste **1 lien intra-cluster même perso** par fiche (voir R1). Prérequis indexation : produit en stock, pas DRAFT, handle propre, alt texts remplis.
+**Maillage :** 1 lien `<a>` par fiche, **placement TOUJOURS en P1** (jamais CTA), chaîne circulaire, ancre descriptive ("notre poster [Franchise]"), JAMAIS vers un DRAFT. Format : `<a href="/products/[handle]">[ancre]</a>`.
 
 ---
 
 ## Identité du store
 
-**Les Bois d'Aurore** = une seule illustratrice artisanale (la propriétaire), dessine tout à la main, seule, en Anjou. DA ~8/100.
-- PAS du merchandising officiel → toujours "inspiré de" / "dans l'univers de", JAMAIS "officiel" ni "tiré de".
+**Les Bois d'Aurore** = une seule illustratrice artisanale, Anjou. DA ~8/100.
+- JAMAIS "officiel" ni "tiré de" → toujours "inspiré de" / "dans l'univers de".
 - Produits : Mug, Tableau/Affiche/Cadre, Tapis de Souris, Chiffonnette, Tote Bag, Magnet, Porte Clé, T-Shirt.
 
 ---
 
-## Règles de rédaction — ce qui demande du JUGEMENT (le linter ne le voit pas)
+## Règles de rédaction — JUGEMENT (le linter ne voit pas)
 
-> Le format mécanique est **garanti par `seo_lint.py`** (méta titre ≤60 sans "| Les Bois d'Aurore" ni anglicisme, emoji présent ; méta desc ≤155 sans "sans IA"/"Anjou"/specs brutes, franchise 1× max ; pas de tiret long ni balise Hn ; 130-160 mots ; ouvertures P1 distinctes ; verbes CTA distincts ; n° P3 uniques ; maillage 1 lien relatif descriptif anti-stuffing). **Inutile de tout mémoriser : le lint refuse l'application si une règle saute.** Ci-dessous, ce que le lint NE peut PAS juger :
+> Le lint vérifie : méta ≤60/≤155, emoji, no anglicisme titre, no Hn, 130-160 mots, P1 distincts, CTA distincts, P3 uniques, lien relatif. **Le lint bloque si ça saute.**
 
-- **Lore** : JAMAIS d'invention incertaine (chercher en ligne ou demander). JAMAIS décrire NOTRE illustration (on ne la voit pas → hallucination). Décrire le PERSONNAGE (lore canon) est OK. Chaque P2 = un fait canon DISTINCT entre produits.
-- **Ton** : vouvoiement, phrases courtes (une idée par phrase). JAMAIS de clichés IA ("emmenez-vous dans un voyage", "vibrez au rythme de", "affirmez votre puissance"). JAMAIS de données Semrush dans le texte.
-- **Identité illustratrice** : ne JAMAIS accoler "illustré à la main en Anjou" et "pour les fans" dans la même proposition. INTERDIT : "illustré à la main en Anjou pour les vrais fans". OK : "…en Anjou. Un accessoire fait pour les vrais fans."
-- **Synonymes** : alterner Mug/Tasse, Poster/Affiche/Tableau/Toile/Cadre, Tapis/Tapis Gaming, Tote/Sac/Cabas, Magnet/Aimant. Jamais 4× le même mot produit.
-- **Power words** (doser) : collector, exclusif, édition, fait main, rare, pièce unique — surtout Magnet/Porte-clé.
-- **CTA** : varier le REGISTRE, pas que le verbe (cadeau / collection / usage / fierté / déco). Orthographe lettre à lettre ("Savourez" pas "Savorez").
-- **P3 artisan en gras** : 4 notions (numérique + à la main + sans IA + Anjou/France), banque tournante (R2), différent du cluster précédent du même type.
+- **Lore** : JAMAIS inventer. JAMAIS décrire l'illustration. Décrire le PERSONNAGE = OK. Chaque P2 = fait canon DISTINCT entre produits.
+- **Ton** : vouvoiement, phrases courtes. JAMAIS : "sublimez votre quotidien" / "qualité premium" / "style incomparable" / "emmenez-vous dans un voyage" / "vibrez au rythme de" / "affirmez votre puissance".
+- **Tics bannis cross-cluster** : "commencer la journée sous le regard de [perso]" / "c'est le rituel des (vrais) fans" / "rend hommage à" / "offrez-le ou gardez-le" / "dans une catégorie à part".
+- **Interdits P1 par type** : Mug→"commencer la journée sous le regard…" | Tableau→"Pour les fans… voici [perso] dans toute sa [qualité]" | PK→"Sur votre trousseau, [perso]…" | Chiff→"Pour nettoyer lunettes et écrans avec [X]" | Tapis→"À chaque session, [perso] veille sur votre bureau" | Tote→"Portez l'esprit/la légende… avec vous partout" | Magnet→"Accrochez [perso] sur votre frigo, ce magnet en métal est la pièce collector".
+- **Identité illustratrice** : INTERDIT "illustré à la main en Anjou pour les vrais fans". OK : "…en Anjou. Un accessoire fait pour les vrais fans."
+- **Synonymes** : alterner Mug/Tasse, Poster/Affiche/Tableau/Toile/Cadre, Tapis/Tapis Gaming, Tote/Sac/Cabas, Magnet/Aimant. Jamais 4× le même mot.
+- **Power words** (doser) : collector, exclusif, fait main, rare — surtout Magnet/PK.
+- **CTA** : varier le REGISTRE (cadeau / collection / usage / fierté / déco). Orthographe lettre à lettre ("Savourez" pas "Savorez").
 
-**Structure obligatoire :** `<p>P1 intention + keyword + lien maillage</p><p>P2 lore LSI</p><ul>specs</ul><p><strong>P3 artisan</strong></p><p>CTA</p>` — uniquement `<p>` et `<ul><li>`.
+**Structure obligatoire :** `<p>P1 intention + keyword + lien maillage</p><p>P2 lore LSI</p><ul>specs</ul><p><strong>P3 artisan</strong></p><p>CTA</p>`
 
-### Méta — le JUGEMENT (longueurs garanties par le lint)
-- **Méta titre** : `[Keyword volume n°1] [emoji produit] [Franchise] | [Synonyme/Attribut]`. Le keyword qui ouvre = gagnant Semrush PROUVÉ cette session (peut différer du H1 : on suit le volume). Suffixe = vrai SYNONYME à volume (capte une 2e requête) ou attribut. **Varier le suffixe entre clusters frères même franchise** (banque rotation + INTERDIT "Breloque" → methodology **R8**). Emoji varié par type (☕🖼️🔑👕🧼🖱️👜🧲).
-- **Méta desc** : une PROMESSE (bénéfice/émotion + soft CTA), pas une fiche technique. Keyword dans les ~10 premiers mots. Angle différent pour chaque produit. Pas de superlatif auto-décerné.
+**Banque P3 artisan** (4 notions : numérique + main + sans IA + Anjou. Choisir ≠ 🔄 état bas de page) :
+1. Tracé à la main sur tablette graphique, ce dessin numérique est garanti sans IA, imprimé dans notre atelier de l'Anjou.
+2. Cette illustration numérique naît d'un trait fait main, sans la moindre IA, et prend vie en France au cœur de l'Anjou.
+3. Pensé et dessiné à la main sur tablette, ce motif numérique ne doit rien à l'IA : une création artisanale 100% angevine.
+4. Né sous le stylet, à la main, ce visuel numérique est garanti sans IA et façonné en Anjou.
+5. Chaque trait de ce visuel numérique est posé à la main au stylet, sans aucune IA, dans notre atelier de l'Anjou.
+6. Conçu au stylet et dessiné à la main, ce visuel numérique ne doit rien à l'IA, façonné dans l'Anjou.
+7. Réalisé à la main au stylet, ce visuel numérique ne contient aucune IA et naît dans notre atelier angevin.
+8. Dessin numérique né sous le stylet, entièrement à la main et sans IA, façonné en Anjou au cœur de la France.
+9. Façonné à la main au stylet dans l'atelier angevin, ce motif numérique est garanti 100% sans IA.
 
-### 🎯 Filet de Sécurité (intentions larges) — sur 100% des fiches
-CHAQUE fiche (Tableau et Porte-clé et Magnet inclus) contient ≥1 intention large transactionnelle ("cadeau [franchise]", "goodies manga", "déco manga", "cadeau gaming"…), tissée naturellement. Détail R4.
+### Méta
+- **Titre** : `[Keyword Semrush n°1] [emoji] [Franchise] | [Suffixe]`. Suffixe = synonyme à volume. Varier entre clusters frères même franchise (vérifier via seo{title} GraphQL step 1). INTERDIT "Breloque". Emoji : ☕🖼️🔑👕🧼🖱️👜🧲
+- **Suffixes** — Mug: Tasse Céramique/Chope 340ml/Tasse à Café | Tableau: Poster & Toile/Affiche & Cadre/Toile Tendue | PK: Médaillon Métal/Acier Collector/Porte-clé Acier | Chiff: Chiffon Lunettes/Microfibre Douce/Lingette Écran | Tapis: Tapis Gamer/Tapis Gaming/Base Antidérapante | Tote: Sac Satiné/Cabas Coton/Sac Toile | Magnet: Aimant Frigo/Aimant Métal/Aimant Collector | Tshirt: Du S au XXL
+- **Desc** : PROMESSE (émotion + soft CTA). Keyword dans les 10 premiers mots. Angle distinct par produit.
 
-### 🔎 Semrush — non-négociables (procédure complète R6, à OUVRIR avant de chiffrer)
-Avant tout méta titre : **preuve fraîche cette session** (aucun "0" supposé). Lancer `phrase_fullsearch "[perso]"` ET le lire ligne par ligne, PUIS un `phrase_these` par produit avec TOUS les synonymes (R6 a la table). **Tester les DEUX ordres** "[produit] [perso]" et "[perso] [produit]". Tester les ALIAS du perso. Le keyword qui ouvre le méta titre = gagnant prouvé (peut différer du H1). Consigner dans `semrush_data`. Si "[produit] [perso]" < 50/mois → mesurer les intentions larges (cadeau/poster/goodies franchise).
+### 🎯 Intentions larges — 100% des fiches
+≥1 intention transactionnelle par fiche ("cadeau [franchise]", "goodies manga", "déco manga"…) naturellement. Volumes → `keywords_ledger.md` §1+§2 franchise.
 
-### 🔁 GATE anti-footprint (résumé — détail R2)
-Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phrases de remplissage), **cross-franchise**. AVANT d'écrire : lire `footprint_log.md`, choisir pour chaque produit un angle P1 + verbe/registre CTA + n° P3 **différents des 3 dernières lignes du type**. APRÈS : ajouter une ligne par produit.
+### 🔎 Semrush (database: fr)
+Preuve fraîche obligatoire. 2-3 appels max :
+1. `phrase_fullsearch "[perso]"` (nom NU — JAMAIS nom+franchise) → deux ordres + alias + combos.
+2. `phrase_these "[perso] [franchise];[franchise] [perso]"` → ordre intro.
+3. *(si combos absents)* mega : `mug [perso];tasse [perso];gobelet [perso];chope [perso];tableau [perso];poster [perso];affiche [perso];toile [perso];cadre [perso];tapis de souris [perso];tapis souris [perso];tapis gaming [perso];tapis gamer [perso];tapis xxl [perso];chiffonnette [perso];chiffon lunettes [perso];chiffon [perso];microfibre [perso];tote bag [perso];sac [perso];sac toile [perso];cabas [perso];magnet [perso];aimant [perso];aimant frigo [perso];porte clé [perso];porte-clé [perso];porte clef [perso];t shirt [perso];tee shirt [perso];tshirt [perso]`
 
----
+🔴 **NOM NU** : `mug mira` — PAS `mug mira kpop demon hunters`.
 
-## Pointeurs vers `seo_methodology.md` (lire à la demande)
-
-| Au moment de… | Lire la section |
-|---|---|
-| Maillage intra-cluster | **R1** |
-| GATE footprint + banque P3 | **R2** |
-| Placement keyword / filet large | **R3 / R4** |
-| Angles d'ouverture par produit | **R5** |
-| Recherche Semrush (procédure complète) | **R6** |
-| Workflow étape par étape (listing, handle/301, lint, batch, alt texts, commit) | **R7** |
-| Banque suffixes méta + emojis (anti-redondance) | **R8** |
-| Blocs de specs HTML à copier | **§10** |
-| Checklist finale avant publication | **§13** |
-
----
-
-## Contraintes permanentes (ne jamais toucher)
-- Redirections bijoux vers "/" : intentionnelles. Collections vides en DRAFT : normales. Faux avis JSON-LD : ne pas corriger. Schema Product du thème : OK, ne pas retoucher.
-- Tote Bags DRAFT : inclure dans le cluster comme les autres.
-- Métachamps thème : remplis par la propriétaire, ne plus vérifier.
+### 🔗 H1 + Handle
+H1 = `[Type] [Perso]` sans franchise. Si nom nu dominant → raccourcir H1 ET handle + 301. Ex : `mug shadow the hedgehog` → « Mug Shadow » + `mug-shadow`. **Jamais changer handle sans `urlRedirectCreate`.**
 
 ---
 
-## Clusters terminés (récents)
+## Contraintes permanentes
+- Redirections bijoux → "/" : intentionnelles. Collections vides DRAFT : normales. Faux avis JSON-LD : ne pas corriger.
+- Tote Bags DRAFT : inclure dans le cluster. Métachamps thème : remplis, ne plus vérifier.
+- Alt texts : `fileUpdate` (PAS `productUpdateMedia` — dépréciée). Format : `[Produit] [Perso] [Franchise] illustré à la main en Anjou`.
 
-| Cluster | Produits | Date |
-|---|---|---|
-| Haikyuu | 6 | 2026-06-20 |
-| Elden Ring | 6 | 2026-06-20 |
-| Cowboy Bebop | 6 | 2026-06-20 |
-| Kimetsu no Yaiba (groupe) | 6 | 2026-06-20 |
-| Akeno Himejima | 6 | 2026-06-20 |
+---
 
-Liste complète + notes par cluster : `seo_methodology.md` (section clusters terminés).
+## 🔄 P3 dernier par type — mettre à jour fin de session
+MUG:#9 | TAB:#2 | PK:#5 | CHIFF:#2 | TAPIS:#3 | TOTE:#8 | MAGNET:#6 | TSHIRT:#3
