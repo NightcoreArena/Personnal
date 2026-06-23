@@ -231,18 +231,11 @@ La base `fr` retourne souvent 0 pour les combos nichés. Ce n'est pas un échec 
 
 ---
 
-## 9. Workflow de sauvegarde avant toute modification
+## 9. Politique fichiers (PAS de backup — décision 2026-06-23)
 
-**Avant de modifier un groupe de produits :**
+**AUCUN `[perso]_backup.json`.** Ils gonflaient l'arbre pour rien. Shopify est la source de vérité ; en cas de besoin de rollback, requêter l'état du produit AVANT la mutation et le garder en contexte (pas de fichier écrit).
 
-1. Créer un fichier JSON `[personnage]_backup.json` dans `/home/user/Personnal/`
-2. Y sauvegarder : id, title, seo_title, seo_description, descriptionHtml
-3. Commit + push sur le branch actif
-4. SEULEMENT ENSUITE modifier les produits
-
-**En cas d'erreur :**
-- Les champs SEO (seo_title, seo_description) sont exacts dans le backup → restauration parfaite
-- Le descriptionHtml peut être restauré depuis le backup
+**`[perso]_seo_new.json` = fichier de travail TRANSITOIRE.** On l'écrit pour linter et appliquer, puis on le SUPPRIME après application réussie (`rm`). Il n'est PAS committé : la mémoire durable du cluster vit dans `footprint_log.md` + la note cluster (§15) + Shopify live. L'arbre ne doit jamais accumuler plus d'un `_seo_new.json` (le cluster en cours / en attente).
 
 ---
 
@@ -352,9 +345,8 @@ Ces blocs sont identiques pour tous les personnages du même type de produit. C'
 **Ce qui s'est passé :** Annoncé qu'il n'y avait pas de collection pour tapis de souris, magnet, chiffonnette. C'était faux — elles existaient en page 3 et 4 du listing.
 **La règle :** Toujours paginer jusqu'au bout avant de conclure qu'une collection n'existe pas.
 
-### Erreur 5 : Modifier des produits sans sauvegarde préalable
-**Ce qui s'est passé :** 10 produits écrasés sans backup. Impossible de restaurer exactement les descriptions originales.
-**La règle :** JSON backup AVANT toute mutation Shopify. Sans exception.
+### Erreur 5 : ~~Modifier sans backup~~ (RÈGLE ABROGÉE 2026-06-23)
+Ancienne règle : « JSON backup avant toute mutation ». Abrogée : les backups gonflaient l'arbre sans valeur (Shopify = source de vérité, git garde l'historique). Voir §9 nouvelle politique. Si rollback nécessaire : requêter Shopify AVANT mutation, garder en contexte.
 
 ### Erreur 6 : Inventer du lore sur des personnages inconnus
 **Ce qui s'est passé :** Pour Kpop Demon Hunter (personnages Rumi, Mira, Zoey, Huntrix), des éléments biographiques inventés ont été écrits.
@@ -527,9 +519,10 @@ Mug Akaza : déjà appliqué (voir produit gid://shopify/Product/10146826289482)
 - [ ] Identité : Les Bois d'Aurore = UNE SEULE illustratrice (la propriétaire). Ne jamais accoler "illustré à la main en Anjou" et "pour les fans" dans la même proposition — séparer les deux idées. Ex. INTERDIT : "illustré à la main en Anjou pour les vrais fans". Ex. OK : "illustré à la main en Anjou. Un accessoire fait pour les vrais fans."
 
 ### Fichiers
-- [ ] Backup JSON (`[perso]_backup.json`) créé et commité AVANT toute modification
-- [ ] Fichier final (`[perso]_seo_new.json`) écrit avec toutes les descriptions AVANT présentation à l'utilisateur
-- [ ] Si corrections demandées : fichier final mis à jour AVANT d'appliquer sur Shopify
+- [ ] PAS de backup (§9 : règle abrogée)
+- [ ] Fichier `[perso]_seo_new.json` (transitoire) écrit avec toutes les descriptions AVANT présentation à l'utilisateur
+- [ ] Si corrections demandées : fichier mis à jour AVANT d'appliquer sur Shopify
+- [ ] Après application réussie : `rm [perso]_seo_new.json` (non committé — voir §9)
 
 ---
 
@@ -545,10 +538,9 @@ Via GraphQL Shopify :
 ```
 Lister tous les types de produits existants pour ce personnage (Mug, Tableau, Tapis, etc.).
 
-### Étape 2 — Sauvegarder avant de toucher
+### Étape 2 — (PAS de backup — §9)
 
-Créer `[personnage]_backup.json` dans `/home/user/Personnal/` avec : id, title, seo_title, seo_description, descriptionHtml.
-Commit + push **avant** toute modification.
+Aucun fichier backup. Shopify = source de vérité. Passer directement à la recherche Semrush.
 
 ### Étape 3 — Recherche Semrush (10 min max)
 
@@ -614,9 +606,11 @@ Champs à modifier : `descriptionHtml` + `seo { title description }`.
 ### Étape 8 — Commit
 
 ```bash
-git add [personnage]_backup.json [personnage]_seo_new.json
+# PAS de backup, PAS de _seo_new committé (§9 : transitoire)
+git add footprint_log.md seo_methodology.md
 git commit -m "SEO rewrite: cluster [Personnage] — N produits"
 git push -u origin [branch]
+rm [personnage]_seo_new.json   # nettoyage de l'arbre après application
 ```
 
 ---
@@ -857,7 +851,7 @@ Le keyword gagnant (plus gros volume PROUVÉ) ouvre le méta titre. Le mot produ
 
 **Étape 7.5 — Alt texts :** récupérer IDs via `{ product(id){ media(first:10){ nodes{ ... on MediaImage { id image { altText } } } } } }`. `productUpdateMedia` par lot. Format : `[Produit] [Perso] [Franchise] illustré à la main en Anjou`. Tableau : conserver le type (Cadre Noir / Poster / Affiche). Jamais décrire l'illustration.
 
-**Étape 8 — Commit :** `git add [perso]_seo_new.json footprint_log.md seo_methodology.md` → commit `SEO rewrite: cluster [Perso] — N produits` → `git push -u origin claude/shopify-301-redirects-ruwtnr`. MAJ footprint_log.md (6 lignes) + entrée cluster ici.
+**Étape 8 — Commit + nettoyage :** PAS de backup, PAS de `_seo_new` committé (§9 : fichier transitoire). MAJ footprint_log.md (6 lignes) + entrée cluster (§15), puis `git add footprint_log.md seo_methodology.md` → commit `SEO rewrite: cluster [Perso] — N produits` → `git push -u origin [branche active]`. Enfin `rm [perso]_seo_new.json` pour garder l'arbre propre (Shopify = source de vérité).
 
 ## R8. Banque de rotation des suffixes méta titres (anti-redondance inter-cluster)
 

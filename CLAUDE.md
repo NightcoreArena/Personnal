@@ -1,6 +1,10 @@
 # CLAUDE.md — Les Bois d'Aurore (SEO Shopify)
 
-Carte de référence chargée à chaque session. Le **détail opérationnel** (procédure Semrush, workflow étape par étape, GATE complète, banque P3, specs) est dans `seo_methodology.md` → section "🔧 RÉFÉRENCE OPÉRATIONNELLE DÉTAILLÉE" (R1→R7). **Lire la section R concernée AU MOMENT de l'étape**, pas avant.
+Carte de référence chargée à chaque session. Le **détail opérationnel** (procédure Semrush, workflow étape par étape, GATE complète, banque P3, specs) est dans `seo_methodology.md` → section "🔧 RÉFÉRENCE OPÉRATIONNELLE DÉTAILLÉE" (R1→R9). **Lire la section R concernée AU MOMENT de l'étape**, pas avant.
+
+⚠️ **COÛT TOKEN — NE JAMAIS lire `seo_methodology.md` en entier** (67 KB). Pour une section : `grep -n "^## " seo_methodology.md` pour trouver sa ligne, puis `Read` avec `offset`/`limit` (≈25 lignes pour une section R, ≈80 pour §10). Idem pour `footprint_log.md` / `keywords_ledger.md` : ne lire que la table du type de produit concerné.
+
+📁 **Politique fichiers (2026-06-23)** : AUCUN backup. `[perso]_seo_new.json` = transitoire (linter + appliquer puis `rm`, jamais committé). Lore canon d'une franchise → `lore/[franchise].md` (recherche web faite UNE fois, relue ensuite — ne PAS re-googler perso par perso). Détail §9 methodology.
 
 Branche de travail : `claude/shopify-301-redirects-ruwtnr`
 Pas de sous-agents (coût token trop élevé). Un cluster = une session.
@@ -75,6 +79,8 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 | Banque suffixes méta + emojis (anti-redondance) | **R8** |
 | Blocs de specs HTML à copier | **§10** |
 | Checklist finale avant publication | **§13** |
+| Politique fichiers (pas de backup, _seo_new transitoire) | **§9** |
+| Lore canon d'une franchise déjà traitée | `lore/[franchise].md` |
 
 ---
 
@@ -89,10 +95,10 @@ Le duplicate inter-cluster = le SQUELETTE par TYPE de produit (P1, CTA, P3, phra
 
 | Cluster | Produits | Date |
 |---|---|---|
+| Zoey (KPop DH) | 6 | 2026-06-22 |
+| Mira (KPop DH) | 6 | 2026-06-22 |
 | Haikyuu | 6 | 2026-06-20 |
 | Elden Ring | 6 | 2026-06-20 |
 | Cowboy Bebop | 6 | 2026-06-20 |
-| Kimetsu no Yaiba (groupe) | 6 | 2026-06-20 |
-| Akeno Himejima | 6 | 2026-06-20 |
 
 Liste complète + notes par cluster : `seo_methodology.md` (section clusters terminés).
