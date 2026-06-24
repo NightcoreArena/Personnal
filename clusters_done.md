@@ -46,6 +46,7 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 **One Piece** :
 - [x] Trafalgar Law — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Intentions larges intégrées (cadeau one piece 1300/mois, poster one piece 1900/mois, mug one piece 880/mois). Fichier final → law_seo_new.json.
 - [x] Ace — 7 produits traités (2026-06-18) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis de Souris, Tote Bag (DRAFT), Magnet. Keyword : ace one piece (6600/mois). Cluster topique pur. Handles uniformisés en *-ace-one-piece + 4x301. 10 alt texts mis à jour. Fichier final → ace_seo_new.json.
+- [x] Drapeau One Piece — 7 produits (2026-06-24) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag (DRAFT), Magnet. Keyword : cluster topique pur (mug one piece 880/mois, poster one piece 1900/mois). 0 handle renommé. Maillage : Mug→Tableau→Tapis→PK→Chiff→Magnet→Mug (circulaire) ; Tote Bag (DRAFT)→Tableau. 11 alt texts mis à jour (Mug×2, Tableau×5, PK, Chiff, Tapis, Magnet). Fichier final → drapeau_one_piece_seo_new.json.
 - [ ] (autres personnages One Piece)
 
 **Sword Art Online** :
