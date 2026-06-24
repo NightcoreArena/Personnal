@@ -86,6 +86,7 @@ Traiter par franchise, pas par type de produit (pour garder la cohérence topiqu
 
 **One Punch Man** :
 - [x] Saitama — 7 produits (2026-06-19) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag, Magnet. Keyword: saitama one punch man (720). 6×301 (one-punch-man→saitama).
+- [x] Genos — 7 produits (2026-06-23) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag (DRAFT), Magnet. Keyword: cluster topique pur (genos poster = 10/mois ; franchise poster one punch man = 70/mois). 0 handle renommé. Maillage : Mug→Tableau→Tapis→PK→Chiff→Magnet→Mug (circulaire) ; Tote Bag (DRAFT)→Tableau. 8 alt texts mis à jour (Mug×2, Tableau×5, PK, Chiff, Tapis, Magnet).
 
 **Chainsaw Man** :
 - [x] Power — 7 produits (2026-06-23) : Mug, Tableau, Porte Clé, Chiffonnette, Tapis, Tote Bag (DRAFT), Magnet. Keyword: cluster topique pur (Semrush non disponible — exception utilisateur, re-mesurer). 0 handle renommé. Maillage : Mug→Tableau→Tapis→PK→Chiff→Magnet→Mug circulaire ; Tote Bag (DRAFT)→Tableau. 11 alt texts mis à jour.
